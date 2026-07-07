@@ -5,7 +5,6 @@ Generated from .github_public_skeleton, excluding .git metadata.
 .
 ./.gitignore
 ./DONE.json
-./PENDING_RUNS.md
 ./README.md
 ./README_PUBLIC_SKELETON.md
 ./agent_progress.log

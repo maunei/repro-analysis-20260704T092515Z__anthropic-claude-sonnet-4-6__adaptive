@@ -18,7 +18,7 @@ https://github.com/maunei/papers-rag_and_reproducibility
 >
 > Any scientific interpretation should be based only on a validated, complete, and reviewed version of the analysis.
 
-The full public repository tree is available in [`github_tree.txt`](github_tree.txt).
+The full public repository tree is available in [`github_tree.txt`](github_tree.txt): 487 listed entries, including 436 files total, of which 140 are `.NOT_INCLUDED.txt` placeholders for excluded large/generated data objects, plus 47 directories.
 
 ---
 
