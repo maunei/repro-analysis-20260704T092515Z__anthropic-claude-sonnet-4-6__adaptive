@@ -1,0 +1,8 @@
+Ghost placeholder for a file not included in the public repository.
+
+Original path: ./workflow_draft/repos/dicer1-cell-of-origin/output/scrna/dicer1_scrna_filter_control.rds
+Original filename: dicer1_scrna_filter_control.rds
+Original size bytes: 34722630
+Reason: R serialized data object excluded from public skeleton
+
+This placeholder preserves the analysis directory structure without sharing the actual file.

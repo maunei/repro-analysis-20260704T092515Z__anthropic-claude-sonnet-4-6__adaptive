@@ -1,0 +1,8 @@
+Ghost placeholder for a file not included in the public repository.
+
+Original path: ./workflow_draft/repos/dicer1-cell-of-origin/data/star_salmon/hdt1056_cell_p15_dmem/quant.sf
+Original filename: quant.sf
+Original size bytes: 6738087
+Reason: Salmon quantification output excluded to keep repository lightweight
+
+This placeholder preserves the analysis directory structure without sharing the actual file.

@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='864.00pt' height='576.00pt' viewBox='0 0 864.00 576.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw4NjQuMDB8MC4wMHw1NzYuMDA='>
+    <rect x='0.00' y='0.00' width='864.00' height='576.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw4NjQuMDB8MC4wMHw1NzYuMDA=)'>
+</g>
+<defs>
+  <clipPath id='cpMC4wMHw4NjQuMDB8ODkuNzB8NDg2LjMw'>
+    <rect x='0.00' y='89.70' width='864.00' height='396.60' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw4NjQuMDB8ODkuNzB8NDg2LjMw)'>
+<rect x='0.00' y='89.70' width='864.00' height='396.60' style='stroke-width: 1.75; stroke: #FFFFFF; fill: #FFFFFF;' />
+</g>
+<g clip-path='url(#cpMC4wMHw4NjQuMDB8MC4wMHw1NzYuMDA=)'>
+</g>
+<defs>
+  <clipPath id='cpNjEuOTB8NjIyLjgwfDk4LjY3fDQzNC40Mg=='>
+    <rect x='61.90' y='98.67' width='560.91' height='335.76' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNjEuOTB8NjIyLjgwfDk4LjY3fDQzNC40Mg==)'>
+<rect x='61.90' y='98.67' width='560.91' height='335.76' style='stroke-width: 1.75; stroke: none; fill: #FFFFFF;' />
+<circle cx='175.14' cy='407.52' r='3.78' style='stroke-width: 1.16; stroke: #ADD8E6; fill: #ADD8E6;' />
+<circle cx='145.53' cy='419.16' r='3.78' style='stroke-width: 1.16; stroke: #0000FF; fill: #0000FF;' />
+<circle cx='98.98' cy='257.39' r='3.78' style='stroke-width: 1.16; stroke: #ADD8E6; fill: #ADD8E6;' />
+<circle cx='87.39' cy='261.38' r='3.78' style='stroke-width: 1.16; stroke: #0000FF; fill: #0000FF;' />
+<circle cx='94.94' cy='193.26' r='3.78' style='stroke-width: 1.16; stroke: #ADD8E6; fill: #ADD8E6;' />
+<circle cx='108.30' cy='113.93' r='3.78' style='stroke-width: 1.16; stroke: #0000FF; fill: #0000FF;' />
+<circle cx='597.31' cy='270.13' r='3.78' style='stroke-width: 1.16; stroke: #FFC0CB; fill: #FFC0CB;' />
+<circle cx='587.42' cy='274.83' r='3.78' style='stroke-width: 1.16; stroke: #FF0000; fill: #FF0000;' />
+<circle cx='588.97' cy='257.49' r='3.78' style='stroke-width: 1.16; stroke: #FFC0CB; fill: #FFC0CB;' />
+<circle cx='584.00' cy='272.71' r='3.78' style='stroke-width: 1.16; stroke: #FF0000; fill: #FF0000;' />
+<circle cx='591.32' cy='251.35' r='3.78' style='stroke-width: 1.16; stroke: #FFC0CB; fill: #FFC0CB;' />
+<circle cx='587.24' cy='259.42' r='3.78' style='stroke-width: 1.16; stroke: #FF0000; fill: #FF0000;' />
+</g>
+<g clip-path='url(#cpMC4wMHw4NjQuMDB8MC4wMHw1NzYuMDA=)'>
+<polyline points='61.90,434.42 61.90,98.67 ' style='stroke-width: 1.75; stroke-linecap: square;' />
+<text x='53.83' y='388.16' text-anchor='end' style='font-size: 14.40px; font-family: "DejaVu Sans";' textLength='23.51px' lengthAdjust='spacingAndGlyphs'>-10</text>
+<text x='53.83' y='331.64' text-anchor='end' style='font-size: 14.40px; font-family: "DejaVu Sans";' textLength='14.35px' lengthAdjust='spacingAndGlyphs'>-5</text>
+<text x='53.83' y='275.13' text-anchor='end' style='font-size: 14.40px; font-family: "DejaVu Sans";' textLength='9.16px' lengthAdjust='spacingAndGlyphs'>0</text>
+<text x='53.83' y='218.61' text-anchor='end' style='font-size: 14.40px; font-family: "DejaVu Sans";' textLength='9.16px' lengthAdjust='spacingAndGlyphs'>5</text>
+<text x='53.83' y='162.09' text-anchor='end' style='font-size: 14.40px; font-family: "DejaVu Sans";' textLength='18.32px' lengthAdjust='spacingAndGlyphs'>10</text>
+<text x='53.83' y='105.57' text-anchor='end' style='font-size: 14.40px; font-family: "DejaVu Sans";' textLength='18.32px' lengthAdjust='spacingAndGlyphs'>15</text>
+<polyline points='57.41,382.92 61.90,382.92 ' style='stroke-width: 1.75; stroke-linecap: butt;' />
+<polyline points='57.41,326.40 61.90,326.40 ' style='stroke-width: 1.75; stroke-linecap: butt;' />
+<polyline points='57.41,269.88 61.90,269.88 ' style='stroke-width: 1.75; stroke-linecap: butt;' />
+<polyline points='57.41,213.36 61.90,213.36 ' style='stroke-width: 1.75; stroke-linecap: butt;' />
+<polyline points='57.41,156.85 61.90,156.85 ' style='stroke-width: 1.75; stroke-linecap: butt;' />
+<polyline points='57.41,100.33 61.90,100.33 ' style='stroke-width: 1.75; stroke-linecap: butt;' />
+<polyline points='61.90,434.42 622.80,434.42 ' style='stroke-width: 1.75; stroke-linecap: square;' />
+<polyline points='127.81,438.91 127.81,434.42 ' style='stroke-width: 1.75; stroke-linecap: butt;' />
+<polyline points='240.84,438.91 240.84,434.42 ' style='stroke-width: 1.75; stroke-linecap: butt;' />
+<polyline points='353.88,438.91 353.88,434.42 ' style='stroke-width: 1.75; stroke-linecap: butt;' />
+<polyline points='466.91,438.91 466.91,434.42 ' style='stroke-width: 1.75; stroke-linecap: butt;' />
+<polyline points='579.95,438.91 579.95,434.42 ' style='stroke-width: 1.75; stroke-linecap: butt;' />
+<text x='127.81' y='452.98' text-anchor='middle' style='font-size: 14.40px; font-family: "DejaVu Sans";' textLength='23.51px' lengthAdjust='spacingAndGlyphs'>-20</text>
+<text x='240.84' y='452.98' text-anchor='middle' style='font-size: 14.40px; font-family: "DejaVu Sans";' textLength='23.51px' lengthAdjust='spacingAndGlyphs'>-10</text>
+<text x='353.88' y='452.98' text-anchor='middle' style='font-size: 14.40px; font-family: "DejaVu Sans";' textLength='9.16px' lengthAdjust='spacingAndGlyphs'>0</text>
+<text x='466.91' y='452.98' text-anchor='middle' style='font-size: 14.40px; font-family: "DejaVu Sans";' textLength='18.32px' lengthAdjust='spacingAndGlyphs'>10</text>
+<text x='579.95' y='452.98' text-anchor='middle' style='font-size: 14.40px; font-family: "DejaVu Sans";' textLength='18.32px' lengthAdjust='spacingAndGlyphs'>20</text>
+<text x='342.35' y='473.59' text-anchor='middle' style='font-size: 18.00px; font-family: "DejaVu Sans";' textLength='169.91px' lengthAdjust='spacingAndGlyphs'>PC1: 84% variance</text>
+<text transform='translate(22.09,266.55) rotate(-90)' text-anchor='middle' style='font-size: 18.00px; font-family: "DejaVu Sans";' textLength='158.45px' lengthAdjust='spacingAndGlyphs'>PC2: 9% variance</text>
+<rect x='640.74' y='210.10' width='214.30' height='112.89' style='stroke-width: 1.75; stroke: none; fill: #FFFFFF;' />
+<text x='649.70' y='234.07' style='font-size: 18.00px; font-family: "DejaVu Sans";' textLength='196.37px' lengthAdjust='spacingAndGlyphs'>Genotype &amp; condition</text>
+<rect x='649.70' y='244.90' width='17.28' height='17.28' style='stroke-width: 1.75; stroke: none; fill: #FFFFFF;' />
+<circle cx='658.34' cy='253.54' r='3.78' style='stroke-width: 1.16; stroke: #FF0000; fill: #FF0000;' />
+<rect x='649.70' y='262.18' width='17.28' height='17.28' style='stroke-width: 1.75; stroke: none; fill: #FFFFFF;' />
+<circle cx='658.34' cy='270.82' r='3.78' style='stroke-width: 1.16; stroke: #FFC0CB; fill: #FFC0CB;' />
+<rect x='649.70' y='279.46' width='17.28' height='17.28' style='stroke-width: 1.75; stroke: none; fill: #FFFFFF;' />
+<circle cx='658.34' cy='288.10' r='3.78' style='stroke-width: 1.16; stroke: #0000FF; fill: #0000FF;' />
+<rect x='649.70' y='296.74' width='17.28' height='17.28' style='stroke-width: 1.75; stroke: none; fill: #FFFFFF;' />
+<circle cx='658.34' cy='305.38' r='3.78' style='stroke-width: 1.16; stroke: #ADD8E6; fill: #ADD8E6;' />
+<text x='675.95' y='258.79' style='font-size: 14.40px; font-family: "DejaVu Sans";' textLength='134.60px' lengthAdjust='spacingAndGlyphs'>Control, Mesencult</text>
+<text x='675.95' y='276.07' style='font-size: 14.40px; font-family: "DejaVu Sans";' textLength='106.19px' lengthAdjust='spacingAndGlyphs'>Control, DMEM</text>
+<text x='675.95' y='293.35' style='font-size: 14.40px; font-family: "DejaVu Sans";' textLength='133.34px' lengthAdjust='spacingAndGlyphs'>Mutant, Mesencult</text>
+<text x='675.95' y='310.63' style='font-size: 14.40px; font-family: "DejaVu Sans";' textLength='104.93px' lengthAdjust='spacingAndGlyphs'>Mutant, DMEM</text>
+</g>
+</svg>

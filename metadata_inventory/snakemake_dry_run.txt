@@ -1,0 +1,22 @@
+
+SNAKEMAKE
+=========
+  Date: 2026-07-04 09:51:36
+  Workflow ID: e8f55684-ec68-4e6f-addb-4844b67c8f42
+  Platform: Linux-6.8.0-124-generic-x86_64-with-glibc2.36
+  Host: da5ae5086654
+  User: node
+  Snakemake version: 9.23.1
+  Python version: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:34:02) [GCC 14.3.0]
+  Command: /home/mneira/miniconda3/envs/snakemake/bin/snakemake --snakefile Snakefile --dry-run --cores 1
+  Snakefile: /home/node/MAURICIO/papers/653_Spatial_single_cell_transcriptomic_analysis_informs_tumor_developmental_hierarchy_of_DICER1_syndrome_related_sarcoma_2026/REPRODUCIBILITY_ANALYSIS/20260704T092515Z__anthropic-claude-sonnet-4-6__adaptive/workflow_draft/Snakefile
+  Base directory: /home/node/MAURICIO/papers/653_Spatial_single_cell_transcriptomic_analysis_informs_tumor_developmental_hierarchy_of_DICER1_syndrome_related_sarcoma_2026/REPRODUCIBILITY_ANALYSIS/20260704T092515Z__anthropic-claude-sonnet-4-6__adaptive/workflow_draft
+  Run directory: /home/node/MAURICIO/papers/653_Spatial_single_cell_transcriptomic_analysis_informs_tumor_developmental_hierarchy_of_DICER1_syndrome_related_sarcoma_2026/REPRODUCIBILITY_ANALYSIS/20260704T092515Z__anthropic-claude-sonnet-4-6__adaptive/workflow_draft
+  Working directory: /home/node/MAURICIO/papers/653_Spatial_single_cell_transcriptomic_analysis_informs_tumor_developmental_hierarchy_of_DICER1_syndrome_related_sarcoma_2026/REPRODUCIBILITY_ANALYSIS/20260704T092515Z__anthropic-claude-sonnet-4-6__adaptive/workflow_draft
+  Config file(s): ['config/config.yaml']
+  Config MD5: 9ee2eded00e52ea8cc781b7a426f26d1
+
+Building DAG of jobs...
+Nothing to be done (all requested files are present and up to date).
+8 jobs have missing provenance/metadata so that it in part cannot be used to trigger re-runs.
+Rules with missing metadata: scrna_controls scrna_controls_and_tumors scrna_export_infercnv scrna_pathway_analysis scrna_qc scrna_trajectory scrna_tumors_filtered scrna_tumors_unfiltered

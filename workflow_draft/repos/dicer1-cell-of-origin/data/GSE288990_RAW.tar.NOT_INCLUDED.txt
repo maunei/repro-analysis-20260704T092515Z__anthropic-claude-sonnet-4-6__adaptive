@@ -1,0 +1,8 @@
+Ghost placeholder for a file not included in the public repository.
+
+Original path: ./workflow_draft/repos/dicer1-cell-of-origin/data/GSE288990_RAW.tar
+Original filename: GSE288990_RAW.tar
+Original size bytes: 278732800
+Reason: compressed raw/generated data excluded from public skeleton
+
+This placeholder preserves the analysis directory structure without sharing the actual file.

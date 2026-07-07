@@ -1,0 +1,82 @@
+Total IDs: 32285
+Batch 1 retry 1: The read operation timed out
+Batch 1 retry 2: The read operation timed out
+Batch 1 FAILED: The read operation timed out
+Batch 3 retry 1: The read operation timed out
+Batch 3 retry 2: The read operation timed out
+Batch 3 FAILED: The read operation timed out
+Batch 4 retry 1: The read operation timed out
+Batch 5 retry 1: The read operation timed out
+Batch 5 retry 2: The read operation timed out
+Batch 5 FAILED: The read operation timed out
+Progress: 5000/32285 (2000 results)
+Batch 6 retry 1: The read operation timed out
+Batch 6 retry 2: The read operation timed out
+Batch 7 retry 1: The read operation timed out
+Batch 8 retry 1: The read operation timed out
+Batch 8 retry 2: The read operation timed out
+Batch 8 FAILED: The read operation timed out
+Batch 9 retry 1: The read operation timed out
+Batch 9 retry 2: The read operation timed out
+Batch 10 retry 1: The read operation timed out
+Progress: 10000/32285 (6000 results)
+Batch 11 retry 1: The read operation timed out
+Batch 11 retry 2: The read operation timed out
+Batch 11 FAILED: The read operation timed out
+Batch 12 retry 1: The read operation timed out
+Batch 12 retry 2: The read operation timed out
+Batch 12 FAILED: The read operation timed out
+Batch 13 retry 1: The read operation timed out
+Batch 13 retry 2: The read operation timed out
+Batch 13 FAILED: The read operation timed out
+Batch 14 retry 1: The read operation timed out
+Batch 14 retry 2: The read operation timed out
+Batch 14 FAILED: The read operation timed out
+Batch 15 retry 1: The read operation timed out
+Batch 15 retry 2: The read operation timed out
+Batch 15 FAILED: The read operation timed out
+Progress: 15000/32285 (6000 results)
+Batch 16 retry 1: The read operation timed out
+Batch 17 retry 1: The read operation timed out
+Batch 17 retry 2: The read operation timed out
+Batch 17 FAILED: The read operation timed out
+Batch 18 retry 1: The read operation timed out
+Batch 18 retry 2: The read operation timed out
+Batch 18 FAILED: The read operation timed out
+Batch 19 retry 1: The read operation timed out
+Batch 19 retry 2: The read operation timed out
+Batch 19 FAILED: The read operation timed out
+Batch 20 retry 1: The read operation timed out
+Batch 20 retry 2: The read operation timed out
+Batch 20 FAILED: The read operation timed out
+Progress: 20000/32285 (7000 results)
+Batch 21 retry 1: The read operation timed out
+Batch 21 retry 2: The read operation timed out
+Batch 21 FAILED: HTTP Error 503: Service Unavailable
+Batch 22 retry 1: The read operation timed out
+Batch 22 retry 2: The read operation timed out
+Batch 22 FAILED: The read operation timed out
+Batch 23 retry 1: The read operation timed out
+Batch 23 retry 2: The read operation timed out
+Batch 23 FAILED: The read operation timed out
+Batch 24 retry 1: The read operation timed out
+Batch 24 retry 2: The read operation timed out
+Batch 24 FAILED: The read operation timed out
+Batch 25 retry 1: The read operation timed out
+Batch 25 retry 2: The read operation timed out
+Batch 25 FAILED: The read operation timed out
+Progress: 25000/32285 (7000 results)
+Batch 28 retry 1: The read operation timed out
+Batch 28 retry 2: The read operation timed out
+Batch 28 FAILED: The read operation timed out
+Batch 29 retry 1: The read operation timed out
+Batch 29 retry 2: The read operation timed out
+Batch 29 FAILED: The read operation timed out
+Batch 30 retry 1: The read operation timed out
+Batch 30 retry 2: The read operation timed out
+Batch 30 FAILED: The read operation timed out
+Progress: 30000/32285 (9000 results)
+Batch 31 retry 1: The read operation timed out
+Batch 31 retry 2: The read operation timed out
+Batch 31 FAILED: The read operation timed out
+Written 10153 genes to /home/node/MAURICIO/papers/653_Spatial_single_cell_transcriptomic_analysis_informs_tumor_developmental_hierarchy_of_DICER1_syndrome_related_sarcoma_2026/REPRODUCIBILITY_ANALYSIS/20260704T030158Z__anthropic-claude-sonnet-4-6__adaptive/workflow_draft/repos/dicer1-cell-of-origin/reference/gene_order.tsv

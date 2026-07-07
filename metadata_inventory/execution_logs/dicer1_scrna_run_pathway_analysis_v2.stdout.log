@@ -1,0 +1,47 @@
+Loading required package: SeuratObject
+Loading required package: sp
+
+Attaching package: 'SeuratObject'
+
+The following objects are masked from 'package:base':
+
+    intersect, t
+
+Warning messages:
+1: package 'Seurat' was built under R version 4.2.3 
+2: package 'SeuratObject' was built under R version 4.2.3 
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'patchwork' was built under R version 4.2.3 
+Loaded filter_tumor.rds. Cells: 2483 
+Loading PROGENy mouse pathways from local TSV...
+PROGENy pathways loaded. Rows: 7000 Pathways: 14 
+Extracting normalized log counts...
+Running multivariate linear model (MLM)...
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells  3681391 196.7    6580107  351.5   4967952  265.4
+Vcells 49570664 378.2  202977915 1548.6 253722232 1935.8
+Storing pathway activity as Seurat assay...
+Warning: Data is of class data.frame. Coercing to dgCMatrix.
+Warning: No layers found matching search pattern provided
+Error in `ScaleData()`:
+! No layer matching pattern 'data' found. Please run NormalizeData and retry
+Backtrace:
+    x
+ 1. +-Seurat::ScaleData(object = seurat_integrated)
+ 2. \-Seurat:::ScaleData.Seurat(object = seurat_integrated)
+ 3.   +-Seurat::ScaleData(...)
+ 4.   \-Seurat:::ScaleData.StdAssay(...)
+ 5.     \-rlang::abort(paste0("No layer matching pattern '", olayer, "' found. Please run NormalizeData and retry"))
+Execution halted
+EXIT:0

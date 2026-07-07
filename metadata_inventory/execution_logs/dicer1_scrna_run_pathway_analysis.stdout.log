@@ -1,0 +1,30 @@
+Loading required package: SeuratObject
+Loading required package: sp
+
+Attaching package: 'SeuratObject'
+
+The following objects are masked from 'package:base':
+
+    intersect, t
+
+Warning messages:
+1: package 'Seurat' was built under R version 4.2.3 
+2: package 'SeuratObject' was built under R version 4.2.3 
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'patchwork' was built under R version 4.2.3 
+Loaded filter_tumor.rds. Cells: 2483 
+Fetching PROGENy mouse pathways...
+Error in loadNamespace(x) : there is no package called 'OmnipathR'
+Calls: get_progeny ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted

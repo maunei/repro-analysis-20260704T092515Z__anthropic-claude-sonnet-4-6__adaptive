@@ -1,0 +1,343 @@
+Loading required package: S4Vectors
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: 'BiocGenerics'
+
+The following objects are masked from 'package:stats':
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from 'package:base':
+
+    Filter, Find, Map, Position, Reduce, anyDuplicated, aperm, append,
+    as.data.frame, basename, cbind, colnames, dirname, do.call,
+    duplicated, eval, evalq, get, grep, grepl, intersect, is.unsorted,
+    lapply, mapply, match, mget, order, paste, pmax, pmax.int, pmin,
+    pmin.int, rank, rbind, rownames, sapply, setdiff, sort, table,
+    tapply, union, unique, unsplit, which.max, which.min
+
+
+Attaching package: 'S4Vectors'
+
+The following objects are masked from 'package:base':
+
+    I, expand.grid, unname
+
+Loading required package: IRanges
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: 'MatrixGenerics'
+
+The following objects are masked from 'package:matrixStats':
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: 'Biobase'
+
+The following object is masked from 'package:MatrixGenerics':
+
+    rowMedians
+
+The following objects are masked from 'package:matrixStats':
+
+    anyMissing, rowMedians
+
+Warning messages:
+1: package 'DESeq2' was built under R version 4.2.3 
+2: package 'IRanges' was built under R version 4.2.3 
+3: package 'GenomeInfoDb' was built under R version 4.2.3 
+4: package 'Biobase' was built under R version 4.2.3 
+
+Attaching package: 'dplyr'
+
+The following object is masked from 'package:Biobase':
+
+    combine
+
+The following object is masked from 'package:matrixStats':
+
+    count
+
+The following objects are masked from 'package:GenomicRanges':
+
+    intersect, setdiff, union
+
+The following object is masked from 'package:GenomeInfoDb':
+
+    intersect
+
+The following objects are masked from 'package:IRanges':
+
+    collapse, desc, intersect, setdiff, slice, union
+
+The following objects are masked from 'package:S4Vectors':
+
+    first, intersect, rename, setdiff, setequal, union
+
+The following objects are masked from 'package:BiocGenerics':
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Loading required package: ggrepel
+Warning message:
+package 'fgsea' was built under R version 4.2.3 
+Warning message:
+package 'msigdbr' was built under R version 4.2.3 
+
+Registered S3 methods overwritten by 'treeio':
+  method              from    
+  MRCA.phylo          tidytree
+  MRCA.treedata       tidytree
+  Nnode.treedata      tidytree
+  Ntip.treedata       tidytree
+  ancestor.phylo      tidytree
+  ancestor.treedata   tidytree
+  child.phylo         tidytree
+  child.treedata      tidytree
+  full_join.phylo     tidytree
+  full_join.treedata  tidytree
+  groupClade.phylo    tidytree
+  groupClade.treedata tidytree
+  groupOTU.phylo      tidytree
+  groupOTU.treedata   tidytree
+  is.rooted.treedata  tidytree
+  nodeid.phylo        tidytree
+  nodeid.treedata     tidytree
+  nodelab.phylo       tidytree
+  nodelab.treedata    tidytree
+  offspring.phylo     tidytree
+  offspring.treedata  tidytree
+  parent.phylo        tidytree
+  parent.treedata     tidytree
+  root.treedata       tidytree
+  rootnode.phylo      tidytree
+  sibling.phylo       tidytree
+clusterProfiler v4.6.0  For help: https://yulab-smu.top/biomedical-knowledge-mining-book/
+
+If you use clusterProfiler in published research, please cite:
+T Wu, E Hu, S Xu, M Chen, P Guo, Z Dai, T Feng, L Zhou, W Tang, L Zhan, X Fu, S Liu, X Bo, and G Yu. clusterProfiler 4.0: A universal enrichment tool for interpreting omics data. The Innovation. 2021, 2(3):100141
+
+Attaching package: 'clusterProfiler'
+
+The following object is masked from 'package:IRanges':
+
+    slice
+
+The following object is masked from 'package:S4Vectors':
+
+    rename
+
+The following object is masked from 'package:stats':
+
+    filter
+
+Loading required package: AnnotationDbi
+
+Attaching package: 'AnnotationDbi'
+
+The following object is masked from 'package:clusterProfiler':
+
+    select
+
+The following object is masked from 'package:dplyr':
+
+    select
+
+
+Loading required package: grid
+========================================
+ComplexHeatmap version 2.14.0
+Bioconductor page: http://bioconductor.org/packages/ComplexHeatmap/
+Github page: https://github.com/jokergoo/ComplexHeatmap
+Documentation: http://jokergoo.github.io/ComplexHeatmap-reference
+
+If you use it in published research, please cite either one:
+- Gu, Z. Complex Heatmap Visualization. iMeta 2022.
+- Gu, Z. Complex heatmaps reveal patterns and correlations in multidimensional 
+    genomic data. Bioinformatics 2016.
+
+
+The new InteractiveComplexHeatmap package can directly export static 
+complex heatmaps into an interactive Shiny app with zero effort. Have a try!
+
+This message can be suppressed by:
+  suppressPackageStartupMessages(library(ComplexHeatmap))
+========================================
+
+reading in files with read_tsv
+1 2 3 4 5 6 7 8 9 10 11 12 
+summarizing abundance
+summarizing counts
+summarizing length
+using counts and average transcript lengths from tximport
+estimating size factors
+using 'avgTxLength' from assays(dds), correcting for library size
+estimating dispersions
+gene-wise dispersion estimates
+mean-dispersion relationship
+final dispersion estimates
+fitting model and testing
+Warning message:
+`aes_string()` was deprecated in ggplot2 3.0.0.
+i Please use tidy evaluation idioms with `aes()`.
+i See also `vignette("ggplot2-in-packages")` for more information.
+i The deprecated feature was likely used in the DESeq2 package.
+  Please report the issue to the authors. 
+PCA plot saved
+Marker dot plot saved
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  9190071 490.9   15699597 838.5 15699597 838.5
+Vcells 21734456 165.9   41901354 319.7 41901354 319.7
+Warning messages:
+1: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+i Please use `linewidth` instead.
+i The deprecated feature was likely used in the EnhancedVolcano package.
+  Please report the issue to the authors. 
+2: The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+i Please use the `linewidth` argument instead.
+i The deprecated feature was likely used in the EnhancedVolcano package.
+  Please report the issue to the authors. 
+Volcano plots saved
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  9229462 493.0   15699597 838.5 15699597 838.5
+Vcells 21873611 166.9   41901354 319.7 41901354 319.7
+Loading MSigDB Hallmarks...
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  9818245 524.4   15699597 838.5 15699597 838.5
+Vcells 33570190 256.2   50361624 384.3 50361621 384.3
+Running Hallmarks GSEA...
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells 10230272 546.4   15699597 838.5 15699597 838.5
+Vcells 34268025 261.5   60513948 461.7 50361621 384.3
+Hallmarks GSEA saved
+Loading MSigDB Oncogenic...
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells 10230344 546.4   15699597 838.5 15699597 838.5
+Vcells 34298120 261.7   60513948 461.7 51490598 392.9
+Running Oncogenic GSEA...
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+           used  (Mb) gc trigger   (Mb) max used   (Mb)
+Ncells 10622781 567.4   20944171 1118.6 20944171 1118.6
+Vcells 34834538 265.8   60513948  461.7 54587768  416.5
+Oncogenic GSEA saved
+Loading MSigDB TF (C3)...
+           used  (Mb) gc trigger   (Mb) max used   (Mb)
+Ncells 10623305 567.4   20944171 1118.6 20944171 1118.6
+Vcells 35057053 267.5   60513948  461.7 60513941  461.7
+Running TF GSEA...
+Warning messages:
+1: In fgseaMultilevel(pathways = pathways, stats = stats, minSize = minSize,  :
+  There were 3 pathways for which P-values were not calculated properly due to unbalanced (positive and negative) gene-level statistic values. For such pathways pval, padj, NES, log2err are set to NA. You can try to increase the value of the argument nPermSimple (for example set it nPermSimple = 100000)
+2: In fgseaMultilevel(pathways = pathways, stats = stats, minSize = minSize,  :
+  For some of the pathways the P-values were likely overestimated. For such pathways log2err is set to NA.
+Warning messages:
+1: In fgseaMultilevel(pathways = pathways, stats = stats, minSize = minSize,  :
+  There were 5 pathways for which P-values were not calculated properly due to unbalanced (positive and negative) gene-level statistic values. For such pathways pval, padj, NES, log2err are set to NA. You can try to increase the value of the argument nPermSimple (for example set it nPermSimple = 100000)
+2: In fgseaMultilevel(pathways = pathways, stats = stats, minSize = minSize,  :
+  For some of the pathways the P-values were likely overestimated. For such pathways log2err is set to NA.
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+           used  (Mb) gc trigger   (Mb) max used   (Mb)
+Ncells  9932007 530.5   20944171 1118.6 20944171 1118.6
+Vcells 34087895 260.1   60513948  461.7 60513941  461.7
+TF GSEA saved
+Loading MSigDB Reactome...
+           used  (Mb) gc trigger   (Mb) max used   (Mb)
+Ncells  9933180 530.5   20944171 1118.6 20944171 1118.6
+Vcells 34184144 260.9   60513948  461.7 60513941  461.7
+Running Reactome GSEA...
+Warning message:
+In fgseaMultilevel(pathways = pathways, stats = stats, minSize = minSize,  :
+  There were 5 pathways for which P-values were not calculated properly due to unbalanced (positive and negative) gene-level statistic values. For such pathways pval, padj, NES, log2err are set to NA. You can try to increase the value of the argument nPermSimple (for example set it nPermSimple = 100000)
+Warning messages:
+1: In fgseaMultilevel(pathways = pathways, stats = stats, minSize = minSize,  :
+  There were 8 pathways for which P-values were not calculated properly due to unbalanced (positive and negative) gene-level statistic values. For such pathways pval, padj, NES, log2err are set to NA. You can try to increase the value of the argument nPermSimple (for example set it nPermSimple = 100000)
+2: In fgseaMultilevel(pathways = pathways, stats = stats, minSize = minSize,  :
+  For some of the pathways the P-values were likely overestimated. For such pathways log2err is set to NA.
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+           used  (Mb) gc trigger   (Mb) max used   (Mb)
+Ncells 10102468 539.6   20944171 1118.6 20944171 1118.6
+Vcells 34097601 260.2   60513948  461.7 60513941  461.7
+Reactome GSEA saved
+Loading MSigDB miR (C3 MIR:MIRDB)...
+           used  (Mb) gc trigger   (Mb) max used   (Mb)
+Ncells 10104853 539.7   20944171 1118.6 20944171 1118.6
+Vcells 34469050 263.0   60513948  461.7 60513941  461.7
+Running miR GSEA...
+Warning message:
+In fgseaMultilevel(pathways = pathways, stats = stats, minSize = minSize,  :
+  For some of the pathways the P-values were likely overestimated. For such pathways log2err is set to NA.
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+           used  (Mb) gc trigger   (Mb) max used   (Mb)
+Ncells  9944770 531.2   20944171 1118.6 20944171 1118.6
+Vcells 34267519 261.5   60513948  461.7 60513941  461.7
+miR GSEA saved
+Loading MSigDB GO:BP (C5)...
+           used  (Mb) gc trigger   (Mb) max used   (Mb)
+Ncells  9951997 531.5   20944171 1118.6 20944171 1118.6
+Vcells 34924297 266.5   74909874  571.6 66914106  510.6
+Running GO:BP GSEA...
+Warning messages:
+1: In fgseaMultilevel(pathways = pathways, stats = stats, minSize = minSize,  :
+  There were 8 pathways for which P-values were not calculated properly due to unbalanced (positive and negative) gene-level statistic values. For such pathways pval, padj, NES, log2err are set to NA. You can try to increase the value of the argument nPermSimple (for example set it nPermSimple = 100000)
+2: In fgseaMultilevel(pathways = pathways, stats = stats, minSize = minSize,  :
+  For some of the pathways the P-values were likely overestimated. For such pathways log2err is set to NA.
+Warning messages:
+1: In fgseaMultilevel(pathways = pathways, stats = stats, minSize = minSize,  :
+  There were 19 pathways for which P-values were not calculated properly due to unbalanced (positive and negative) gene-level statistic values. For such pathways pval, padj, NES, log2err are set to NA. You can try to increase the value of the argument nPermSimple (for example set it nPermSimple = 100000)
+2: In fgseaMultilevel(pathways = pathways, stats = stats, minSize = minSize,  :
+  For some of the pathways the P-values were likely overestimated. For such pathways log2err is set to NA.
+           used  (Mb) gc trigger   (Mb) max used   (Mb)
+Ncells 11398047 608.8   20944171 1118.6 20944171 1118.6
+Vcells 36472495 278.3   74909874  571.6 74909676  571.6
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+           used  (Mb) gc trigger   (Mb) max used   (Mb)
+Ncells 10659915 569.4   20944171 1118.6 20944171 1118.6
+Vcells 35102672 267.9   74909874  571.6 74909676  571.6
+GO:BP GSEA saved
+Running muscle GO:BP GSEA...
+           used  (Mb) gc trigger   (Mb) max used   (Mb)
+Ncells 10056486 537.1   20944171 1118.6 20944171 1118.6
+Vcells 34061175 259.9   74909874  571.6 74909756  571.6
+All RNA script outputs complete.

@@ -1,0 +1,781 @@
+Applied facet_grid compatibility patch for ggplot2 >=3.4
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Loading required package: SeuratObject
+Loading required package: sp
+
+Attaching package: 'SeuratObject'
+
+The following objects are masked from 'package:base':
+
+    intersect, t
+
+Warning messages:
+1: package 'Seurat' was built under R version 4.2.3 
+2: package 'SeuratObject' was built under R version 4.2.3 
+Loading required package: SingleCellExperiment
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: 'matrixStats'
+
+The following object is masked from 'package:dplyr':
+
+    count
+
+
+Attaching package: 'MatrixGenerics'
+
+The following objects are masked from 'package:matrixStats':
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: GenomicRanges
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: 'BiocGenerics'
+
+The following object is masked from 'package:SeuratObject':
+
+    intersect
+
+The following objects are masked from 'package:dplyr':
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from 'package:stats':
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from 'package:base':
+
+    Filter, Find, Map, Position, Reduce, anyDuplicated, aperm, append,
+    as.data.frame, basename, cbind, colnames, dirname, do.call,
+    duplicated, eval, evalq, get, grep, grepl, intersect, is.unsorted,
+    lapply, mapply, match, mget, order, paste, pmax, pmax.int, pmin,
+    pmin.int, rank, rbind, rownames, sapply, setdiff, sort, table,
+    tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: 'S4Vectors'
+
+The following objects are masked from 'package:dplyr':
+
+    first, rename
+
+The following objects are masked from 'package:base':
+
+    I, expand.grid, unname
+
+Loading required package: IRanges
+
+Attaching package: 'IRanges'
+
+The following object is masked from 'package:sp':
+
+    %over%
+
+The following objects are masked from 'package:dplyr':
+
+    collapse, desc, slice
+
+Loading required package: GenomeInfoDb
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: 'Biobase'
+
+The following object is masked from 'package:MatrixGenerics':
+
+    rowMedians
+
+The following objects are masked from 'package:matrixStats':
+
+    anyMissing, rowMedians
+
+
+Attaching package: 'SummarizedExperiment'
+
+The following object is masked from 'package:Seurat':
+
+    Assays
+
+The following object is masked from 'package:SeuratObject':
+
+    Assays
+
+Loading required package: scuttle
+Loading required package: ggplot2
+Warning messages:
+1: package 'IRanges' was built under R version 4.2.3 
+2: package 'GenomeInfoDb' was built under R version 4.2.3 
+3: package 'Biobase' was built under R version 4.2.3 
+Warning message:
+package 'cowplot' was built under R version 4.2.3 
+Finding variable features for layer counts
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Finding variable features for layer counts
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Finding variable features for layer counts
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Finding variable features for layer counts
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Finding variable features for layer counts
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Finding variable features for layer counts
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Finding variable features for layer counts
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Warning messages:
+1: In simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :
+  pseudoinverse used at -1.618
+2: In simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :
+  neighborhood radius 0.30103
+3: In simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :
+  reciprocal condition number  3.9313e-16
+Centering and scaling data matrix
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+Warning: Different features in new layer data than already exists for scale.data
+Centering and scaling data matrix
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+Warning: Different features in new layer data than already exists for scale.data
+Centering and scaling data matrix
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+Warning: Different features in new layer data than already exists for scale.data
+Centering and scaling data matrix
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+Warning: Different features in new layer data than already exists for scale.data
+Centering and scaling data matrix
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+Warning: Different features in new layer data than already exists for scale.data
+Centering and scaling data matrix
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+Warning: Different features in new layer data than already exists for scale.data
+Centering and scaling data matrix
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+Warning: Different features in new layer data than already exists for scale.data
+Warning: The following 69 features requested have zero variance; running reduction without them: Tnnt3, Fam155a, Ctnna3, Neb, Sntg1, Myom3, Gm28653, Cnbd2, Casq2, Pcdh7, Tmem108, Ptprb, Efemp1, Stmn1, Sptb, Cpe, Hes6, Itga1, Nrk, Epha3, Adgrl3, Tmem132c, Btg2, Has1, Phkg1, Tex14, Stxbp6, Gpam, Dqx1, Prkar2b, Ppp1r15a, C430049B03Rik, Gbp2, Gpm6b, Ebf3, Plagl1, Kif20a, Ccn1, Ppp1r16b, Arhgap6, Irgm1, Tbx3os1, Mcam, Plk1, Gabra3, Nhsl2, Adam23, Agbl3, Lmna, Otud1, Nox4, Tacc2, Olfr1033, Rgs1, Mcm6, Gpr176, Tubb5, Dusp1, H1f0, Ust, Aldh1a3, Fscn1, Sytl5, Rad51ap1, Sox11, Samd4b, Gm26542, Ccr4, Tac1
+PC_ 1 
+Positive:  H2-K1, Fam129a, Elmo1, Lncpint, Cd74, H2-Ab1, H2-Eb1, Ctsh, Man1a, Dst 
+	   Srgn, Neat1, Arhgap15, Dock2, H2-Aa, Creb5, H2-D1, Tnf, Ogn, Dpt 
+	   Ifi27l2a, Atf3, Clec3b, Mfap5, Cd52, Ar, Zfpm2, Naaladl2, Ifi207, Mir142hg 
+Negative:  Mdk, Peg3, Asb4, Myo1b, A2m, Itga8, Sox5, Ptprd, Dlc1, Kcnq5 
+	   Peg10, Frem1, Ldb2, Piezo2, St6galnac3, Col25a1, Dach1, Frmd4a, Lhfp, Prkg1 
+	   Ror2, Tafa1, Thsd4, Ebf1, Hmga2, Chn1, Palld, Srgap1, Ptma, Tmtc2 
+PC_ 2 
+Positive:  Cd74, H2-Eb1, H2-Ab1, H2-Aa, Dock2, Tnf, Srgn, Mir142hg, Inpp5d, Cd52 
+	   Ly86, Arhgap15, Nrros, Tnfaip3, Hspa1a, Mctp1, Rasgef1b, Atf3, Ptpro, Rel 
+	   Ctsc, H2-Q6, Clic4, Gm26917, Lyn, Pou2f2, Cxcl2, Hdac9, Tuba1c, Tbc1d9 
+Negative:  Col3a1, Col1a1, Gsn, Serping1, Col1a2, Ogn, Dpt, Clec3b, Mfap5, Zfpm2 
+	   Ar, Naaladl2, Rarres2, Sparc, Adamts2, Fbn1, Cd34, Prelp, Abca8a, Sod3 
+	   Pcolce2, Dcn, Adgrd1, Svep1, Abi3bp, Nupr1, Igfbp6, Foxp2, Dpep1, Tnxb 
+PC_ 3 
+Positive:  St6galnac3, Nav3, Plekhg1, Scube1, Slc8a1, Ank3, Robo1, Grm7, Cers6, Robo2 
+	   Ptprk, Rora, Thsd4, Mllt3, Tmtc2, Negr1, Frem1, Epha7, Psd3, Rbfox1 
+	   Itga8, Setbp1, Slit2, Ncam1, Kalrn, Sox5, Mylk, Gucy1a1, Runx2, Pde1a 
+Negative:  Birc5, H2afx, Cep55, Ube2c, Hmmr, Tuba1b, Cdca8, Ccna2, Kif11, Nusap1 
+	   Top2a, Tpx2, Pclaf, Hmgb2, Cenpf, Cdca3, Ckap2l, Ccnb1, Incenp, Depdc1a 
+	   Cenpe, Mki67, Spc24, Aurkb, Kif23, Diaph3, Kif15, Kif4, Cdca2, Knl1 
+PC_ 4 
+Positive:  Prkg1, Plvap, Limch1, Adamtsl1, Agtr1a, Pde7b, Hecw2, Sct, Asic2, Prrx1 
+	   Sema3d, Dock10, Greb1, Ecm1, Mast4, Vcan, Epas1, Fgd5, Kcnc2, Mpped2 
+	   Ptx3, Itga9, Frmd4b, Plcl1, Mmd, Hmga2, Sned1, Magi1, Dkk1, Peg10 
+Negative:  Pcp4, Chrdl1, Kcnb2, Rspo3, Dcc, Bnc2, Igfbp2, Col13a1, Eya4, Hpse2 
+	   Slit2, Alcam, Olfml3, Slc12a2, Ntm, Sorcs3, Chrm3, Fxyd6, Rora, Sulf1 
+	   Mfap4, Itm2a, Slit1, Celf2, Lrrn1, Pde10a, Dpp10, Dgkb, Ccn3, Gpx3 
+PC_ 5 
+Positive:  Xist, Malat1, Psd3, Maml2, Ssh2, Camk1d, Myo1e, Pola1, Tanc2, Cep128 
+	   Ncapg2, Ptprj, Gm42418, Lars2, Slc8a1, Neil3, Depdc1b, Ncoa1, Ext1, Cenpp 
+	   Mitf, Wipf1, Nsd2, Hist1h1b, Dock11, Hist1h2an, Kif15, Brip1, Vav3, Creb5 
+Negative:  Actg1, Gapdh, Mif, Cd24a, Tcf21, Tuba1a, Vim, Ppp1r14b, Ptma, Bgn 
+	   Maged2, Smim41, Aldoa, Ldha, Actb, Ran, Lgals1, Olfml3, Mfge8, Pkm 
+	   Sparc, Tmsb4x, Pgk1, Ifitm3, Sct, Selenoh, Mdk, Des, Gng11, Slc9a3r2 
+Warning: Number of dimensions changing from 13 to 50
+Warning: The following 199 features requested have zero variance; running reduction without them: Tnnt3, Fam155a, Neb, Rgs6, Nes, Prlr, Nxph1, Myom3, Gm28653, Slc4a4, Cnbd2, Dlgap1, Casq2, Pcdh7, Hspa1a, Ly6a, Dmd, Eln, Nrxn3, Cilp, Ankrd23, Myh7b, Cdk1, Ptprb, Fgf10, Sntb1, Mef2c, Stmn1, Col15a1, Hrc, Nav3, Btk, Rbp4, Hmcn1, Stac, Sptb, Khdrbs3, Fmo2, Cpe, Tceal5, Hes6, Rgs4, Col25a1, Lgals3, Nr4a2, Itga1, Rgcc, Nrk, Hhip, Neat1, Gpnmb, Pcdh9, Epha3, Sema4d, Tafa2, Alkal2, Adgrl3, Cdh5, Tmem132c, Eya4, Cntn6, Btg2, Frmpd1, Ly86, Ankrd44, Vav3, Cebpa, Ano4, Ccnd2, Wnt4, Tex14, Enox2, Prkd1, Rpgrip1, Ntng1, Sfrp2, Stxbp6, Prph, Col1a1, Parm1, Col11a1, Arhgap20, Rgs20, Cd9, C430049B03Rik, Deptor, Gbp2, Clspn, Map2, Pip5k1b, Gpm6b, Trpc5, Ror2, Ebf3, Ckap2l, Plcb4, Man1a, Rnf150, Tmem158, Galnt17, Kif20a, Nfkbiz, Ppp1r16b, 4930512B01Rik, Ccdc138, Cdt1, Tuba1c, Arhgap6, Cacnb4, Irgm1, Saa3, Mcam, Cpn1, Arhgap32, Plk1, Ncapg2, St8sia2, Msmo1, Klf4, Cdh2, Adamts17, Samd4, Lepr, Kcnc2, Gabra3, Adamtsl [... truncated]
+PC_ 1 
+Positive:  Mgp, Cst3, Igfbp7, Cfh, Bgn, Mfap4, Pdgfrl, Ccn2, F3, Mdk 
+	   Crispld2, Col8a1, Lbh, Lsamp, Kcnt2, Tcf21, Tspan11, Itgbl1, Gria4, Plpp1 
+	   Abcc9, Fbln7, Ndufa4l2, Fmod, Gas6, Ptch1, Tgfbi, F2r, Smoc1, Abca8a 
+Negative:  Sdk1, Dpp4, Ebf2, Pla1a, Ly6c1, Efemp1, Fyn, Maf, Smpd3, Gfpt2 
+	   Anxa3, Tek, Cd248, Tmem100, Plxdc2, Anxa1, Opcml, Limch1, Fndc1, Nova1 
+	   Plat, Pde8a, Creb5, Efhd1, Adgrd1, Ifi205, Jpt1, Plce1, Lurap1l, C3 
+PC_ 2 
+Positive:  Cenph, Kif23, Spc24, Knl1, Neil3, Kif11, Palmd, Pbk, Gmnn, Prc1 
+	   Sncg, Top2a, Mbnl3, Kif15, Birc5, Pclaf, Mki67, Mmrn2, Rrm2, Kif4 
+	   Hmmr, Ttk, Ccnb2, Ndc80, Hist1h2ae, Uhrf1, Cdca8, Itga6, Hist1h2an, Kif22 
+Negative:  Gsn, Dcn, Clec3b, Dpt, Ogn, Mfap5, Serping1, S100a6, Pi16, Scara5 
+	   Rarres2, Igfbp6, Cd248, Pcolce2, C3, Plpp3, Ahnak, Tnxb, Efemp1, Adgrd1 
+	   Ebf2, Adamts5, Gfpt2, Fbn1, Fndc1, Dpp4, Plce1, Smpd3, Col3a1, Col14a1 
+PC_ 3 
+Positive:  Rora, Gpc6, Pbx1, Sox5, Prkg1, Dlc1, Malat1, Lama2, Zfpm2, Ext1 
+	   Gm42418, Arl15, Psd3, Fbxl7, Klf12, Gulp1, Gab1, Kirrel3, Chst11, B3galt1 
+	   Pdzrn3, Thsd4, Camk1d, Nos1ap, Ank2, Pde3a, Cacnb2, Cacna1c, Fmnl2, Rapgef4 
+Negative:  Fth1, S100a10, H2afz, Gapdh, Vim, S100a6, Lgals1, Ptma, Ifitm3, Actg1 
+	   Ier2, Serpinf1, Nupr1, Lsm6, Tuba1a, Rbp1, Timp1, Cavin3, Cks2, Ifi27l2a 
+	   Hist1h2bc, Cks1b, Crip1, Rarres2, Mxd3, Fos, Gadd45g, Tpi1, Cst3, Knl1 
+PC_ 4 
+Positive:  Penk, Gpx3, Bmper, Ntrk2, Lpl, Steap4, Sfrp1, Dkk2, Cadm1, Fndc5 
+	   Emb, Agt, Igf1, Spon1, Chrm3, Ecrg4, Fst, Myoc, Cfb, Hp 
+	   C3, C2, Trf, Aox3, Olfml3, Scd1, Angptl1, Inmt, Lbp, Apoe 
+Negative:  Timp3, Gxylt2, Ackr3, Sema3c, Fhl1, Adamts16, Pi16, Pcsk6, Anxa3, Creb5 
+	   Mfap5, Limch1, Fn1, Krtdap, Efhd1, Sema3d, Ccn3, Bmp6, Fam129a, Ccn2 
+	   Vcan, Thy1, Cmah, Opcml, Crip1, Ckb, Ext1, Bmp7, Col14a1, Ltbp1 
+PC_ 5 
+Positive:  Dcn, Gsn, Serpinf1, Ogn, Col1a2, Abca8a, Adamts2, Sparc, Col3a1, Lum 
+	   Igf1, Ltbp1, Fam129a, F3, Dpep1, Celf2, Serping1, Sgcd, Foxp2, Svep1 
+	   Abi3bp, Tent5a, Lsamp, Ntn1, Gas6, Ar, Rarres2, Aff3, Plpp1, Vim 
+Negative:  Adap2, Cd74, Dock2, Rbm47, Rgs1, P3h2, H2-Eb1, Rgs2, H2-Aa, Dach1 
+	   Sorbs2, H2-Ab1, Lyz2, Rasgef1b, Crlf1, Spp1, Cdk6, Runx1, Entpd1, Gm26917 
+	   Ubash3b, Erbb4, Thsd4, Tafa1, Slc9a9, Sytl2, Mtss1, Nrros, Kirrel3, Trpv2 
+Warning: Number of dimensions changing from 13 to 50
+Warning: The following 192 features requested have zero variance; running reduction without them: Tnnc1, Fam155a, Neb, Gm32004, Fgf13, C7, Cox8b, Sntg1, Nes, Nxph1, Car3, Myom3, Gm28653, Slc4a4, Cnbd2, Casq2, Pcdh7, Hspa1a, Ly6a, Tmem108, Dmd, 1700120C14Rik, AC150683.1, Lum, Cilp, Kirrel3, Myh7b, Ptprb, Sntb1, Stmn1, Hrc, Btk, Rbp4, Fhl1, Hmcn1, Sptb, Khdrbs3, Fmo2, Cpe, Fabp3, Rgs4, Cyyr1, Col25a1, Nr4a2, Inpp5d, Hhip, Sema4d, Alkal2, Cdh5, Parp1, Eya4, Cntn6, Naaladl2, Btg2, Cacna1c, Des, Kitl, Frmpd1, Sesn2, Ablim3, Tyrobp, Ccnd2, Trabd2b, Tex14, Enox2, Cyp7b1, Ntng1, Sfrp2, P3h2, Stxbp6, Notch3, Fndc5, Gpam, Prph, Pdgfrl, Arhgap20, Rgs20, Gdf10, Cfap45, Xirp1, Cd200, Cd9, C430049B03Rik, Gbp2, Bmp6, Map2, Gpm6b, Itgb8, Ror2, Ebf3, Sox17, Epas1, Plcb4, Man1a, Rnf150, Tmem158, Kif20a, Myoz1, Trim30a, 4930512B01Rik, Hist1h2ap, Irgm1, Tbx3os1, Clec14a, S100a1, Ar, Gfpt2, Mcam, C730034F03Rik, Cpn1, Plk1, Ifitm1, Ncapg2, Kcnj8, St8sia2, Msmo1, Cdh2, Samd4, Lepr, Gabra3, Mcm3, Asap3, Agbl3, Pgk1, K [... truncated]
+PC_ 1 
+Positive:  Sparc, Col3a1, Dcn, Col1a2, Col1a1, Ifitm3, S100a6, Serping1, Ahnak, Vim 
+	   Tuba1a, Fbn1, Tmsb4x, S100a10, Celf2, S100a11, Aebp1, Cavin3, Cd34, Lgals1 
+	   Zfpm2, Gsn, Eln, Meg3, Col6a3, Serpinf1, Anxa1, Col14a1, Heg1, Tnxb 
+Negative:  Esrrg, Ndrg1, Fxyd2, Aspa, Nhs, Dab2, Ptprd, Slc25a21, Rbm47, Chka 
+	   Ptprk, Timp3, Atp1b1, Gpx3, Chpt1, Spp1, Plcb1, Gatm, Glis3, Fam13a 
+	   Pitpnc1, Pdk4, Acsl1, Hoga1, Retreg1, Ldhb, Malat1, Fhod3, Ank3, Ccdc141 
+PC_ 2 
+Positive:  Clu, Hspb1, Lgals7, Slpi, Aldh1a2, Ucp2, H2afz, Cav1, Cdk1, Birc5 
+	   Cenpa, Tcim, Tacc3, Tagln2, Gmnn, H2-Q7, Hmmr, H2-K1, Dmkn, Prc1 
+	   Cd74, Ptgis, Abi1, Top2a, Crip1, Hmgb2, Mxd3, Cdc20, Ccnb1, Nkain4 
+Negative:  Lama2, Dpt, Gpc6, Plpp3, Scara5, Mfap5, Ebf1, Ltbp1, Aspn, Ebf2 
+	   Gsn, Svep1, Adamts12, Akap12, Nav3, Pi15, Ogn, Postn, Ccl11, Rora 
+	   Itih5, Lsp1, Pcsk5, Dpep1, Adamts5, Plxdc2, Pi16, Tcf21, Galnt17, Rgs6 
+PC_ 3 
+Positive:  Thsd4, Cfh, Cd74, Plxna4, Pcdh15, Rbfox1, Pdzrn4, Tmem132d, Nkain4, Il18r1 
+	   H2-Eb1, C3, Dmkn, Slpi, H2-Ab1, Abi1, Unc45b, Aldh1a2, Efna5, H2-Aa 
+	   Cacnb2, Clu, Zbtb7c, Rbbp8, Cfb, Fgf1, Chil1, Lgals3, Kcnd2, Adgrg6 
+Negative:  Kif15, Aurkb, Pimreg, Ube2c, Ccna2, Cdca8, Birc5, Top2a, Mis18bp1, Esco2 
+	   Ccnb1, Cenpf, Anln, Bub1, Cep55, Kif23, Nusap1, Depdc1a, Prc1, Neil3 
+	   Tacc3, Aurka, Sgo1, Kif20b, Cdc20, Kif22, Cenpe, Aspm, Pbk, Sgo2a 
+PC_ 4 
+Positive:  Fos, Gapdh, Cxcl1, Fth1, Nfkbia, Ldha, Zfp36, Junb, Tnfaip6, Cxcl10 
+	   Fn1, Klf4, Trib1, Dusp1, Ier2, Vim, Ifrd1, Actg1, Anxa1, Mt1 
+	   Jun, Ccl7, Hk2, Ppp1r15a, S100a11, Atf3, Aldoa, Csrnp1, Hspa5, Socs3 
+Negative:  Nrp2, Lmcd1, Etl4, Robo2, Grb14, Mrvi1, Csmd1, Mllt3, Ptch1, Ccdc3 
+	   Adcy2, Pdgfc, Kcnab1, Col12a1, Gli2, Prtg, St6galnac3, Mylk, Hmga2, Nell1 
+	   Col11a1, Epha7, Greb1, Myocd, St6galnac5, Tnc, Aff3, Esr1, Gfra1, Sox5 
+PC_ 5 
+Positive:  Smpd3, Sema3c, Anxa3, Sema3d, Dpp4, Cmah, Limch1, Rcan2, Lurap1l, Ackr3 
+	   Tek, Sh2d4a, Ly6c1, Adamts16, Efhd1, Pla1a, Car8, Pamr1, Ace, Pdgfd 
+	   Pde10a, Sbsn, Metrnl, Megf9, Efemp1, Pcdh15, Zbtb16, Rbfox1, Vgll3, Pi16 
+Negative:  Mdk, Ncam1, Olfml3, Spon1, Apoe, Bgn, Hp, Atp1a2, Gem, Col24a1 
+	   Igf1, Enpp2, Col15a1, Tgfbi, Tpm2, Slit2, 1110038B12Rik, Hes1, Zfp36, Ctsc 
+	   Sfrp1, Pdzrn3, Lox, Cacna2d1, Wnt4, Cp, Il1r1, Trib1, Gucy1a1, Nr4a1 
+Warning: Number of dimensions changing from 13 to 50
+Warning: The following 161 features requested have zero variance; running reduction without them: Mybph, Mb, Car3, Slc4a4, Abi1, Hist1h1e, Nrxn3, Aspm, Lum, Sorbs2, Cavin3, Dnmbp, Dtna, Slc9a3r2, Mt2, Tcim, Spc24, Khdrbs3, Gm42418, Fabp3, Rgs4, Cyyr1, Lgals3, Aspn, Thbs1, Efhd1, Dock2, Mrvi1, Csrnp1, Crip1, Emp1, Agbl4, Cdh5, Myog, Cntn6, Sesn2, Sox18, Phkg1, Tm4sf1, Col23a1, Gm12703, Nppc, Vav3, Galnt6, Cebpa, Myo1e, Ano4, Wnt4, Gm17268, Enox2, Cyp7b1, Prkd1, Txlnb, Cpa1, P3h2, Prph, 1700010K24Rik, Gm26594, Gdf10, Prkar2b, Ppp1r15a, Bmp6, Bnip3, Pdlim5, Sphkap, Anxa3, Epas1, Plxdc1, Ckap2, Hopx, Gm26917, Pde7b, Dok6, Ube2s, Nfkbiz, S100a1, Lama2, Ifi213, Slc8a3, Sh3rf3, Cpn1, Kcnn3, Msmo1, Fam13a, Pde8b, Tgfb2, Adamtsl3, Marf1, Pid1, Alpk3, Plxdc2, Ifi30, Arhgap18, Tacc3, Nox4, Lyn, Smoc1, Epha4, Ngf, Nedd4l, Fxyd5, Jak1, Podxl, Tnfrsf19, Kcnk2, Fyn, Ezh2, Cpeb3, Gas6, Spc25, Scx, Cyp26b1, Enox1, 9330111N05Rik, Hells, Pdgfrb, Kctd16, Calcr, Srrm4os, Adra1b, S100a11, Ildr2, Cecr2, H1f0, Epb41l4 [... truncated]
+Warning in irlba(A = t(x = object), nv = npcs, ...) :
+  You're computing too large a percentage of total singular values, use a standard svd instead.
+PC_ 1 
+Positive:  Ebf1, Rcan2, Tinagl1, Cacna1c, Ano1, Ctnna3, Dgkb, Ifi203, Rgs5, Cd200 
+	   Slit3, Gpc6, Sox5, Gucy1a1, Timp3, Ndufa4l2, Myh11, Dlc1, Igfbp7, Cobll1 
+	   Mcam, Gm13889, Emcn, Gucy1a2, Prkg1, Adap2, Esam, Fhl2, Cygb, Lhfp 
+Negative:  Celf2, Peg3, Ptprd, Gpx3, Kcnma1, Eya4, Tnnt1, Cp, Igf2, Itm2a 
+	   Pde1c, Ncam1, Megf10, Ank3, Mybpc1, Capn6, Pax7, Neb, Retreg1, Chodl 
+	   Ryr3, Apoe, 1110038B12Rik, Zfhx4, Traf3ip3, Bin1, Hs6st2, Tanc2, Clcn5, Ppp1r14b 
+PC_ 2 
+Positive:  Tcap, Tnnc1, Ttn, Tnni1, Cox6a2, Acta1, Tnnc2, Tnnt3, Myh7, Klhl41 
+	   Obscn, Myl1, Tnnt2, Unc45b, Ldb3, Mylpf, Trim63, Mypn, Cavin4, Casz1 
+	   Trdn, Tacc2, Sptb, Cmya5, Tmod4, Limch1, Lmod2, Sorbs1, Art1, Sln 
+Negative:  2610307P16Rik, Sulf1, Gulp1, Mest, Nlgn1, Col3a1, Ncald, Col15a1, Igf1, Apoe 
+	   Fbn1, Vcan, Gli2, Xist, Svep1, Aff3, Efna5, Abi3bp, Tmeff2, Col1a1 
+	   Esr1, Tanc1, Gxylt2, Pax7, Pbx1, Gm42047, Itm2a, Tmtc2, Chodl, Arhgap32 
+PC_ 3 
+Positive:  Xist, Kif26b, Tmeff2, Aff3, Nrg3, Ano3, Grm7, Cacna1a, Ust, Erc2 
+	   Epha3, Cntn4, Phactr1, Magi1, Tox, Galnt16, Hpse2, Pdzrn3, Stxbp6, Adam22 
+	   Hgf, Adgrl3, Neto2, Fbn2, Cpa6, Itgb8, Ror2, Ldb2, Col14a1, Nlgn1 
+Negative:  Ier2, Fth1, Chodl, Errfi1, Itm2a, Socs3, Fosb, Pde4b, Fos, Junb 
+	   Pax7, Capn6, Hspa1a, Mt1, Jun, Apoe, Pde1c, Crip2, Gpx3, Clcn5 
+	   Sparcl1, Hmcn2, Col4a2, Notch3, Ar, Zbtb16, Map2, Vcam1, Ntn4, Sgip1 
+PC_ 4 
+Positive:  Racgap1, Birc5, Lmnb1, Kif4, Hmmr, Cdca2, Sgo2a, Top2a, Ncapd2, Cenpf 
+	   Knl1, Hist1h1b, Kifc1, Kif14, Bub1b, Ttk, Ube2c, Pbk, Cep55, Aurkb 
+	   Cip2a, Ccna2, 9630002D21Rik, Ndc80, Sgo1, Dlgap5, Neil3, Ptprn, Nuf2, Hist1h3b 
+Negative:  Cacna2d1, Rarb, Prickle1, Setbp1, Fry, Gli2, Ncoa1, Pdlim3, Arhgap32, Spop 
+	   Pde3a, Ptprd, Phactr1, Grm7, Dennd5b, Pbx1, Itgb8, Kcnt2, Ank2, Pdgfd 
+	   Sntb1, Nxph1, Ldb2, Kcnma1, Pcdh7, Igf1, Pdzrn3, Nrg3, Nlgn1, Tgfbr3 
+PC_ 5 
+Positive:  Bgn, Col3a1, Tpm2, Col1a2, Sparc, Rarres2, Lgals1, S100a6, Olfr558, Serpinf1 
+	   Col1a1, Mgp, Sparcl1, Gsn, Vwc2, Myl9, Tgfbi, Vtn, Cxcl12, Postn 
+	   Trf, Ecm1, Mitf, Ndufa4l2, Des, Pltp, Ptn, Cox4i2, Col14a1, Igfbp7 
+Negative:  Runx1, Ifrd1, Fosb, Klf4, Osbpl8, Gadd45b, Klf6, Id2, Zswim6, Rora 
+	   Nfkbia, Irs2, Egr1, Junb, Lsmem1, Ppp1r16b, Jun, Zbtb16, Lrrc8c, Btg2 
+	   Prkch, Egfl7, Rgcc, Rgs2, Aff1, Shank3, March3, A730081D07Rik, Inpp5d, Mmrn2 
+Warning: The following 18 features requested have zero variance; running reduction without them: Cnbd2, Lum, Sorbs2, Pecam1, Dock2, Gucy1a1, Wnt4, Txlnb, Ntrk2, P3h2, 1700010K24Rik, Sphkap, Barx2, Uchl1, Resf1, Atf6, Akr1c18, Fgf12
+PC_ 1 
+Positive:  Vcan, Col1a1, Col1a2, Pbx1, Col3a1, Piezo2, Gli2, Hpse2, Col14a1, Kif26b 
+	   Dlc1, Gpc3, Fn1, Pid1, Sulf1, St6galnac3, Col6a3, Aff3, Mfap4, Mdk 
+	   Thsd4, Gpc6, Slit3, Ptma, Kalrn, Gria4, Hmga2, Frem1, Robo2, Gulp1 
+Negative:  Neb, Ttn, Tnnt1, Atp2a1, Acta1, Myl1, Mylpf, Tnnc2, Ryr1, Cryab 
+	   Myom1, Tnnc1, Cdh13, Chrna1, Actn2, Art1, Tnnt2, Sgcg, Klhl41, Mef2c 
+	   Tnnt3, Cacna1s, Trdn, Hjv, Hspb1, Casq2, Pgam2, Mypn, Tnni2, Akap6 
+PC_ 2 
+Positive:  Col6a3, Adamts2, Sox5, Sorbs1, Igfbp7, Plcl1, Nrp1, Gria4, Pid1, Pdgfrb 
+	   Rgs5, Col14a1, Col1a1, B130024G19Rik, Col1a2, S100a6, Cyp7b1, Lhfp, Grm7, Atp1a2 
+	   Enpep, Slit3, Dcn, Itga9, Col3a1, Serping1, Aff3, Gm42418, Mef2c, Cxcl12 
+Negative:  Stmn1, Top2a, Birc5, Mki67, Hmgb2, Cdk1, Ncapd2, Smc4, Nasp, Kif11 
+	   Diaph3, H2afz, Kif15, Ube2c, Smc2, Nusap1, Cks2, Eya2, Ppp1r14b, Hmmr 
+	   Racgap1, Hist1h1b, Bub1, Ect2, Spc25, Ccna2, Cenpf, Tpx2, Cdca8, Gfra1 
+PC_ 3 
+Positive:  Gm13889, Higd1b, Ebf2, Olfr558, Sparcl1, Adap2, Aoc3, Trarg1, Crip1, Adgrf5 
+	   Fabp4, Stac, Tm4sf1, Steap4, H2-D1, Anxa1, Tinagl1, Myh11, Mndal, Pparg 
+	   Ifi203, Esam, Slc16a12, Col5a3, Epas1, Cdh2, Arap2, Cobll1, Mcam, Ednrb 
+Negative:  Col25a1, Ncam1, Hpse2, Itga9, Nav2, Robo2, Kif26b, Col23a1, Peg3, Myom3 
+	   Cacna1s, Mylpf, Pgm5, Galnt17, Mypn, Ttn, Plxna2, Actn2, Tnnc1, Unc13c 
+	   Myh8, Sdk1, Tnnc2, Trdn, Klhl41, Frem1, Slc8a1, Myl1, Fbn2, Acta1 
+PC_ 4 
+Positive:  Zfhx4, Cdon, Pcdh17, Pde1c, Megf10, Col15a1, Igf2, Frmd3, Eya2, Ncoa1 
+	   Tnik, Itm2a, Pax7, Slc35f1, Mpped2, Dlk1, Clcn5, Cd82, Vgll3, Chodl 
+	   Plppr1, Lama2, Pdlim4, Dpyd, Apba2, Hspa1b, Prox1, C530008M17Rik, Dync1i1, Naaladl2 
+Negative:  Tpx2, Prc1, Cenpf, Top2a, Hmgb2, Sgo2a, Aspm, Nusap1, Cdca8, Birc5 
+	   Anln, Racgap1, Kif11, Nuf2, Mki67, Smc2, Bub1, Tacc3, Plk1, H2afx 
+	   Diaph3, Cdca2, Hmmr, Kifc1, Mis18bp1, Kif20a, Cenpe, Tubb4b, Kif15, Sgo1 
+PC_ 5 
+Positive:  Tagln, Ldha, Pgk1, Gpr39, Csrp1, Cthrc1, Pkm, Crlf1, Aldoa, Mif 
+	   Fam162a, Tmem108, Bnip3, Gapdh, Ptprn, Vim, Lgals1, Khdrbs3, Pdgfc, Tes 
+	   Gap43, Arl4c, Tpm1, Tpi1, Loxl2, Actg2, H19, F2r, Acta2, Plac8 
+Negative:  Rora, Hspa1b, Hspa1a, Epha3, Enpep, Ldb2, Lama2, Ptch1, Atp1a2, Cyp7b1 
+	   Col23a1, Cacna1d, Grm7, Dock10, Ar, Pdzd2, Mgp, Itm2a, Svep1, Cxcl12 
+	   Csgalnact1, Hsph1, Itga8, Plcl2, Nav2, Zfhx4, Epha4, B130024G19Rik, Sned1, Slit2 
+Warning: The following 23 features requested have zero variance; running reduction without them: Mylpf, Myom3, Sptb, Aff2, Tmem132c, Nwd1, Trabd2b, Txlnb, 1700010K24Rik, Gbp2, Ftx, Plcb4, Tmem158, Arap2, Ccdc85a, Fyn, Slc2a3, Cblb, S100a11, Sfmbt1, Gbp6, Rad51ap1, Tac1
+PC_ 1 
+Positive:  Sox5, Nav3, Rora, Pbx1, Negr1, Adgrl3, Kif26b, Ptprd, St6galnac3, Malat1 
+	   Ptprk, Cers6, Grm7, Efna5, Sema6a, B3galt1, Gpc6, 2610307P16Rik, Piezo2, Sulf1 
+	   Magi2, A2m, Slc8a1, Robo2, Esrrg, Hmcn1, Pid1, Slit2, Lama2, Unc5c 
+Negative:  Hmgb2, Cenpf, Mki67, Ube2c, Cks2, Cenpe, Ptma, Birc5, Cenpa, Hmmr 
+	   Ccna2, Top2a, H2afz, Stmn1, Bub1, Tpx2, Kif11, Knl1, Cdca8, Anln 
+	   Actb, Ran, Ccnb2, Cdca3, Tuba1b, Dlgap5, Kif4, Sgo2a, Hist1h1b, Tagln2 
+PC_ 2 
+Positive:  Itga8, Kif11, Top2a, Diaph3, Cenpe, St6galnac3, Tpx2, Cenpf, Anln, Rbfox1 
+	   Hmga2, Ube2c, Efna5, Knl1, Mki67, Vav3, Col14a1, Ntm, Stox2, Lmnb1 
+	   Kif15, Cdk1, Cadps2, Ccna2, Aspm, Tgfbi, Aurkb, Birc5, Plk1, Mis18bp1 
+Negative:  Ctnna3, Myh11, Lmna, Dmd, Btg2, Gucy1a2, Acta2, Atf3, Crip1, Myom1 
+	   Fos, Jun, Tagln, Creb5, Gm13889, Frem2, Hspb1, Notch3, Fosb, Junb 
+	   Dusp1, Ahnak, Eln, Egr1, Zfp36, Mustn1, Pde4b, Cryab, Mgp, Cpe 
+PC_ 3 
+Positive:  Sparc, Gapdh, Fth1, Vim, Aldoa, Mdk, Lgals1, Mif, Lpl, Ptn 
+	   Ptma, Aebp1, Tmsb4x, Cst3, Actg1, Tmem37, S100a10, Igfbp7, Ldhb, Rbp1 
+	   Actb, Ldha, Col3a1, Pgk1, Peg3, Mest, Tubb5, Apoe, Tpi1, 1110038B12Rik 
+Negative:  Ctnna3, Myom1, Diaph3, Dmd, Creb5, Myh11, Kif4, Top2a, Mki67, Kif15 
+	   Cdh13, Kif11, Ror1, Cit, Dgkb, Plcb1, Kif14, Knl1, Ebf1, Ext1 
+	   Prkg1, Cdca2, Ttk, Gucy1a2, Thsd4, Aspm, Plcl1, Eln, Slc8a1, Nusap1 
+PC_ 4 
+Positive:  Igfbp7, Aebp1, Cst3, Col1a1, Ifitm3, Apoe, Fth1, Prkg1, Rgs5, Ifrd1 
+	   Thbs1, Mgp, Bgn, F2r, Cntn4, Vcl, Gapdh, Manf, Cacna2d1, Adam12 
+	   Gadd45b, Fn1, Ier2, Gadd45g, Cers6, Pawr, Nav3, Actg1, Magi2, Des 
+Negative:  Gm42418, Camk1d, Gm26917, Lars2, Pax7, Zfhx4, Gm42047, Pde1c, Eya2, Cp 
+	   Mybpc1, Gm43824, Ryr3, Frmpd4, Neb, Ebf3, Deptor, Palmd, Slc7a11, Slc9a9 
+	   Wfdc2, Clmn, Igf1, Eya4, Ar, Coq8a, Acss3, Cd44, Hbb-bs, Nav2 
+PC_ 5 
+Positive:  Fosb, Fos, Ifrd1, Chka, Zbtb11, Jun, Lsmem1, Junb, Pecam1, Btg2 
+	   Jak1, Ppp1r15a, Egr1, Ripk1, Nfkbia, Rel, Ccdc138, Zswim6, Ier2, Ccn1 
+	   Dnah12, Klf4, Sec24a, Irf1, Id1, Atp13a3, Gadd45b, Taf4b, Celf2, Nfkbiz 
+Negative:  Postn, Ano1, Col4a1, Myh11, Cspg4, Ngf, Gm13889, Pdgfrb, Ctnna3, Higd1b 
+	   Col5a3, Itga1, Igfbp7, Gucy1a2, Frem2, Aspn, Tnxb, Mrvi1, Sparcl1, Pdgfa 
+	   Cd248, Mylk, Plcl1, B130024G19Rik, Cox4i2, Tmem178, Ptp4a3, Khdrbs3, Col6a3, Rcan2 
+Warning: The following 28 features requested have zero variance; running reduction without them: Mylpf, Prr16, Dnmbp, Alcam, Klf12, Aspn, Neat1, Cebpa, Ano4, Wnt4, Txlnb, Eno3, 1700010K24Rik, Clspn, Slc12a2, Gm26917, Barx2, Sypl2, Podxl, Ccdc85a, Fyn, Ezh2, Scx, Ntrk3, Atf6, Tnfaip8, Gulp1, Chpt1
+PC_ 1 
+Positive:  Col1a2, Col1a1, Dcn, Fn1, Sox5, Slit2, Col6a3, Col14a1, Vcan, Epha3 
+	   Mfap4, Dlc1, Sparc, St6galnac3, Igfbp7, Adamts2, Pbx1, Aff3, Postn, Pde3a 
+	   Olfml3, Adamtsl1, Bgn, Cxcl12, Apoe, Nrxn3, Epha7, Akap12, Tgfbr3, Thsd4 
+Negative:  Tnnt1, Ttn, Neb, Tnni1, Myl1, Tnnt2, Tnnc1, Arpp21, Myh8, Actc1 
+	   Actn2, Rbm24, Acta1, Mef2c, Tnnc2, Myh3, Tnnt3, Ryr1, Atp2a1, Mylk4 
+	   Myl4, Fst, Myog, Mybpc1, Dlg2, Klhl41, Cryab, Mybph, Smyd1, Chrna1 
+PC_ 2 
+Positive:  Top2a, Mki67, Diaph3, Hmgb2, H2afz, Hist1h3c, Hist1h1b, Ptma, Nnat, Birc5 
+	   Hist1h2ae, Hist1h2ab, Cdk1, Cks2, Pclaf, Smc4, Smc2, Kif11, Hist1h4d, Ube2c 
+	   Stmn1, Dpysl3, Pde1c, Fat3, Tpx2, Hist1h2an, Kif15, Trpm3, Ccna2, Hmmr 
+Negative:  Tnnc2, Myl1, Acta1, Myl4, Tnnc1, Myh8, Myoz2, Tnnt3, Myh3, Tnnt2 
+	   Actn2, Myh7, Cacna1s, Cav3, Mybph, Casq2, Lmod3, Pgam2, Tnni2, Fst 
+	   Ablim3, Smpx, Ldb3, Art1, Klhl41, Cox6a2, Dlg2, Apobec2, Col25a1, Myom2 
+PC_ 3 
+Positive:  Rgs5, Itga1, Myh11, Ano1, Cacna1c, Cox4i2, Cspg4, Col18a1, Mcam, Gucy1a2 
+	   Pdgfrb, Gm13889, Clstn2, Prkg1, Abcc9, Itga6, Notch3, Kcnj8, Sept4, Trpc6 
+	   Sema5b, Tbc1d1, Lhfp, Rgs6, Esam, Ptp4a3, Col4a1, Mark1, Higd1b, Mndal 
+Negative:  Itm2a, Ncam1, Slit2, Nrxn3, Adamtsl1, Mfap4, Col25a1, Dcn, Peg3, Bnc2 
+	   Gpc3, Epha7, Vcan, Gria4, Col14a1, Lsp1, Robo2, Efna5, Sema3a, Celf2 
+	   Maf, Lrmda, Kif26b, Pgm5, Prickle1, Plagl1, Sned1, Cntn6, St6galnac3, Epha4 
+PC_ 4 
+Positive:  Top2a, Kif26b, Cenpf, Nav2, Pbx3, Cenpe, Mki67, Hpse2, Fbn2, Adgrl3 
+	   Depdc1a, Prickle1, Ncam1, Aff3, Aspm, Frem1, Piezo2, Gm42047, Knl1, Daam2 
+	   Tpx2, Mis18bp1, Diaph3, Cdca3, Anln, St6galnac3, Runx1t1, Tmpo, Hmga2, Kif15 
+Negative:  Fos, Jun, Mt1, Junb, Egr1, Ier2, Fth1, Zfp36, Gpx3, Btg2 
+	   Socs3, Ppp1r15a, Mt2, Nfkbia, Dusp1, Aldoa, Cebpd, Klf4, Cp, Gadd45b 
+	   Fosb, Mgp, Errfi1, Atf3, Col15a1, Pax7, Adamts1, Pde1c, Gadd45g, Chodl 
+PC_ 5 
+Positive:  Fth1, Fos, Gadd45g, Tuba1a, Junb, Jun, Dusp1, Btg2, Ier2, Ier3 
+	   Vim, Cks2, Klf4, Ndufa4l2, Tpi1, Gadd45b, Cst3, Mif, Zfp36, Ube2c 
+	   Mgp, Socs3, Birc5, Tubb5, Hmmr, Tagln2, Hmgb2, Cdc20, Mt1, Rhox5 
+Negative:  Xist, Pax7, 2610307P16Rik, Plxna2, Cdon, Ptprd, Zfhx4, Lama2, Nav3, Tanc2 
+	   Tanc1, Kif26b, Etl4, Lars2, Zfp536, Pde4b, Pde1c, Megf10, Sulf1, Tnik 
+	   Fry, Eya4, Cp, Rora, Camk1d, Garem1, Chodl, Cacna2d1, Frem1, Ank3 
+Scaling features for provided objects
+Computing within dataset neighborhoods
+Finding all pairwise anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 132 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 153 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 138 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 113 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 100 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 99 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 274 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 146 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 142 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 165 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 434 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 148 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 142 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 147 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 368 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 293 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 139 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 158 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 201 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 597 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 501 anchors
+Merging dataset 4 into 7
+Extracting anchors for merged samples
+Finding integration vectors
+Finding integration vector weights
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Integrating data
+Warning: Layer counts isn't present in the assay object; returning NULL
+Merging dataset 5 into 7 4
+Extracting anchors for merged samples
+Finding integration vectors
+Warning: Different cells in new layer data than already exists for scale.data
+Finding integration vector weights
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Integrating data
+Warning: Layer counts isn't present in the assay object; returning NULL
+Merging dataset 1 into 6
+Extracting anchors for merged samples
+Finding integration vectors
+Finding integration vector weights
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Integrating data
+Warning: Layer counts isn't present in the assay object; returning NULL
+Merging dataset 3 into 6 1
+Extracting anchors for merged samples
+Finding integration vectors
+Warning: Different cells in new layer data than already exists for scale.data
+Finding integration vector weights
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Integrating data
+Warning: Layer counts isn't present in the assay object; returning NULL
+Merging dataset 2 into 7 4 5
+Extracting anchors for merged samples
+Finding integration vectors
+Warning: Different cells in new layer data than already exists for scale.data
+Finding integration vector weights
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Integrating data
+Warning: Layer counts isn't present in the assay object; returning NULL
+Merging dataset 6 1 3 into 7 4 5 2
+Extracting anchors for merged samples
+Finding integration vectors
+Finding integration vector weights
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Integrating data
+Warning: Layer counts isn't present in the assay object; returning NULL
+Warning message:
+Different cells and/or features from existing assay integrated 
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells  8454466 451.6   14115238  753.9  14115238  753.9
+Vcells 82558355 629.9  517926492 3951.5 647393172 4939.3
+Centering and scaling data matrix
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+PC_ 1 
+Positive:  Col1a2, Col1a1, Sox5, Dcn, Fn1, Col6a3, Slit2, Vcan, Postn, Col14a1 
+	   Mfap4, Adamts2, Epha3, Dlc1, St6galnac3, Nrxn3, Pbx1, Aff3, Bgn, Pde3a 
+	   Sparc, Adamtsl1, Gulp1, Gria4, Olfml3, Igfbp7, Epha7, Plagl1, Thbs2, Slit3 
+Negative:  Ttn, Tnnt1, Neb, Myl1, Tnnt2, Tnnc1, Tnni1, Acta1, Mylpf, Myh8 
+	   Tnnc2, Tnnt3, Actn2, Klhl41, Atp2a1, Actc1, Tnni2, Myl4, Art1, Myoz2 
+	   Myh3, Mybpc1, Mybph, Synpo2l, Myom3, Chrna1, Ryr1, Myog, Rbm24, Cav3 
+PC_ 2 
+Positive:  Tnnc2, Acta1, Myl1, Mylpf, Tnnc1, Hrc, Myh8, Tnnt3, Myoz2, Cacna1s 
+	   Cox6a2, Tnnt2, Myh7, Myl4, Tnni2, Lmod3, Art1, Cav3, Actn2, Smpx 
+	   Atp1a2, Pgam2, Mybph, Mb, Casq2, Tcap, Obscn, Ldb3, Csrp3, Sox5 
+Negative:  Top2a, Mki67, Birc5, Hmgb2, Diaph3, Kif11, Hist1h1b, Cenpf, Hist1h3c, Ccna2 
+	   Hmmr, Prc1, Ube2c, Kif4, Tpx2, Kif15, Racgap1, Cks2, Cdca3, Cdk1 
+	   Hist1h2ae, Aspm, Cdca8, Bub1, Incenp, H2afz, Ect2, Knl1, Nusap1, Cenpe 
+PC_ 3 
+Positive:  Notch3, Pax7, Pde1c, Pde4b, Chodl, Cdon, Map2, Trpm3, Mt2, Cav1 
+	   Zfhx4, Cp, Hmcn2, Dpysl3, Trib1, Myh11, Mast4, Rhoh, Crip2, Egr1 
+	   Junb, Ppp1r15a, Col15a1, Runx1, Rora, Gpx3, Fos, Cd44, Crip1, Slc35f1 
+Negative:  Ncam1, Dcn, Slit2, Col1a2, Lsp1, Col1a1, Dlk1, Col25a1, Tnnc2, Mylpf 
+	   Tnnt3, Mfap4, Myl1, Runx1t1, Hpse2, Meg3, Myoz2, Actn2, Col14a1, Myl4 
+	   Tnni2, Lmod3, Tnnc1, Myh8, Mybph, Acta1, Cav3, St6galnac3, Gria4, Vcan 
+PC_ 4 
+Positive:  Ptprd, Pax7, Celf2, Capn6, Chodl, Cdon, Pde1c, Cp, Tanc2, Zfhx4 
+	   Itm2a, Tnik, Nrxn3, Peg3, Gulp1, Camk1d, Hmcn2, Clcn5, Bnc2, Hs6st2 
+	   Acss3, Megf10, Trpm3, Slit2, Ifi213, Efna5, Ryr3, Prox1, Eya2, Cdh18 
+Negative:  Myh11, Cspg4, Cox4i2, Ctnna3, Ano1, Ptp4a3, Rgs5, Esam, Higd1b, Itga1 
+	   Gm13889, Mcam, Ndufa4l2, Kcnj8, Pdgfrb, Col18a1, Vtn, Rarres2, Igfbp7, Gucy1a2 
+	   Sema5b, Abcc9, Clstn2, Ifitm3, Bcam, Hrc, Tinagl1, Epas1, Tagln, Rgs7bp 
+PC_ 5 
+Positive:  Fth1, S100a6, Mif, Gadd45g, Gapdh, Tpi1, Vim, Aldoa, Mgp, Mfap4 
+	   Ifitm1, Mt1, Ier2, Lgals1, S100a10, Apoe, Hk2, Junb, Btg2, Socs3 
+	   Klf4, Dusp1, Ndufa4l2, S100a11, Fos, Actg1, Sparc, Gngt2, Rbp1, Zfp36 
+Negative:  Frmd4a, Prkg1, Nav3, Xist, Nckap5, Ext1, Adgrl3, Pbx1, Cacna2d1, Setbp1 
+	   Pdzd2, Notch3, A230057D06Rik, Maml2, Pbx3, Ptprd, Eya4, Slc8a1, Lama2, Arl15 
+	   Thsd4, Plcl1, Lhfp, Arhgap32, Fry, Gucy1a2, Kalrn, Pde1a, Malat1, Rora 
+Warning message:
+`aes_string()` was deprecated in ggplot2 3.0.0.
+i Please use tidy evaluation idioms with `aes()`.
+i See also `vignette("ggplot2-in-packages")` for more information.
+i The deprecated feature was likely used in the Seurat package.
+  Please report the issue at <https://github.com/satijalab/seurat/issues>. 
+Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric
+To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
+This message will be shown once per session
+23:33:08 UMAP embedding parameters a = 0.9922 b = 1.112
+23:33:08 Read 3113 rows and found 30 numeric columns
+23:33:08 Using Annoy for neighbor search, n_neighbors = 30
+23:33:08 Building Annoy index with metric = cosine, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+23:33:08 Writing NN index file to temp file /tmp/Rtmps0JKQd/file1630f4504c21e
+23:33:08 Searching Annoy index using 1 thread, search_k = 3000
+23:33:09 Annoy recall = 100%
+23:33:09 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+23:33:10 Initializing from normalized Laplacian + noise (using RSpectra)
+23:33:10 Commencing optimization for 500 epochs, with 124066 positive edges
+23:33:10 Using rng type: pcg
+Using method 'umap'
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+23:33:14 Optimization finished
+Computing nearest neighbor graph
+Computing SNN
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 3113
+Number of edges: 108781
+
+Running Louvain algorithm...
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Maximum modularity in 10 random starts: 0.9159
+Number of communities: 9
+Elapsed time: 0 seconds
+Centering and scaling data matrix
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+Warning: Different features in new layer data than already exists for scale.data
+Warning message:
+The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+i Please use the `linewidth` argument instead. 
+Running FindAllMarkers (cluster) ...
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   8845645  472.5   14115238  753.9  14115238  753.9
+Vcells 151286555 1154.3  265178365 2023.2 647393172 4939.3
+Calculating cluster 0
+Calculating cluster 1
+Calculating cluster 2
+Calculating cluster 3
+Calculating cluster 4
+Calculating cluster 5
+Calculating cluster 6
+Calculating cluster 7
+Calculating cluster 8
+Scale for fill is already present.
+Adding another scale for fill, which will replace the existing scale.
+Warning message:
+In DoHeatmap(...) :
+  The following features were omitted as they were not found in the scale.data slot for the RNA assay: Fgfr4, Cyp26a1, Ptprg, Sox5, Meis2, Olfr558, Gja4, Adap2, Acsm2, Camk1d, Malat1, Gm26917, Itm2a, Plagl1, Col5a1, Mfap4, Col5a2, Tgfbi, Tmsb10, Itm2b, Tmem59, Aebp1
+FeaturePlot skipped: operations are possible only for numeric, logical or complex types 
+Warning message:
+In withCallingHandlers(expr, message = function(c) if (inherits(c,  :
+  Incompatible methods ("Ops.S7_object", "&.gg") for "&"
+FeaturePlot skipped: operations are possible only for numeric, logical or complex types 
+Warning message:
+In withCallingHandlers(expr, message = function(c) if (inherits(c,  :
+  Incompatible methods ("Ops.S7_object", "&.gg") for "&"
+Warning message:
+Removed 5478 rows containing missing values or values outside the scale range
+(`geom_point()`). 
+Warning message:
+Removed 5478 rows containing missing values or values outside the scale range
+(`geom_point()`). 
+All controls+tumors outputs complete.

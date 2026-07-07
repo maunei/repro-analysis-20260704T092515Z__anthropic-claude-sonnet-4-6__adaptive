@@ -1,0 +1,164 @@
+INFO [2026-07-04 03:25:50] Parsing matrix: ../output/infer_cnv/dicer1_scrna_filter_combined_counts.matrix
+INFO [2026-07-04 03:27:13] Parsing gene order file: ../reference/gene_order.tsv
+INFO [2026-07-04 03:27:13] Parsing cell annotations file: ../output/infer_cnv/dicer1_scrna_filter_combined_infer_cnv_cells.tsv
+INFO [2026-07-04 03:27:13] ::order_reduce:Start.
+INFO [2026-07-04 03:27:14] .order_reduce(): expr and order match.
+INFO [2026-07-04 03:27:15] ::process_data:order_reduce:Reduction from positional data, new dimensions (r,c) = 32286,10081 Total=128089248 Min=0 Max=4805.
+INFO [2026-07-04 03:27:16] num genes removed taking into account provided gene ordering list: 1932 = 5.98401784055008% removed.
+INFO [2026-07-04 03:27:17] -filtering out cells < 100 or > Inf, removing 0 % of cells
+WARN [2026-07-04 03:27:19] Please use "options(scipen = 100)" before running infercnv if you are using the analysis_mode="subclusters" option or you may encounter an error while the hclust is being generated.
+INFO [2026-07-04 03:27:24] validating infercnv_obj
+INFO [2026-07-04 03:27:24] ::process_data:Start
+INFO [2026-07-04 03:27:24] Checking for saved results.
+INFO [2026-07-04 03:27:24] 
+
+	STEP 1: incoming data
+
+INFO [2026-07-04 03:28:03] 
+
+	STEP 02: Removing lowly expressed genes
+
+INFO [2026-07-04 03:28:03] ::above_min_mean_expr_cutoff:Start
+INFO [2026-07-04 03:28:04] Removing 19748 genes from matrix as below mean expr threshold: 0.1
+INFO [2026-07-04 03:28:05] validating infercnv_obj
+INFO [2026-07-04 03:28:05] There are 10606 genes and 10081 cells remaining in the expr matrix.
+INFO [2026-07-04 03:28:08] no genes removed due to min cells/gene filter
+INFO [2026-07-04 03:28:36] 
+
+	STEP 03: normalization by sequencing depth
+
+INFO [2026-07-04 03:28:36] normalizing counts matrix by depth
+INFO [2026-07-04 03:28:37] Computed total sum normalization factor as median libsize: 9143.000000
+INFO [2026-07-04 03:28:37] Adding h-spike
+INFO [2026-07-04 03:28:37] -hspike modeling of Control Immune
+INFO [2026-07-04 03:30:26] -hspike modeling of Control Fibro
+INFO [2026-07-04 03:32:12] -hspike modeling of Control Loop Henle
+INFO [2026-07-04 03:33:59] -hspike modeling of Control Collect Duct
+INFO [2026-07-04 03:35:51] -hspike modeling of Control Prox Tub
+INFO [2026-07-04 03:37:59] -hspike modeling of Control Endo
+INFO [2026-07-04 03:39:52] -hspike modeling of Control Mac Densa
+INFO [2026-07-04 03:41:53] -hspike modeling of Control Cycle
+INFO [2026-07-04 03:43:43] -hspike modeling of Control Trans Epi
+INFO [2026-07-04 03:45:37] -hspike modeling of Control Uni Fibro
+INFO [2026-07-04 03:47:48] -hspike modeling of Control Podo
+INFO [2026-07-04 03:49:37] -hspike modeling of Control Mural
+INFO [2026-07-04 03:51:24] validating infercnv_obj
+INFO [2026-07-04 03:51:24] normalizing counts matrix by depth
+INFO [2026-07-04 03:51:24] Using specified normalization factor: 9143.000000
+INFO [2026-07-04 03:52:07] 
+
+	STEP 04: log transformation of data
+
+INFO [2026-07-04 03:52:07] transforming log2xplus1()
+INFO [2026-07-04 03:52:09] -mirroring for hspike
+INFO [2026-07-04 03:52:09] transforming log2xplus1()
+INFO [2026-07-04 03:52:48] 
+
+	STEP 08: removing average of reference data (before smoothing)
+
+INFO [2026-07-04 03:52:48] ::subtract_ref_expr_from_obs:Start inv_log=FALSE, use_bounds=TRUE
+INFO [2026-07-04 03:52:48] subtracting mean(normal) per gene per cell across all data
+INFO [2026-07-04 03:52:56] -subtracting expr per gene, use_bounds=TRUE
+INFO [2026-07-04 03:53:03] -mirroring for hspike
+INFO [2026-07-04 03:53:03] ::subtract_ref_expr_from_obs:Start inv_log=FALSE, use_bounds=TRUE
+INFO [2026-07-04 03:53:03] subtracting mean(normal) per gene per cell across all data
+INFO [2026-07-04 03:53:09] -subtracting expr per gene, use_bounds=TRUE
+INFO [2026-07-04 03:54:09] 
+
+	STEP 09: apply max centered expression threshold: 3
+
+INFO [2026-07-04 03:54:09] ::process_data:setting max centered expr, threshold set to: +/-:  3
+INFO [2026-07-04 03:54:11] -mirroring for hspike
+INFO [2026-07-04 03:54:11] ::process_data:setting max centered expr, threshold set to: +/-:  3
+INFO [2026-07-04 03:55:05] 
+
+	STEP 10: Smoothing data per cell by chromosome
+
+INFO [2026-07-04 03:55:05] smooth_by_chromosome: chr: chr1
+INFO [2026-07-04 03:55:15] smooth_by_chromosome: chr: chr2
+INFO [2026-07-04 03:55:25] smooth_by_chromosome: chr: chr3
+INFO [2026-07-04 03:55:34] smooth_by_chromosome: chr: chr4
+INFO [2026-07-04 03:55:44] smooth_by_chromosome: chr: chr5
+INFO [2026-07-04 03:55:54] smooth_by_chromosome: chr: chr6
+INFO [2026-07-04 03:56:03] smooth_by_chromosome: chr: chr7
+INFO [2026-07-04 03:56:13] smooth_by_chromosome: chr: chr10
+INFO [2026-07-04 03:56:22] smooth_by_chromosome: chr: chr8
+INFO [2026-07-04 03:56:32] smooth_by_chromosome: chr: chr14
+INFO [2026-07-04 03:56:40] smooth_by_chromosome: chr: chr9
+INFO [2026-07-04 03:56:50] smooth_by_chromosome: chr: chr11
+INFO [2026-07-04 03:57:01] smooth_by_chromosome: chr: chr13
+INFO [2026-07-04 03:57:09] smooth_by_chromosome: chr: chr12
+INFO [2026-07-04 03:57:18] smooth_by_chromosome: chr: chr15
+INFO [2026-07-04 03:57:26] smooth_by_chromosome: chr: chr16
+INFO [2026-07-04 03:57:34] smooth_by_chromosome: chr: chr17
+INFO [2026-07-04 03:57:43] smooth_by_chromosome: chr: chr18
+INFO [2026-07-04 03:57:51] smooth_by_chromosome: chr: chr19
+INFO [2026-07-04 03:57:59] -mirroring for hspike
+INFO [2026-07-04 03:57:59] smooth_by_chromosome: chr: chrA
+INFO [2026-07-04 03:58:01] smooth_by_chromosome: chr: chr_0
+INFO [2026-07-04 03:58:03] smooth_by_chromosome: chr: chr_B
+INFO [2026-07-04 03:58:05] smooth_by_chromosome: chr: chr_0pt5
+INFO [2026-07-04 03:58:07] smooth_by_chromosome: chr: chr_C
+INFO [2026-07-04 03:58:09] smooth_by_chromosome: chr: chr_1pt5
+INFO [2026-07-04 03:58:11] smooth_by_chromosome: chr: chr_D
+INFO [2026-07-04 03:58:12] smooth_by_chromosome: chr: chr_2pt0
+INFO [2026-07-04 03:58:14] smooth_by_chromosome: chr: chr_E
+INFO [2026-07-04 03:58:16] smooth_by_chromosome: chr: chr_3pt0
+INFO [2026-07-04 03:58:18] smooth_by_chromosome: chr: chr_F
+INFO [2026-07-04 03:59:26] 
+
+	STEP 11: re-centering data across chromosome after smoothing
+
+INFO [2026-07-04 03:59:26] ::center_smooth across chromosomes per cell
+INFO [2026-07-04 03:59:39] -mirroring for hspike
+INFO [2026-07-04 03:59:39] ::center_smooth across chromosomes per cell
+INFO [2026-07-04 04:00:43] 
+
+	STEP 12: removing average of reference data (after smoothing)
+
+INFO [2026-07-04 04:00:43] ::subtract_ref_expr_from_obs:Start inv_log=FALSE, use_bounds=TRUE
+INFO [2026-07-04 04:00:43] subtracting mean(normal) per gene per cell across all data
+INFO [2026-07-04 04:00:51] -subtracting expr per gene, use_bounds=TRUE
+INFO [2026-07-04 04:00:58] -mirroring for hspike
+INFO [2026-07-04 04:00:58] ::subtract_ref_expr_from_obs:Start inv_log=FALSE, use_bounds=TRUE
+INFO [2026-07-04 04:00:58] subtracting mean(normal) per gene per cell across all data
+INFO [2026-07-04 04:01:04] -subtracting expr per gene, use_bounds=TRUE
+INFO [2026-07-04 04:01:51] 
+
+	STEP 14: invert log2(FC) to FC
+
+INFO [2026-07-04 04:01:51] invert_log2(), computing 2^x
+INFO [2026-07-04 04:01:53] -mirroring for hspike
+INFO [2026-07-04 04:01:53] invert_log2(), computing 2^x
+INFO [2026-07-04 04:02:45] 
+
+	STEP 15: computing tumor subclusters via leiden
+
+INFO [2026-07-04 04:02:45] define_signif_tumor_subclusters(p_val=0.1
+INFO [2026-07-04 04:02:49] define_signif_tumor_subclusters(), tumor: Control NA
+Warning: Data is of class matrix. Coercing to dgCMatrix.
+Finding variable features for layer counts
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Warning: No layers found matching search pattern provided
+Error in `ScaleData()`:
+! No layer matching pattern 'data' found. Please run NormalizeData and retry
+Backtrace:
+    x
+ 1. \-infercnv::run(...)
+ 2.   \-infercnv:::define_signif_tumor_subclusters(...)
+ 3.     \-infercnv:::.single_tumor_leiden_subclustering(...)
+ 4.       \-infercnv:::.leiden_seurat_preprocess_routine(...)
+ 5.         +-Seurat::ScaleData(seurat_obs, features = all.genes)
+ 6.         \-Seurat:::ScaleData.Seurat(seurat_obs, features = all.genes)
+ 7.           +-Seurat::ScaleData(...)
+ 8.           \-Seurat:::ScaleData.StdAssay(...)
+ 9.             \-rlang::abort(paste0("No layer matching pattern '", olayer, "' found. Please run NormalizeData and retry"))
+Execution halted
+EXIT:0

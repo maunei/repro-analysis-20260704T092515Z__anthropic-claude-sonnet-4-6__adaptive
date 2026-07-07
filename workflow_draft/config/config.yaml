@@ -1,0 +1,78 @@
+# config.yaml — Snakemake configuration for DICER1 sarcoma reproducibility workflow
+# Paper: Spatial single-cell transcriptomic analysis informs tumor developmental hierarchy
+#        of DICER1 syndrome-related sarcoma (2026)
+
+# ── Runtime paths ─────────────────────────────────────────────────────────────
+# R 4.2.2 runtime (primary: Seurat, DropletUtils, decoupleR, inferCNV, etc.)
+rscript_a: "/home/node/MAURICIO/papers/653_Spatial_single_cell_transcriptomic_analysis_informs_tumor_developmental_hierarchy_of_DICER1_syndrome_related_sarcoma_2026/653_renv/rscript_with_path.sh"
+
+# R 4.5.3 runtime (monocle3, SeuratWrappers, Banksy)
+rscript_b: "/home/node/MAURICIO/papers/653_Spatial_single_cell_transcriptomic_analysis_informs_tumor_developmental_hierarchy_of_DICER1_syndrome_related_sarcoma_2026/653_renv2/rscript_with_path.sh"
+
+# Patched script directory
+patch_dir: "/home/node/MAURICIO/papers/653_Spatial_single_cell_transcriptomic_analysis_informs_tumor_developmental_hierarchy_of_DICER1_syndrome_related_sarcoma_2026/REPRODUCIBILITY_ANALYSIS/20260704T092515Z__anthropic-claude-sonnet-4-6__adaptive/workflow_draft/scripts/patched"
+
+# Cloned repository root
+repo_dir: "/home/node/MAURICIO/papers/653_Spatial_single_cell_transcriptomic_analysis_informs_tumor_developmental_hierarchy_of_DICER1_syndrome_related_sarcoma_2026/REPRODUCIBILITY_ANALYSIS/20260704T092515Z__anthropic-claude-sonnet-4-6__adaptive/workflow_draft/repos/dicer1-cell-of-origin"
+
+# ── Sample lists ──────────────────────────────────────────────────────────────
+# 10X Cell Ranger output directories (GSE288990 — 8 samples, 6 Dicer1 CH + 2 Control)
+px_samples:
+  - PX3085_GTGGATCAAA-CAGGGTTGGC   # Control 6mo
+  - PX3086_AAGGGCCGCA-GAGGAATCAG   # Dicer1 CH 15mo
+  - PX3085_TTAATACGCG-ACCCGAGGTG   # Dicer1 CH 13mo
+  - PX3085_CATGTGGGTT-TAAAGGAATC   # Dicer1 CH 8mo
+  - PX2755_ACAGTAACTA-AACGAACTGT   # Dicer1 CH 9mo
+  - PX2755_TGCAATGTTC-TTCGACAAGC   # Dicer1 CH 13mo
+  - PX3217_CACTACGAAA-ATCAGTCTAA   # Control 1mo
+  - PX3364_GAGAGGATAT-CCCATTTCAA   # Control 1mo
+
+# Salmon quant.sf sample IDs (GSE309820 — 12 samples: 6 DMEM + 6 MesenCult conditions)
+bulk_samples:
+  - HDT450_KO_D1
+  - HDT450_KO_D2
+  - HDT450_KO_D3
+  - HDT450_WT_D1
+  - HDT450_WT_D2
+  - HDT450_WT_D3
+  - HDT450_KO_M1
+  - HDT450_KO_M2
+  - HDT450_KO_M3
+  - HDT450_WT_M1
+  - HDT450_WT_M2
+  - HDT450_WT_M3
+
+# ── Analysis parameters (ASSUMED DEFAULTS — replace with author values if known) ──
+# scRNA-seq QC thresholds
+qc:
+  mito_threshold_pct: 20         # ASSUMED: standard threshold; paper states "mitochondrial fraction < 20%"
+  ribo_threshold_pct: 50         # ASSUMED: standard threshold
+  min_umi: 500                   # ASSUMED: standard minimum; inferred from methods
+  tomato_min_count: 1            # ASSUMED: "tdTomato-positive" = ≥1 count
+
+# Seurat integration
+integration:
+  nfeatures: 2000                # From code
+  dims_full: 30                  # From code
+  dims_mesenchymal: 20           # From code (fewer dims after filtering)
+  resolution_full: 0.6           # From code
+  resolution_mesenchymal: 0.2    # From code
+  k_weight_controls: 50          # PATCHED: was 80, but anchor count <68
+  k_weight_tumors: 25            # From code (original; anchor count not exceeded)
+  k_weight_combined: 50          # From code
+
+# Trajectory
+trajectory:
+  monocle_min_branch_len: 15     # From code
+  root_selection: "nearest_progen_centroid"  # ASSUMED: nearest UMAP principal node to Progen centroid
+
+# Pathway analysis
+pathway:
+  progeny_top: 500               # From code
+  organism: "mouse"              # From code
+
+# Bulk RNA-seq
+bulk_rna:
+  design_formula: "~ Genotype"   # From code (DESeq2 design)
+  contrast: ["Genotype", "KO", "WT"]  # From code
+  msigdb_species: "Mus musculus"  # Corrected from DB_SPECIES="MM" (msigdbr 7.5.1 API change)

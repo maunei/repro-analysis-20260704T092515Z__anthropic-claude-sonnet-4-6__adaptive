@@ -1,0 +1,11 @@
+ARGUMENT '",~+~row.names~+~=~+~FALSE,~+~col.names~+~=~+~FALSE,~+~quote~+~=~+~FALSE)~n~~+~~+~cat("Written",~+~nrow(valid),~+~"genes~+~to~+~gene_order.tsv~n~")~n~}~+~else~+~{~n~~+~~+~cat("All~+~biomaRt~+~mirrors~+~failed~n~")~n~}~n~' __ignored__
+
+Trying USA West mirror...
+USA West failed: Service Unavailable (HTTP 503). 
+Warning messages:
+1: Ensembl will soon enforce the use of https.
+Ensure the 'host' argument includes "https://" 
+2: Ensembl will soon enforce the use of https.
+Ensure the 'host' argument includes "https://" 
+Error: unexpected end of input
+Execution halted

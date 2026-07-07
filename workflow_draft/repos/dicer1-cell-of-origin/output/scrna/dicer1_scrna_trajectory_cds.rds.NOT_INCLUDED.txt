@@ -1,0 +1,8 @@
+Ghost placeholder for a file not included in the public repository.
+
+Original path: ./workflow_draft/repos/dicer1-cell-of-origin/output/scrna/dicer1_scrna_trajectory_cds.rds
+Original filename: dicer1_scrna_trajectory_cds.rds
+Original size bytes: 20195472
+Reason: R serialized data object excluded from public skeleton
+
+This placeholder preserves the analysis directory structure without sharing the actual file.

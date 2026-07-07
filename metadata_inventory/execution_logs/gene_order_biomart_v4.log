@@ -1,0 +1,30 @@
+Connecting to useast.ensembl.org...
+Connected.
+Fetching gene coordinates (mm10 GRCm38)...
+Error in `collect()`:
+! Failed to collect lazy table.
+Caused by error in `db_collect()`:
+! Arguments in `...` must be used.
+x Problematic argument:
+* ..1 = Inf
+i Did you misspell an argument name?
+Backtrace:
+     x
+  1. +-biomaRt::getBM(...)
+  2. | \-BiocFileCache::BiocFileCache(cache, ask = FALSE)
+  3. |   \-BiocFileCache:::.sql_create_db(bfc)
+  4. |     \-BiocFileCache:::.sql_validate_version(bfc)
+  5. |       \-BiocFileCache:::.sql_schema_version(bfc)
+  6. |         +-base::tryCatch(...)
+  7. |         | \-base (local) tryCatchList(expr, classes, parentenv, handlers)
+  8. |         \-tbl(src, "metadata") %>% collect(Inf)
+  9. +-dplyr::collect(., Inf)
+ 10. \-dbplyr:::collect.tbl_sql(., Inf)
+ 11.   +-base::withCallingHandlers(...)
+ 12.   \-dbplyr::db_collect(x$src$con, sql, n = n, warn_incomplete = warn_incomplete, ...)
+ 13.     \-rlang (local) `<fn>`()
+ 14.       \-rlang:::check_dots(env, error, action, call) at rlang/R/dots-ellipsis.R:65:3
+ 15.         \-rlang:::action_dots(...) at rlang/R/dots-ellipsis.R:78:3
+ 16.           +-base (local) try_dots(...) at rlang/R/dots-ellipsis.R:271:3
+ 17.           \-rlang (local) action(...) at rlang/R/dots-ellipsis.R:271:3
+Execution halted

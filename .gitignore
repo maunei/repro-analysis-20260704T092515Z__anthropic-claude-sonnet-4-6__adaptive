@@ -1,0 +1,36 @@
+# Private notes
+my_notes_post_analysis/
+
+# Generated public copy, in case nested accidentally
+.github_public_skeleton/
+
+# Git/Jupyter/Snakemake runtime noise
+.git/
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.snakemake/
+*/.snakemake/
+
+# Large data / generated binary objects
+*.rds
+*.RDS
+*.gz
+*.tar
+*.zip
+*.h5
+*.h5ad
+*.bam
+*.bai
+*.fastq
+*.fq
+*.mtx
+*.matrix
+*.infercnv_obj
+*.mcmc_obj
+
+# Salmon outputs ghosted by policy
+quant.sf
+
+# OS/editor noise
+.DS_Store
+*~

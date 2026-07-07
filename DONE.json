@@ -1,0 +1,16 @@
+{
+  "analysis_dir": "/home/mneira/MAURICIO/papers/653_Spatial_single_cell_transcriptomic_analysis_informs_tumor_developmental_hierarchy_of_DICER1_syndrome_related_sarcoma_2026/REPRODUCIBILITY_ANALYSIS/20260704T092515Z__anthropic-claude-sonnet-4-6__adaptive",
+  "analysis_dir_exists": true,
+  "analysis_id": "20260704T092515Z__anthropic-claude-sonnet-4-6__adaptive",
+  "finished_at": "2026-07-04T10:23:03.315692Z",
+  "group_id": "653_Spatial_single_cell_transcriptomic_analysis_informs_tumor_developmental_hierarchy_of_DICER1_syndrome_related_sarcoma_2026",
+  "message": null,
+  "mtime": 1783158105.88107,
+  "progress_exists": true,
+  "progress_log": "/home/mneira/MAURICIO/papers/653_Spatial_single_cell_transcriptomic_analysis_informs_tumor_developmental_hierarchy_of_DICER1_syndrome_related_sarcoma_2026/REPRODUCIBILITY_ANALYSIS/20260704T092515Z__anthropic-claude-sonnet-4-6__adaptive/agent_progress.log",
+  "report_exists": true,
+  "report_path": "/home/mneira/MAURICIO/papers/653_Spatial_single_cell_transcriptomic_analysis_informs_tumor_developmental_hierarchy_of_DICER1_syndrome_related_sarcoma_2026/REPRODUCIBILITY_ANALYSIS/20260704T092515Z__anthropic-claude-sonnet-4-6__adaptive/reports/01_replication_feasibility_assessment.md",
+  "size": 31246,
+  "started_at": "2026-07-04T09:25:15.045280Z",
+  "status": "done"
+}

@@ -1,0 +1,204 @@
+"""
+Snakemake workflow for: Spatial single-cell transcriptomic analysis informs tumor
+developmental hierarchy of DICER1 syndrome-related sarcoma (2026).
+Repository: https://github.com/PhanstielLab/dicer1-cell-of-origin
+"""
+
+configfile: "config/config.yaml"
+
+RSCRIPT_A = config["rscript_a"]  # 653_renv (R 4.2.2)
+RSCRIPT_B = config["rscript_b"]  # 653_renv2 (R 4.5.3)
+PATCH_DIR = config["patch_dir"]
+REPO = config["repo_dir"]
+CODE = REPO + "/code"
+OUTPUT = REPO + "/output"
+
+
+rule all:
+    input:
+        # Step 1: QC
+        OUTPUT + "/scrna/dicer1_scrna_sce_qc.rds",
+        # Step 2a/2b: Integration
+        OUTPUT + "/scrna/dicer1_scrna_unfilter_control.rds",
+        OUTPUT + "/scrna/dicer1_scrna_filter_control.rds",
+        OUTPUT + "/scrna/dicer1_scrna_unfilter_tumor.rds",
+        OUTPUT + "/scrna/dicer1_scrna_filter_tumor.rds",
+        # Step 3: Parallel analyses
+        OUTPUT + "/tables/dicer1_rna_dmem_de_mut_vs_wt.csv",
+        OUTPUT + "/scrna/dicer1_scrna_filter_control_and_tumor.rds",
+        OUTPUT + "/scrna/dicer1_scrna_trajectory_cds.rds",
+        OUTPUT + "/tables/dicer1_scrna_filter_tumor_pathway_activity.csv",
+        # Step 4: inferCNV prep
+        OUTPUT + "/infer_cnv/dicer1_scrna_filter_combined_counts.matrix",
+
+
+rule scrna_qc:
+    """QC of scRNA-seq data using DropletUtils → SingleCellExperiment."""
+    input:
+        sce_qc_rds = expand(REPO + "/data/{sample}/barcodes.tsv.gz",
+                            sample=config["px_samples"]),
+        metadata = REPO + "/metadata/dicer1_scrna_sample_metadata.csv",
+    output:
+        OUTPUT + "/scrna/dicer1_scrna_sce_qc.rds",
+    shell:
+        """
+        cd {CODE} && {RSCRIPT_A} {CODE}/dicer1_scrna_qc.R
+        """
+
+
+rule scrna_controls:
+    """Seurat integration of control samples; cell-type annotation; marker genes."""
+    input:
+        sce_qc = OUTPUT + "/scrna/dicer1_scrna_sce_qc.rds",
+        kidney_markers = REPO + "/reference/cell_type_markers_mus_musculus_kidney.yaml",
+        mes_markers = REPO + "/reference/cell_type_markers_mus_musculus_mesenchymal.yaml",
+    output:
+        unfilter = OUTPUT + "/scrna/dicer1_scrna_unfilter_control.rds",
+        filtered = OUTPUT + "/scrna/dicer1_scrna_filter_control.rds",
+    shell:
+        """
+        cd {CODE} && {RSCRIPT_A} {PATCH_DIR}/dicer1_scrna_controls_patched.R
+        """
+
+
+rule scrna_tumors_unfiltered:
+    """Seurat integration of Dicer1 CH tumor samples (unfiltered)."""
+    input:
+        sce_qc = OUTPUT + "/scrna/dicer1_scrna_sce_qc.rds",
+    output:
+        OUTPUT + "/scrna/dicer1_scrna_unfilter_tumor.rds",
+    shell:
+        """
+        cd {CODE} && {RSCRIPT_A} {PATCH_DIR}/dicer1_scrna_tumors_patched.R
+        """
+
+
+rule scrna_tumors_filtered:
+    """Mesenchymal subset re-integration of tumor samples; cell-type annotation; marker genes.
+    Run as a separate rule (split from tumors_unfiltered) to avoid OOM — the unfiltered
+    528 MB object is freed before re-integration."""
+    input:
+        unfilter = OUTPUT + "/scrna/dicer1_scrna_unfilter_tumor.rds",
+        kidney_markers = REPO + "/reference/cell_type_markers_mus_musculus_kidney.yaml",
+        mes_markers = REPO + "/reference/cell_type_markers_mus_musculus_mesenchymal.yaml",
+    output:
+        OUTPUT + "/scrna/dicer1_scrna_filter_tumor.rds",
+    shell:
+        """
+        cd {CODE} && {RSCRIPT_A} {PATCH_DIR}/dicer1_scrna_tumors_filter_only_patched.R
+        """
+
+
+rule bulk_rna:
+    """Bulk RNA-seq DE analysis with DESeq2; GSEA with fgsea; ORA with clusterProfiler.
+    Uses Salmon quant.sf files from GSE309820."""
+    input:
+        tx2gene = REPO + "/data/star_salmon/tx2gene.tsv",
+        quant_files = expand(REPO + "/data/star_salmon/{sample}/quant.sf",
+                             sample=config["bulk_samples"]),
+        metadata = REPO + "/metadata/dicer1_rna_sample_metadata.csv",
+    output:
+        OUTPUT + "/tables/dicer1_rna_dmem_de_mut_vs_wt.csv",
+        OUTPUT + "/tables/dicer1_rna_mesencult_de_mut_vs_wt.csv",
+        OUTPUT + "/tables/dicer1_rna_norm_counts_no_log.csv",
+    shell:
+        """
+        cd {CODE} && {RSCRIPT_A} {PATCH_DIR}/dicer1_rna_patched.R
+        """
+
+
+rule scrna_controls_and_tumors:
+    """Joint integration of control + tumor mesenchymal cells for comparative UMAP."""
+    input:
+        control = OUTPUT + "/scrna/dicer1_scrna_filter_control.rds",
+        tumor   = OUTPUT + "/scrna/dicer1_scrna_filter_tumor.rds",
+    output:
+        OUTPUT + "/scrna/dicer1_scrna_filter_control_and_tumor.rds",
+    shell:
+        """
+        cd {CODE} && {RSCRIPT_A} {PATCH_DIR}/dicer1_scrna_controls_and_tumors_patched.R
+        """
+
+
+rule scrna_trajectory:
+    """Monocle3 pseudotime trajectory on tumor mesenchymal cells.
+    Uses 653_renv2 (R 4.5.3) for monocle3/SeuratWrappers.
+    NOTE: Branch-specific trajectories (choose_graph_segments) require interactive
+    Shiny input and are replaced with blank placeholder plots in this automated run."""
+    input:
+        OUTPUT + "/scrna/dicer1_scrna_filter_tumor.rds",
+    output:
+        OUTPUT + "/scrna/dicer1_scrna_trajectory_cds.rds",
+        OUTPUT + "/plots/dicer1_scrna_filter_tumor_trajectory_pseudotime.png",
+    shell:
+        """
+        cd {CODE} && {RSCRIPT_B} {PATCH_DIR}/dicer1_scrna_trajectory_patched.R
+        """
+
+
+rule scrna_pathway_analysis:
+    """PROGENy pathway activity inference with decoupleR MLM per cell type."""
+    input:
+        OUTPUT + "/scrna/dicer1_scrna_filter_tumor.rds",
+    output:
+        OUTPUT + "/tables/dicer1_scrna_filter_tumor_pathway_activity.csv",
+        OUTPUT + "/plots/dicer1_scrna_filter_tumor_pathway_heatmap.png",
+    shell:
+        """
+        cd {CODE} && {RSCRIPT_A} {PATCH_DIR}/dicer1_scrna_run_pathway_analysis_patched.R
+        """
+
+
+rule scrna_export_infercnv:
+    """Export counts matrices and cell annotation files required for inferCNV.
+    NOTE: seurat_filter_tumor_indiv (undefined in author script) removed."""
+    input:
+        control = OUTPUT + "/scrna/dicer1_scrna_unfilter_control.rds",
+        tumor   = OUTPUT + "/scrna/dicer1_scrna_unfilter_tumor.rds",
+        filter  = OUTPUT + "/scrna/dicer1_scrna_filter_tumor.rds",
+        features = REPO + "/data/PX3085_TTAATACGCG-ACCCGAGGTG/PX3085_TTAATACGCG-ACCCGAGGTG_features.tsv.gz",
+    output:
+        OUTPUT + "/infer_cnv/dicer1_scrna_filter_combined_counts.matrix",
+        OUTPUT + "/infer_cnv/dicer1_scrna_filter_combined_infer_cnv_cells.tsv",
+        OUTPUT + "/infer_cnv/dicer1_scrna_filter_combined_infercnv.rds",
+    shell:
+        """
+        cd {CODE} && {RSCRIPT_A} {PATCH_DIR}/dicer1_scrna_export_infer_cnv_patched.R
+        """
+
+
+rule scrna_run_infercnv:
+    """Run inferCNV on combined control+tumor filter matrix.
+    Requires reference/gene_order.tsv (generated via biomaRt from mm10 Ensembl).
+    Estimated runtime: 2–6 hours depending on cell count."""
+    input:
+        matrix = OUTPUT + "/infer_cnv/dicer1_scrna_filter_combined_counts.matrix",
+        annots = OUTPUT + "/infer_cnv/dicer1_scrna_filter_combined_infer_cnv_cells.tsv",
+        gene_order = REPO + "/reference/gene_order.tsv",
+    output:
+        directory(OUTPUT + "/infer_cnv/combined_filter"),
+    shell:
+        """
+        cd {CODE} && {RSCRIPT_A} {CODE}/dicer1_scrna_run_infer_cnv.R
+        """
+
+
+rule scrna_add_infercnv_seurat:
+    """Add inferCNV per-cell CNV scores back to Seurat object for visualization.
+    Blocked until scrna_run_infercnv completes."""
+    input:
+        infercnv_rds = OUTPUT + "/infer_cnv/dicer1_scrna_filter_combined_infercnv_metadata.rds",
+        filter_tumor = OUTPUT + "/scrna/dicer1_scrna_filter_tumor.rds",
+        normal = OUTPUT + "/scrna/dicer1_scrna_unfilter_control.rds",
+    output:
+        OUTPUT + "/infer_cnv/dicer1_scrna_filter_tumor_infercnv.svg",
+    shell:
+        """
+        cd {CODE} && {RSCRIPT_A} {CODE}/dicer1_scrna_add_infer_cnv_seurat.R
+        """
+
+
+# BLOCKED rules — data not deposited in any public repository
+# rule xenium_mouse:  # dicer1_xenium_proseg_mus_musculus.R — GSE289001 Xenium RDS not deposited
+# rule xenium_human:  # dicer1_xenium_proseg_homo_sapiens.R — human Xenium RDS not deposited
+# rule swgs_cnv:      # dicer1_swgs.R — sWGS segmented CNV RDS not deposited

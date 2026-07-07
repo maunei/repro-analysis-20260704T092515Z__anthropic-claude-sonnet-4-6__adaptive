@@ -1,0 +1,45 @@
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'patchwork' was built under R version 4.2.3 
+Master metadata loaded: 35 samples
+  Mouse.ID                                          Genotype Gender PNW
+1   HDT296 Hic1-CreERT2+/+;Dicer1 fl/fl-D1693N;tdtomato fl/+      F  81
+2   HDT298 Hic1-CreERT2+/+;Dicer1 fl/fl-D1693N;tdtomato fl/+      F  81
+3   HDT339 Hic1-CreERT2+/+;Dicer1 fl/fl-D1693N;tdtomato fl/+      M  66
+4   HDT339 Hic1-CreERT2+/+;Dicer1 fl/fl-D1693N;tdtomato fl/+      M  66
+5   HDT344 Hic1-CreERT2+/+;Dicer1 fl/fl-D1693N;tdtomato fl/+      F  66
+6   HDT348 Hic1-CreERT2+/+;Dicer1 fl/fl-D1693N;tdtomato fl/+      M  62
+  Days.after.tamoxifen.injection             sample_id   core_id Histotype
+1                            533 HDT296_kidney_1_tumor HDT296_48 LGMT-like
+2                            533 HDT298_kidney_1_tumor HDT298_16 LGMT-like
+3                            444 HDT339_kidney_2_tumor    HDT339 LGMT-like
+4                            444 HDT339_kidney_1_tumor HDT339_20 LGMT-like
+5                            444 HDT344_kidney_1_tumor HDT344_52 LGMT-like
+6                            414 HDT348_kidney_1_tumor HDT348_15 LGMT-like
+  Cambium.layer Rhabdomyoblasts Anaplasia Necrosis Trp53 Kras Hras Nras
+1           yes              no        no       no    Wt   Wt   Wt   Wt
+2            no              no        no       no    Wt   Wt   Wt   Wt
+3           yes              no        no       no    Wt   Wt   Wt   Wt
+4           yes              no        no       no    Wt   Wt   Wt   Wt
+5           yes              no        no       no    Wt   Wt   Wt   Wt
+6            no              no        no       no    Wt   Wt   Wt   Wt
+    Dicer1 Kras.qPCR Kras.FISH
+1 Missense        NA   Unknown
+2 Missense        NA   Unknown
+3 Missense        NA   Unknown
+4 Missense        NA   Unknown
+5 Missense        NA   Unknown
+6 Missense        NA   Unknown
+Metadata plots saved.
+NOTE: CN plots (chr1/chr6) BLOCKED — dicer1_swgs_50kb_noXY_copyNumbersSegmented_filtered_called.rds
+      is not publicly available on GEO. Raw data (PRJNA1221971) requires QDNAseq preprocessing.

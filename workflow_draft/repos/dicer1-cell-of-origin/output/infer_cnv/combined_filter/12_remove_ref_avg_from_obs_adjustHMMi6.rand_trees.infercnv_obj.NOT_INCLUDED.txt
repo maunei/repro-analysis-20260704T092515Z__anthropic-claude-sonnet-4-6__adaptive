@@ -1,0 +1,8 @@
+Ghost placeholder for a file not included in the public repository.
+
+Original path: ./workflow_draft/repos/dicer1-cell-of-origin/output/infer_cnv/combined_filter/12_remove_ref_avg_from_obs_adjustHMMi6.rand_trees.infercnv_obj
+Original filename: 12_remove_ref_avg_from_obs_adjustHMMi6.rand_trees.infercnv_obj
+Original size bytes: 278142109
+Reason: large inferCNV generated object excluded from public skeleton
+
+This placeholder preserves the analysis directory structure without sharing the actual file.

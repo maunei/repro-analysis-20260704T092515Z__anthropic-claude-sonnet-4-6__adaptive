@@ -1,0 +1,49 @@
+Loading required package: SeuratObject
+Loading required package: sp
+
+Attaching package: 'SeuratObject'
+
+The following objects are masked from 'package:base':
+
+    intersect, t
+
+Warning messages:
+1: package 'Seurat' was built under R version 4.2.3 
+2: package 'SeuratObject' was built under R version 4.2.3 
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'Matrix' was built under R version 4.2.3 
+Loading control (unfilter) object...
+Control cells: 7598 
+Loading filter_tumor object...
+Tumor cells: 2483 
+Extracting sparse count matrices...
+Valid gene mappings: 32286 
+Combining control + filter_tumor matrices (sparse)...
+Combined matrix dims: 32286 x 10081 
+Writing filter_combined counts matrix (dense text format)...
+Expected file size: ~ 1.63 GB
+Progress: 1 / 32286 genes
+Progress: 5001 / 32286 genes
+Progress: 10001 / 32286 genes
+Progress: 15001 / 32286 genes
+Progress: 20001 / 32286 genes
+Progress: 25001 / 32286 genes
+Progress: 30001 / 32286 genes
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   3651421  195.1    6554407  350.1   4967952  265.4
+Vcells 223636149 1706.3  473143512 3609.8 467158644 3564.2
+Filter combined matrix written.
+Cell annotation table written.
+inferCNV filter-combined export complete.
+EXIT:0

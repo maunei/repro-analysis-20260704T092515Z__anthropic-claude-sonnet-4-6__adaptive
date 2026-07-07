@@ -1,0 +1,8 @@
+Ghost placeholder for a file not included in the public repository.
+
+Original path: ./workflow_draft/repos/dicer1-cell-of-origin/data/GSM9282607_hdt1119_cell_p27_mesencult_quant.sf.gz
+Original filename: GSM9282607_hdt1119_cell_p27_mesencult_quant.sf.gz
+Original size bytes: 1758719
+Reason: compressed raw/generated data excluded from public skeleton
+
+This placeholder preserves the analysis directory structure without sharing the actual file.

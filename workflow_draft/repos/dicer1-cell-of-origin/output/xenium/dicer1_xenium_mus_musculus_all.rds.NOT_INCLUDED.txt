@@ -1,0 +1,8 @@
+Ghost placeholder for a file not included in the public repository.
+
+Original path: ./workflow_draft/repos/dicer1-cell-of-origin/output/xenium/dicer1_xenium_mus_musculus_all.rds
+Original filename: dicer1_xenium_mus_musculus_all.rds
+Original size bytes: 2262372513
+Reason: R serialized data object excluded from public skeleton
+
+This placeholder preserves the analysis directory structure without sharing the actual file.

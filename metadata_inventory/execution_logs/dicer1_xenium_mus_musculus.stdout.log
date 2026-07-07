@@ -1,0 +1,326 @@
+Loading required package: SeuratObject
+Loading required package: sp
+
+Attaching package: 'SeuratObject'
+
+The following objects are masked from 'package:base':
+
+    intersect, t
+
+-- Attaching core tidyverse packages ------------------------ tidyverse 2.0.0 --
+v dplyr     1.2.1     v readr     2.2.0
+v forcats   1.0.1     v stringr   1.6.0
+v ggplot2   4.0.3     v tibble    3.3.1
+v lubridate 1.9.5     v tidyr     1.3.2
+v purrr     1.2.2     
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+i Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+DESeq2 not installed (not used): there is no package called 'DESeq2' 
+Loading required package: Biobase
+Loading required package: BiocGenerics
+Loading required package: generics
+
+Attaching package: 'generics'
+
+The following object is masked from 'package:lubridate':
+
+    as.difftime
+
+The following object is masked from 'package:dplyr':
+
+    explain
+
+The following objects are masked from 'package:base':
+
+    as.difftime, as.factor, as.ordered, intersect, is.element, setdiff,
+    setequal, union
+
+
+Attaching package: 'BiocGenerics'
+
+The following object is masked from 'package:BPCells':
+
+    as.data.frame
+
+The following object is masked from 'package:dplyr':
+
+    combine
+
+The following objects are masked from 'package:stats':
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from 'package:base':
+
+    Filter, Find, Map, Position, Reduce, anyDuplicated, aperm, append,
+    as.data.frame, basename, cbind, colnames, dirname, do.call,
+    duplicated, eval, evalq, get, grep, grepl, is.unsorted, lapply,
+    mapply, match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    rank, rbind, rownames, sapply, saveRDS, table, tapply, unique,
+    unsplit, which.max, which.min
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: SingleCellExperiment
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: 'matrixStats'
+
+The following objects are masked from 'package:Biobase':
+
+    anyMissing, rowMedians
+
+The following objects are masked from 'package:BPCells':
+
+    colMaxs, colQuantiles, colVars, rowMaxs, rowQuantiles, rowVars
+
+The following object is masked from 'package:dplyr':
+
+    count
+
+
+Attaching package: 'MatrixGenerics'
+
+The following objects are masked from 'package:matrixStats':
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+The following object is masked from 'package:Biobase':
+
+    rowMedians
+
+Loading required package: GenomicRanges
+Loading required package: stats4
+Loading required package: S4Vectors
+
+Attaching package: 'S4Vectors'
+
+The following objects are masked from 'package:lubridate':
+
+    second, second<-
+
+The following objects are masked from 'package:dplyr':
+
+    first, rename
+
+The following object is masked from 'package:tidyr':
+
+    expand
+
+The following object is masked from 'package:utils':
+
+    findMatches
+
+The following objects are masked from 'package:base':
+
+    I, expand.grid, unname
+
+Loading required package: IRanges
+
+Attaching package: 'IRanges'
+
+The following object is masked from 'package:lubridate':
+
+    %within%
+
+The following objects are masked from 'package:dplyr':
+
+    collapse, desc, slice
+
+The following object is masked from 'package:purrr':
+
+    reduce
+
+The following object is masked from 'package:sp':
+
+    %over%
+
+Loading required package: Seqinfo
+
+Attaching package: 'SummarizedExperiment'
+
+The following object is masked from 'package:Seurat':
+
+    Assays
+
+The following object is masked from 'package:SeuratObject':
+
+    Assays
+
+
+Attaching package: 'monocle3'
+
+The following objects are masked from 'package:Biobase':
+
+    exprs, fData, fData<-, pData, pData<-
+
+
+Attaching package: 'reshape2'
+
+The following object is masked from 'package:tidyr':
+
+    smiths
+
+Loading required package: viridisLite
+
+Attaching package: 'glmGamPoi'
+
+The following object is masked from 'package:dplyr':
+
+    vars
+
+The following object is masked from 'package:ggplot2':
+
+    vars
+
+
+Attaching package: 'cowplot'
+
+The following object is masked from 'package:patchwork':
+
+    align_plots
+
+The following object is masked from 'package:lubridate':
+
+    stamp
+
+Registered S3 method overwritten by 'car':
+  method           from
+  na.action.merMod lme4
+
+Attaching package: 'ggpubr'
+
+The following object is masked from 'package:cowplot':
+
+    get_legend
+
+
+Attaching package: 'arrow'
+
+The following object is masked from 'package:BiocGenerics':
+
+    type
+
+The following object is masked from 'package:lubridate':
+
+    duration
+
+The following object is masked from 'package:utils':
+
+    timestamp
+
+SeuratDisk not installed (not used): there is no package called 'SeuratDisk' 
+=== PASS 1: Loading Xenium object for WT analysis ===
+Warning message:
+In readRDS(xenium_rds_path) :
+  strings not representable in native encoding will be translated to UTF-8
+Loaded. Cells: 1495016 
+Validating object structure
+Updating object slots
+Ensuring keys are in the proper structure
+Ensuring keys are in the proper structure
+Ensuring feature names don't have underscores or pipes
+Updating slots in Xenium
+Updating slots in fov
+Updating slots in fov.2
+Updating slots in fov.3
+Updating slots in fov.4
+Updating slots in fov.5
+Updating slots in fov.6
+Validating object structure for Assay5 'Xenium'
+Validating object structure for FOV 'fov'
+Validating object structure for FOV 'fov.2'
+Validating object structure for FOV 'fov.3'
+Validating object structure for FOV 'fov.4'
+Validating object structure for FOV 'fov.5'
+Validating object structure for FOV 'fov.6'
+Object representation is consistent with the most current Seurat version
+UpdateSeuratObject done.
+            used   (Mb) gc trigger    (Mb)   max used   (Mb)
+Ncells  10677048  570.3   19721150  1053.3   11979804  639.8
+Vcells 893541258 6817.2 1386628140 10579.2 1041336818 7944.8
+Sample_type counts:
+
+        Kidney, non-neoplastic          Kidney, primary tumor 
+                        936682                         544318 
+Small intestine, primary tumor 
+                         14016 
+Gender counts:
+
+     F      M 
+547031 947985 
+WT+QC cells: 622209 
+There were 30 warnings (use warnings() to see them)
+            used   (Mb) gc trigger    (Mb)   max used    (Mb)
+Ncells   9787514  522.8   19721150  1053.3   19721150  1053.3
+Vcells 706298127 5388.7 1386628140 10579.2 1371155877 10461.1
+Full object removed. WT cells: 622209 
+WT Lesion_ID counts:
+
+HDT289_kidney_1_a HDT289_kidney_1_b HDT289_kidney_1_c HDT289_kidney_2_a 
+              113              3638              9668              4596 
+HDT289_kidney_2_b   HDT293_kidney_1 HDT293_kidney_1_a HDT293_kidney_1_b 
+             5058              5257              8997              7194 
+HDT293_kidney_1_c   HDT294_kidney_1   HDT294_kidney_2 HDT789_kidney_1_a 
+             6843              4356            299393              8337 
+HDT789_kidney_1_b HDT799_kidney_1_a HDT799_kidney_1_b HDT963_kidney_1_a 
+             5860              7197              8171              6166 
+HDT963_kidney_1_b HDT964_kidney_1_a HDT964_kidney_1_b HDT967_kidney_1_a 
+             8794              7224              8134              8967 
+HDT967_kidney_1_b   HDT967_kidney_2 HDT968_kidney_1_a HDT968_kidney_1_b 
+             8754            175379              6357              7756 
+WT core counts:
+
+     3      4      5      6    120    220    310    410    510    610    710 
+   113   4596   5257   4356 175379 299393   6166   8794   7224   8134   8967 
+   810    910   1010   1110   1210   1310   1410   1510   1610   1710   1810 
+  8754   6357   7756   8337   5860   7197   8171   3638   9668   5058   8997 
+  1910   2010 
+  7194   6843 
+Running SCTransform on assay: Xenium
+vst.flavor='v2' set. Using model with fixed slope and excluding poisson genes.
+Calculating cell attributes from input UMI matrix: log_umi
+Variance stabilizing transformation of count matrix of size 379 by 14322
+Model formula is y ~ log_umi
+Get Negative Binomial regression parameters per gene
+Using 358 genes, 5000 cells
+Second step: Get residuals using fitted parameters for 379 genes
+Computing corrected count matrix for 379 genes
+Calculating gene attributes
+Wall clock passed: Time difference of 3.227613 secs
+Determine variable features
+Centering data matrix
+  |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
+Place corrected count matrix in counts slot
+vst.flavor='v2' set. Using model with fixed slope and excluding poisson genes.
+Calculating cell attributes from input UMI matrix: log_umi
+Variance stabilizing transformation of count matrix of size 379 by 133115
+Model formula is y ~ log_umi
+Get Negative Binomial regression parameters per gene
+Using 377 genes, 5000 cells
+Found 1 outliers - those will be ignored in fitting/regularization step
+
+Second step: Get residuals using fitted parameters for 379 genes
+XENIUM_EXIT:137

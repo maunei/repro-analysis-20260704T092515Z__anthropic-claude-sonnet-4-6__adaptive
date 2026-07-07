@@ -1,0 +1,1310 @@
+cell_group_name	cnv_name	state	chr	start	end
+Control NA.Control NA.1.1.1.1	chr3-region_4	4	chr3	55149618	88641162
+Control NA.Control NA.1.1.1.1	chr8-region_11	3	chr8	34105405	48443959
+Control NA.Control NA.1.1.1.1	chr9-region_14	4	chr9	44651966	64215617
+Control NA.Control NA.1.1.1.2	chr1-region_27	4	chr1	75189219	91326637
+Control NA.Control NA.1.1.1.2	chr2-region_30	4	chr2	29236824	33358632
+Control NA.Control NA.1.1.1.2	chr2-region_32	4	chr2	130985364	155986374
+Control NA.Control NA.1.1.1.2	chr3-region_34	2	chr3	3573084	31176740
+Control NA.Control NA.1.1.1.2	chr3-region_36	4	chr3	57738719	89090080
+Control NA.Control NA.1.1.1.2	chr4-region_39	2	chr4	106173176	116663153
+Control NA.Control NA.1.1.1.2	chr5-region_41	4	chr5	3621554	151574707
+Control NA.Control NA.1.1.1.2	chr7-region_43	4	chr7	3632667	118442575
+Control NA.Control NA.1.1.1.2	chr8-region_45	4	chr8	4216497	65438962
+Control NA.Control NA.1.1.1.2	chr8-region_47	3	chr8	119010328	129460618
+Control NA.Control NA.1.1.1.2	chr9-region_49	4	chr9	26883155	82760396
+Control NA.Control NA.1.1.1.2	chr9-region_51	3	chr9	107962575	123291731
+Control NA.Control NA.1.1.1.2	chr10-region_53	3	chr10	111821353	128425811
+Control NA.Control NA.1.1.1.2	chr13-region_56	2	chr13	3616035	25015547
+Control NA.Control NA.1.1.1.2	chr14-region_59	2	chr14	61805667	122639650
+Control NA.Control NA.1.1.1.2	chr15-region_61	4	chr15	76234798	81572516
+Control NA.Control NA.1.1.1.2	chr15-region_63	3	chr15	97862034	103407240
+Control NA.Control NA.1.1.1.2	chr16-region_65	3	chr16	4412499	24811328
+Control NA.Control NA.1.1.1.2	chr17-region_68	3	chr17	73414926	95057487
+Control NA.Control NA.1.1.1.2	chr18-region_69	3	chr18	4634606	88945635
+Control NA.Control NA.1.1.1.2	chr19-region_71	3	chr19	5118106	60569535
+Control NA.Control NA.1.1.2	chr1-region_72	2	chr1	4561151	52272409
+Control NA.Control NA.1.1.2	chr1-region_74	2	chr1	75212712	118239469
+Control NA.Control NA.1.1.2	chr1-region_76	4	chr1	161796749	172126037
+Control NA.Control NA.1.1.2	chr1-region_78	2	chr1	181952302	194813894
+Control NA.Control NA.1.1.2	chr2-region_80	4	chr2	22785492	30854386
+Control NA.Control NA.1.1.2	chr2-region_82	2	chr2	34661982	60383654
+Control NA.Control NA.1.1.2	chr2-region_84	4	chr2	102903972	112302513
+Control NA.Control NA.1.1.2	chr2-region_85	5	chr2	115693062	130021323
+Control NA.Control NA.1.1.2	chr2-region_86	4	chr2	130115808	136913872
+Control NA.Control NA.1.1.2	chr2-region_88	4	chr2	154177298	164411377
+Control NA.Control NA.1.1.2	chr3-region_91	4	chr3	65960979	69034446
+Control NA.Control NA.1.1.2	chr3-region_92	5	chr3	69224179	88817410
+Control NA.Control NA.1.1.2	chr3-region_93	4	chr3	88857929	89820719
+Control NA.Control NA.1.1.2	chr3-region_95	2	chr3	132366242	159644557
+Control NA.Control NA.1.1.2	chr4-region_96	2	chr4	3549038	33502614
+Control NA.Control NA.1.1.2	chr4-region_98	2	chr4	108476527	135222349
+Control NA.Control NA.1.1.2	chr5-region_100	2	chr5	3621554	108805225
+Control NA.Control NA.1.1.2	chr7-region_103	4	chr7	3632667	28521693
+Control NA.Control NA.1.1.2	chr8-region_105	2	chr8	4216497	106925346
+Control NA.Control NA.1.1.2	chr8-region_107	2	chr8	120535961	129460618
+Control NA.Control NA.1.1.2	chr9-region_108	5	chr9	3335110	32669116
+Control NA.Control NA.1.1.2	chr9-region_109	4	chr9	34397190	54866448
+Control NA.Control NA.1.1.2	chr9-region_110	5	chr9	55056137	65239568
+Control NA.Control NA.1.1.2	chr9-region_111	4	chr9	65319995	67466985
+Control NA.Control NA.1.1.2	chr10-region_113	4	chr10	7068143	79700605
+Control NA.Control NA.1.1.2	chr11-region_115	5	chr11	3280401	62405243
+Control NA.Control NA.1.1.2	chr11-region_116	4	chr11	62415758	69674849
+Control NA.Control NA.1.1.2	chr11-region_118	4	chr11	79481947	106811583
+Control NA.Control NA.1.1.2	chr12-region_121	2	chr12	111408858	112964324
+Control NA.Control NA.1.1.2	chr13-region_122	2	chr13	3616035	25015547
+Control NA.Control NA.1.1.2	chr13-region_124	4	chr13	98399562	103911159
+Control NA.Control NA.1.1.2	chr13-region_125	5	chr13	103954462	119594754
+Control NA.Control NA.1.1.2	chr14-region_126	2	chr14	4137593	24295993
+Control NA.Control NA.1.1.2	chr14-region_128	4	chr14	31420725	54855481
+Control NA.Control NA.1.1.2	chr15-region_131	4	chr15	76608183	78947141
+Control NA.Control NA.1.1.2	chr15-region_132	5	chr15	78959372	103407240
+Control NA.Control NA.1.1.2	chr16-region_134	4	chr16	20150053	33771137
+Control NA.Control NA.1.1.2	chr17-region_136	5	chr17	3248385	24292522
+Control NA.Control NA.1.1.2	chr17-region_137	4	chr17	24633504	34822693
+Control NA.Control NA.1.1.2	chr18-region_139	2	chr18	4634606	88945635
+Control NA.Control NA.1.1.2	chr19-region_141	4	chr19	4806499	25411867
+Control NA.Control NA.1.1.2	chr19-region_142	5	chr19	28236251	60569535
+Control NA.Control NA.1.2.1	chr1-region_144	4	chr1	74430550	90541138
+Control NA.Control NA.1.2.1	chr2-region_146	3	chr2	3285225	22830278
+Control NA.Control NA.1.2.1	chr2-region_148	4	chr2	152135744	160647426
+Control NA.Control NA.1.2.1	chr3-region_151	4	chr3	33853861	65285647
+Control NA.Control NA.1.2.1	chr3-region_152	5	chr3	65287076	84214184
+Control NA.Control NA.1.2.1	chr3-region_153	4	chr3	84403733	89117206
+Control NA.Control NA.1.2.1	chr4-region_156	3	chr4	124571174	131988945
+Control NA.Control NA.1.2.1	chr5-region_158	4	chr5	3621554	100946547
+Control NA.Control NA.1.2.1	chr7-region_162	3	chr7	126843239	144485982
+Control NA.Control NA.1.2.1	chr8-region_164	3	chr8	25439626	55513912
+Control NA.Control NA.1.2.1	chr12-region_169	2	chr12	4967301	112964324
+Control NA.Control NA.1.2.1	chr13-region_171	2	chr13	75987974	119594754
+Control NA.Control NA.1.2.1	chr16-region_175	3	chr16	55786638	91224600
+Control NA.Control NA.1.2.2	chr1-region_182	3	chr1	6276421	53349477
+Control NA.Control NA.1.2.2	chr1-region_184	4	chr1	74414303	91248803
+Control NA.Control NA.1.2.2	chr2-region_186	5	chr2	3285225	24825338
+Control NA.Control NA.1.2.2	chr2-region_187	4	chr2	24839795	26279508
+Control NA.Control NA.1.2.2	chr2-region_189	3	chr2	43445309	91541186
+Control NA.Control NA.1.2.2	chr2-region_191	3	chr2	172709805	181499854
+Control NA.Control NA.1.2.2	chr3-region_192	4	chr3	3573084	87676403
+Control NA.Control NA.1.2.2	chr3-region_194	2	chr3	90155138	97086583
+Control NA.Control NA.1.2.2	chr3-region_196	5	chr3	128993527	159644557
+Control NA.Control NA.1.2.2	chr4-region_198	3	chr4	132039074	152418542
+Control NA.Control NA.1.2.2	chr5-region_199	3	chr5	3621554	151574707
+Control NA.Control NA.1.2.2	chr8-region_202	4	chr8	4216497	25625461
+Control NA.Control NA.1.2.2	chr8-region_203	5	chr8	26003670	48606268
+Control NA.Control NA.1.2.2	chr8-region_204	4	chr8	48678708	67346332
+Control NA.Control NA.1.2.2	chr8-region_206	2	chr8	106785472	123144101
+Control NA.Control NA.1.2.2	chr9-region_208	5	chr9	3335110	21042689
+Control NA.Control NA.1.2.2	chr9-region_209	4	chr9	21073005	43151252
+Control NA.Control NA.1.2.2	chr9-region_211	4	chr9	66722031	103227631
+Control NA.Control NA.1.2.2	chr9-region_213	2	chr9	108820832	123291731
+Control NA.Control NA.1.2.2	chr10-region_214	2	chr10	7068143	88014264
+Control NA.Control NA.1.2.2	chr11-region_216	4	chr11	3280401	62172252
+Control NA.Control NA.1.2.2	chr11-region_218	4	chr11	75570085	93776978
+Control NA.Control NA.1.2.2	chr11-region_220	2	chr11	100312280	120391985
+Control NA.Control NA.1.2.2	chr12-region_221	2	chr12	4967301	72627807
+Control NA.Control NA.1.2.2	chr14-region_225	2	chr14	31902119	65636384
+Control NA.Control NA.1.2.2	chr16-region_229	4	chr16	59311138	91362512
+Control NA.Control NA.1.2.2	chr17-region_232	2	chr17	15594911	95057487
+Control NA.Control NA.1.2.2	chr18-region_234	2	chr18	44960813	88945635
+Control NA.Control NA.1.2.2	chr19-region_236	3	chr19	37509327	60569535
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.1	chr1-region_238	4	chr1	74414303	143578631
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.1	chr3-region_241	4	chr3	3573084	37636844
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.1	chr7-region_247	4	chr7	90125880	118305015
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.1	chr7-region_249	4	chr7	140546316	144485982
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.1	chr8-region_251	4	chr8	117708549	129460618
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.1	chr9-region_253	4	chr9	114202582	123291731
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.1	chr12-region_257	3	chr12	76812250	112964324
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.2	chr1-region_267	4	chr1	74626561	143578631
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.2	chr1-region_269	3	chr1	179355610	194813894
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.2	chr2-region_270	2	chr2	3285225	23089281
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.2	chr2-region_272	3	chr2	32647210	71198167
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.2	chr2-region_274	2	chr2	127475142	153175310
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.2	chr3-region_276	4	chr3	3573084	53771251
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.2	chr5-region_279	3	chr5	3621554	108022973
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.2	chr5-region_281	4	chr5	142387240	151574707
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.2	chr7-region_283	3	chr7	3632667	37896995
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.2	chr8-region_285	2	chr8	4216497	70766918
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.2	chr8-region_287	3	chr8	123951558	129460618
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.2	chr9-region_289	4	chr9	108820832	123291731
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.2	chr10-region_290	3	chr10	7068143	77351702
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.2	chr11-region_292	3	chr11	3280401	51579964
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.2	chr12-region_294	4	chr12	4967301	112964324
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.2	chr13-region_296	3	chr13	104315281	119594754
+Tumor Diff Myo.Tumor Diff Myo.1.1.1.2	chr18-region_301	3	chr18	4634606	88945635
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.1	chr1-region_303	4	chr1	4561151	34488437
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.1	chr1-region_305	4	chr1	55204315	74475933
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.1	chr1-region_306	5	chr1	74474669	92881692
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.1	chr1-region_307	4	chr1	93156137	121435091
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.1	chr1-region_308	4	chr1	125320633	135966299
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.1	chr1-region_309	4	chr1	137990599	151597690
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.1	chr1-region_311	3	chr1	177590528	194813894
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.1	chr2-region_312	2	chr2	3285225	15087267
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.1	chr2-region_314	4	chr2	153458853	181499854
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.1	chr5-region_318	4	chr5	130017852	151574707
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.1	chr7-region_321	4	chr7	128125283	144485982
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.1	chr8-region_323	4	chr8	112737991	129460618
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.1	chr15-region_331	4	chr15	37924196	103407240
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.1	chr16-region_332	4	chr16	3561921	10131832
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.1	chr18-region_336	3	chr18	46862694	88945635
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.2	chr1-region_339	4	chr1	72323511	75157051
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.2	chr1-region_340	5	chr1	75157503	91058477
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.2	chr1-region_341	4	chr1	91107540	138550306
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.2	chr2-region_344	2	chr2	128660000	153175310
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.2	chr5-region_349	4	chr5	103573043	151574707
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.2	chr7-region_352	4	chr7	141034404	144485982
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.2	chr8-region_354	2	chr8	46428511	70169633
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.2	chr8-region_356	3	chr8	79456724	95422920
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.2	chr8-region_358	4	chr8	111534934	129460618
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.2	chr12-region_363	3	chr12	54717125	112964324
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.2	chr14-region_365	3	chr14	4137593	20596668
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.2	chr15-region_367	4	chr15	3347235	103407240
+Tumor Diff Myo.Tumor Diff Myo.1.1.2.2	chr17-region_370	2	chr17	34810240	95057487
+Tumor Diff Myo.Tumor Diff Myo.1.2.1	chr1-region_373	5	chr1	4561151	37478205
+Tumor Diff Myo.Tumor Diff Myo.1.2.1	chr1-region_374	4	chr1	37478421	71692419
+Tumor Diff Myo.Tumor Diff Myo.1.2.1	chr1-region_375	5	chr1	72297846	75192258
+Tumor Diff Myo.Tumor Diff Myo.1.2.1	chr1-region_376	6	chr1	75189219	92123421
+Tumor Diff Myo.Tumor Diff Myo.1.2.1	chr1-region_377	5	chr1	92361375	194813894
+Tumor Diff Myo.Tumor Diff Myo.1.2.1	chr2-region_379	2	chr2	121141005	154250140
+Tumor Diff Myo.Tumor Diff Myo.1.2.1	chr3-region_381	5	chr3	3573084	32671909
+Tumor Diff Myo.Tumor Diff Myo.1.2.1	chr4-region_384	4	chr4	43026021	58987131
+Tumor Diff Myo.Tumor Diff Myo.1.2.1	chr5-region_386	4	chr5	3621554	151574707
+Tumor Diff Myo.Tumor Diff Myo.1.2.1	chr6-region_387	2	chr6	4003904	149237161
+Tumor Diff Myo.Tumor Diff Myo.1.2.1	chr8-region_390	2	chr8	41315431	68802573
+Tumor Diff Myo.Tumor Diff Myo.1.2.1	chr8-region_392	4	chr8	106785472	129460618
+Tumor Diff Myo.Tumor Diff Myo.1.2.1	chr9-region_394	4	chr9	61820557	77891802
+Tumor Diff Myo.Tumor Diff Myo.1.2.1	chr10-region_396	3	chr10	7068143	75148578
+Tumor Diff Myo.Tumor Diff Myo.1.2.1	chr11-region_399	2	chr11	102686879	120391985
+Tumor Diff Myo.Tumor Diff Myo.1.2.1	chr12-region_401	4	chr12	56759419	99530218
+Tumor Diff Myo.Tumor Diff Myo.1.2.1	chr12-region_402	5	chr12	100267028	112964324
+Tumor Diff Myo.Tumor Diff Myo.1.2.1	chr13-region_404	2	chr13	55491645	92525641
+Tumor Diff Myo.Tumor Diff Myo.1.2.1	chr14-region_407	2	chr14	64357410	122639650
+Tumor Diff Myo.Tumor Diff Myo.1.2.1	chr15-region_409	4	chr15	12321506	103407240
+Tumor Diff Myo.Tumor Diff Myo.1.2.1	chr16-region_411	2	chr16	38417528	91476605
+Tumor Diff Myo.Tumor Diff Myo.1.2.1	chr18-region_415	4	chr18	60817566	88945635
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.1	chr1-region_417	5	chr1	4561151	40067208
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.1	chr1-region_418	4	chr1	40113239	72914043
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.1	chr1-region_419	5	chr1	73949390	75222340
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.1	chr1-region_420	6	chr1	75284432	93586381
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.1	chr1-region_421	5	chr1	93613193	194813894
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.1	chr3-region_423	4	chr3	3573084	40848628
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.1	chr5-region_426	4	chr5	3621554	110323336
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.1	chr8-region_431	2	chr8	22901363	71326579
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.1	chr9-region_434	3	chr9	57445543	66702811
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.1	chr9-region_436	4	chr9	108765701	123291731
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.1	chr12-region_440	3	chr12	69630098	112964324
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.1	chr13-region_442	3	chr13	105265278	119594754
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.1	chr15-region_444	4	chr15	3347235	103407240
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr1-region_449	6	chr1	4561151	34347742
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr1-region_450	5	chr1	34478568	51955230
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr1-region_451	4	chr1	52158137	74425448
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr1-region_452	5	chr1	74430550	75483294
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr1-region_453	5	chr1	77343822	118261561
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr1-region_454	5	chr1	118555636	135966299
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr1-region_455	4	chr1	137990599	172460529
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr1-region_456	5	chr1	173723911	194813894
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr2-region_457	2	chr2	3285225	25291424
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr2-region_459	2	chr2	125089110	132709039
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr2-region_461	3	chr2	152849855	158342028
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr4-region_465	4	chr4	115641986	122948766
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr5-region_468	4	chr5	32946550	135079963
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr8-region_473	2	chr8	25439626	71257698
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr8-region_475	4	chr8	106927068	117460096
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr9-region_478	4	chr9	44308144	71678884
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr9-region_480	2	chr9	86462646	103243039
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr9-region_482	4	chr9	108765701	123291731
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr11-region_485	2	chr11	62770265	77498686
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr13-region_489	3	chr13	12197598	41114370
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr13-region_491	4	chr13	54690533	58558965
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr15-region_495	2	chr15	12117613	76235948
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr15-region_497	3	chr15	98801794	103407240
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr16-region_498	2	chr16	3561921	10884021
+Tumor Diff Myo.Tumor Diff Myo.1.2.2.2	chr18-region_502	3	chr18	65564009	88945635
+Tumor Ground.Tumor Ground.1.1.1.1	chr1-region_504	4	chr1	4561151	194813894
+Tumor Ground.Tumor Ground.1.1.1.1	chr2-region_506	2	chr2	132688552	181499854
+Tumor Ground.Tumor Ground.1.1.1.1	chr3-region_508	3	chr3	137636762	159644557
+Tumor Ground.Tumor Ground.1.1.1.1	chr4-region_510	2	chr4	133970600	143026143
+Tumor Ground.Tumor Ground.1.1.1.1	chr5-region_513	3	chr5	24612595	104654573
+Tumor Ground.Tumor Ground.1.1.1.1	chr6-region_515	4	chr6	4003904	149237161
+Tumor Ground.Tumor Ground.1.1.1.1	chr7-region_516	2	chr7	3632667	44145953
+Tumor Ground.Tumor Ground.1.1.1.1	chr11-region_522	2	chr11	68863310	75565430
+Tumor Ground.Tumor Ground.1.1.1.1	chr12-region_525	3	chr12	56759419	112964324
+Tumor Ground.Tumor Ground.1.1.1.1	chr16-region_529	4	chr16	3561921	91362512
+Tumor Ground.Tumor Ground.1.1.1.1	chr17-region_532	2	chr17	7005440	34938789
+Tumor Ground.Tumor Ground.1.1.1.2	chr1-region_536	5	chr1	4561151	16203958
+Tumor Ground.Tumor Ground.1.1.1.2	chr1-region_537	5	chr1	16293941	93623498
+Tumor Ground.Tumor Ground.1.1.1.2	chr1-region_538	4	chr1	93629657	177624398
+Tumor Ground.Tumor Ground.1.1.1.2	chr1-region_539	5	chr1	178014983	194813894
+Tumor Ground.Tumor Ground.1.1.1.2	chr2-region_541	2	chr2	128907851	181499854
+Tumor Ground.Tumor Ground.1.1.1.2	chr6-region_545	4	chr6	4003904	149237161
+Tumor Ground.Tumor Ground.1.1.1.2	chr9-region_549	3	chr9	119956755	123291731
+Tumor Ground.Tumor Ground.1.1.1.2	chr11-region_552	2	chr11	69190313	75565430
+Tumor Ground.Tumor Ground.1.1.1.2	chr12-region_554	4	chr12	4967301	112964324
+Tumor Ground.Tumor Ground.1.1.1.2	chr16-region_559	3	chr16	17468495	32451612
+Tumor Ground.Tumor Ground.1.1.1.2	chr16-region_561	4	chr16	42704725	91202723
+Tumor Ground.Tumor Ground.1.1.2.1	chr1-region_566	5	chr1	4561151	45862810
+Tumor Ground.Tumor Ground.1.1.2.1	chr1-region_567	4	chr1	45947211	175453205
+Tumor Ground.Tumor Ground.1.1.2.1	chr1-region_568	5	chr1	176642226	194813894
+Tumor Ground.Tumor Ground.1.1.2.1	chr2-region_569	3	chr2	3285225	24852087
+Tumor Ground.Tumor Ground.1.1.2.1	chr2-region_571	2	chr2	130232695	181499854
+Tumor Ground.Tumor Ground.1.1.2.1	chr3-region_573	4	chr3	135290264	159644557
+Tumor Ground.Tumor Ground.1.1.2.1	chr4-region_575	3	chr4	56866923	96441935
+Tumor Ground.Tumor Ground.1.1.2.1	chr4-region_577	2	chr4	117407518	125950292
+Tumor Ground.Tumor Ground.1.1.2.1	chr5-region_580	3	chr5	17779219	100955417
+Tumor Ground.Tumor Ground.1.1.2.1	chr6-region_582	4	chr6	4003904	149237161
+Tumor Ground.Tumor Ground.1.1.2.1	chr7-region_583	2	chr7	3632667	45887987
+Tumor Ground.Tumor Ground.1.1.2.1	chr7-region_585	2	chr7	140768592	144485982
+Tumor Ground.Tumor Ground.1.1.2.1	chr8-region_587	2	chr8	112262729	125296716
+Tumor Ground.Tumor Ground.1.1.2.1	chr9-region_590	3	chr9	67124369	88364653
+Tumor Ground.Tumor Ground.1.1.2.1	chr11-region_594	2	chr11	69289334	75520416
+Tumor Ground.Tumor Ground.1.1.2.1	chr15-region_600	2	chr15	58039275	81341683
+Tumor Ground.Tumor Ground.1.1.2.1	chr16-region_602	4	chr16	3561921	52028729
+Tumor Ground.Tumor Ground.1.1.2.1	chr16-region_603	5	chr16	52069359	76913675
+Tumor Ground.Tumor Ground.1.1.2.1	chr16-region_604	4	chr16	78098377	91305789
+Tumor Ground.Tumor Ground.1.1.2.1	chr17-region_606	2	chr17	3248385	35149412
+Tumor Ground.Tumor Ground.1.1.2.2	chr1-region_610	4	chr1	4561151	175453205
+Tumor Ground.Tumor Ground.1.1.2.2	chr1-region_611	5	chr1	176642226	194813894
+Tumor Ground.Tumor Ground.1.1.2.2	chr2-region_612	4	chr2	3285225	24954666
+Tumor Ground.Tumor Ground.1.1.2.2	chr2-region_614	2	chr2	128660000	181499854
+Tumor Ground.Tumor Ground.1.1.2.2	chr3-region_616	3	chr3	132797589	159644557
+Tumor Ground.Tumor Ground.1.1.2.2	chr4-region_618	2	chr4	33031369	46196600
+Tumor Ground.Tumor Ground.1.1.2.2	chr4-region_620	2	chr4	116985852	152418542
+Tumor Ground.Tumor Ground.1.1.2.2	chr6-region_622	4	chr6	4003904	149237161
+Tumor Ground.Tumor Ground.1.1.2.2	chr7-region_623	2	chr7	3632667	45161483
+Tumor Ground.Tumor Ground.1.1.2.2	chr8-region_626	2	chr8	112262729	129460618
+Tumor Ground.Tumor Ground.1.1.2.2	chr9-region_628	4	chr9	66612630	86454680
+Tumor Ground.Tumor Ground.1.1.2.2	chr11-region_632	4	chr11	3280401	46038172
+Tumor Ground.Tumor Ground.1.1.2.2	chr11-region_634	2	chr11	69190313	76514435
+Tumor Ground.Tumor Ground.1.1.2.2	chr11-region_636	2	chr11	96797961	120391985
+Tumor Ground.Tumor Ground.1.1.2.2	chr12-region_638	3	chr12	71183622	112964324
+Tumor Ground.Tumor Ground.1.1.2.2	chr16-region_642	4	chr16	3561921	90027657
+Tumor Ground.Tumor Ground.1.1.2.2	chr17-region_644	2	chr17	3248385	47692441
+Tumor Ground.Tumor Ground.1.1.2.2	chr19-region_647	2	chr19	3758281	23071043
+Tumor Ground.Tumor Ground.1.2.1.1	chr1-region_650	4	chr1	74430550	93437986
+Tumor Ground.Tumor Ground.1.2.1.1	chr1-region_652	3	chr1	179992803	194813894
+Tumor Ground.Tumor Ground.1.2.1.1	chr3-region_655	3	chr3	51391341	87963361
+Tumor Ground.Tumor Ground.1.2.1.1	chr3-region_657	4	chr3	97066080	122332834
+Tumor Ground.Tumor Ground.1.2.1.1	chr5-region_661	4	chr5	21191642	151574707
+Tumor Ground.Tumor Ground.1.2.1.1	chr7-region_663	2	chr7	3632667	30145102
+Tumor Ground.Tumor Ground.1.2.1.1	chr9-region_667	4	chr9	111267985	123291731
+Tumor Ground.Tumor Ground.1.2.1.1	chr11-region_670	2	chr11	62206297	76070811
+Tumor Ground.Tumor Ground.1.2.1.1	chr12-region_672	4	chr12	4967301	112964324
+Tumor Ground.Tumor Ground.1.2.1.1	chr15-region_676	4	chr15	83183321	103407240
+Tumor Ground.Tumor Ground.1.2.1.1	chr18-region_682	3	chr18	20949301	88945635
+Tumor Ground.Tumor Ground.1.2.1.1	chr19-region_684	3	chr19	42110642	60569535
+Tumor Ground.Tumor Ground.1.2.1.2	chr1-region_685	4	chr1	4561151	130390926
+Tumor Ground.Tumor Ground.1.2.1.2	chr1-region_687	4	chr1	155880041	194813894
+Tumor Ground.Tumor Ground.1.2.1.2	chr6-region_692	3	chr6	4003904	47909577
+Tumor Ground.Tumor Ground.1.2.1.2	chr16-region_705	3	chr16	44913765	87229501
+Tumor Ground.Tumor Ground.1.2.2.1	chr1-region_710	5	chr1	4561151	52201024
+Tumor Ground.Tumor Ground.1.2.2.1	chr1-region_711	4	chr1	52202607	74425448
+Tumor Ground.Tumor Ground.1.2.2.1	chr1-region_712	5	chr1	74430550	125363637
+Tumor Ground.Tumor Ground.1.2.2.1	chr1-region_713	4	chr1	125488332	171856011
+Tumor Ground.Tumor Ground.1.2.2.1	chr1-region_714	5	chr1	171910077	194813894
+Tumor Ground.Tumor Ground.1.2.2.1	chr7-region_720	2	chr7	3632667	28681353
+Tumor Ground.Tumor Ground.1.2.2.1	chr11-region_726	3	chr11	101339221	120391985
+Tumor Ground.Tumor Ground.1.2.2.1	chr15-region_730	4	chr15	3347235	42540417
+Tumor Ground.Tumor Ground.1.2.2.1	chr15-region_732	4	chr15	83037695	103407240
+Tumor Ground.Tumor Ground.1.2.2.1	chr16-region_734	3	chr16	44547926	87280416
+Tumor Ground.Tumor Ground.1.2.2.2	chr1-region_739	5	chr1	4561151	131643180
+Tumor Ground.Tumor Ground.1.2.2.2	chr1-region_740	4	chr1	131755231	171078957
+Tumor Ground.Tumor Ground.1.2.2.2	chr1-region_741	5	chr1	171097872	180029294
+Tumor Ground.Tumor Ground.1.2.2.2	chr1-region_742	6	chr1	180054569	194813894
+Tumor Ground.Tumor Ground.1.2.2.2	chr13-region_755	3	chr13	55620802	73852984
+Tumor Ground.Tumor Ground.1.2.2.2	chr15-region_758	4	chr15	3347235	58022061
+Tumor Ground.Tumor Ground.1.2.2.2	chr15-region_760	4	chr15	76963189	103407240
+Tumor Peri.Tumor Peri.1.1.1.1	chr1-region_766	4	chr1	14239167	194813894
+Tumor Peri.Tumor Peri.1.1.1.1	chr3-region_769	3	chr3	64856617	88204326
+Tumor Peri.Tumor Peri.1.1.1.1	chr5-region_773	4	chr5	138961758	151574707
+Tumor Peri.Tumor Peri.1.1.1.1	chr9-region_778	4	chr9	54858066	63665476
+Tumor Peri.Tumor Peri.1.1.1.1	chr10-region_780	2	chr10	7068143	128425811
+Tumor Peri.Tumor Peri.1.1.1.1	chr12-region_783	4	chr12	54939053	112964324
+Tumor Peri.Tumor Peri.1.1.1.1	chr16-region_788	4	chr16	3726572	31693947
+Tumor Peri.Tumor Peri.1.1.1.1	chr16-region_790	4	chr16	49519544	78374116
+Tumor Peri.Tumor Peri.1.1.1.2	chr1-region_795	4	chr1	4561151	38094683
+Tumor Peri.Tumor Peri.1.1.1.2	chr1-region_796	5	chr1	38091652	63216236
+Tumor Peri.Tumor Peri.1.1.1.2	chr1-region_797	5	chr1	63215940	87720150
+Tumor Peri.Tumor Peri.1.1.1.2	chr1-region_799	5	chr1	152675945	194813894
+Tumor Peri.Tumor Peri.1.1.1.2	chr2-region_801	2	chr2	5142401	27426560
+Tumor Peri.Tumor Peri.1.1.1.2	chr2-region_803	3	chr2	119377651	129053536
+Tumor Peri.Tumor Peri.1.1.1.2	chr2-region_805	2	chr2	168727193	181499854
+Tumor Peri.Tumor Peri.1.1.1.2	chr3-region_807	3	chr3	66888627	89188449
+Tumor Peri.Tumor Peri.1.1.1.2	chr3-region_809	3	chr3	135531040	159644557
+Tumor Peri.Tumor Peri.1.1.1.2	chr4-region_811	2	chr4	43531513	62415535
+Tumor Peri.Tumor Peri.1.1.1.2	chr4-region_813	2	chr4	133854717	152418542
+Tumor Peri.Tumor Peri.1.1.1.2	chr5-region_815	4	chr5	118114795	139470304
+Tumor Peri.Tumor Peri.1.1.1.2	chr5-region_816	5	chr5	139776804	151574707
+Tumor Peri.Tumor Peri.1.1.1.2	chr6-region_817	3	chr6	4003904	72410569
+Tumor Peri.Tumor Peri.1.1.1.2	chr7-region_819	3	chr7	3632667	45737735
+Tumor Peri.Tumor Peri.1.1.1.2	chr8-region_822	2	chr8	23349545	71964506
+Tumor Peri.Tumor Peri.1.1.1.2	chr9-region_825	3	chr9	48448913	64096874
+Tumor Peri.Tumor Peri.1.1.1.2	chr9-region_827	4	chr9	107879258	123291731
+Tumor Peri.Tumor Peri.1.1.1.2	chr10-region_828	3	chr10	7068143	77481831
+Tumor Peri.Tumor Peri.1.1.1.2	chr10-region_830	3	chr10	117648424	128425811
+Tumor Peri.Tumor Peri.1.1.1.2	chr11-region_832	5	chr11	103061480	120391985
+Tumor Peri.Tumor Peri.1.1.1.2	chr12-region_834	4	chr12	54939053	112964324
+Tumor Peri.Tumor Peri.1.1.1.2	chr14-region_837	3	chr14	118349063	122639650
+Tumor Peri.Tumor Peri.1.1.1.2	chr15-region_839	2	chr15	78443367	103407240
+Tumor Peri.Tumor Peri.1.1.1.2	chr16-region_840	4	chr16	3561921	18165977
+Tumor Peri.Tumor Peri.1.1.1.2	chr16-region_842	3	chr16	55786638	97883698
+Tumor Peri.Tumor Peri.1.1.1.2	chr19-region_845	5	chr19	3758281	60569535
+Tumor Peri.Tumor Peri.1.1.2	chr1-region_847	4	chr1	24034185	93749834
+Tumor Peri.Tumor Peri.1.1.2	chr1-region_849	4	chr1	156386330	194813894
+Tumor Peri.Tumor Peri.1.1.2	chr3-region_852	4	chr3	67337425	89302144
+Tumor Peri.Tumor Peri.1.1.2	chr4-region_854	2	chr4	3549038	43496390
+Tumor Peri.Tumor Peri.1.1.2	chr4-region_856	2	chr4	132039074	152418542
+Tumor Peri.Tumor Peri.1.1.2	chr8-region_862	3	chr8	4216497	22921195
+Tumor Peri.Tumor Peri.1.1.2	chr9-region_865	4	chr9	119165000	123291731
+Tumor Peri.Tumor Peri.1.1.2	chr11-region_868	2	chr11	69234088	76070811
+Tumor Peri.Tumor Peri.1.1.2	chr12-region_870	4	chr12	4967301	112964324
+Tumor Peri.Tumor Peri.1.1.2	chr16-region_875	3	chr16	4759286	24811328
+Tumor Peri.Tumor Peri.1.1.2	chr19-region_880	3	chr19	10160167	60569535
+Tumor Peri.Tumor Peri.1.2.1	chr1-region_882	4	chr1	9817072	105682932
+Tumor Peri.Tumor Peri.1.2.1	chr1-region_884	4	chr1	156252095	194813894
+Tumor Peri.Tumor Peri.1.2.1	chr3-region_887	4	chr3	68911944	86690011
+Tumor Peri.Tumor Peri.1.2.1	chr9-region_895	3	chr9	114414476	123291731
+Tumor Peri.Tumor Peri.1.2.1	chr12-region_899	3	chr12	71183622	112964324
+Tumor Peri.Tumor Peri.1.2.1	chr16-region_904	3	chr16	51851588	84633154
+Tumor Peri.Tumor Peri.1.2.2	chr1-region_909	5	chr1	4561151	74475933
+Tumor Peri.Tumor Peri.1.2.2	chr1-region_910	5	chr1	74474669	93749834
+Tumor Peri.Tumor Peri.1.2.2	chr1-region_911	4	chr1	97697527	134339478
+Tumor Peri.Tumor Peri.1.2.2	chr1-region_913	4	chr1	156386330	194813894
+Tumor Peri.Tumor Peri.1.2.2	chr2-region_915	3	chr2	119377651	129213059
+Tumor Peri.Tumor Peri.1.2.2	chr4-region_919	2	chr4	135583043	152418542
+Tumor Peri.Tumor Peri.1.2.2	chr5-region_921	3	chr5	130102167	151574707
+Tumor Peri.Tumor Peri.1.2.2	chr6-region_922	4	chr6	4003904	88184018
+Tumor Peri.Tumor Peri.1.2.2	chr7-region_925	3	chr7	141073049	144485982
+Tumor Peri.Tumor Peri.1.2.2	chr8-region_926	4	chr8	4216497	26337743
+Tumor Peri.Tumor Peri.1.2.2	chr8-region_928	4	chr8	106440486	112682011
+Tumor Peri.Tumor Peri.1.2.2	chr9-region_931	3	chr9	111048717	123291731
+Tumor Peri.Tumor Peri.1.2.2	chr11-region_934	2	chr11	68698978	79589793
+Tumor Peri.Tumor Peri.1.2.2	chr16-region_940	4	chr16	3561921	90732080
+Tumor Peri.Tumor Peri.1.2.2	chr17-region_943	3	chr17	46857767	95057487
+Tumor Peri.Tumor Peri.1.2.2	chr19-region_946	4	chr19	28236251	60569535
+Tumor Progen.Tumor Progen.1.1.1.1	chr1-region_947	4	chr1	4561151	93682611
+Tumor Progen.Tumor Progen.1.1.1.1	chr1-region_949	3	chr1	175425290	194813894
+Tumor Progen.Tumor Progen.1.1.1.1	chr7-region_955	4	chr7	3632667	30741906
+Tumor Progen.Tumor Progen.1.1.1.1	chr11-region_962	3	chr11	116111385	120391985
+Tumor Progen.Tumor Progen.1.1.1.1	chr12-region_963	4	chr12	4967301	87029866
+Tumor Progen.Tumor Progen.1.1.1.1	chr15-region_968	4	chr15	32244919	103407240
+Tumor Progen.Tumor Progen.1.1.1.2	chr1-region_974	4	chr1	74629094	92881692
+Tumor Progen.Tumor Progen.1.1.1.2	chr3-region_977	4	chr3	3573084	54298471
+Tumor Progen.Tumor Progen.1.1.1.2	chr5-region_981	3	chr5	134212673	151574707
+Tumor Progen.Tumor Progen.1.1.1.2	chr9-region_986	3	chr9	57533543	74967595
+Tumor Progen.Tumor Progen.1.1.1.2	chr9-region_988	3	chr9	118977091	123291731
+Tumor Progen.Tumor Progen.1.1.1.2	chr12-region_992	4	chr12	51790404	112964324
+Tumor Progen.Tumor Progen.1.1.1.2	chr16-region_997	4	chr16	43887852	64681019
+Tumor Progen.Tumor Progen.1.1.2.1	chr1-region_1002	4	chr1	4561151	119576730
+Tumor Progen.Tumor Progen.1.1.2.1	chr1-region_1004	4	chr1	170699688	194813894
+Tumor Progen.Tumor Progen.1.1.2.1	chr4-region_1007	3	chr4	3549038	34687461
+Tumor Progen.Tumor Progen.1.1.2.1	chr5-region_1009	4	chr5	3621554	108022973
+Tumor Progen.Tumor Progen.1.1.2.1	chr9-region_1015	4	chr9	114414476	123291731
+Tumor Progen.Tumor Progen.1.1.2.1	chr12-region_1019	4	chr12	55883103	112964324
+Tumor Progen.Tumor Progen.1.1.2.1	chr16-region_1024	4	chr16	43959513	87229501
+Tumor Progen.Tumor Progen.1.1.2.2	chr1-region_1029	4	chr1	4561151	106687553
+Tumor Progen.Tumor Progen.1.1.2.2	chr1-region_1031	4	chr1	171062422	194813894
+Tumor Progen.Tumor Progen.1.1.2.2	chr9-region_1041	4	chr9	111267985	123291731
+Tumor Progen.Tumor Progen.1.1.2.2	chr12-region_1045	3	chr12	85346285	112964324
+Tumor Progen.Tumor Progen.1.1.2.2	chr16-region_1050	3	chr16	48814534	78374116
+Tumor Progen.Tumor Progen.1.2.1.1	chr1-region_1055	5	chr1	4561151	45965683
+Tumor Progen.Tumor Progen.1.2.1.1	chr1-region_1056	4	chr1	46845872	74163731
+Tumor Progen.Tumor Progen.1.2.1.1	chr1-region_1057	5	chr1	74323648	131025593
+Tumor Progen.Tumor Progen.1.2.1.1	chr1-region_1058	4	chr1	131080893	155912440
+Tumor Progen.Tumor Progen.1.2.1.1	chr1-region_1059	5	chr1	155951046	194813894
+Tumor Progen.Tumor Progen.1.2.1.1	chr15-region_1073	4	chr15	3347235	57833463
+Tumor Progen.Tumor Progen.1.2.1.1	chr15-region_1075	3	chr15	85213498	103407240
+Tumor Progen.Tumor Progen.1.2.1.2	chr1-region_1080	5	chr1	4561151	125363637
+Tumor Progen.Tumor Progen.1.2.1.2	chr1-region_1081	4	chr1	125488332	171115927
+Tumor Progen.Tumor Progen.1.2.1.2	chr1-region_1082	5	chr1	171156293	194813894
+Tumor Progen.Tumor Progen.1.2.1.2	chr13-region_1095	4	chr13	55685594	76338442
+Tumor Progen.Tumor Progen.1.2.1.2	chr15-region_1099	4	chr15	8138757	55384199
+Tumor Progen.Tumor Progen.1.2.1.2	chr15-region_1101	4	chr15	76605415	103407240
+Tumor Progen.Tumor Progen.1.2.2	chr1-region_1106	5	chr1	4561151	121435091
+Tumor Progen.Tumor Progen.1.2.2	chr1-region_1107	4	chr1	125320633	171532826
+Tumor Progen.Tumor Progen.1.2.2	chr1-region_1108	5	chr1	171828527	194813894
+Tumor Progen.Tumor Progen.1.2.2	chr4-region_1111	3	chr4	3549038	21913961
+Tumor Progen.Tumor Progen.1.2.2	chr6-region_1114	2	chr6	4003904	72575843
+Tumor Progen.Tumor Progen.1.2.2	chr12-region_1122	3	chr12	85733423	112964324
+Tumor Progen.Tumor Progen.1.2.2	chr13-region_1124	4	chr13	55747709	74957023
+Tumor Progen.Tumor Progen.1.2.2	chr15-region_1127	3	chr15	3347235	57755879
+Tumor Progen.Tumor Progen.1.2.2	chr15-region_1129	4	chr15	76361558	103407240
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr1-region_1134	5	chr1	4561151	74627414
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr1-region_1135	6	chr1	74626561	134220287
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr1-region_1136	5	chr1	134223169	180736066
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr1-region_1137	6	chr1	180769879	194813894
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr2-region_1139	2	chr2	71042017	80184941
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr2-region_1141	4	chr2	119482683	121189004
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr2-region_1142	5	chr2	121244149	148285546
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr2-region_1143	4	chr2	148519995	153474709
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr2-region_1145	4	chr2	173501553	181499854
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr3-region_1147	4	chr3	36120128	51403653
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr3-region_1148	5	chr3	52860989	85794825
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr3-region_1149	4	chr3	85481386	88556837
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr3-region_1151	2	chr3	93349637	98255047
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr4-region_1154	2	chr4	108691574	124833104
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr4-region_1155	2	chr4	124910378	132281061
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr4-region_1156	2	chr4	132291363	152418542
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr5-region_1157	4	chr5	3621554	31685151
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr5-region_1159	2	chr5	120672218	151574707
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr6-region_1160	2	chr6	4003904	17667148
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr6-region_1162	4	chr6	72575458	149237161
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr7-region_1164	2	chr7	133321598	144485982
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr8-region_1165	2	chr8	4216497	26643794
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr8-region_1167	4	chr8	85986024	104992536
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr8-region_1169	2	chr8	111447917	121835145
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr9-region_1172	2	chr9	75213524	98483732
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr10-region_1175	4	chr10	77994309	115685798
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr10-region_1176	5	chr10	116344919	128425811
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr11-region_1177	4	chr11	3280401	54802424
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr12-region_1179	2	chr12	4967301	112964324
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr14-region_1181	2	chr14	4137593	14304802
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr14-region_1183	4	chr14	25694522	30599533
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr14-region_1184	5	chr14	30673318	32302947
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr14-region_1185	4	chr14	33099855	51122266
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr14-region_1187	4	chr14	70782657	101846739
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr15-region_1189	5	chr15	3347235	38950518
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr15-region_1190	4	chr15	38954620	57940136
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr15-region_1192	4	chr15	79243507	83348819
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr15-region_1193	5	chr15	83411056	103407240
+Tumor Prolif.Tumor Prolif.1.1.1.1	chr16-region_1195	4	chr16	21828056	36605334
+Tumor Prolif.Tumor Prolif.1.1.1.2	chr1-region_1200	5	chr1	4561151	75419984
+Tumor Prolif.Tumor Prolif.1.1.1.2	chr1-region_1201	6	chr1	75451206	93729710
+Tumor Prolif.Tumor Prolif.1.1.1.2	chr1-region_1202	5	chr1	93731626	133728923
+Tumor Prolif.Tumor Prolif.1.1.1.2	chr1-region_1203	4	chr1	134217707	173740612
+Tumor Prolif.Tumor Prolif.1.1.1.2	chr1-region_1204	5	chr1	175425290	194813894
+Tumor Prolif.Tumor Prolif.1.1.1.2	chr3-region_1206	4	chr3	3573084	32781128
+Tumor Prolif.Tumor Prolif.1.1.1.2	chr3-region_1208	4	chr3	69224179	87676403
+Tumor Prolif.Tumor Prolif.1.1.1.2	chr5-region_1212	4	chr5	4851602	100955417
+Tumor Prolif.Tumor Prolif.1.1.1.2	chr8-region_1216	2	chr8	4216497	23699042
+Tumor Prolif.Tumor Prolif.1.1.1.2	chr15-region_1224	4	chr15	3347235	103407240
+Tumor Prolif.Tumor Prolif.1.1.2.1	chr1-region_1229	4	chr1	4561151	74627414
+Tumor Prolif.Tumor Prolif.1.1.2.1	chr1-region_1230	5	chr1	74626561	93549698
+Tumor Prolif.Tumor Prolif.1.1.2.1	chr1-region_1231	4	chr1	93547471	131455275
+Tumor Prolif.Tumor Prolif.1.1.2.1	chr1-region_1233	4	chr1	155951046	194813894
+Tumor Prolif.Tumor Prolif.1.1.2.1	chr4-region_1237	3	chr4	53030787	86775674
+Tumor Prolif.Tumor Prolif.1.1.2.1	chr5-region_1239	3	chr5	3621554	31211976
+Tumor Prolif.Tumor Prolif.1.1.2.1	chr7-region_1242	3	chr7	3632667	27176793
+Tumor Prolif.Tumor Prolif.1.1.2.1	chr9-region_1246	3	chr9	57657836	70411135
+Tumor Prolif.Tumor Prolif.1.1.2.1	chr9-region_1248	3	chr9	114560184	123291731
+Tumor Prolif.Tumor Prolif.1.1.2.1	chr12-region_1251	3	chr12	4967301	84100581
+Tumor Prolif.Tumor Prolif.1.1.2.1	chr15-region_1256	3	chr15	6329269	80005062
+Tumor Prolif.Tumor Prolif.1.1.2.1	chr15-region_1258	4	chr15	97862034	103407240
+Tumor Prolif.Tumor Prolif.1.1.2.2	chr1-region_1263	4	chr1	4561151	119765343
+Tumor Prolif.Tumor Prolif.1.1.2.2	chr1-region_1265	4	chr1	181723949	194813894
+Tumor Prolif.Tumor Prolif.1.1.2.2	chr2-region_1267	3	chr2	129206490	181499854
+Tumor Prolif.Tumor Prolif.1.1.2.2	chr3-region_1268	4	chr3	3573084	88556837
+Tumor Prolif.Tumor Prolif.1.1.2.2	chr7-region_1274	4	chr7	119494404	140462311
+Tumor Prolif.Tumor Prolif.1.1.2.2	chr8-region_1276	3	chr8	4216497	34132454
+Tumor Prolif.Tumor Prolif.1.1.2.2	chr9-region_1279	4	chr9	58489455	69918942
+Tumor Prolif.Tumor Prolif.1.1.2.2	chr9-region_1281	4	chr9	108384905	123291731
+Tumor Prolif.Tumor Prolif.1.1.2.2	chr10-region_1283	2	chr10	120197173	128425811
+Tumor Prolif.Tumor Prolif.1.1.2.2	chr11-region_1285	3	chr11	81926397	98586812
+Tumor Prolif.Tumor Prolif.1.1.2.2	chr12-region_1287	5	chr12	4967301	112964324
+Tumor Prolif.Tumor Prolif.1.1.2.2	chr14-region_1290	3	chr14	69846209	122639650
+Tumor Prolif.Tumor Prolif.1.1.2.2	chr17-region_1294	3	chr17	28532488	66079839
+Tumor Prolif.Tumor Prolif.1.1.2.2	chr19-region_1297	4	chr19	3758281	60569535
+Tumor Prolif.Tumor Prolif.1.2.1.1	chr1-region_1299	4	chr1	75157503	93718332
+Tumor Prolif.Tumor Prolif.1.2.1.1	chr3-region_1302	4	chr3	3573084	54642814
+Tumor Prolif.Tumor Prolif.1.2.1.1	chr5-region_1305	4	chr5	3621554	108805225
+Tumor Prolif.Tumor Prolif.1.2.1.1	chr9-region_1311	4	chr9	57062313	67905024
+Tumor Prolif.Tumor Prolif.1.2.1.1	chr9-region_1313	4	chr9	114202582	123291731
+Tumor Prolif.Tumor Prolif.1.2.1.1	chr15-region_1319	4	chr15	3347235	103407240
+Tumor Prolif.Tumor Prolif.1.2.1.2	chr1-region_1325	4	chr1	75111192	93301211
+Tumor Prolif.Tumor Prolif.1.2.1.2	chr3-region_1328	4	chr3	3573084	34135482
+Tumor Prolif.Tumor Prolif.1.2.1.2	chr9-region_1336	4	chr9	57533543	65330597
+Tumor Prolif.Tumor Prolif.1.2.1.2	chr9-region_1338	4	chr9	111048717	123291731
+Tumor Prolif.Tumor Prolif.1.2.1.2	chr19-region_1349	4	chr19	3758281	10174241
+Tumor Prolif.Tumor Prolif.1.2.2.1	chr1-region_1352	4	chr1	75189219	92792113
+Tumor Prolif.Tumor Prolif.1.2.2.1	chr1-region_1354	4	chr1	178145801	194813894
+Tumor Prolif.Tumor Prolif.1.2.2.1	chr2-region_1356	2	chr2	148519995	157313782
+Tumor Prolif.Tumor Prolif.1.2.2.1	chr3-region_1358	5	chr3	3573084	86690011
+Tumor Prolif.Tumor Prolif.1.2.2.1	chr3-region_1359	4	chr3	87655197	159644557
+Tumor Prolif.Tumor Prolif.1.2.2.1	chr5-region_1361	4	chr5	3621554	96312030
+Tumor Prolif.Tumor Prolif.1.2.2.1	chr7-region_1365	2	chr7	132313803	144485982
+Tumor Prolif.Tumor Prolif.1.2.2.1	chr8-region_1367	3	chr8	71215403	94763675
+Tumor Prolif.Tumor Prolif.1.2.2.1	chr8-region_1369	4	chr8	111447917	129460618
+Tumor Prolif.Tumor Prolif.1.2.2.1	chr12-region_1374	4	chr12	52549920	112964324
+Tumor Prolif.Tumor Prolif.1.2.2.1	chr13-region_1376	4	chr13	86189246	119594754
+Tumor Prolif.Tumor Prolif.1.2.2.1	chr15-region_1379	3	chr15	97927098	103407240
+Tumor Prolif.Tumor Prolif.1.2.2.1	chr16-region_1381	4	chr16	84570764	97883698
+Tumor Prolif.Tumor Prolif.1.2.2.1	chr18-region_1384	3	chr18	61431195	88945635
+Tumor Prolif.Tumor Prolif.1.2.2.2	chr1-region_1387	3	chr1	178014983	194813894
+Tumor Prolif.Tumor Prolif.1.2.2.2	chr3-region_1389	3	chr3	3573084	32420163
+Tumor Prolif.Tumor Prolif.1.2.2.2	chr3-region_1391	3	chr3	65435320	87676403
+Tumor Prolif.Tumor Prolif.1.2.2.2	chr4-region_1394	3	chr4	58042442	96552451
+Tumor Prolif.Tumor Prolif.1.2.2.2	chr5-region_1396	4	chr5	3621554	113917545
+Tumor Prolif.Tumor Prolif.1.2.2.2	chr8-region_1402	2	chr8	47070326	71219334
+Tumor Prolif.Tumor Prolif.1.2.2.2	chr9-region_1405	4	chr9	111048717	123291731
+Tumor Prolif.Tumor Prolif.1.2.2.2	chr12-region_1408	4	chr12	4967301	112964324
+Tumor Prolif.Tumor Prolif.1.2.2.2	chr15-region_1412	3	chr15	93283257	103407240
+Tumor SM Vasc.Tumor SM Vasc.1.1	chr1-region_1418	4	chr1	75168404	91225284
+Tumor SM Vasc.Tumor SM Vasc.1.1	chr3-region_1422	4	chr3	54635907	89090080
+Tumor SM Vasc.Tumor SM Vasc.1.1	chr5-region_1426	4	chr5	134128531	151574707
+Tumor SM Vasc.Tumor SM Vasc.1.1	chr8-region_1429	3	chr8	4216497	41870188
+Tumor SM Vasc.Tumor SM Vasc.1.1	chr9-region_1432	3	chr9	55949096	64991784
+Tumor SM Vasc.Tumor SM Vasc.1.1	chr9-region_1434	3	chr9	113570508	123291731
+Tumor SM Vasc.Tumor SM Vasc.1.1	chr12-region_1437	3	chr12	4967301	110649083
+Tumor SM Vasc.Tumor SM Vasc.1.1	chr16-region_1442	3	chr16	3561921	16176904
+Tumor SM Vasc.Tumor SM Vasc.1.1	chr19-region_1447	3	chr19	29442145	60569535
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr1-region_1449	3	chr1	24049820	52272409
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr1-region_1451	3	chr1	75351777	92852111
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr1-region_1453	4	chr1	169483036	194813894
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr2-region_1454	3	chr2	3285225	23089281
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr2-region_1456	3	chr2	80145787	127448789
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr3-region_1459	3	chr3	8990653	41757756
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr3-region_1460	5	chr3	49846975	84214184
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr3-region_1461	4	chr3	84403733	89117206
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr4-region_1464	4	chr4	55349979	105089964
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr4-region_1466	2	chr4	115980970	152418542
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr5-region_1468	4	chr5	135404995	151574707
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr6-region_1470	3	chr6	92917271	149237161
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr7-region_1471	2	chr7	3632667	24203964
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr9-region_1475	3	chr9	111267985	123291731
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr11-region_1477	3	chr11	3280401	51579964
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr11-region_1479	3	chr11	69547523	76070811
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr12-region_1482	3	chr12	69771705	110669166
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr13-region_1485	2	chr13	64420390	97317705
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr14-region_1488	4	chr14	20598980	31100290
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr15-region_1491	2	chr15	79025209	83479403
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr16-region_1493	5	chr16	3561921	38847521
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr17-region_1496	3	chr17	24043708	34822693
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr17-region_1498	3	chr17	74826654	95057487
+Tumor SM Vasc.Tumor SM Vasc.1.2	chr19-region_1500	4	chr19	3758281	60569535
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.1	chr1-region_1501	4	chr1	4561151	93729710
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.1	chr1-region_1503	3	chr1	167050452	194813894
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.1	chr7-region_1509	3	chr7	3632667	33869024
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.1	chr17-region_1521	3	chr17	26686205	57338587
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.2	chr1-region_1526	3	chr1	39940044	63794016
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.2	chr1-region_1528	3	chr1	143652945	163142033
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.2	chr1-region_1530	2	chr1	172297192	194813894
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.2	chr2-region_1531	3	chr2	3285225	25255733
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.2	chr3-region_1533	4	chr3	3573084	86037833
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.2	chr4-region_1535	4	chr4	3549038	40948318
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.2	chr4-region_1537	2	chr4	137720333	152418542
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.2	chr7-region_1541	2	chr7	105283405	144485982
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.2	chr8-region_1543	4	chr8	106670216	120285605
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.2	chr9-region_1546	4	chr9	53595302	67466985
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.2	chr9-region_1548	3	chr9	109913387	123291731
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.2	chr10-region_1549	4	chr10	7068143	79700605
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.2	chr11-region_1552	3	chr11	51576194	69674849
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.2	chr11-region_1554	4	chr11	115310861	120391985
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.2	chr12-region_1555	4	chr12	4967301	112964324
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.2	chr14-region_1558	4	chr14	55796976	64157309
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.2	chr15-region_1560	2	chr15	3347235	74635597
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.2	chr16-region_1563	4	chr16	50012167	90841431
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.2	chr17-region_1566	3	chr17	66272693	95057487
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.2	chr18-region_1567	3	chr18	4634606	88945635
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.1.2	chr19-region_1568	3	chr19	3758281	29344824
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.2.1	chr1-region_1570	4	chr1	4561151	194813894
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.2.1	chr6-region_1575	4	chr6	4003904	149237161
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.2.1	chr16-region_1588	4	chr16	38343557	90732080
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.2.2	chr1-region_1593	4	chr1	4561151	130779986
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.2.2	chr1-region_1595	4	chr1	151728033	194813894
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.2.2	chr6-region_1600	4	chr6	4003904	85907269
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.1.2.2	chr16-region_1613	4	chr16	44547926	87530234
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.1	chr1-region_1618	5	chr1	4561151	131910707
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.1	chr1-region_1619	4	chr1	131935116	170768691
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.1	chr1-region_1620	5	chr1	170699688	194813894
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.1	chr15-region_1635	4	chr15	7790195	58022061
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.1	chr15-region_1637	4	chr15	76385083	103407240
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.2	chr1-region_1642	5	chr1	4561151	74638394
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.2	chr1-region_1643	6	chr1	74629094	93682611
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.2	chr1-region_1644	6	chr1	93679222	131865058
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.2	chr1-region_1645	3	chr1	131890666	167161547
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.2	chr1-region_1646	5	chr1	167177536	173740612
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.2	chr1-region_1647	6	chr1	175425290	194813894
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.2	chr2-region_1649	4	chr2	25473024	32295786
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.2	chr2-region_1651	4	chr2	72766771	91854917
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.2	chr2-region_1653	2	chr2	154401326	181499854
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.2	chr4-region_1656	3	chr4	24898079	48663136
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.2	chr4-region_1658	2	chr4	83443626	116485215
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.2	chr4-region_1660	4	chr4	128666879	148666858
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.2	chr6-region_1664	2	chr6	72542905	149237161
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.2	chr8-region_1667	4	chr8	110397939	114882092
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.2	chr9-region_1670	4	chr9	65102635	80053804
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.2	chr10-region_1673	3	chr10	80970299	128425811
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.2	chr11-region_1674	2	chr11	3280401	23442383
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.2	chr14-region_1679	2	chr14	52516587	66055276
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.2	chr15-region_1681	4	chr15	3347235	103407240
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.2	chr16-region_1682	2	chr16	3561921	10347694
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.2	chr16-region_1684	2	chr16	87251591	97883698
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.1.2	chr17-region_1686	4	chr17	53786241	95057487
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.2	chr1-region_1689	4	chr1	4561151	66765663
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.2	chr1-region_1690	5	chr1	66758396	118261561
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.2	chr1-region_1691	4	chr1	118555636	131865058
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.2	chr1-region_1693	4	chr1	153775690	194813894
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.2	chr2-region_1695	2	chr2	34764379	53110995
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.2	chr3-region_1698	2	chr3	98779164	159644557
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.2	chr4-region_1700	5	chr4	40970906	62438587
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.2	chr7-region_1704	4	chr7	3632667	45161483
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.2	chr7-region_1706	3	chr7	128125283	144485982
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.2	chr9-region_1709	4	chr9	21458056	44245247
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.2	chr9-region_1711	4	chr9	55457155	64080386
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.2	chr11-region_1715	2	chr11	102292585	117730734
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.2	chr13-region_1719	4	chr13	49617492	64277198
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.2	chr14-region_1722	4	chr14	32235451	55261845
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.2	chr14-region_1724	2	chr14	70782657	122639650
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.2	chr15-region_1726	4	chr15	34238174	78457429
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.2	chr15-region_1727	4	chr15	78476060	83234595
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.2	chr15-region_1728	4	chr15	83258424	98432604
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.2	chr16-region_1731	2	chr16	22932519	55829276
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.2	chr16-region_1733	2	chr16	90021504	97883698
+Tumor TR Diff Myo.Tumor TR Diff Myo.1.2.2	chr18-region_1736	2	chr18	46862694	88945635
+Control Immune.Control Immune.1.1.1	chr1-region_1739	2	chr1	171109519	194813894
+Control Immune.Control Immune.1.1.1	chr2-region_1740	4	chr2	3285225	22830278
+Control Immune.Control Immune.1.1.1	chr2-region_1742	4	chr2	84552448	120433531
+Control Immune.Control Immune.1.1.1	chr3-region_1746	3	chr3	90356458	98218054
+Control Immune.Control Immune.1.1.1	chr6-region_1750	4	chr6	4003904	72322239
+Control Immune.Control Immune.1.1.1	chr7-region_1752	4	chr7	3632667	57478880
+Control Immune.Control Immune.1.1.1	chr13-region_1760	4	chr13	58536691	76338442
+Control Immune.Control Immune.1.1.2.1	chr1-region_1768	3	chr1	4561151	24139592
+Control Immune.Control Immune.1.1.2.1	chr2-region_1770	3	chr2	3285225	19003140
+Control Immune.Control Immune.1.1.2.1	chr2-region_1772	4	chr2	73440684	120183635
+Control Immune.Control Immune.1.1.2.1	chr3-region_1775	3	chr3	107198532	135129686
+Control Immune.Control Immune.1.1.2.1	chr6-region_1779	4	chr6	4003904	72416684
+Control Immune.Control Immune.1.1.2.1	chr7-region_1781	4	chr7	3632667	44624306
+Control Immune.Control Immune.1.1.2.1	chr8-region_1784	2	chr8	81491061	123170324
+Control Immune.Control Immune.1.1.2.1	chr9-region_1787	3	chr9	72892674	92375563
+Control Immune.Control Immune.1.1.2.1	chr16-region_1797	3	chr16	44547926	78174312
+Control Immune.Control Immune.1.1.2.2	chr2-region_1804	4	chr2	59729707	112246095
+Control Immune.Control Immune.1.1.2.2	chr3-region_1807	4	chr3	95640761	159644557
+Control Immune.Control Immune.1.1.2.2	chr4-region_1809	4	chr4	96445637	109822845
+Control Immune.Control Immune.1.1.2.2	chr4-region_1811	3	chr4	129705012	139019142
+Control Immune.Control Immune.1.1.2.2	chr6-region_1814	4	chr6	4003904	83753186
+Control Immune.Control Immune.1.1.2.2	chr9-region_1819	4	chr9	70114632	123291731
+Control Immune.Control Immune.1.1.2.2	chr13-region_1824	4	chr13	54225709	65452036
+Control Immune.Control Immune.1.1.2.2	chr17-region_1830	2	chr17	22555085	35156292
+Control Immune.Control Immune.1.1.2.2	chr19-region_1834	3	chr19	6103652	60569535
+Control Immune.Control Immune.1.2.2.1	chr14-region_1886	4	chr14	4137593	40735799
+Control Immune.Control Immune.1.2.2.1	chr14-region_1888	4	chr14	79696811	122639650
+Control Immune.Control Immune.1.2.2.1	chr15-region_1889	4	chr15	3347235	39807415
+Control Immune.Control Immune.1.2.2.2	chr1-region_1896	4	chr1	160865537	194813894
+Control Immune.Control Immune.1.2.2.2	chr2-region_1897	3	chr2	3285225	22830278
+Control Immune.Control Immune.1.2.2.2	chr2-region_1899	4	chr2	32677484	118935982
+Control Immune.Control Immune.1.2.2.2	chr2-region_1901	2	chr2	163836007	181499854
+Control Immune.Control Immune.1.2.2.2	chr4-region_1904	4	chr4	83341129	115911073
+Control Immune.Control Immune.1.2.2.2	chr4-region_1906	2	chr4	128548459	137935819
+Control Immune.Control Immune.1.2.2.2	chr9-region_1913	2	chr9	56039009	65330597
+Control Immune.Control Immune.1.2.2.2	chr9-region_1915	2	chr9	109913387	123291731
+Control Immune.Control Immune.1.2.2.2	chr13-region_1920	3	chr13	90237242	119594754
+Control Immune.Control Immune.1.2.2.2	chr14-region_1921	4	chr14	4137593	52533858
+Control Immune.Control Immune.1.2.2.2	chr14-region_1923	3	chr14	78058020	122639650
+Control Immune.Control Immune.1.2.2.2	chr15-region_1924	3	chr15	3347235	31453883
+Control Immune.Control Immune.1.2.2.2	chr17-region_1927	2	chr17	3248385	35235305
+Control Immune.Control Immune.1.2.2.2	chr19-region_1930	4	chr19	3758281	60569535
+Control Fibro.Control Fibro.1.1.1.2	chr4-region_1955	4	chr4	120614632	132484570
+Control Fibro.Control Fibro.1.1.1.2	chr10-region_1963	3	chr10	116344919	128425811
+Control Fibro.Control Fibro.1.1.2.1	chr9-region_1983	3	chr9	61823187	74939762
+Control Fibro.Control Fibro.1.1.2.1	chr14-region_1990	3	chr14	72775385	122639650
+Control Fibro.Control Fibro.1.1.2.1	chr16-region_1993	4	chr16	49519544	87229501
+Control Fibro.Control Fibro.1.1.2.2	chr1-region_1999	3	chr1	177555689	194813894
+Control Fibro.Control Fibro.1.1.2.2	chr2-region_2000	3	chr2	3285225	19003140
+Control Fibro.Control Fibro.1.1.2.2	chr2-region_2002	3	chr2	51838450	84640783
+Control Fibro.Control Fibro.1.1.2.2	chr2-region_2004	3	chr2	167033725	181499854
+Control Fibro.Control Fibro.1.1.2.2	chr3-region_2006	3	chr3	134986982	159644557
+Control Fibro.Control Fibro.1.1.2.2	chr4-region_2008	3	chr4	58965203	96441935
+Control Fibro.Control Fibro.1.1.2.2	chr7-region_2012	2	chr7	3632667	28681353
+Control Fibro.Control Fibro.1.1.2.2	chr9-region_2015	4	chr9	3335110	21710056
+Control Fibro.Control Fibro.1.1.2.2	chr9-region_2017	3	chr9	64868102	86347028
+Control Fibro.Control Fibro.1.1.2.2	chr13-region_2023	3	chr13	100261344	119594754
+Control Fibro.Control Fibro.1.1.2.2	chr14-region_2025	4	chr14	75367978	122639650
+Control Fibro.Control Fibro.1.1.2.2	chr15-region_2026	3	chr15	3347235	34495430
+Control Fibro.Control Fibro.1.1.2.2	chr15-region_2028	3	chr15	89383826	103407240
+Control Fibro.Control Fibro.1.1.2.2	chr16-region_2029	4	chr16	3561921	90146590
+Control Fibro.Control Fibro.1.1.2.2	chr19-region_2034	4	chr19	31060237	60569535
+Control Fibro.Control Fibro.1.2.1.1	chr1-region_2036	4	chr1	118222508	172035334
+Control Fibro.Control Fibro.1.2.1.1	chr2-region_2038	3	chr2	3285225	19003140
+Control Fibro.Control Fibro.1.2.1.1	chr2-region_2040	2	chr2	172994744	181499854
+Control Fibro.Control Fibro.1.2.1.1	chr3-region_2041	3	chr3	3573084	32420163
+Control Fibro.Control Fibro.1.2.1.1	chr9-region_2049	2	chr9	56039009	66033869
+Control Fibro.Control Fibro.1.2.1.1	chr11-region_2052	3	chr11	3280401	54802424
+Control Fibro.Control Fibro.1.2.1.1	chr16-region_2060	3	chr16	90021504	97883698
+Control Fibro.Control Fibro.1.2.1.1	chr17-region_2062	3	chr17	57586095	95057487
+Control Fibro.Control Fibro.1.2.1.2	chr1-region_2066	4	chr1	23800834	63216236
+Control Fibro.Control Fibro.1.2.1.2	chr1-region_2068	4	chr1	169799876	194813894
+Control Fibro.Control Fibro.1.2.1.2	chr2-region_2069	3	chr2	3285225	65955482
+Control Fibro.Control Fibro.1.2.1.2	chr3-region_2071	4	chr3	3573084	84214184
+Control Fibro.Control Fibro.1.2.1.2	chr3-region_2073	4	chr3	137636762	159644557
+Control Fibro.Control Fibro.1.2.1.2	chr4-region_2074	2	chr4	3549038	43451681
+Control Fibro.Control Fibro.1.2.1.2	chr5-region_2076	4	chr5	3621554	151574707
+Control Fibro.Control Fibro.1.2.1.2	chr7-region_2079	4	chr7	18962253	103482989
+Control Fibro.Control Fibro.1.2.1.2	chr9-region_2082	4	chr9	3335110	45847404
+Control Fibro.Control Fibro.1.2.1.2	chr9-region_2084	3	chr9	110254978	123291731
+Control Fibro.Control Fibro.1.2.1.2	chr10-region_2085	4	chr10	7068143	128425811
+Control Fibro.Control Fibro.1.2.1.2	chr11-region_2086	3	chr11	3280401	62405243
+Control Fibro.Control Fibro.1.2.1.2	chr11-region_2088	5	chr11	75570085	98945218
+Control Fibro.Control Fibro.1.2.1.2	chr11-region_2090	3	chr11	106710889	120391985
+Control Fibro.Control Fibro.1.2.1.2	chr12-region_2091	4	chr12	4967301	112964324
+Control Fibro.Control Fibro.1.2.1.2	chr13-region_2093	2	chr13	68758255	119594754
+Control Fibro.Control Fibro.1.2.1.2	chr14-region_2094	3	chr14	4137593	20753523
+Control Fibro.Control Fibro.1.2.1.2	chr14-region_2096	2	chr14	54701489	60540442
+Control Fibro.Control Fibro.1.2.1.2	chr16-region_2099	3	chr16	3561921	35859478
+Control Fibro.Control Fibro.1.2.1.2	chr16-region_2101	3	chr16	84614160	97883698
+Control Fibro.Control Fibro.1.2.1.2	chr17-region_2103	2	chr17	17561082	66079839
+Control Fibro.Control Fibro.1.2.2	chr1-region_2108	4	chr1	65225808	82423782
+Control Fibro.Control Fibro.1.2.2	chr4-region_2113	3	chr4	108316587	117574943
+Control Fibro.Control Fibro.1.2.2	chr10-region_2121	2	chr10	86614865	128425811
+Control Fibro.Control Fibro.1.2.2	chr14-region_2125	4	chr14	4137593	45587169
+Control Fibro.Control Fibro.1.2.2	chr15-region_2128	3	chr15	80118149	88618518
+Control Loop Henle.Control Loop Henle.1.1.2	chr2-region_2155	4	chr2	121337190	128697733
+Control Loop Henle.Control Loop Henle.1.1.2	chr3-region_2157	3	chr3	3573084	32522635
+Control Loop Henle.Control Loop Henle.1.1.2	chr3-region_2159	4	chr3	88457115	96127025
+Control Loop Henle.Control Loop Henle.1.1.2	chr4-region_2161	3	chr4	3549038	40948318
+Control Loop Henle.Control Loop Henle.1.1.2	chr4-region_2163	3	chr4	53825984	102834605
+Control Loop Henle.Control Loop Henle.1.1.2	chr4-region_2165	3	chr4	118965908	128979679
+Control Loop Henle.Control Loop Henle.1.1.2	chr9-region_2172	2	chr9	103879743	123291731
+Control Loop Henle.Control Loop Henle.1.1.2	chr10-region_2174	2	chr10	86614865	128425811
+Control Loop Henle.Control Loop Henle.1.1.2	chr12-region_2177	2	chr12	76577665	112964324
+Control Loop Henle.Control Loop Henle.1.1.2	chr13-region_2178	2	chr13	3616035	24946084
+Control Loop Henle.Control Loop Henle.1.1.2	chr14-region_2180	3	chr14	4137593	20694116
+Control Loop Henle.Control Loop Henle.1.1.2	chr14-region_2182	4	chr14	33645273	57995845
+Control Loop Henle.Control Loop Henle.1.2.1	chr1-region_2190	3	chr1	8429960	37929497
+Control Loop Henle.Control Loop Henle.1.2.1	chr4-region_2195	3	chr4	62883405	103229065
+Control Loop Henle.Control Loop Henle.1.2.1	chr4-region_2197	2	chr4	135648004	152418542
+Control Loop Henle.Control Loop Henle.1.2.1	chr16-region_2211	4	chr16	18065853	84623269
+Control Loop Henle.Control Loop Henle.1.2.2	chr1-region_2216	4	chr1	4561151	65225721
+Control Loop Henle.Control Loop Henle.1.2.2	chr1-region_2218	5	chr1	143875076	172307889
+Control Loop Henle.Control Loop Henle.1.2.2	chr2-region_2221	2	chr2	33340299	52632598
+Control Loop Henle.Control Loop Henle.1.2.2	chr2-region_2223	3	chr2	93249455	120394360
+Control Loop Henle.Control Loop Henle.1.2.2	chr2-region_2225	2	chr2	132081412	181499854
+Control Loop Henle.Control Loop Henle.1.2.2	chr3-region_2227	3	chr3	27151371	159644557
+Control Loop Henle.Control Loop Henle.1.2.2	chr4-region_2228	5	chr4	3549038	34660904
+Control Loop Henle.Control Loop Henle.1.2.2	chr4-region_2229	4	chr4	34663244	95815188
+Control Loop Henle.Control Loop Henle.1.2.2	chr4-region_2231	3	chr4	103170737	117744567
+Control Loop Henle.Control Loop Henle.1.2.2	chr4-region_2232	2	chr4	117789348	124743593
+Control Loop Henle.Control Loop Henle.1.2.2	chr4-region_2233	2	chr4	124743888	130209259
+Control Loop Henle.Control Loop Henle.1.2.2	chr4-region_2235	3	chr4	135046676	152418542
+Control Loop Henle.Control Loop Henle.1.2.2	chr5-region_2236	3	chr5	3621554	92583112
+Control Loop Henle.Control Loop Henle.1.2.2	chr6-region_2238	6	chr6	4003904	70769216
+Control Loop Henle.Control Loop Henle.1.2.2	chr6-region_2239	3	chr6	70821461	83436066
+Control Loop Henle.Control Loop Henle.1.2.2	chr6-region_2241	3	chr6	97182558	149237161
+Control Loop Henle.Control Loop Henle.1.2.2	chr7-region_2243	2	chr7	105452413	144485982
+Control Loop Henle.Control Loop Henle.1.2.2	chr8-region_2245	2	chr8	34089603	65303087
+Control Loop Henle.Control Loop Henle.1.2.2	chr8-region_2247	4	chr8	71948674	92040016
+Control Loop Henle.Control Loop Henle.1.2.2	chr8-region_2249	4	chr8	110431407	120082919
+Control Loop Henle.Control Loop Henle.1.2.2	chr8-region_2251	3	chr8	124679198	129460618
+Control Loop Henle.Control Loop Henle.1.2.2	chr9-region_2253	4	chr9	48379812	65330597
+Control Loop Henle.Control Loop Henle.1.2.2	chr9-region_2255	4	chr9	69919814	88254146
+Control Loop Henle.Control Loop Henle.1.2.2	chr9-region_2257	2	chr9	107419129	115140000
+Control Loop Henle.Control Loop Henle.1.2.2	chr11-region_2260	4	chr11	3280401	29465040
+Control Loop Henle.Control Loop Henle.1.2.2	chr11-region_2262	3	chr11	75933487	101527823
+Control Loop Henle.Control Loop Henle.1.2.2	chr12-region_2265	3	chr12	100267028	112964324
+Control Loop Henle.Control Loop Henle.1.2.2	chr13-region_2267	3	chr13	58954176	74465699
+Control Loop Henle.Control Loop Henle.1.2.2	chr13-region_2269	4	chr13	104928992	119594754
+Control Loop Henle.Control Loop Henle.1.2.2	chr15-region_2271	3	chr15	3347235	68130750
+Control Loop Henle.Control Loop Henle.1.2.2	chr15-region_2273	4	chr15	80017318	85783225
+Control Loop Henle.Control Loop Henle.1.2.2	chr16-region_2276	3	chr16	4703484	22476155
+Control Loop Henle.Control Loop Henle.1.2.2	chr17-region_2279	2	chr17	24633504	66384084
+Control Loop Henle.Control Loop Henle.1.2.2	chr19-region_2282	3	chr19	3758281	60569535
+Control Collect Duct.Control Collect Duct.1.1.1.1	chr1-region_2284	4	chr1	16735407	59758203
+Control Collect Duct.Control Collect Duct.1.1.1.1	chr1-region_2286	3	chr1	128289511	152262533
+Control Collect Duct.Control Collect Duct.1.1.1.1	chr2-region_2288	3	chr2	3285225	17736275
+Control Collect Duct.Control Collect Duct.1.1.1.1	chr3-region_2291	4	chr3	89979949	103266912
+Control Collect Duct.Control Collect Duct.1.1.1.1	chr8-region_2298	3	chr8	85558151	94802886
+Control Collect Duct.Control Collect Duct.1.1.1.1	chr9-region_2301	2	chr9	64718604	79920133
+Control Collect Duct.Control Collect Duct.1.1.1.1	chr12-region_2307	3	chr12	4967301	112964324
+Control Collect Duct.Control Collect Duct.1.1.1.1	chr14-region_2309	2	chr14	4137593	24295993
+Control Collect Duct.Control Collect Duct.1.1.1.1	chr16-region_2313	4	chr16	20354186	97883698
+Control Collect Duct.Control Collect Duct.1.1.1.1	chr19-region_2317	4	chr19	41847867	60569535
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr1-region_2318	4	chr1	4561151	58065442
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr1-region_2320	3	chr1	91107540	134418756
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr1-region_2321	5	chr1	135074328	161079098
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr1-region_2322	4	chr1	161796749	167161547
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr2-region_2325	3	chr2	17347467	34668880
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr2-region_2327	5	chr2	83554403	112093764
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr2-region_2328	4	chr2	112095869	144383915
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr2-region_2329	4	chr2	144372078	153615249
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr3-region_2331	4	chr3	3573084	89177906
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr3-region_2333	4	chr3	95667653	159644557
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr4-region_2334	2	chr4	3549038	62438587
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr4-region_2336	5	chr4	106418225	115875423
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr4-region_2338	2	chr4	116876588	152418542
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr5-region_2339	5	chr5	3621554	113917545
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr6-region_2342	3	chr6	70742704	85181444
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr7-region_2345	4	chr7	45139882	80984284
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr8-region_2348	3	chr8	119010328	129460618
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr9-region_2349	6	chr9	3335110	8004661
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr9-region_2350	3	chr9	13298302	22069666
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr9-region_2352	2	chr9	52020873	67905024
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr9-region_2354	4	chr9	77661797	98472072
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr9-region_2356	2	chr9	108887001	123291731
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr11-region_2358	4	chr11	3280401	53440808
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr11-region_2360	3	chr11	69656726	77398637
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr11-region_2361	5	chr11	77419988	87944581
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr11-region_2362	4	chr11	87958501	96834892
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr11-region_2364	2	chr11	101151246	120391985
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr12-region_2365	2	chr12	4967301	69792635
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr12-region_2367	5	chr12	85318550	99530218
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr12-region_2368	4	chr12	100267028	112964324
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr13-region_2370	4	chr13	23886017	54841909
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr14-region_2372	2	chr14	4137593	25667171
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr14-region_2374	2	chr14	52499215	59823213
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr15-region_2377	3	chr15	30172668	57755879
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr16-region_2379	5	chr16	3561921	12969860
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr16-region_2381	3	chr16	62674275	97883698
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr17-region_2382	2	chr17	3248385	36353650
+Control Collect Duct.Control Collect Duct.1.1.1.2	chr19-region_2385	3	chr19	3758281	7403272
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr1-region_2388	5	chr1	24034185	44220420
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr1-region_2390	3	chr1	131935116	155293181
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr1-region_2392	2	chr1	177555689	194813894
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr2-region_2394	5	chr2	31462651	71734202
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr2-region_2396	4	chr2	125671069	148717887
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr2-region_2398	4	chr2	158148409	181499854
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr3-region_2399	3	chr3	3573084	67511596
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr3-region_2401	4	chr3	96103902	129763869
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr4-region_2404	2	chr4	40142998	48431957
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr4-region_2406	2	chr4	115476281	119151950
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr4-region_2408	4	chr4	126915079	148642141
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr5-region_2411	4	chr5	108596818	151574707
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr7-region_2414	3	chr7	101714718	120581539
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr8-region_2417	3	chr8	84626588	95044987
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr9-region_2420	3	chr9	107527815	123291731
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr10-region_2421	4	chr10	7068143	128425811
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr11-region_2423	4	chr11	5004132	88882445
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr11-region_2425	3	chr11	115749232	120391985
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr12-region_2427	3	chr12	100267028	112964324
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr13-region_2429	2	chr13	76246853	119594754
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr14-region_2430	3	chr14	4137593	20596668
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr14-region_2432	2	chr14	45588529	58044095
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr14-region_2434	3	chr14	78058020	122639650
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr15-region_2436	4	chr15	65658857	78687260
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr16-region_2438	3	chr16	3561921	11082342
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr16-region_2440	4	chr16	33071756	97883698
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr17-region_2441	2	chr17	3248385	47692441
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr18-region_2443	2	chr18	4634606	88945635
+Control Collect Duct.Control Collect Duct.1.1.2.1	chr19-region_2445	4	chr19	28236251	60569535
+Control Collect Duct.Control Collect Duct.1.1.2.2	chr2-region_2448	3	chr2	32511448	69630349
+Control Collect Duct.Control Collect Duct.1.1.2.2	chr2-region_2450	4	chr2	125701029	144392789
+Control Collect Duct.Control Collect Duct.1.1.2.2	chr2-region_2452	3	chr2	156262279	181499854
+Control Collect Duct.Control Collect Duct.1.1.2.2	chr6-region_2457	4	chr6	118478269	149237161
+Control Collect Duct.Control Collect Duct.1.1.2.2	chr10-region_2461	4	chr10	7068143	128425811
+Control Collect Duct.Control Collect Duct.1.1.2.2	chr11-region_2463	4	chr11	58221507	86884646
+Control Collect Duct.Control Collect Duct.1.1.2.2	chr15-region_2468	3	chr15	3347235	27598709
+Control Collect Duct.Control Collect Duct.1.1.2.2	chr16-region_2471	4	chr16	59292130	97883698
+Control Collect Duct.Control Collect Duct.1.1.2.2	chr18-region_2474	4	chr18	36812184	88945635
+Control Collect Duct.Control Collect Duct.1.1.2.2	chr19-region_2476	3	chr19	23118187	60569535
+Control Collect Duct.Control Collect Duct.1.2.1.1	chr12-region_2489	4	chr12	4967301	108860188
+Control Collect Duct.Control Collect Duct.1.2.1.1	chr13-region_2492	3	chr13	100630334	119594754
+Control Collect Duct.Control Collect Duct.1.2.1.2	chr1-region_2500	4	chr1	33492888	62857854
+Control Collect Duct.Control Collect Duct.1.2.1.2	chr1-region_2502	3	chr1	118222508	160620781
+Control Collect Duct.Control Collect Duct.1.2.1.2	chr1-region_2504	4	chr1	172020640	194813894
+Control Collect Duct.Control Collect Duct.1.2.1.2	chr2-region_2505	4	chr2	3285225	24365617
+Control Collect Duct.Control Collect Duct.1.2.1.2	chr2-region_2507	2	chr2	28730387	38485465
+Control Collect Duct.Control Collect Duct.1.2.1.2	chr3-region_2510	4	chr3	68911944	88817410
+Control Collect Duct.Control Collect Duct.1.2.1.2	chr4-region_2513	3	chr4	32615429	47414931
+Control Collect Duct.Control Collect Duct.1.2.1.2	chr4-region_2515	2	chr4	139074746	152418542
+Control Collect Duct.Control Collect Duct.1.2.1.2	chr6-region_2517	2	chr6	4003904	113130729
+Control Collect Duct.Control Collect Duct.1.2.1.2	chr7-region_2520	2	chr7	127187505	140982886
+Control Collect Duct.Control Collect Duct.1.2.1.2	chr8-region_2523	4	chr8	107777399	121316043
+Control Collect Duct.Control Collect Duct.1.2.1.2	chr9-region_2526	4	chr9	26883155	48955283
+Control Collect Duct.Control Collect Duct.1.2.1.2	chr9-region_2528	4	chr9	55457155	66742644
+Control Collect Duct.Control Collect Duct.1.2.1.2	chr9-region_2530	3	chr9	109946776	123291731
+Control Collect Duct.Control Collect Duct.1.2.1.2	chr10-region_2531	4	chr10	7068143	118706114
+Control Collect Duct.Control Collect Duct.1.2.1.2	chr11-region_2533	5	chr11	3280401	29465040
+Control Collect Duct.Control Collect Duct.1.2.1.2	chr11-region_2535	4	chr11	75478891	120391985
+Control Collect Duct.Control Collect Duct.1.2.1.2	chr12-region_2536	4	chr12	4967301	109538165
+Control Collect Duct.Control Collect Duct.1.2.1.2	chr13-region_2539	2	chr13	73809871	119594754
+Control Collect Duct.Control Collect Duct.1.2.1.2	chr14-region_2541	3	chr14	70540678	105415075
+Control Collect Duct.Control Collect Duct.1.2.1.2	chr16-region_2544	4	chr16	3561921	18072636
+Control Collect Duct.Control Collect Duct.1.2.1.2	chr17-region_2547	4	chr17	31783674	95057487
+Control Collect Duct.Control Collect Duct.1.2.2.1	chr2-region_2552	4	chr2	157120893	181499854
+Control Collect Duct.Control Collect Duct.1.2.2.1	chr4-region_2555	4	chr4	130519826	141546508
+Control Collect Duct.Control Collect Duct.1.2.2.1	chr7-region_2559	4	chr7	3632667	30186675
+Control Collect Duct.Control Collect Duct.1.2.2.1	chr8-region_2562	4	chr8	71125849	85730956
+Control Collect Duct.Control Collect Duct.1.2.2.2	chr4-region_2579	4	chr4	120395395	139377003
+Control Collect Duct.Control Collect Duct.1.2.2.2	chr9-region_2586	4	chr9	37560059	50440024
+Control Collect Duct.Control Collect Duct.1.2.2.2	chr11-region_2589	3	chr11	3280401	53440808
+Control Collect Duct.Control Collect Duct.1.2.2.2	chr14-region_2594	3	chr14	51107709	58236767
+Control Prox Tub.Control Prox Tub.1.1.1.1	chr2-region_2604	3	chr2	3285225	23462138
+Control Prox Tub.Control Prox Tub.1.1.1.1	chr2-region_2606	4	chr2	128907851	153615249
+Control Prox Tub.Control Prox Tub.1.1.1.1	chr7-region_2612	4	chr7	3632667	41042803
+Control Prox Tub.Control Prox Tub.1.1.1.1	chr12-region_2619	4	chr12	4967301	112964324
+Control Prox Tub.Control Prox Tub.1.1.1.2	chr1-region_2628	3	chr1	128259311	156767610
+Control Prox Tub.Control Prox Tub.1.1.1.2	chr2-region_2631	4	chr2	127177957	151957687
+Control Prox Tub.Control Prox Tub.1.1.1.2	chr7-region_2637	3	chr7	3632667	24920162
+Control Prox Tub.Control Prox Tub.1.1.1.2	chr9-region_2641	4	chr9	37560059	48392010
+Control Prox Tub.Control Prox Tub.1.1.1.2	chr10-region_2644	4	chr10	83066712	128425811
+Control Prox Tub.Control Prox Tub.1.1.1.2	chr12-region_2649	4	chr12	4967301	112964324
+Control Prox Tub.Control Prox Tub.1.1.1.2	chr13-region_2651	2	chr13	55468313	63645092
+Control Prox Tub.Control Prox Tub.1.1.1.2	chr16-region_2656	4	chr16	30378244	50555103
+Control Prox Tub.Control Prox Tub.1.1.2.2	chr4-region_2684	4	chr4	72030376	111690054
+Control Prox Tub.Control Prox Tub.1.1.2.2	chr7-region_2688	2	chr7	3632667	28681353
+Control Prox Tub.Control Prox Tub.1.1.2.2	chr13-region_2695	4	chr13	3616035	36910254
+Control Prox Tub.Control Prox Tub.1.1.2.2	chr15-region_2699	4	chr15	3347235	12824768
+Control Prox Tub.Control Prox Tub.1.1.2.2	chr16-region_2702	3	chr16	32734457	44379432
+Control Prox Tub.Control Prox Tub.1.1.2.2	chr19-region_2707	4	chr19	4806499	60569535
+Control Prox Tub.Control Prox Tub.1.2.1.1	chr4-region_2712	4	chr4	109301926	117992380
+Control Prox Tub.Control Prox Tub.1.2.1.1	chr4-region_2714	4	chr4	137196079	152418542
+Control Prox Tub.Control Prox Tub.1.2.1.1	chr8-region_2720	4	chr8	112434491	129460618
+Control Prox Tub.Control Prox Tub.1.2.1.1	chr9-region_2722	3	chr9	50686227	62783203
+Control Prox Tub.Control Prox Tub.1.2.1.1	chr12-region_2726	2	chr12	4967301	109628150
+Control Prox Tub.Control Prox Tub.1.2.1.1	chr13-region_2729	4	chr13	53121245	81949687
+Control Prox Tub.Control Prox Tub.1.2.1.1	chr16-region_2736	2	chr16	18118671	34822790
+Control Prox Tub.Control Prox Tub.1.2.1.1	chr17-region_2738	4	chr17	3248385	28967381
+Control Prox Tub.Control Prox Tub.1.2.1.2	chr1-region_2742	3	chr1	4561151	23961555
+Control Prox Tub.Control Prox Tub.1.2.1.2	chr8-region_2752	3	chr8	118224988	129460618
+Control Prox Tub.Control Prox Tub.1.2.1.2	chr9-region_2754	3	chr9	50651859	62759288
+Control Prox Tub.Control Prox Tub.1.2.1.2	chr12-region_2758	2	chr12	4967301	110845332
+Control Prox Tub.Control Prox Tub.1.2.2.1	chr1-region_2767	3	chr1	4561151	22032166
+Control Prox Tub.Control Prox Tub.1.2.2.1	chr1-region_2769	3	chr1	60448647	79759168
+Control Prox Tub.Control Prox Tub.1.2.2.1	chr2-region_2772	3	chr2	173917994	181499854
+Control Prox Tub.Control Prox Tub.1.2.2.1	chr4-region_2777	4	chr4	114802024	125010762
+Control Prox Tub.Control Prox Tub.1.2.2.1	chr4-region_2779	4	chr4	135673757	152418542
+Control Prox Tub.Control Prox Tub.1.2.2.1	chr8-region_2785	4	chr8	111646367	129460618
+Control Prox Tub.Control Prox Tub.1.2.2.1	chr9-region_2787	4	chr9	45924102	62759288
+Control Prox Tub.Control Prox Tub.1.2.2.1	chr12-region_2791	2	chr12	4967301	104976345
+Control Prox Tub.Control Prox Tub.1.2.2.1	chr14-region_2795	2	chr14	79824750	122639650
+Control Prox Tub.Control Prox Tub.1.2.2.1	chr15-region_2797	4	chr15	78041546	85783225
+Control Prox Tub.Control Prox Tub.1.2.2.1	chr16-region_2800	2	chr16	18399729	46318888
+Control Prox Tub.Control Prox Tub.1.2.2.1	chr17-region_2802	3	chr17	3248385	25461773
+Control Prox Tub.Control Prox Tub.1.2.2.2	chr1-region_2806	3	chr1	4561151	24139592
+Control Prox Tub.Control Prox Tub.1.2.2.2	chr2-region_2811	2	chr2	35068752	66087013
+Control Prox Tub.Control Prox Tub.1.2.2.2	chr4-region_2816	4	chr4	34550901	52488264
+Control Prox Tub.Control Prox Tub.1.2.2.2	chr4-region_2818	4	chr4	135695525	152418542
+Control Prox Tub.Control Prox Tub.1.2.2.2	chr8-region_2824	4	chr8	112262729	129460618
+Control Prox Tub.Control Prox Tub.1.2.2.2	chr9-region_2826	4	chr9	50432917	62783203
+Control Prox Tub.Control Prox Tub.1.2.2.2	chr12-region_2830	2	chr12	4967301	110845332
+Control Prox Tub.Control Prox Tub.1.2.2.2	chr14-region_2836	2	chr14	101679135	122639650
+Control Prox Tub.Control Prox Tub.1.2.2.2	chr15-region_2838	4	chr15	78312487	85918438
+Control Prox Tub.Control Prox Tub.1.2.2.2	chr16-region_2841	2	chr16	18069575	36783579
+Control Prox Tub.Control Prox Tub.1.2.2.2	chr17-region_2843	3	chr17	3248385	26096143
+Control Endo.Control Endo.1.1.2.1	chr2-region_2887	4	chr2	104487633	128697733
+Control Endo.Control Endo.1.1.2.1	chr14-region_2901	3	chr14	75367978	122639650
+Control Endo.Control Endo.1.1.2.2	chr3-region_2912	4	chr3	75780175	90171432
+Control Endo.Control Endo.1.1.2.2	chr3-region_2914	4	chr3	100069697	159644557
+Control Endo.Control Endo.1.1.2.2	chr14-region_2927	4	chr14	73475335	122639650
+Control Endo.Control Endo.1.1.2.2	chr18-region_2931	4	chr18	4634606	88945635
+Control Endo.Control Endo.1.2.1.1	chr2-region_2935	4	chr2	129206490	156715483
+Control Endo.Control Endo.1.2.1.1	chr3-region_2938	4	chr3	94964216	101512470
+Control Endo.Control Endo.1.2.1.1	chr4-region_2941	4	chr4	48279760	66322848
+Control Endo.Control Endo.1.2.1.1	chr9-region_2948	4	chr9	71533791	86437976
+Control Endo.Control Endo.1.2.1.1	chr14-region_2955	4	chr14	55912145	64157309
+Control Endo.Control Endo.1.2.1.1	chr15-region_2958	4	chr15	38869243	89221218
+Control Endo.Control Endo.1.2.1.2	chr1-region_2965	4	chr1	93439801	132072144
+Control Endo.Control Endo.1.2.1.2	chr2-region_2968	4	chr2	130985364	181499854
+Control Endo.Control Endo.1.2.1.2	chr3-region_2970	4	chr3	89284942	103699901
+Control Endo.Control Endo.1.2.1.2	chr4-region_2973	4	chr4	48045153	94491703
+Control Endo.Control Endo.1.2.1.2	chr10-region_2981	4	chr10	81463526	128425811
+Control Endo.Control Endo.1.2.1.2	chr14-region_2986	3	chr14	55991507	64693352
+Control Endo.Control Endo.1.2.1.2	chr14-region_2988	4	chr14	104714969	122639650
+Control Endo.Control Endo.1.2.1.2	chr15-region_2990	4	chr15	36770975	85918438
+Control Endo.Control Endo.1.2.2	chr1-region_2997	3	chr1	15875840	43236290
+Control Endo.Control Endo.1.2.2	chr1-region_2999	4	chr1	75284432	93749834
+Control Endo.Control Endo.1.2.2	chr2-region_3002	2	chr2	32303547	62242576
+Control Endo.Control Endo.1.2.2	chr2-region_3004	4	chr2	136733126	181499854
+Control Endo.Control Endo.1.2.2	chr3-region_3006	3	chr3	32760447	68941960
+Control Endo.Control Endo.1.2.2	chr3-region_3008	3	chr3	88593098	103645322
+Control Endo.Control Endo.1.2.2	chr4-region_3011	3	chr4	40947737	65275746
+Control Endo.Control Endo.1.2.2	chr5-region_3014	3	chr5	77021506	129799621
+Control Endo.Control Endo.1.2.2	chr7-region_3018	3	chr7	131837507	139682354
+Control Endo.Control Endo.1.2.2	chr7-region_3019	5	chr7	139684839	144485982
+Control Endo.Control Endo.1.2.2	chr8-region_3020	3	chr8	4216497	27613464
+Control Endo.Control Endo.1.2.2	chr8-region_3022	3	chr8	121380653	129460618
+Control Endo.Control Endo.1.2.2	chr9-region_3024	4	chr9	44318436	61854074
+Control Endo.Control Endo.1.2.2	chr11-region_3028	3	chr11	95937207	101442781
+Control Endo.Control Endo.1.2.2	chr12-region_3031	2	chr12	86993817	112964324
+Control Endo.Control Endo.1.2.2	chr13-region_3033	2	chr13	17869777	58276370
+Control Endo.Control Endo.1.2.2	chr14-region_3036	4	chr14	55812992	76348269
+Control Endo.Control Endo.1.2.2	chr15-region_3039	4	chr15	44482454	97603725
+Control Endo.Control Endo.1.2.2	chr16-region_3042	3	chr16	17615056	58344780
+Control Endo.Control Endo.1.2.2	chr17-region_3045	3	chr17	15739470	95057487
+Control Endo.Control Endo.1.2.2	chr19-region_3048	4	chr19	31927484	60569535
+Control Mac Densa.Control Mac Densa.1.1.1.1	chr9-region_3058	4	chr9	70586221	88254146
+Control Mac Densa.Control Mac Densa.1.1.1.1	chr13-region_3064	3	chr13	86189246	119594754
+Control Mac Densa.Control Mac Densa.1.1.1.1	chr16-region_3068	3	chr16	3561921	10243193
+Control Mac Densa.Control Mac Densa.1.1.1.1	chr18-region_3071	4	chr18	4634606	60881766
+Control Mac Densa.Control Mac Densa.1.1.1.2	chr5-region_3079	3	chr5	24305567	97239781
+Control Mac Densa.Control Mac Densa.1.1.2	chr15-region_3110	3	chr15	78312487	103407240
+Control Mac Densa.Control Mac Densa.1.2	chr2-region_3117	4	chr2	174257594	181499854
+Control Mac Densa.Control Mac Densa.1.2	chr4-region_3120	2	chr4	48427432	86775674
+Control Mac Densa.Control Mac Densa.1.2	chr5-region_3123	2	chr5	120672218	151574707
+Control Mac Densa.Control Mac Densa.1.2	chr6-region_3125	3	chr6	31375670	97126143
+Control Mac Densa.Control Mac Densa.1.2	chr7-region_3128	4	chr7	104058232	144485982
+Control Mac Densa.Control Mac Densa.1.2	chr8-region_3130	4	chr8	89753863	106665077
+Control Mac Densa.Control Mac Densa.1.2	chr9-region_3133	3	chr9	48896617	61325778
+Control Mac Densa.Control Mac Densa.1.2	chr9-region_3135	3	chr9	107558698	123291731
+Control Mac Densa.Control Mac Densa.1.2	chr11-region_3138	2	chr11	116728252	120391985
+Control Mac Densa.Control Mac Densa.1.2	chr17-region_3144	3	chr17	3248385	28967381
+Control Cycle.Control Cycle.1.1.1.1	chr2-region_3150	4	chr2	130232695	157733823
+Control Cycle.Control Cycle.1.1.1.1	chr2-region_3152	4	chr2	173917994	181499854
+Control Cycle.Control Cycle.1.1.1.1	chr4-region_3155	4	chr4	120395395	137298231
+Control Cycle.Control Cycle.1.1.1.1	chr5-region_3157	3	chr5	3621554	100578234
+Control Cycle.Control Cycle.1.1.1.1	chr6-region_3159	3	chr6	4003904	48670389
+Control Cycle.Control Cycle.1.1.1.1	chr7-region_3162	4	chr7	130154663	144485982
+Control Cycle.Control Cycle.1.1.1.1	chr8-region_3164	3	chr8	35274442	78337386
+Control Cycle.Control Cycle.1.1.1.1	chr14-region_3172	2	chr14	101967150	122639650
+Control Cycle.Control Cycle.1.1.1.1	chr15-region_3173	2	chr15	3347235	34530794
+Control Cycle.Control Cycle.1.1.1.2	chr6-region_3184	3	chr6	4003904	47909577
+Control Cycle.Control Cycle.1.1.2.2	chr6-region_3224	3	chr6	4003904	38404582
+Control Cycle.Control Cycle.1.1.2.2	chr9-region_3229	3	chr9	74978297	92375563
+Control Cycle.Control Cycle.1.1.2.2	chr17-region_3238	3	chr17	3248385	95057487
+Control Cycle.Control Cycle.1.1.2.2	chr18-region_3239	3	chr18	4634606	88945635
+Control Cycle.Control Cycle.1.2	chr8-region_3250	4	chr8	117884874	129460618
+Control Cycle.Control Cycle.1.2	chr12-region_3254	2	chr12	4967301	85755861
+Control Trans Epi.Control Trans Epi.1.1	chr17-region_3281	3	chr17	36176485	95057487
+Control Trans Epi.Control Trans Epi.1.2.1	chr2-region_3285	4	chr2	3285225	24954666
+Control Trans Epi.Control Trans Epi.1.2.1	chr2-region_3287	4	chr2	32572621	103133623
+Control Trans Epi.Control Trans Epi.1.2.1	chr3-region_3290	4	chr3	98187537	159644557
+Control Trans Epi.Control Trans Epi.1.2.1	chr4-region_3291	2	chr4	3549038	44084187
+Control Trans Epi.Control Trans Epi.1.2.1	chr4-region_3293	3	chr4	135648004	152418542
+Control Trans Epi.Control Trans Epi.1.2.1	chr7-region_3296	2	chr7	3632667	119320026
+Control Trans Epi.Control Trans Epi.1.2.1	chr8-region_3298	3	chr8	4216497	25517433
+Control Trans Epi.Control Trans Epi.1.2.1	chr9-region_3300	3	chr9	3335110	21421548
+Control Trans Epi.Control Trans Epi.1.2.1	chr9-region_3302	4	chr9	86189282	108179501
+Control Trans Epi.Control Trans Epi.1.2.1	chr9-region_3304	2	chr9	115913361	123291731
+Control Trans Epi.Control Trans Epi.1.2.1	chr11-region_3307	2	chr11	35011789	75305358
+Control Trans Epi.Control Trans Epi.1.2.1	chr11-region_3309	4	chr11	101623728	120391985
+Control Trans Epi.Control Trans Epi.1.2.1	chr12-region_3310	4	chr12	4967301	112964324
+Control Trans Epi.Control Trans Epi.1.2.1	chr13-region_3311	3	chr13	3616035	43713738
+Control Trans Epi.Control Trans Epi.1.2.1	chr14-region_3314	4	chr14	93250846	122639650
+Control Trans Epi.Control Trans Epi.1.2.1	chr15-region_3316	4	chr15	97687372	103407240
+Control Trans Epi.Control Trans Epi.1.2.1	chr16-region_3318	4	chr16	22283359	45229594
+Control Trans Epi.Control Trans Epi.1.2.1	chr17-region_3320	2	chr17	3248385	34175057
+Control Trans Epi.Control Trans Epi.1.2.2	chr1-region_3325	4	chr1	53336228	58065442
+Control Trans Epi.Control Trans Epi.1.2.2	chr1-region_3326	5	chr1	58449348	74425448
+Control Trans Epi.Control Trans Epi.1.2.2	chr1-region_3327	4	chr1	74430550	77492816
+Control Trans Epi.Control Trans Epi.1.2.2	chr1-region_3328	5	chr1	78392766	153208774
+Control Trans Epi.Control Trans Epi.1.2.2	chr1-region_3329	4	chr1	153616091	167112889
+Control Trans Epi.Control Trans Epi.1.2.2	chr1-region_3331	2	chr1	172327426	190679174
+Control Trans Epi.Control Trans Epi.1.2.2	chr2-region_3333	5	chr2	3285225	26022997
+Control Trans Epi.Control Trans Epi.1.2.2	chr2-region_3334	4	chr2	26205457	27397674
+Control Trans Epi.Control Trans Epi.1.2.2	chr2-region_3336	2	chr2	32285659	79163467
+Control Trans Epi.Control Trans Epi.1.2.2	chr2-region_3338	4	chr2	103396631	109173023
+Control Trans Epi.Control Trans Epi.1.2.2	chr2-region_3339	5	chr2	109721004	125071922
+Control Trans Epi.Control Trans Epi.1.2.2	chr2-region_3340	4	chr2	125089110	127448789
+Control Trans Epi.Control Trans Epi.1.2.2	chr2-region_3342	2	chr2	166856728	181499854
+Control Trans Epi.Control Trans Epi.1.2.2	chr3-region_3343	5	chr3	3573084	35991594
+Control Trans Epi.Control Trans Epi.1.2.2	chr3-region_3344	4	chr3	36010879	54298471
+Control Trans Epi.Control Trans Epi.1.2.2	chr3-region_3346	4	chr3	68974482	83749074
+Control Trans Epi.Control Trans Epi.1.2.2	chr3-region_3347	5	chr3	83804955	90133696
+Control Trans Epi.Control Trans Epi.1.2.2	chr3-region_3348	4	chr3	90138896	95416732
+Control Trans Epi.Control Trans Epi.1.2.2	chr4-region_3350	2	chr4	3549038	12983553
+Control Trans Epi.Control Trans Epi.1.2.2	chr4-region_3352	2	chr4	45316173	99171179
+Control Trans Epi.Control Trans Epi.1.2.2	chr4-region_3354	4	chr4	129519871	139046813
+Control Trans Epi.Control Trans Epi.1.2.2	chr5-region_3356	2	chr5	3621554	74229118
+Control Trans Epi.Control Trans Epi.1.2.2	chr5-region_3358	4	chr5	118383292	151574707
+Control Trans Epi.Control Trans Epi.1.2.2	chr6-region_3359	2	chr6	4003904	71787710
+Control Trans Epi.Control Trans Epi.1.2.2	chr6-region_3361	4	chr6	88170559	101354969
+Control Trans Epi.Control Trans Epi.1.2.2	chr6-region_3362	5	chr6	106746081	149237161
+Control Trans Epi.Control Trans Epi.1.2.2	chr7-region_3364	2	chr7	73925161	119320026
+Control Trans Epi.Control Trans Epi.1.2.2	chr8-region_3367	4	chr8	73325723	92040016
+Control Trans Epi.Control Trans Epi.1.2.2	chr8-region_3369	2	chr8	112350417	122305642
+Control Trans Epi.Control Trans Epi.1.2.2	chr9-region_3371	4	chr9	3335110	21503919
+Control Trans Epi.Control Trans Epi.1.2.2	chr9-region_3373	2	chr9	55056137	66882766
+Control Trans Epi.Control Trans Epi.1.2.2	chr9-region_3375	2	chr9	79974036	95580207
+Control Trans Epi.Control Trans Epi.1.2.2	chr9-region_3377	4	chr9	108539250	123291731
+Control Trans Epi.Control Trans Epi.1.2.2	chr11-region_3379	5	chr11	3280401	54924305
+Control Trans Epi.Control Trans Epi.1.2.2	chr11-region_3380	4	chr11	55285317	62349368
+Control Trans Epi.Control Trans Epi.1.2.2	chr11-region_3382	2	chr11	69900853	98275779
+Control Trans Epi.Control Trans Epi.1.2.2	chr11-region_3384	2	chr11	116728252	120391985
+Control Trans Epi.Control Trans Epi.1.2.2	chr12-region_3386	4	chr12	76393982	86108667
+Control Trans Epi.Control Trans Epi.1.2.2	chr12-region_3387	5	chr12	86129269	112964324
+Control Trans Epi.Control Trans Epi.1.2.2	chr13-region_3388	5	chr13	3616035	15904611
+Control Trans Epi.Control Trans Epi.1.2.2	chr13-region_3389	4	chr13	17032057	41114370
+Control Trans Epi.Control Trans Epi.1.2.2	chr14-region_3392	2	chr14	30723326	57995845
+Control Trans Epi.Control Trans Epi.1.2.2	chr14-region_3394	4	chr14	70454485	73563507
+Control Trans Epi.Control Trans Epi.1.2.2	chr14-region_3395	5	chr14	73475335	78240097
+Control Trans Epi.Control Trans Epi.1.2.2	chr14-region_3396	6	chr14	78729683	122639650
+Control Trans Epi.Control Trans Epi.1.2.2	chr15-region_3397	4	chr15	3347235	36283310
+Control Trans Epi.Control Trans Epi.1.2.2	chr15-region_3399	2	chr15	78312487	80005062
+Control Trans Epi.Control Trans Epi.1.2.2	chr15-region_3401	4	chr15	84901335	100227888
+Control Trans Epi.Control Trans Epi.1.2.2	chr16-region_3403	4	chr16	3561921	13521522
+Control Trans Epi.Control Trans Epi.1.2.2	chr16-region_3405	2	chr16	22283359	38066446
+Control Trans Epi.Control Trans Epi.1.2.2	chr16-region_3407	4	chr16	78098377	90146590
+Control Trans Epi.Control Trans Epi.1.2.2	chr16-region_3408	5	chr16	90182901	97883698
+Control Trans Epi.Control Trans Epi.1.2.2	chr17-region_3410	2	chr17	65958723	95057487
+Control Trans Epi.Control Trans Epi.1.2.2	chr18-region_3411	2	chr18	4634606	88945635
+Control Uni Fibro.Control Uni Fibro.1.1.1.2	chr2-region_3435	4	chr2	25118910	30913598
+Control Uni Fibro.Control Uni Fibro.1.1.1.2	chr8-region_3442	3	chr8	4216497	25625461
+Control Uni Fibro.Control Uni Fibro.1.1.2.1	chr2-region_3457	3	chr2	5874426	27143451
+Control Uni Fibro.Control Uni Fibro.1.1.2.1	chr2-region_3459	3	chr2	136923373	152673655
+Control Uni Fibro.Control Uni Fibro.1.1.2.1	chr3-region_3462	4	chr3	67337425	93372666
+Control Uni Fibro.Control Uni Fibro.1.1.2.1	chr4-region_3465	2	chr4	116985852	133152176
+Control Uni Fibro.Control Uni Fibro.1.1.2.1	chr9-region_3474	2	chr9	40711630	50650839
+Control Uni Fibro.Control Uni Fibro.1.1.2.1	chr10-region_3476	3	chr10	7068143	81484260
+Control Uni Fibro.Control Uni Fibro.1.1.2.1	chr12-region_3480	3	chr12	69848409	112964324
+Control Uni Fibro.Control Uni Fibro.1.1.2.1	chr13-region_3482	4	chr13	54769596	89890814
+Control Uni Fibro.Control Uni Fibro.1.1.2.1	chr14-region_3485	4	chr14	30547538	69945063
+Control Uni Fibro.Control Uni Fibro.1.1.2.1	chr15-region_3488	3	chr15	96892693	103407240
+Control Uni Fibro.Control Uni Fibro.1.1.2.2	chr2-region_3495	3	chr2	133394079	152737245
+Control Uni Fibro.Control Uni Fibro.1.1.2.2	chr13-region_3508	4	chr13	56436352	76092199
+Control Uni Fibro.Control Uni Fibro.1.2.1.1	chr14-region_3530	4	chr14	63382189	76024490
+Control Uni Fibro.Control Uni Fibro.1.2.1.1	chr16-region_3534	4	chr16	37360233	84623269
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr1-region_3540	4	chr1	16735407	125363637
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr1-region_3541	5	chr1	125488332	151597690
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr1-region_3542	4	chr1	151728033	156547267
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr2-region_3545	2	chr2	28456310	36026857
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr2-region_3547	2	chr2	84517523	152858009
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr2-region_3549	2	chr2	163912242	181499854
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr3-region_3550	4	chr3	3573084	36224491
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr3-region_3551	5	chr3	36503072	82053216
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr3-region_3552	4	chr3	82743830	87963361
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr3-region_3554	2	chr3	90161460	97562598
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr3-region_3556	4	chr3	107562255	121251856
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr3-region_3557	5	chr3	121516610	159644557
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr4-region_3558	5	chr4	3549038	21759922
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr4-region_3559	4	chr4	21847580	40271879
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr4-region_3561	4	chr4	49535978	82623987
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr4-region_3563	2	chr4	116985852	134581272
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr5-region_3565	4	chr5	3621554	151574707
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr6-region_3566	2	chr6	4003904	71121423
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr6-region_3568	4	chr6	88652108	149237161
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr7-region_3569	1	chr7	3632667	28521693
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr7-region_3570	2	chr7	28524036	46473888
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr7-region_3572	2	chr7	97345798	144485982
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr8-region_3574	4	chr8	23901263	48005990
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr8-region_3576	2	chr8	111573232	129460618
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr9-region_3578	4	chr9	108393984	114553383
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr9-region_3579	5	chr9	114560184	123291731
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr10-region_3581	4	chr10	126877283	128425811
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr11-region_3582	4	chr11	3280401	46038172
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr11-region_3584	2	chr11	88721610	120391985
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr13-region_3586	2	chr13	3616035	24465310
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr13-region_3588	4	chr13	108452866	119594754
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr14-region_3590	2	chr14	33099855	58236767
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr14-region_3592	4	chr14	70417916	122639650
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr15-region_3594	2	chr15	54701324	76230462
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr15-region_3596	2	chr15	81283924	84906761
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr15-region_3598	4	chr15	98436570	103407240
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr16-region_3600	4	chr16	18118671	37205354
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr16-region_3601	5	chr16	37330152	55659262
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr16-region_3602	4	chr16	55720251	91224600
+Control Uni Fibro.Control Uni Fibro.1.2.1.2	chr17-region_3605	2	chr17	15691080	68129642
+Control Uni Fibro.Control Uni Fibro.1.2.2.1	chr14-region_3623	4	chr14	61805667	73622874
+Control Uni Fibro.Control Uni Fibro.1.2.2.2	chr1-region_3631	4	chr1	87141621	131025593
+Control Uni Fibro.Control Uni Fibro.1.2.2.2	chr2-region_3634	4	chr2	58278656	84545700
+Control Uni Fibro.Control Uni Fibro.1.2.2.2	chr2-region_3636	3	chr2	115693062	132095234
+Control Uni Fibro.Control Uni Fibro.1.2.2.2	chr3-region_3638	2	chr3	3573084	34135482
+Control Uni Fibro.Control Uni Fibro.1.2.2.2	chr3-region_3640	2	chr3	102965601	116601917
+Control Uni Fibro.Control Uni Fibro.1.2.2.2	chr5-region_3643	4	chr5	3621554	24915416
+Control Uni Fibro.Control Uni Fibro.1.2.2.2	chr5-region_3645	3	chr5	104656209	138650676
+Control Uni Fibro.Control Uni Fibro.1.2.2.2	chr7-region_3648	4	chr7	3632667	30145102
+Control Uni Fibro.Control Uni Fibro.1.2.2.2	chr8-region_3651	5	chr8	72063607	107064670
+Control Uni Fibro.Control Uni Fibro.1.2.2.2	chr9-region_3654	4	chr9	108820832	123291731
+Control Uni Fibro.Control Uni Fibro.1.2.2.2	chr14-region_3660	4	chr14	61769292	75468289
+Control Uni Fibro.Control Uni Fibro.1.2.2.2	chr19-region_3667	2	chr19	29325999	60569535
+Control Podo.Control Podo.1.1.1.1	chr2-region_3669	3	chr2	3285225	22830278
+Control Podo.Control Podo.1.1.1.1	chr2-region_3671	4	chr2	126732311	158342028
+Control Podo.Control Podo.1.1.1.1	chr4-region_3675	4	chr4	122752832	137524102
+Control Podo.Control Podo.1.1.1.1	chr7-region_3679	4	chr7	3632667	30186675
+Control Podo.Control Podo.1.1.1.1	chr9-region_3683	4	chr9	109661662	123291731
+Control Podo.Control Podo.1.1.1.2	chr1-region_3694	2	chr1	4561151	24139592
+Control Podo.Control Podo.1.1.1.2	chr1-region_3696	4	chr1	44590595	63219645
+Control Podo.Control Podo.1.1.1.2	chr1-region_3698	3	chr1	128259311	135780315
+Control Podo.Control Podo.1.1.1.2	chr1-region_3699	5	chr1	135935888	161079098
+Control Podo.Control Podo.1.1.1.2	chr1-region_3700	4	chr1	161796749	180091003
+Control Podo.Control Podo.1.1.1.2	chr2-region_3703	4	chr2	125142514	132435960
+Control Podo.Control Podo.1.1.1.2	chr3-region_3705	2	chr3	3573084	32781128
+Control Podo.Control Podo.1.1.1.2	chr3-region_3707	4	chr3	57363067	79760086
+Control Podo.Control Podo.1.1.1.2	chr3-region_3709	2	chr3	90599931	96613386
+Control Podo.Control Podo.1.1.1.2	chr3-region_3711	4	chr3	129062824	159644557
+Control Podo.Control Podo.1.1.1.2	chr4-region_3713	3	chr4	116078393	123581331
+Control Podo.Control Podo.1.1.1.2	chr7-region_3717	4	chr7	3632667	33869024
+Control Podo.Control Podo.1.1.1.2	chr8-region_3720	2	chr8	33724401	95600163
+Control Podo.Control Podo.1.1.1.2	chr8-region_3722	2	chr8	114860297	129460618
+Control Podo.Control Podo.1.1.1.2	chr9-region_3724	4	chr9	21336183	53313167
+Control Podo.Control Podo.1.1.1.2	chr9-region_3726	2	chr9	79974036	103940833
+Control Podo.Control Podo.1.1.1.2	chr9-region_3728	3	chr9	108324835	123291731
+Control Podo.Control Podo.1.1.1.2	chr10-region_3729	4	chr10	7068143	128425811
+Control Podo.Control Podo.1.1.1.2	chr11-region_3730	5	chr11	3280401	59701138
+Control Podo.Control Podo.1.1.1.2	chr11-region_3732	4	chr11	115969395	120391985
+Control Podo.Control Podo.1.1.1.2	chr12-region_3734	3	chr12	110413523	112964324
+Control Podo.Control Podo.1.1.1.2	chr13-region_3736	3	chr13	53263348	76246797
+Control Podo.Control Podo.1.1.1.2	chr13-region_3738	4	chr13	100069907	119594754
+Control Podo.Control Podo.1.1.1.2	chr14-region_3739	4	chr14	4137593	25667171
+Control Podo.Control Podo.1.1.1.2	chr14-region_3741	2	chr14	31216356	59835449
+Control Podo.Control Podo.1.1.1.2	chr16-region_3745	5	chr16	23043460	48840074
+Control Podo.Control Podo.1.1.1.2	chr16-region_3747	4	chr16	72105194	97883698
+Control Podo.Control Podo.1.1.1.2	chr19-region_3751	4	chr19	37364799	60569535
+Control Podo.Control Podo.1.1.2	chr1-region_3753	4	chr1	23882260	37939816
+Control Podo.Control Podo.1.1.2	chr1-region_3754	5	chr1	38037038	63635436
+Control Podo.Control Podo.1.1.2	chr1-region_3755	4	chr1	63769322	72434112
+Control Podo.Control Podo.1.1.2	chr1-region_3757	4	chr1	78635537	87648230
+Control Podo.Control Podo.1.1.2	chr1-region_3758	5	chr1	87683592	93233637
+Control Podo.Control Podo.1.1.2	chr1-region_3759	6	chr1	93270576	131776603
+Control Podo.Control Podo.1.1.2	chr1-region_3760	5	chr1	131838118	135084015
+Control Podo.Control Podo.1.1.2	chr1-region_3761	4	chr1	135362318	139421829
+Control Podo.Control Podo.1.1.2	chr1-region_3763	2	chr1	152754271	170768691
+Control Podo.Control Podo.1.1.2	chr1-region_3765	4	chr1	180731834	194813894
+Control Podo.Control Podo.1.1.2	chr2-region_3767	2	chr2	37688965	73605918
+Control Podo.Control Podo.1.1.2	chr2-region_3769	4	chr2	84646661	101731993
+Control Podo.Control Podo.1.1.2	chr2-region_3771	2	chr2	119002981	130126467
+Control Podo.Control Podo.1.1.2	chr2-region_3773	2	chr2	150590916	173001066
+Control Podo.Control Podo.1.1.2	chr3-region_3775	2	chr3	3573084	32781128
+Control Podo.Control Podo.1.1.2	chr3-region_3777	4	chr3	55532612	86037833
+Control Podo.Control Podo.1.1.2	chr3-region_3779	4	chr3	90599931	95404551
+Control Podo.Control Podo.1.1.2	chr3-region_3780	5	chr3	95406178	104565780
+Control Podo.Control Podo.1.1.2	chr3-region_3781	4	chr3	105585586	135278908
+Control Podo.Control Podo.1.1.2	chr3-region_3782	5	chr3	135290264	159644557
+Control Podo.Control Podo.1.1.2	chr4-region_3783	5	chr4	3549038	33025899
+Control Podo.Control Podo.1.1.2	chr4-region_3784	4	chr4	33031369	41640376
+Control Podo.Control Podo.1.1.2	chr4-region_3786	2	chr4	49535978	124949177
+Control Podo.Control Podo.1.1.2	chr4-region_3788	4	chr4	129570142	135689928
+Control Podo.Control Podo.1.1.2	chr4-region_3790	2	chr4	142990871	152418542
+Control Podo.Control Podo.1.1.2	chr5-region_3792	2	chr5	97145298	151574707
+Control Podo.Control Podo.1.1.2	chr7-region_3794	2	chr7	3632667	45161483
+Control Podo.Control Podo.1.1.2	chr7-region_3796	2	chr7	98533079	120677552
+Control Podo.Control Podo.1.1.2	chr8-region_3798	1	chr8	4216497	34614370
+Control Podo.Control Podo.1.1.2	chr8-region_3799	2	chr8	34621682	64659305
+Control Podo.Control Podo.1.1.2	chr8-region_3801	4	chr8	71230761	72053768
+Control Podo.Control Podo.1.1.2	chr8-region_3802	5	chr8	72063607	84823942
+Control Podo.Control Podo.1.1.2	chr8-region_3803	6	chr8	85065224	93645910
+Control Podo.Control Podo.1.1.2	chr8-region_3804	5	chr8	93892693	106857175
+Control Podo.Control Podo.1.1.2	chr8-region_3805	4	chr8	106876653	112248747
+Control Podo.Control Podo.1.1.2	chr8-region_3807	2	chr8	119010328	129460618
+Control Podo.Control Podo.1.1.2	chr9-region_3809	2	chr9	44006928	64086351
+Control Podo.Control Podo.1.1.2	chr9-region_3811	4	chr9	68561068	87137624
+Control Podo.Control Podo.1.1.2	chr9-region_3813	4	chr9	106715511	123291731
+Control Podo.Control Podo.1.1.2	chr10-region_3815	4	chr10	75236949	128425811
+Control Podo.Control Podo.1.1.2	chr11-region_3817	2	chr11	69190313	76070811
+Control Podo.Control Podo.1.1.2	chr11-region_3819	4	chr11	81926397	96807389
+Control Podo.Control Podo.1.1.2	chr11-region_3821	4	chr11	114768840	117654265
+Control Podo.Control Podo.1.1.2	chr11-region_3822	5	chr11	117656810	120391985
+Control Podo.Control Podo.1.1.2	chr13-region_3825	2	chr13	23886017	100152178
+Control Podo.Control Podo.1.1.2	chr14-region_3827	2	chr14	4137593	20398189
+Control Podo.Control Podo.1.1.2	chr14-region_3829	2	chr14	57049369	70758178
+Control Podo.Control Podo.1.1.2	chr16-region_3832	5	chr16	3561921	18072636
+Control Podo.Control Podo.1.1.2	chr16-region_3833	4	chr16	18069575	34930429
+Control Podo.Control Podo.1.1.2	chr16-region_3834	5	chr16	35131458	63684538
+Control Podo.Control Podo.1.1.2	chr16-region_3835	4	chr16	64672281	87229501
+Control Podo.Control Podo.1.1.2	chr17-region_3837	2	chr17	3248385	68129642
+Control Podo.Control Podo.1.1.2	chr18-region_3839	5	chr18	4634606	56720784
+Control Podo.Control Podo.1.1.2	chr18-region_3840	4	chr18	56886031	88945635
+Control Podo.Control Podo.1.2.1	chr1-region_3843	4	chr1	139969496	194813894
+Control Podo.Control Podo.1.2.1	chr2-region_3844	4	chr2	3285225	25498533
+Control Podo.Control Podo.1.2.1	chr2-region_3846	4	chr2	34564606	74559523
+Control Podo.Control Podo.1.2.1	chr3-region_3849	4	chr3	10077602	86037833
+Control Podo.Control Podo.1.2.1	chr4-region_3852	4	chr4	114802024	125010762
+Control Podo.Control Podo.1.2.1	chr7-region_3857	4	chr7	109597581	132725079
+Control Podo.Control Podo.1.2.1	chr10-region_3862	2	chr10	59057720	128425811
+Control Podo.Control Podo.1.2.1	chr12-region_3865	3	chr12	54939053	112964324
+Control Podo.Control Podo.1.2.1	chr14-region_3867	2	chr14	4137593	20367657
+Control Podo.Control Podo.1.2.1	chr15-region_3870	3	chr15	81469540	103407240
+Control Mural.Control Mural.1.1.1.2	chr5-region_3938	3	chr5	30323302	115452006
+Control Mural.Control Mural.1.1.1.2	chr7-region_3941	4	chr7	3632667	44504908
+Control Mural.Control Mural.1.1.2.1	chr7-region_3961	3	chr7	3632667	25274503
+Control Mural.Control Mural.1.1.2.1	chr7-region_3963	4	chr7	140918255	144485982
+Control Mural.Control Mural.1.1.2.2	chr1-region_3977	2	chr1	72897091	91225284
+Control Mural.Control Mural.1.1.2.2	chr2-region_3980	4	chr2	25089716	84519325
+Control Mural.Control Mural.1.1.2.2	chr2-region_3982	4	chr2	152622582	165613647
+Control Mural.Control Mural.1.1.2.2	chr3-region_3985	4	chr3	135112171	159644557
+Control Mural.Control Mural.1.1.2.2	chr4-region_3987	4	chr4	43557639	59549371
+Control Mural.Control Mural.1.1.2.2	chr4-region_3989	4	chr4	128548459	152418542
+Control Mural.Control Mural.1.1.2.2	chr5-region_3991	2	chr5	24795816	108858366
+Control Mural.Control Mural.1.1.2.2	chr7-region_3995	2	chr7	101555111	132725079
+Control Mural.Control Mural.1.1.2.2	chr8-region_3998	2	chr8	57976860	71918396
+Control Mural.Control Mural.1.1.2.2	chr8-region_4000	4	chr8	94741848	117720320
+Control Mural.Control Mural.1.1.2.2	chr10-region_4003	4	chr10	7068143	116899744
+Control Mural.Control Mural.1.1.2.2	chr11-region_4005	2	chr11	3280401	50277364
+Control Mural.Control Mural.1.1.2.2	chr11-region_4007	4	chr11	87017845	101659832
+Control Mural.Control Mural.1.1.2.2	chr13-region_4011	4	chr13	104928992	119594754
+Control Mural.Control Mural.1.1.2.2	chr14-region_4012	4	chr14	4137593	20844541
+Control Mural.Control Mural.1.1.2.2	chr14-region_4014	4	chr14	45370900	58127812
+Control Mural.Control Mural.1.1.2.2	chr14-region_4016	2	chr14	69950327	104081900
+Control Mural.Control Mural.1.1.2.2	chr15-region_4018	2	chr15	3347235	34146026
+Control Mural.Control Mural.1.1.2.2	chr16-region_4020	2	chr16	3561921	43983885
+Control Mural.Control Mural.1.1.2.2	chr17-region_4023	4	chr17	7005440	57338587
+Control Mural.Control Mural.1.2	chr1-region_4027	4	chr1	4561151	34347742
+Control Mural.Control Mural.1.2	chr1-region_4029	3	chr1	178356690	194813894
+Control Mural.Control Mural.1.2	chr7-region_4035	2	chr7	3632667	34756011
+Control Mural.Control Mural.1.2	chr10-region_4040	2	chr10	116886897	128425811
+Control Mural.Control Mural.1.2	chr19-region_4051	3	chr19	37509327	60569535

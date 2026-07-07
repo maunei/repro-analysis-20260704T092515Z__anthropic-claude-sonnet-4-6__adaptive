@@ -1,0 +1,8 @@
+Ghost placeholder for a file not included in the public repository.
+
+Original path: ./workflow_draft/repos/dicer1-cell-of-origin/output/infer_cnv/combined_filter/18_HMM_pred.Bayes_NetHMMi6.rand_trees.hmm_mode-subclusters.mcmc_obj
+Original filename: 18_HMM_pred.Bayes_NetHMMi6.rand_trees.hmm_mode-subclusters.mcmc_obj
+Original size bytes: 638802846
+Reason: large inferCNV generated object excluded from public skeleton
+
+This placeholder preserves the analysis directory structure without sharing the actual file.

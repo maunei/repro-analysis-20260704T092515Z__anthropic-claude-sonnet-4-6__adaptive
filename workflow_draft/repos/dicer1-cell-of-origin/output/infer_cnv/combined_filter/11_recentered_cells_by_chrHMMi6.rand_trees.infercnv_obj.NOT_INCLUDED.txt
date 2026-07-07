@@ -1,0 +1,8 @@
+Ghost placeholder for a file not included in the public repository.
+
+Original path: ./workflow_draft/repos/dicer1-cell-of-origin/output/infer_cnv/combined_filter/11_recentered_cells_by_chrHMMi6.rand_trees.infercnv_obj
+Original filename: 11_recentered_cells_by_chrHMMi6.rand_trees.infercnv_obj
+Original size bytes: 427002774
+Reason: large inferCNV generated object excluded from public skeleton
+
+This placeholder preserves the analysis directory structure without sharing the actual file.

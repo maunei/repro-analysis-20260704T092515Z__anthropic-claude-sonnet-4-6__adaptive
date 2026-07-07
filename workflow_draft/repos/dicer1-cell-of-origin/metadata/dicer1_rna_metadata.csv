@@ -1,0 +1,13 @@
+sample,genotype,media
+hdt1056_cell_p15_dmem,mutant,dmem
+hdt1056_cell_p15_mesencult,mutant,mesencult
+hdt1056_cell_p18_dmem,mutant,dmem
+hdt1056_cell_p18_mesencult,mutant,mesencult
+hdt1056_cell_p20_dmem,mutant,dmem
+hdt1056_cell_p22_mesencult,mutant,mesencult
+hdt1119_cell_p22_dmem,control,dmem
+hdt1119_cell_p22_mesencult,control,mesencult
+hdt1119_cell_p23_dmem,control,dmem
+hdt1119_cell_p23_mesencult,control,mesencult
+hdt1119_cell_p27_dmem,control,dmem
+hdt1119_cell_p27_mesencult,control,mesencult

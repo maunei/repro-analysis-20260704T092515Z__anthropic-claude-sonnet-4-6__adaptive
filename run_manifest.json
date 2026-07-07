@@ -1,0 +1,103 @@
+{
+  "paper_folder": "/home/node/MAURICIO/papers/653_Spatial_single_cell_transcriptomic_analysis_informs_tumor_developmental_hierarchy_of_DICER1_syndrome_related_sarcoma_2026",
+  "output_folder": "/home/node/MAURICIO/papers/653_Spatial_single_cell_transcriptomic_analysis_informs_tumor_developmental_hierarchy_of_DICER1_syndrome_related_sarcoma_2026/REPRODUCIBILITY_ANALYSIS/20260704T092515Z__anthropic-claude-sonnet-4-6__adaptive",
+  "utc_timestamp": "2026-07-04T09:25:15Z",
+  "model": "claude-sonnet-4-6",
+  "reasoning": "adaptive",
+  "resumed_from": "20260704T030158Z__anthropic-claude-sonnet-4-6__adaptive",
+  "runtime_directives": [
+    "No raw data preprocessing (no Cell Ranger, nf-core, STAR)",
+    "Two runtimes: 653_renv (R 4.2.2) and 653_renv2 (R 4.5.3)",
+    "Self-contained run layout under timestamped run folder",
+    "Active execution mandate: run as much as possible",
+    "msigdbr API fix: remove db_species, update category codes",
+    "Memory management: rm()/gc() after large objects",
+    "Download authorized: GSE288990 (~278MB), GSE309820 (~30MB), GSE289001 Xenium (~2.2GB)",
+    "Skip PRJNA1221971 raw WGS entirely"
+  ],
+  "request_context_summary": "Resume of failed run 20260704T030158Z which completed all major script execution but was killed before report writing. Prior run: all scRNA scripts complete, inferCNV at step 14 of 15. This run: fixed inferCNV leiden->random_trees, ran sWGS metadata-only, wrote main report.",
+  "files_inspected": [
+    "RUNTIME_DIRECTIVES_FOR_OPENCLAW_AGENT.txt",
+    "653_renv2/RUNTIME_STATUS.txt",
+    "workflow_draft/repos/dicer1-cell-of-origin/code/*.R (all 13 scripts)",
+    "workflow_draft/repos/dicer1-cell-of-origin/metadata/*.csv",
+    "workflow_draft/repos/dicer1-cell-of-origin/reference/*.yaml",
+    "metadata_inventory/solved_issues.md",
+    "agent_progress.log"
+  ],
+  "urls_accessions_queried": [
+    "GSE288990 (downloaded 278MB TAR)",
+    "GSE309820 (downloaded Salmon quant + tx2gene)",
+    "GSE289001 (downloaded Xenium RDS 2.2GB)",
+    "https://omnipathdb.org/annotations?resources=PROGENy&format=tsv (PROGENy annotations)",
+    "https://rest.ensembl.org/lookup/id (gene_order.tsv via batch POST)",
+    "https://github.com/Huntsmanlab/dicer1-cell-of-origin (cloned)"
+  ],
+  "repositories_cloned": [
+    {
+      "url": "https://github.com/Huntsmanlab/dicer1-cell-of-origin",
+      "path": "workflow_draft/repos/dicer1-cell-of-origin",
+      "depth": 1,
+      "date": "2026-07-03"
+    }
+  ],
+  "workflow_scaffold_files_created": [
+    "workflow_draft/Snakefile",
+    "workflow_draft/run.sh",
+    "workflow_draft/run_order.tsv",
+    "workflow_draft/RUN_ORDER.md",
+    "workflow_draft/figure_to_code_map.tsv",
+    "workflow_draft/dependency_chain.tsv",
+    "workflow_draft/assumptions_and_defaults.tsv",
+    "workflow_draft/config/config.yaml",
+    "workflow_draft/scripts/patched/dicer1_rna_patched.R",
+    "workflow_draft/scripts/patched/dicer1_scrna_controls_patched.R",
+    "workflow_draft/scripts/patched/dicer1_scrna_tumors_patched.R",
+    "workflow_draft/scripts/patched/dicer1_scrna_tumors_filter_only_patched.R",
+    "workflow_draft/scripts/patched/dicer1_scrna_trajectory_patched.R",
+    "workflow_draft/scripts/patched/dicer1_scrna_controls_and_tumors_patched.R",
+    "workflow_draft/scripts/patched/dicer1_scrna_export_infer_cnv_filter_only.R",
+    "workflow_draft/scripts/patched/dicer1_scrna_run_pathway_analysis_patched.R",
+    "workflow_draft/scripts/patched/dicer1_xenium_proseg_mus_musculus_patched.R",
+    "workflow_draft/scripts/patched/dicer1_scrna_add_to_seurat_intermediate.R",
+    "workflow_draft/scripts/patched/dicer1_swgs_metadata_only_patched.R",
+    "workflow_draft/repos/dicer1-cell-of-origin/code/dicer1_scrna_run_infer_cnv_v2_patched.R",
+    "metadata_inventory/local_runtime_inventory.tsv",
+    "metadata_inventory/figure_table_analysis_census.tsv",
+    "metadata_inventory/solved_issues.md",
+    "metadata_inventory/method_documentation.md",
+    "metadata_inventory/snakemake_dry_run.txt",
+    "metadata_inventory/snakemake_dry_run.exit"
+  ],
+  "report_path": "reports/01_replication_feasibility_assessment.md",
+  "scripts_completed": [
+    "dicer1_rna.R (patched)",
+    "dicer1_scrna_qc.R",
+    "dicer1_scrna_controls.R (patched)",
+    "dicer1_scrna_tumors.R (patched + filter-only split)",
+    "dicer1_scrna_trajectory.R (patched)",
+    "dicer1_scrna_controls_and_tumors.R (patched)",
+    "dicer1_scrna_export_infer_cnv.R (filter-only patched)",
+    "dicer1_scrna_run_infer_cnv_v2_patched.R (random_trees; completed post-initial-run July 2026)",
+    "dicer1_scrna_add_to_seurat_intermediate.R (new script; completed post-initial-run July 2026)",
+    "dicer1_scrna_add_infer_cnv_seurat.R (completed post-initial-run July 2026)",
+    "dicer1_scrna_run_pathway_analysis.R (v4 patched)",
+    "dicer1_swgs_metadata_only_patched.R (partial sWGS)"
+  ],
+  "scripts_in_progress": [],
+  "scripts_blocked": [
+    "dicer1_xenium_proseg_mus_musculus.R (OOM — 622K WT cells require ≥32 GB RAM; patched script ready)",
+    "dicer1_xenium_proseg_homo_sapiens.R (human Xenium data absent from GEO)",
+    "dicer1_swgs.R (processed CN data not deposited on GEO)"
+  ],
+  "outputs_summary": {
+    "plots_png": 87,
+    "plots_svg": 61,
+    "plots_note": "87 unique PNG plot files; 61 also saved as SVG (paired format); inferCNV heatmaps are PNG-only; count as of July 2026 after inferCNV chain completion",
+    "tables_csv": 18,
+    "rds_objects": 11,
+    "rds_note": "includes 5 Seurat RDS, 1 SingleCellExperiment (sce_qc), 1 Monocle3 CDS (trajectory), 2 inferCNV Seurat objects (infercnv + infercnv_metadata), 2 xenium input RDS (downloaded only)",
+    "infercnv_checkpoints": 22,
+    "infercnv_final_figures": 4
+  }
+}

@@ -1,0 +1,29 @@
+parameter	chosen_value	rationale	source	affected_script	author_info_that_would_replace_this
+mito_threshold_pct	20	Standard scRNA-seq QC threshold; paper Methods states "> 20% mitochondrial reads" removed	Paper Methods + standard practice	dicer1_scrna_qc.R	Author-stated threshold confirmed in Methods text
+ribo_threshold_pct	50	Standard threshold for ribosomal fraction; not stated explicitly	Standard practice	dicer1_scrna_qc.R	Author value if stated in extended Methods
+min_umi	500	Standard minimum for 10X data; inferred from code (DropletUtils default)	Standard practice + code inspection	dicer1_scrna_qc.R	Author-stated minimum UMI threshold
+tomato_min_count	1	"tdTomato-positive" interpreted as ≥1 raw count; used in keep_cells <- Tomato > 0	Code (keep_cells <- sce_integrated_geno$Tomato > 0)	dicer1_scrna_controls.R, dicer1_scrna_tumors.R	Author may have used a higher threshold for robustness
+nfeatures_hvg	2000	From code (FindVariableFeatures nfeatures=2000)	Author code	all Seurat integration scripts	Author value (confirmed in code)
+dims_full_integration	30	From code (RunUMAP/FindNeighbors dims=1:30 for full datasets)	Author code	dicer1_scrna_{controls,tumors,controls_and_tumors}.R	Author value (confirmed in code)
+dims_mesenchymal_integration	20	From code (dims=1:20 for mesenchymal-only subsets)	Author code	dicer1_scrna_{controls,tumors,controls_and_tumors}_filter.R	Author value (confirmed in code)
+resolution_full	0.6	From code (FindClusters resolution=0.6)	Author code	dicer1_scrna_{controls,tumors}.R	Author value (confirmed in code)
+resolution_mesenchymal	0.2	From code (FindClusters resolution=0.2 for mesenchymal subset)	Author code	dicer1_scrna_{controls,tumors}_filter.R	Author value (confirmed in code)
+k_weight_controls_filter	50	PATCHED from author value 80; anchor count <68 for filtered control subset	Runtime error + Seurat docs	dicer1_scrna_controls_patched.R	Author likely used a sample with more cells; k.weight=80 may work with their exact data
+k_weight_tumors	25	From code (original tumor script; not patched)	Author code	dicer1_scrna_tumors.R	Author value (confirmed in code)
+k_weight_combined	50	From code (controls_and_tumors.R)	Author code	dicer1_scrna_controls_and_tumors.R	Author value (confirmed in code)
+monocle_min_branch_len	15	From code (learn_graph_control minimal_branch_len=15)	Author code	dicer1_scrna_trajectory.R	Author value (confirmed in code)
+trajectory_root_node	Nearest principal graph node to Progen cluster UMAP centroid	Author comment: "choose start node as node nearest the Dpt+ region of the Progen cluster"; automated approximation	Author code comment + automated implementation	dicer1_scrna_trajectory_patched.R	Author selected interactively in Shiny; exact node index unknown
+progeny_top	500	From code (get_progeny(top=500))	Author code	dicer1_scrna_run_pathway_analysis.R	Author value (confirmed in code)
+msigdb_category_hallmarks	H	CORRECTED from author code "MH" (msigdbr 7.5.1 renamed MH→H)	msigdbr 7.5.1 changelog	dicer1_rna_patched.R	Author used MH (valid for msigdbr <7.5.1)
+msigdb_category_mirdb	C3 subcategory MIR:MIRDB	CORRECTED from "M3" (msigdbr 7.5.1 renamed M3→C3)	msigdbr 7.5.1 changelog	dicer1_rna_patched.R	Author used M3 (valid for msigdbr <7.5.1)
+msigdb_category_gobp	C5 subcategory GO:BP	CORRECTED from "M5" subcollection "GO:BP" (msigdbr 7.5.1 renamed M5→C5, subcollection→subcategory)	msigdbr 7.5.1 changelog	dicer1_rna_patched.R	Author used M5 (valid for msigdbr <7.5.1)
+inferCNV_cutoff	0.1	From code (cutoff=0.1 for 10X data per inferCNV docs)	Author code + inferCNV documentation	dicer1_scrna_run_infer_cnv.R	Author value (confirmed in code)
+gene_order_tsv_source	biomaRt GRCm38/mm10 Ensembl	gene_order.tsv not deposited; generated from current Ensembl mouse annotation	Standard inferCNV workflow	dicer1_scrna_run_infer_cnv.R	Author likely had a pre-existing gene_order.tsv from Ensembl mm10
+xenium_qc_min_counts	5	From code (nCount_Xenium > 5)	Author code	dicer1_xenium_proseg_mus_musculus.R	Author value (confirmed in code)
+xenium_qc_min_features	5	From code (nFeature_Xenium > 5)	Author code	dicer1_xenium_proseg_mus_musculus.R	Author value (confirmed in code)
+xenium_qc_min_area	20	From code (cell_area > 20)	Author code	dicer1_xenium_proseg_mus_musculus.R	Author value (confirmed in code)
+xenium_wt_resolution	0.3	From code (FindClusters resolution=0.3 for WT)	Author code	dicer1_xenium_proseg_mus_musculus.R	Author value (confirmed in code)
+xenium_mut_resolution	0.6	From code (FindClusters resolution=0.6 for MUT after 0.5 initial + exclusion of cluster 13)	Author code	dicer1_xenium_proseg_mus_musculus.R	Author value (confirmed in code)
+xenium_dims	30	From code (RunUMAP/FindNeighbors dims=1:30)	Author code	dicer1_xenium_proseg_mus_musculus.R	Author value (confirmed in code)
+xenium_assay	Xenium	SCTransform run on Xenium assay	Author code	dicer1_xenium_proseg_mus_musculus.R	Author value (confirmed in code)
+gene_order_gtf_release	Ensembl GRCm38 v102	Downloaded from Ensembl FTP; mm10 annotation used by inferCNV	Runtime constraint (biomaRt timeout/SSL failure)	dicer1_scrna_run_infer_cnv.R	Author may have used a different release; coordinate differences minimal at gene level
