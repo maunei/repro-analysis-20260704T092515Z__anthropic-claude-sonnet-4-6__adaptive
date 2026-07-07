@@ -1,3 +1,25 @@
+# Public Reproducibility Analysis Skeleton
+
+This report is part of a lightweight public version of a reproducibility-analysis run.
+
+It is provided to inform the scope, organization, and file-level structure of the reproducibility analysis workflow.
+
+See the software system here:
+
+https://github.com/maunei/papers-rag_and_reproducibility
+
+> **Disclaimer**
+>
+> The outputs, tables, plots, logs, and placeholder files included here should not be treated as finalized research results or used as input for downstream scientific analysis. This repository is under active construction and is being used to test and document a reproducibility-analysis system.
+>
+> Large data files, generated objects, and selected intermediate outputs have been replaced with `.NOT_INCLUDED.txt` placeholder files. These placeholders preserve the directory structure and file provenance, but do not provide analyzable data.
+>
+> Any scientific interpretation should be based only on a validated, complete, and reviewed version of the analysis.
+
+The full public repository tree is available in [`github_tree.txt`](../github_tree.txt).
+
+---
+
 # Spatial scRNA + Xenium Analysis of DICER1-Syndrome Sarcoma — Replication Feasibility Assessment
 
 **Paper:** "Spatial single-cell transcriptomic analysis informs tumor developmental hierarchy of DICER1 syndrome-related sarcoma" (Nat Commun 2026)  
@@ -410,4 +432,3 @@ Clustering algorithms (Louvain/Leiden), UMAP layout, and PCA are seeded with `se
 2. **Human Xenium**: Request the human Xenium RDS from authors; may be under embargo.
 3. **Xenium on HPC**: Run `dicer1_xenium_proseg_mus_musculus_patched.R` on a system with ≥32 GB RAM using the downloaded 2.2 GB RDS (at path `output/xenium/dicer1_xenium_mus_musculus_all.rds`). Script v3 is ready; no code or data gap.
 4. **Trajectory branch plots**: If interactive analysis is desired, open `dicer1_scrna_trajectory_cds.rds` in an R session and use `choose_graph_segments()` / `choose_cells()` to set the root and branch endpoints interactively as in the paper.
-
