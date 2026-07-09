@@ -189,6 +189,8 @@ Census created at `metadata_inventory/figure_table_analysis_census.tsv`.
 Repository: https://github.com/Huntsmanlab/dicer1-cell-of-origin  
 Clone: `workflow_draft/repos/dicer1-cell-of-origin/` (shallow, commit at clone time 2026-07-03)
 
+Note: The script names below refer to the original author scripts in `workflow_draft/repos/dicer1-cell-of-origin/code/`. The executed reproducibility versions are documented in `workflow_draft/figure_to_code_map.tsv`; where patches were required, the patched copies live under `workflow_draft/scripts/patched/`. Patches addressed runtime compatibility, memory limits, missing intermediate steps, and version-specific behavior, and should be read as execution adapters rather than replacements for the author script inventory.
+
 ### `dicer1_rna.R`
 - Purpose: Bulk RNA-seq: tximport → DESeq2 → PCA, volcano, GSEA
 - Paper figures: Fig 4 (bulk panels)
