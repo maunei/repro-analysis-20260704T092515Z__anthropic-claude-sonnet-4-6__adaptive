@@ -65,41 +65,76 @@ Three scripts are blocked by infrastructure limits:
 
 ## Paper And Local Files
 
-| Item | Path/Status |
-|---|---|
-| Main PDF | `653_Spatial_...pdf` (in paper root) |
-| Supplementary | SUPP/ folder |
-| Code repository | Cloned to `workflow_draft/repos/dicer1-cell-of-origin/` |
-| Runtime R 4.2.2 | `653_renv/conda_env/bin/Rscript` |
-| Runtime R 4.5.3 | `653_renv2/conda_env/bin/Rscript` |
-| GEO data | `workflow_draft/repos/dicer1-cell-of-origin/data/` |
-| Reference | `workflow_draft/repos/dicer1-cell-of-origin/reference/` |
-| Outputs | `workflow_draft/repos/dicer1-cell-of-origin/output/` |
+- Main PDF: `653_Spatial_...pdf` (in paper root)
+- Supplementary: `SUPP/` folder
+- Code repository: cloned to `workflow_draft/repos/dicer1-cell-of-origin/`
+- Runtime R 4.2.2: `653_renv/conda_env/bin/Rscript`
+- Runtime R 4.5.3: `653_renv2/conda_env/bin/Rscript`
+- GEO data: `workflow_draft/repos/dicer1-cell-of-origin/data/`
+- Reference: `workflow_draft/repos/dicer1-cell-of-origin/reference/`
+- Outputs: `workflow_draft/repos/dicer1-cell-of-origin/output/`
 
 ---
 
 ## Availability Statements
 
-| Type | Statement | Verified |
-|---|---|---|
-| Code | GitHub: https://github.com/Huntsmanlab/dicer1-cell-of-origin — 13 R scripts | Cloned, all 13 scripts present |
-| scRNA-seq | GSE288990: 8 Cell Ranger filtered matrix directories (~278 MB) | Downloaded, extracted, renamed to PX IDs |
-| Bulk RNA-seq | GSE309820: 12 Salmon quant.sf files + tx2gene | Downloaded |
-| Xenium mouse | GSE289001: mouse Xenium RDS (2.2 GB) | Downloaded |
-| Xenium human | Not found in public GEO deposits | Absent — blocked |
-| sWGS processed | Not found on GEO; raw data in PRJNA1221971 | Absent — blocked |
+### Code
+- Statement: GitHub: https://github.com/Huntsmanlab/dicer1-cell-of-origin — 13 R scripts
+- Verified: Cloned, all 13 scripts present
+
+### scRNA-seq
+- Statement: GSE288990: 8 Cell Ranger filtered matrix directories (~278 MB)
+- Verified: Downloaded, extracted, renamed to PX IDs
+
+### Bulk RNA-seq
+- Statement: GSE309820: 12 Salmon `quant.sf` files + `tx2gene`
+- Verified: Downloaded
+
+### Xenium mouse
+- Statement: GSE289001: mouse Xenium RDS (2.2 GB)
+- Verified: Downloaded
+
+### Xenium human
+- Statement: Not found in public GEO deposits
+- Verified: Absent — blocked
+
+### sWGS processed
+- Statement: Not found on GEO; raw data in PRJNA1221971
+- Verified: Absent — blocked
 
 ---
 
 ## Data Deposition Map
 
-| Accession | Content | Size | Used by scripts | Action |
-|---|---|---|---|---|
-| GSE288990 | scRNA Cell Ranger filtered matrices (8 samples) | 278 MB TAR | dicer1_scrna_qc.R | Downloaded, extracted, PX-renamed |
-| GSE309820 | Bulk RNA Salmon quant.sf (12 samples) + tx2gene | ~15 MB | dicer1_rna.R | Downloaded |
-| GSE289001 | Mouse Xenium RDS (proseg-segmented) | 2.2 GB | dicer1_xenium_proseg_mus_musculus.R | Downloaded |
-| GSE289001 | Human Xenium RDS | Not found | dicer1_xenium_proseg_homo_sapiens.R | Absent |
-| PRJNA1221971 | Raw WGS BAM/FASTQ | Several GB | dicer1_swgs.R (needs QDNAseq output) | Skipped per directives |
+### GSE288990
+- Content: scRNA Cell Ranger filtered matrices (8 samples)
+- Size: 278 MB TAR
+- Used by scripts: `dicer1_scrna_qc.R`
+- Action: Downloaded, extracted, PX-renamed
+
+### GSE309820
+- Content: Bulk RNA Salmon `quant.sf` files (12 samples) + `tx2gene`
+- Size: ~15 MB
+- Used by scripts: `dicer1_rna.R`
+- Action: Downloaded
+
+### GSE289001: Mouse Xenium
+- Content: Mouse Xenium RDS (proseg-segmented)
+- Size: 2.2 GB
+- Used by scripts: `dicer1_xenium_proseg_mus_musculus.R`
+- Action: Downloaded
+
+### GSE289001: Human Xenium
+- Content: Human Xenium RDS
+- Size: Not found
+- Used by scripts: `dicer1_xenium_proseg_homo_sapiens.R`
+- Action: Absent
+
+### PRJNA1221971
+- Content: Raw WGS BAM/FASTQ
+- Size: Several GB
+- Used by scripts: `dicer1_swgs.R` (needs QDNAseq output)
+- Action: Skipped per directives
 
 ---
 
@@ -107,18 +142,45 @@ Three scripts are blocked by infrastructure limits:
 
 Census created at `metadata_inventory/figure_table_analysis_census.tsv`.
 
-| Panel type | Count | Status |
-|---|---|---|
-| Bulk RNA-seq (PCA, volcano, GSEA) | ~10 panels | Reproducible — outputs generated |
-| scRNA QC + controls | ~20 panels | Reproducible — outputs generated |
-| scRNA tumors | ~20 panels | Reproducible — outputs generated |
-| scRNA controls+tumors integrated | ~15 panels | Reproducible — outputs generated |
-| Pseudotime trajectory | ~5 panels | Reproducible — outputs generated |
-| InferCNV CNV heatmap + chr. plots | ~5 panels | Completed (July 2026) |
-| PROGENy pathway heatmap/UMAP | ~8 panels | Reproducible — outputs generated |
-| Xenium spatial (mouse) | ~20 panels | Blocked by insufficient RAM |
-| Xenium spatial (human) | ~10 panels | Blocked by missing data |
-| sWGS CN + clinical metadata | ~8 panels | Partially reproduced (metadata only) |
+### Bulk RNA-seq (PCA, volcano, GSEA)
+- Count: ~10 panels
+- Status: Reproducible — outputs generated
+
+### scRNA QC + controls
+- Count: ~20 panels
+- Status: Reproducible — outputs generated
+
+### scRNA tumors
+- Count: ~20 panels
+- Status: Reproducible — outputs generated
+
+### scRNA controls+tumors integrated
+- Count: ~15 panels
+- Status: Reproducible — outputs generated
+
+### Pseudotime trajectory
+- Count: ~5 panels
+- Status: Reproducible — outputs generated
+
+### InferCNV CNV heatmap + chr. plots
+- Count: ~5 panels
+- Status: Completed (July 2026)
+
+### PROGENy pathway heatmap/UMAP
+- Count: ~8 panels
+- Status: Reproducible — outputs generated
+
+### Xenium spatial (mouse)
+- Count: ~20 panels
+- Status: Blocked by insufficient RAM
+
+### Xenium spatial (human)
+- Count: ~10 panels
+- Status: Blocked by missing data
+
+### sWGS CN + clinical metadata
+- Count: ~8 panels
+- Status: Partially reproduced (metadata only)
 
 ---
 
@@ -211,19 +273,17 @@ All 13 scripts are represented in [`workflow_draft/figure_to_code_map.tsv`](work
 
 ## Tool/Package References
 
-| Tool/Package | Source | URL |
-|---|---|---|
-| Seurat v5 | CRAN/GitHub | https://satijalab.org/seurat/ |
-| inferCNV | Bioconductor | https://bioconductor.org/packages/infercnv |
-| DESeq2 | Bioconductor | https://bioconductor.org/packages/DESeq2 |
-| tximport | Bioconductor | https://bioconductor.org/packages/tximport |
-| clusterProfiler / GSEA | Bioconductor | https://bioconductor.org/packages/clusterProfiler |
-| decoupleR / PROGENy | CRAN/GitHub | https://saezlab.github.io/decoupleR/ |
-| OmniPath REST API | Web | https://omnipathdb.org/ |
-| monocle3 | GitHub | https://cole-trapnell-lab.github.io/monocle3/ |
-| BPCells | GitHub | https://github.com/bnprks/BPCells |
-| msigdbr 7.5.1 API | CRAN | https://cran.r-project.org/package=msigdbr |
-| Ensembl REST API | Web | https://rest.ensembl.org/ |
+- Seurat v5: CRAN/GitHub, https://satijalab.org/seurat/
+- inferCNV: Bioconductor, https://bioconductor.org/packages/infercnv
+- DESeq2: Bioconductor, https://bioconductor.org/packages/DESeq2
+- tximport: Bioconductor, https://bioconductor.org/packages/tximport
+- clusterProfiler / GSEA: Bioconductor, https://bioconductor.org/packages/clusterProfiler
+- decoupleR / PROGENy: CRAN/GitHub, https://saezlab.github.io/decoupleR/
+- OmniPath REST API: Web, https://omnipathdb.org/
+- monocle3: GitHub, https://cole-trapnell-lab.github.io/monocle3/
+- BPCells: GitHub, https://github.com/bnprks/BPCells
+- msigdbr 7.5.1 API: CRAN, https://cran.r-project.org/package=msigdbr
+- Ensembl REST API: Web, https://rest.ensembl.org/
 
 ---
 
@@ -300,17 +360,15 @@ All 13 scripts are represented in [`workflow_draft/figure_to_code_map.tsv`](work
 
 ### Scripts provided
 
-| File | Type | Status |
-|---|---|---|
-| `Snakefile` | Full workflow DAG | Dry-run passed (EXIT:0) |
-| `run.sh` | Shell entrypoint | Tier-1 runnable path |
-| `run_order.tsv` | Executable DAG | Updated |
-| `RUN_ORDER.md` | Human narrative | Updated |
-| `figure_to_code_map.tsv` | Figure → code mapping | All 13 scripts |
-| `dependency_chain.tsv` | Artifact creator/consumer chain | Complete |
-| `assumptions_and_defaults.tsv` | All assumed parameters | Complete |
-| `config/config.yaml` | Configurable parameters | Complete |
-| `scripts/patched/` | 11 patched/extended scripts | All issues documented |
+- `Snakefile`: full workflow DAG; dry-run passed (EXIT:0)
+- `run.sh`: shell entrypoint; Tier-1 runnable path
+- `run_order.tsv`: executable DAG; updated
+- `RUN_ORDER.md`: human narrative; updated
+- `figure_to_code_map.tsv`: figure → code mapping; all 13 scripts
+- `dependency_chain.tsv`: artifact creator/consumer chain; complete
+- `assumptions_and_defaults.tsv`: all assumed parameters; complete
+- `config/config.yaml`: configurable parameters; complete
+- `scripts/patched/`: 11 patched/extended scripts; all issues documented
 
 ### Author scripts vs shadow scaffolds
 All Snakefile rules call the **actual author scripts** directly via `Rscript ../code/<author_script>.R`. No shadow scaffold scripts were substituted for author code. Generated scaffold scripts exist only for analyses where no author code exists or where blocking conditions require a metadata-only fallback:
@@ -329,30 +387,97 @@ EXIT: 0 — all targets met (from prior run)
 
 ### Runtimes used
 
-| Runtime | Path | Version | Purpose |
-|---|---|---|---|
-| 653_renv | `653_renv/conda_env/bin/Rscript` | R 4.2.2 | All scRNA, bulk RNA, inferCNV, pathway scripts |
-| 653_renv2 | `653_renv2/conda_env/bin/Rscript` | R 4.5.3 | Xenium scripts (SeuratWrappers, Banksy, monocle3, sf/spdep) |
+### `653_renv`
+- Path: `653_renv/conda_env/bin/Rscript`
+- Version: R 4.2.2
+- Purpose: All scRNA, bulk RNA, inferCNV, pathway scripts
+
+### `653_renv2`
+- Path: `653_renv2/conda_env/bin/Rscript`
+- Version: R 4.5.3
+- Purpose: Xenium scripts (SeuratWrappers, Banksy, monocle3, sf/spdep)
 
 All execution used PATH-aware wrappers (`rscript_with_path.sh`) to ensure conda compiler toolchain visibility.
 
 ### Execution results by script
 
-| Script | Attempted | Outcome | Patched? | Log file |
-|---|---|---|---|---|
-| dicer1_rna.R | Yes | Complete (all plots + tables) | Yes — msigdbr API + OOM fixes | dicer1_rna.stdout.log |
-| dicer1_scrna_qc.R | Yes | Complete (sce_qc.rds) | No | dicer1_scrna_qc.stdout.log |
-| dicer1_scrna_controls.R | Yes | Complete (unfilter + filter control RDS + plots) | Yes — rowData, make.unique, JoinLayers | dicer1_scrna_controls.stdout.log |
-| dicer1_scrna_tumors.R | Yes | Complete via split (unfilter + filter tumor RDS + plots) | Yes — OOM split into 2 scripts | dicer1_scrna_tumors.stdout.log |
-| dicer1_scrna_trajectory.R | Yes | Complete (trajectory_cds.rds + plots) | Yes — display-device tryCatch | dicer1_scrna_trajectory.stdout.log |
-| dicer1_scrna_controls_and_tumors.R | Yes | Complete (filter combined RDS + plots) | Yes — DotPlot tryCatch | dicer1_scrna_controls_and_tumors.stdout.log |
-| dicer1_scrna_export_infer_cnv.R | Yes | Filter-only complete; unfiltered blocked by OOM | Yes — filter-only variant | dicer1_scrna_export_infer_cnv.stdout.log |
-| dicer1_scrna_run_infer_cnv.R | Yes (v2) | Complete (July 2026) — all 22 HMM steps; run.final.infercnv_obj written | Yes — random_trees subclustering, 2-thread constraint | dicer1_scrna_run_infer_cnv_v2.stdout.log |
-| dicer1_scrna_add_infer_cnv_seurat.R | Yes | Complete (July 2026) — via add_to_seurat_intermediate.R; 4 output files (2 PNG + 2 SVG) | add_to_seurat intermediate created (missing from author code) | dicer1_scrna_add_infer_cnv_seurat.stdout.log |
-| dicer1_scrna_run_pathway_analysis.R | Yes (v4) | Complete (pathway heatmap + UMAPs + table) | Yes — OmnipathR bypass, S7 FeaturePlot fix | dicer1_scrna_run_pathway_analysis_v4.stdout.log |
-| dicer1_xenium_proseg_mus_musculus.R | Yes (v3) | Blocked — OOM (622K WT cells; requires ≥32 GB RAM) | Yes — v3 ready for high-RAM system | dicer1_xenium_mus_musculus.stdout.log |
-| dicer1_xenium_proseg_homo_sapiens.R | No | Blocked — human Xenium data not found on GEO | Skeleton prepared | — |
-| dicer1_swgs.R | Partial | Blocked — CN data absent; metadata plots produced | Yes — metadata-only variant | dicer1_swgs_metadata_only.stdout.log |
+### `dicer1_rna.R`
+- Attempted: Yes
+- Outcome: Complete (all plots + tables)
+- Patch status: Yes — msigdbr API + OOM fixes
+- Log file: `dicer1_rna.stdout.log`
+
+### `dicer1_scrna_qc.R`
+- Attempted: Yes
+- Outcome: Complete (`sce_qc.rds`)
+- Patch status: No
+- Log file: `dicer1_scrna_qc.stdout.log`
+
+### `dicer1_scrna_controls.R`
+- Attempted: Yes
+- Outcome: Complete (unfilter + filter control RDS + plots)
+- Patch status: Yes — `rowData`, `make.unique`, `JoinLayers`
+- Log file: `dicer1_scrna_controls.stdout.log`
+
+### `dicer1_scrna_tumors.R`
+- Attempted: Yes
+- Outcome: Complete via split (unfilter + filter tumor RDS + plots)
+- Patch status: Yes — OOM split into 2 scripts
+- Log file: `dicer1_scrna_tumors.stdout.log`
+
+### `dicer1_scrna_trajectory.R`
+- Attempted: Yes
+- Outcome: Complete (`trajectory_cds.rds` + plots)
+- Patch status: Yes — display-device `tryCatch`
+- Log file: `dicer1_scrna_trajectory.stdout.log`
+
+### `dicer1_scrna_controls_and_tumors.R`
+- Attempted: Yes
+- Outcome: Complete (filter combined RDS + plots)
+- Patch status: Yes — DotPlot `tryCatch`
+- Log file: `dicer1_scrna_controls_and_tumors.stdout.log`
+
+### `dicer1_scrna_export_infer_cnv.R`
+- Attempted: Yes
+- Outcome: Filter-only complete; unfiltered blocked by OOM
+- Patch status: Yes — filter-only variant
+- Log file: `dicer1_scrna_export_infer_cnv.stdout.log`
+
+### `dicer1_scrna_run_infer_cnv.R`
+- Attempted: Yes (v2)
+- Outcome: Complete (July 2026) — all 22 HMM steps; `run.final.infercnv_obj` written
+- Patch status: Yes — random-trees subclustering, 2-thread constraint
+- Log file: `dicer1_scrna_run_infer_cnv_v2.stdout.log`
+
+### `dicer1_scrna_add_infer_cnv_seurat.R`
+- Attempted: Yes
+- Outcome: Complete (July 2026) — via `add_to_seurat_intermediate.R`; 4 output files (2 PNG + 2 SVG)
+- Patch status: `add_to_seurat` intermediate created because it was missing from author code
+- Log file: `dicer1_scrna_add_infer_cnv_seurat.stdout.log`
+
+### `dicer1_scrna_run_pathway_analysis.R`
+- Attempted: Yes (v4)
+- Outcome: Complete (pathway heatmap + UMAPs + table)
+- Patch status: Yes — OmnipathR bypass, S7 FeaturePlot fix
+- Log file: `dicer1_scrna_run_pathway_analysis_v4.stdout.log`
+
+### `dicer1_xenium_proseg_mus_musculus.R`
+- Attempted: Yes (v3)
+- Outcome: Blocked — OOM (622K WT cells; requires ≥32 GB RAM)
+- Patch status: Yes — v3 ready for high-RAM system
+- Log file: `dicer1_xenium_mus_musculus.stdout.log`
+
+### `dicer1_xenium_proseg_homo_sapiens.R`
+- Attempted: No
+- Outcome: Blocked — human Xenium data not found on GEO
+- Patch status: Skeleton prepared
+- Log file: Not applicable
+
+### `dicer1_swgs.R`
+- Attempted: Partial
+- Outcome: Blocked — CN data absent; metadata plots produced
+- Patch status: Yes — metadata-only variant
+- Log file: `dicer1_swgs_metadata_only.stdout.log`
 
 ### Key issues encountered and resolved
 
@@ -379,50 +504,192 @@ All paths are relative to this report at `reports/01_replication_feasibility_ass
 
 **Note:** 87 PNG plots were generated in total (61 also as SVG). The table below covers all main-figure and key supplementary panels; secondary outputs (dot plots, sample/time/batch UMAPs, heatmap variants, unfiltered clustering intermediates, additional GSEA conditions) exist on disk at `workflow_draft/repos/dicer1-cell-of-origin/output/plots/` but are omitted here for brevity.
 
-| Link | Paper figure | Description | Relationship to paper |
-|---|---|---|---|
-| [dicer1_rna_mut_vs_control.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_mut_vs_control.png) | **Fig 4a** | Dot/bubble plot of specific gene log2FC (Dpt, Dcn, Pi16, Ly6a, Ly6c1, Col15a1, Itga8, Myh11, Acta2) in Dicer1 MUT vs WT primary cells; colored by condition (DMEM vs MesEnCult); faceted by lineage group (Universal, Fibro, Peri) | Relates to Fig 4a description: increased universal fibroblast markers (Dpt, Pi16, Ly6a), reduced lineage markers (Itga8, Myh11, Acta2) |
-| [dicer1_bulk_rna_pca.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_bulk_rna_pca.png) | **Supp Fig 9a** | PCA of 12 bulk RNA-seq samples (6 DMEM, 6 MesEnCult; HDT1056 and HDT1119); QC/exploratory plot | Relates to Supp Fig 9a: PCA of bulk RNA-seq of primary cell culture samples (control vs Dicer1 mutant, MesenCult or DMEM); PC1 separates by genotype |
-| [dicer1_rna_dmem_volcano.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_dmem_volcano.png) | Not in paper | Volcano plot, DMEM condition MUT vs WT (DESeq2) | Not identified in main or supplementary figures — likely exploratory output from author's script not included in publication |
-| [dicer1_rna_mesencult_volcano.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_mesencult_volcano.png) | Not in paper | Volcano plot, MesEnCult condition MUT vs WT (DESeq2) | Not identified in main or supplementary figures — likely exploratory output from author's script not included in publication |
-| [dicer1_rna_dmem_gsea_hallmarks.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_dmem_gsea_hallmarks.png) | Not in paper | GSEA Hallmarks, DMEM condition (bulk RNA) | Not identified in main or supplementary figures — likely exploratory output from author's script not included in publication |
-| [dicer1_rna_mesencult_gsea_hallmarks.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_mesencult_gsea_hallmarks.png) | Not in paper | GSEA Hallmarks, MesEnCult condition (bulk RNA) | Not identified in main or supplementary figures — likely exploratory output from author's script not included in publication |
-| [dicer1_rna_dmem_gsea_reactome.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_dmem_gsea_reactome.png) | Not in paper | GSEA Reactome, DMEM condition (bulk RNA) | Not identified in main or supplementary figures — likely exploratory output from author's script not included in publication |
-| [dicer1_rna_dmem_gsea_ont.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_dmem_gsea_ont.png) | Not in paper | GSEA GO:BP, DMEM condition (bulk RNA) | Not identified in main or supplementary figures — likely exploratory output from author's script not included in publication |
-| [dicer1_scrna_unfilter_control_clusters.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_unfilter_control_clusters.png) | **Supp Fig 3e** | scRNA control cells: UMAP by Louvain cluster before cell type annotation | Relates to Supp Fig 3e: UMAP of tdTomato+ mesenchymal stromal cells (n=3) colored by cluster assignment, relating to Fig. 2b (distinct from Supp Fig 3a which shows all control kidney cells) |
-| [dicer1_scrna_filter_control_cell_type.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_control_cell_type.png) | **Fig 2b** | scRNA control cells: UMAP colored by annotated cell type (Uni Fibro Pi16high, Uni Fibro Col15a1high, Fibro, Mural, Cycle) | Relates to Fig 2b: UMAP of tdtomato+ MSC colored by cell type with lineage annotations |
-| [dicer1_scrna_filter_control_features.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_control_features.png) | **Fig 2c** | scRNA control cells: UMAP depicting expression of key fibroblast lineage markers | Relates to Fig 2c: FeaturePlots of key markers on tdTomato+ MSC UMAP |
-| [dicer1_scrna_filter_control_heatmap_clusters.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_control_heatmap_clusters.png) | **Fig 2d** | scRNA control cells: heatmap of top 30 defining transcripts based on cell type annotation | Relates to Fig 2d: heatmap with key genes of each MSC cell type highlighted |
-| [dicer1_scrna_unfilter_tumor_clusters.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_unfilter_tumor_clusters.png) | **Supp Fig 6a** | scRNA tumor cells: UMAP by Louvain cluster before annotation | Relates to Supp Fig 6a: UMAP of HDT tumor cells (n=4) colored by cluster assignment |
-| [dicer1_scrna_filter_tumor_cell_type.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_cell_type.png) | **Fig 3b** | scRNA tumor cells: UMAP colored by annotated cell type (Progen, Ground, Prolif, TR Diff Myo, Diff Myo, Fibro Perturb, Mural) | Relates to Fig 3b: UMAP of tdtomato+ tumor MSC colored by cell type |
-| [dicer1_scrna_filter_tumor_heatmap_clusters.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_heatmap_clusters.png) | **Fig 3c** | scRNA tumor cells: heatmap of top 30 signature-defining transcripts based on cell state annotation | Relates to Fig 3c: heatmap with key genes of each tumor cell state highlighted |
-| [dicer1_scrna_filter_tumor_features.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_features.png) | **Fig 3d** | scRNA tumor cells: UMAP depicting expression of key markers | Relates to Fig 3d: FeaturePlots of key lineage markers on tdTomato+ tumor MSC UMAP |
-| [dicer1_scrna_filter_tumor_cell_type_time_split.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_cell_type_time_split.png) | Not in paper | Tumor cell type UMAP split by timepoint/sample | Not identified in main or supplementary figures — likely exploratory output from author's script not included in publication |
-| [dicer1_scrna_filter_tumor_trajectory_pseudotime.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_pseudotime.png) | **Fig 4b-c** | Monocle3 pseudotime UMAP colored by cell type and pseudotime; root approximated from Progen centroid; branch-specific plots not generated (require interactive session) | Relates to Fig 4b-c conceptually; root placement may differ from paper (paper sets root interactively) |
-| [dicer1_scrna_filter_tumor_trajectory_cell_type_graph.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_cell_type_graph.png) | **Fig 4b-c** | Trajectory principal graph overlaid on UMAP, colored by cell type | Same as above |
-| [dicer1_scrna_filter_tumor_trajectory_ground_genes_cell_type.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_ground_genes_cell_type.png) | **Fig 4d** | Gene trend plots of Ground cluster marker genes along sarcomagenic trajectory; cells colored by cell type | Relates to Fig 4d: gene expression trends of Ground-state defining genes (e.g., Dpt, Pi16, Mfap4) along trajectory |
-| [dicer1_scrna_filter_tumor_trajectory_ground_genes_time.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_ground_genes_time.png) | **Fig 4d** | Gene trend plots of Ground cluster marker genes along trajectory; cells colored by pseudotime | Relates to Fig 4d (pseudotime-colored variant) |
-| [dicer1_scrna_filter_tumor_trajectory_myo_diff_genes_cell_type.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_myo_diff_genes_cell_type.png) | **Fig 4d** | Gene trend plots of Diff Myo marker genes along sarcomagenic trajectory; cells colored by cell type | Relates to Fig 4d: gene expression trends of myogenic differentiation genes along trajectory |
-| [dicer1_scrna_filter_tumor_trajectory_myo_diff_genes_time.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_myo_diff_genes_time.png) | **Fig 4d** | Gene trend plots of Diff Myo marker genes along trajectory; cells colored by pseudotime | Relates to Fig 4d (pseudotime-colored variant) |
-| [dicer1_scrna_filter_control_and_tumor_cell_type.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_control_and_tumor_cell_type.png) | **Supp Fig 7f** | Integrated control+tumor UMAP colored by cell type | Relates to Supp Fig 7f: UMAP of combined control (n=3) + HDT tumor (n=4) cells colored by cell type assigned during individual work-up of scRNA data, relating to Fig. 2b and Fig. 3b |
-| [dicer1_scrna_filter_tumor_pathway_heatmap.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_pathway_heatmap.png) | **Fig 4h** | PROGENy MLM pathway activity heatmap by tumor cell type; shows MAPK upregulation in Prolif cluster | Partially relates to Fig 4h (GSEA along tumor cell state continuum); paper uses GSEA of DEGs between cell states; our output uses PROGENy activity scores — related but methodologically distinct |
-| [dicer1_scrna_filter_tumor_pathway_tgfb.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_pathway_tgfb.png) | Not in paper | TGF-β pathway activity UMAP (PROGENy score per cell) | Not identified in main or supplementary figures — likely exploratory output from author's script not included in publication |
-| [dicer1_scrna_filter_tumor_pathway_tnfa.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_pathway_tnfa.png) | Not in paper | TNF-α pathway activity UMAP (PROGENy score per cell) | Not identified in main or supplementary figures — likely exploratory output from author's script not included in publication |
-| [dicer1_scrna_filter_tumor_pathway_nfkb.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_pathway_nfkb.png) | Not in paper | NF-κB pathway activity UMAP (PROGENy score per cell) | Not identified in main or supplementary figures — likely exploratory output from author's script not included in publication |
-| [dicer1_scrna_filter_tumor_infercnv.png](../workflow_draft/repos/dicer1-cell-of-origin/output/infer_cnv/dicer1_scrna_filter_tumor_infercnv.png) | **Fig 4e** | InferCNV CNV proportion feature plots overlaid on tumor UMAP; shows chromosomal duplication burden per cell | Relates to Fig 4e (UMAP showing proportion of cells with chromosomal duplications, relating to Supp Fig 9c). Supp Fig 9d (control kidneys CN) was not produced — our inferCNV run used tumor cells only |
-| [dicer1_scrna_filter_tumor_infercnv_split_sample.png](../workflow_draft/repos/dicer1-cell-of-origin/output/infer_cnv/dicer1_scrna_filter_tumor_infercnv_split_sample.png) | **Supp Fig 9c** | InferCNV CNV feature plots split by sample | Relates to Supp Fig 9c: CN analysis of tdTomato⁺ mesenchymal cells (Observations) in tumorous HDT kidneys vs bystander cell populations (References), related to Fig. 4e |
-| [dicer1_swgs_metadata_panel.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_swgs_metadata_panel.png) | Fig 1 (partial) | sWGS clinical metadata panel (sex, histotype, Trp53/Kras/Dicer1 status across 35 samples) — independent reimplementation | Partial: metadata plots only; CN copy number panels absent (processed sWGS RDS not deposited) |
+### [dicer1_rna_mut_vs_control.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_mut_vs_control.png)
+- Paper figure: **Fig 4a**
+- Description: Dot/bubble plot of selected gene log2FC in Dicer1 MUT vs WT primary cells, colored by condition and faceted by lineage group.
+- Relationship to paper: Relates to Fig 4a marker-gene description, including increased universal fibroblast markers and reduced lineage markers.
+
+### [dicer1_bulk_rna_pca.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_bulk_rna_pca.png)
+- Paper figure: **Supp Fig 9a**
+- Description: PCA of 12 bulk RNA-seq samples across DMEM and MesEnCult conditions.
+- Relationship to paper: Relates to Supp Fig 9a; PC1 separates by genotype.
+
+### [dicer1_rna_dmem_volcano.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_dmem_volcano.png)
+- Paper figure: Not in paper
+- Description: Volcano plot, DMEM condition MUT vs WT (DESeq2).
+- Relationship to paper: Exploratory output from author's script not identified in main or supplementary figures.
+
+### [dicer1_rna_mesencult_volcano.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_mesencult_volcano.png)
+- Paper figure: Not in paper
+- Description: Volcano plot, MesEnCult condition MUT vs WT (DESeq2).
+- Relationship to paper: Exploratory output from author's script not identified in main or supplementary figures.
+
+### [dicer1_rna_dmem_gsea_hallmarks.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_dmem_gsea_hallmarks.png)
+- Paper figure: Not in paper
+- Description: GSEA Hallmarks, DMEM condition (bulk RNA).
+- Relationship to paper: Exploratory output from author's script not identified in main or supplementary figures.
+
+### [dicer1_rna_mesencult_gsea_hallmarks.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_mesencult_gsea_hallmarks.png)
+- Paper figure: Not in paper
+- Description: GSEA Hallmarks, MesEnCult condition (bulk RNA).
+- Relationship to paper: Exploratory output from author's script not identified in main or supplementary figures.
+
+### [dicer1_rna_dmem_gsea_reactome.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_dmem_gsea_reactome.png)
+- Paper figure: Not in paper
+- Description: GSEA Reactome, DMEM condition (bulk RNA).
+- Relationship to paper: Exploratory output from author's script not identified in main or supplementary figures.
+
+### [dicer1_rna_dmem_gsea_ont.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_dmem_gsea_ont.png)
+- Paper figure: Not in paper
+- Description: GSEA GO:BP, DMEM condition (bulk RNA).
+- Relationship to paper: Exploratory output from author's script not identified in main or supplementary figures.
+
+### [dicer1_scrna_unfilter_control_clusters.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_unfilter_control_clusters.png)
+- Paper figure: **Supp Fig 3e**
+- Description: scRNA control cells: UMAP by Louvain cluster before cell type annotation.
+- Relationship to paper: Relates to Supp Fig 3e and Fig 2b; distinct from Supp Fig 3a, which shows all control kidney cells.
+
+### [dicer1_scrna_filter_control_cell_type.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_control_cell_type.png)
+- Paper figure: **Fig 2b**
+- Description: scRNA control cells: UMAP colored by annotated cell type.
+- Relationship to paper: Relates to Fig 2b tdtomato+ MSC UMAP with lineage annotations.
+
+### [dicer1_scrna_filter_control_features.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_control_features.png)
+- Paper figure: **Fig 2c**
+- Description: scRNA control cells: UMAP depicting expression of key fibroblast lineage markers.
+- Relationship to paper: Relates to Fig 2c FeaturePlots on tdTomato+ MSC UMAP.
+
+### [dicer1_scrna_filter_control_heatmap_clusters.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_control_heatmap_clusters.png)
+- Paper figure: **Fig 2d**
+- Description: scRNA control cells: heatmap of top 30 defining transcripts by cell type annotation.
+- Relationship to paper: Relates to Fig 2d heatmap with key genes for each MSC cell type.
+
+### [dicer1_scrna_unfilter_tumor_clusters.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_unfilter_tumor_clusters.png)
+- Paper figure: **Supp Fig 6a**
+- Description: scRNA tumor cells: UMAP by Louvain cluster before annotation.
+- Relationship to paper: Relates to Supp Fig 6a HDT tumor cell UMAP colored by cluster assignment.
+
+### [dicer1_scrna_filter_tumor_cell_type.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_cell_type.png)
+- Paper figure: **Fig 3b**
+- Description: scRNA tumor cells: UMAP colored by annotated cell type.
+- Relationship to paper: Relates to Fig 3b tdtomato+ tumor MSC UMAP colored by cell type.
+
+### [dicer1_scrna_filter_tumor_heatmap_clusters.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_heatmap_clusters.png)
+- Paper figure: **Fig 3c**
+- Description: scRNA tumor cells: heatmap of top 30 signature-defining transcripts by cell state annotation.
+- Relationship to paper: Relates to Fig 3c heatmap with key genes for each tumor cell state.
+
+### [dicer1_scrna_filter_tumor_features.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_features.png)
+- Paper figure: **Fig 3d**
+- Description: scRNA tumor cells: UMAP depicting expression of key markers.
+- Relationship to paper: Relates to Fig 3d FeaturePlots of key lineage markers on tdTomato+ tumor MSC UMAP.
+
+### [dicer1_scrna_filter_tumor_cell_type_time_split.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_cell_type_time_split.png)
+- Paper figure: Not in paper
+- Description: Tumor cell type UMAP split by timepoint/sample.
+- Relationship to paper: Exploratory output from author's script not identified in main or supplementary figures.
+
+### [dicer1_scrna_filter_tumor_trajectory_pseudotime.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_pseudotime.png)
+- Paper figure: **Fig 4b-c**
+- Description: Monocle3 pseudotime UMAP colored by cell type and pseudotime.
+- Relationship to paper: Conceptually relates to Fig 4b-c; root placement may differ because the paper sets root interactively.
+
+### [dicer1_scrna_filter_tumor_trajectory_cell_type_graph.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_cell_type_graph.png)
+- Paper figure: **Fig 4b-c**
+- Description: Trajectory principal graph overlaid on UMAP, colored by cell type.
+- Relationship to paper: Same relationship as the pseudotime trajectory plot.
+
+### [dicer1_scrna_filter_tumor_trajectory_ground_genes_cell_type.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_ground_genes_cell_type.png)
+- Paper figure: **Fig 4d**
+- Description: Ground-cluster marker gene trends along sarcomagenic trajectory, colored by cell type.
+- Relationship to paper: Relates to Fig 4d gene expression trends of Ground-state defining genes.
+
+### [dicer1_scrna_filter_tumor_trajectory_ground_genes_time.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_ground_genes_time.png)
+- Paper figure: **Fig 4d**
+- Description: Ground-cluster marker gene trends along trajectory, colored by pseudotime.
+- Relationship to paper: Relates to Fig 4d as a pseudotime-colored variant.
+
+### [dicer1_scrna_filter_tumor_trajectory_myo_diff_genes_cell_type.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_myo_diff_genes_cell_type.png)
+- Paper figure: **Fig 4d**
+- Description: Diff Myo marker gene trends along sarcomagenic trajectory, colored by cell type.
+- Relationship to paper: Relates to Fig 4d myogenic differentiation gene trends along trajectory.
+
+### [dicer1_scrna_filter_tumor_trajectory_myo_diff_genes_time.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_myo_diff_genes_time.png)
+- Paper figure: **Fig 4d**
+- Description: Diff Myo marker gene trends along trajectory, colored by pseudotime.
+- Relationship to paper: Relates to Fig 4d as a pseudotime-colored variant.
+
+### [dicer1_scrna_filter_control_and_tumor_cell_type.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_control_and_tumor_cell_type.png)
+- Paper figure: **Supp Fig 7f**
+- Description: Integrated control+tumor UMAP colored by cell type.
+- Relationship to paper: Relates to Supp Fig 7f combined control and HDT tumor UMAP.
+
+### [dicer1_scrna_filter_tumor_pathway_heatmap.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_pathway_heatmap.png)
+- Paper figure: **Fig 4h**
+- Description: PROGENy MLM pathway activity heatmap by tumor cell type.
+- Relationship to paper: Partially relates to Fig 4h; our output uses PROGENy activity scores rather than GSEA of DEGs between cell states.
+
+### [dicer1_scrna_filter_tumor_pathway_tgfb.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_pathway_tgfb.png)
+- Paper figure: Not in paper
+- Description: TGF-beta pathway activity UMAP (PROGENy score per cell).
+- Relationship to paper: Exploratory output from author's script not identified in main or supplementary figures.
+
+### [dicer1_scrna_filter_tumor_pathway_tnfa.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_pathway_tnfa.png)
+- Paper figure: Not in paper
+- Description: TNF-alpha pathway activity UMAP (PROGENy score per cell).
+- Relationship to paper: Exploratory output from author's script not identified in main or supplementary figures.
+
+### [dicer1_scrna_filter_tumor_pathway_nfkb.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_pathway_nfkb.png)
+- Paper figure: Not in paper
+- Description: NF-kB pathway activity UMAP (PROGENy score per cell).
+- Relationship to paper: Exploratory output from author's script not identified in main or supplementary figures.
+
+### [dicer1_scrna_filter_tumor_infercnv.png](../workflow_draft/repos/dicer1-cell-of-origin/output/infer_cnv/dicer1_scrna_filter_tumor_infercnv.png)
+- Paper figure: **Fig 4e**
+- Description: InferCNV CNV proportion feature plots overlaid on tumor UMAP.
+- Relationship to paper: Relates to Fig 4e and Supp Fig 9c; Supp Fig 9d was not produced because this inferCNV run used tumor cells only.
+
+### [dicer1_scrna_filter_tumor_infercnv_split_sample.png](../workflow_draft/repos/dicer1-cell-of-origin/output/infer_cnv/dicer1_scrna_filter_tumor_infercnv_split_sample.png)
+- Paper figure: **Supp Fig 9c**
+- Description: InferCNV CNV feature plots split by sample.
+- Relationship to paper: Relates to Supp Fig 9c CN analysis of tdTomato+ mesenchymal cells in tumorous HDT kidneys.
+
+### [dicer1_swgs_metadata_panel.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_swgs_metadata_panel.png)
+- Paper figure: Fig 1 (partial)
+- Description: sWGS clinical metadata panel across 35 samples.
+- Relationship to paper: Partial reproduction; metadata plots only, with CN copy number panels absent because processed sWGS RDS was not deposited.
 
 ### Tables
 
-| Link | Paper figure | Rows × cols | Description |
-|---|---|---|---|
-| [dicer1_rna_dmem_de_mut_vs_wt.csv](../workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_rna_dmem_de_mut_vs_wt.csv) | Fig 4 | ~30K × 9 | DESeq2 DE table, DMEM MUT vs WT |
-| [dicer1_rna_mesencult_de_mut_vs_wt.csv](../workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_rna_mesencult_de_mut_vs_wt.csv) | Fig 4 | ~30K × 9 | DESeq2 DE table, MesEnCult MUT vs WT |
-| [dicer1_rna_norm_counts_no_log.csv](../workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_rna_norm_counts_no_log.csv) | Supp | ~30K × 12 | DESeq2 normalized counts |
-| [dicer1_scrna_filter_tumor_cluster_markers_table.csv](../workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_scrna_filter_tumor_cluster_markers_table.csv) | Fig 3a-d | ~10K rows | Tumor cluster marker genes (FindAllMarkers) |
-| [dicer1_scrna_filter_tumor_pathway_activity.csv](../workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_scrna_filter_tumor_pathway_activity.csv) | Fig 4g-h | Per-cell | PROGENy pathway activity scores |
-| [dicer1_swgs_sample_metadata.csv](../workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_swgs_sample_metadata.csv) | Fig 1 | 35 × 19 | sWGS sample metadata |
+### [dicer1_rna_dmem_de_mut_vs_wt.csv](../workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_rna_dmem_de_mut_vs_wt.csv)
+- Paper figure: Fig 4
+- Rows x cols: ~30K x 9
+- Description: DESeq2 DE table, DMEM MUT vs WT
+
+### [dicer1_rna_mesencult_de_mut_vs_wt.csv](../workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_rna_mesencult_de_mut_vs_wt.csv)
+- Paper figure: Fig 4
+- Rows x cols: ~30K x 9
+- Description: DESeq2 DE table, MesEnCult MUT vs WT
+
+### [dicer1_rna_norm_counts_no_log.csv](../workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_rna_norm_counts_no_log.csv)
+- Paper figure: Supp
+- Rows x cols: ~30K x 12
+- Description: DESeq2 normalized counts
+
+### [dicer1_scrna_filter_tumor_cluster_markers_table.csv](../workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_scrna_filter_tumor_cluster_markers_table.csv)
+- Paper figure: Fig 3a-d
+- Rows x cols: ~10K rows
+- Description: Tumor cluster marker genes (`FindAllMarkers`)
+
+### [dicer1_scrna_filter_tumor_pathway_activity.csv](../workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_scrna_filter_tumor_pathway_activity.csv)
+- Paper figure: Fig 4g-h
+- Rows x cols: Per-cell
+- Description: PROGENy pathway activity scores
+
+### [dicer1_swgs_sample_metadata.csv](../workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_swgs_sample_metadata.csv)
+- Paper figure: Fig 1
+- Rows x cols: 35 x 19
+- Description: sWGS sample metadata
 
 ---
 
@@ -430,13 +697,30 @@ All paths are relative to this report at `reports/01_replication_feasibility_ass
 
 ### Packages with known version-sensitive behavior
 
-| Package | Version in 653_renv | Issue | Fix applied |
-|---|---|---|---|
-| Seurat | 5.1.0 | v5 JoinLayers, DotPlot S7 API changes | tryCatch wrappers, JoinLayers() |
-| msigdbr | 7.5.1 | Removed `db_species` parameter, renamed categories | Patched all calls |
-| OmnipathR | not installed | Required by decoupleR::get_progeny() | REST API bypass |
-| inferCNV | 1.14.0 | Leiden subclustering uses Seurat v5 ScaleData without NormalizeData | random_trees method |
-| biomaRt | — | BiocFileCache dplyr API incompatibility in this environment | Switched to Ensembl REST API |
+### Seurat
+- Version in `653_renv`: 5.1.0
+- Issue: v5 `JoinLayers`, DotPlot S7 API changes
+- Fix applied: `tryCatch` wrappers, `JoinLayers()`
+
+### msigdbr
+- Version in `653_renv`: 7.5.1
+- Issue: Removed `db_species` parameter, renamed categories
+- Fix applied: Patched all calls
+
+### OmnipathR
+- Version in `653_renv`: not installed
+- Issue: Required by `decoupleR::get_progeny()`
+- Fix applied: REST API bypass
+
+### inferCNV
+- Version in `653_renv`: 1.14.0
+- Issue: Leiden subclustering uses Seurat v5 `ScaleData` without `NormalizeData`
+- Fix applied: `random_trees` method
+
+### biomaRt
+- Version in `653_renv`: not recorded
+- Issue: BiocFileCache/dplyr API incompatibility in this environment
+- Fix applied: Switched to Ensembl REST API
 
 ### Non-determinism
 Clustering algorithms (Louvain/Leiden), UMAP layout, and PCA are seeded with `set.seed(404)` in scripts that set it. Scripts without explicit seed may produce slightly different UMAP layouts per run while leaving cell type composition ratios materially unchanged.
@@ -445,14 +729,25 @@ Clustering algorithms (Louvain/Leiden), UMAP layout, and PCA are seeded with `se
 
 ## Download Budget
 
-| Accession | File | Size | Status |
-|---|---|---|---|
-| GSE288990 | GSE288990_RAW.tar | 278 MB | Downloaded |
-| GSE309820 | Salmon quant.sf × 12 + tx2gene | ~30 MB | Downloaded |
-| GSE289001 | dicer1_xenium_mus_musculus_all.rds | 2.2 GB | Downloaded |
-| Total used | | ~2.5 GB | |
-| Available at start | | ~26 GB | |
-| Remaining | | ~23.5 GB | |
+### GSE288990
+- File: `GSE288990_RAW.tar`
+- Size: 278 MB
+- Status: Downloaded
+
+### GSE309820
+- File: Salmon `quant.sf` x 12 + `tx2gene`
+- Size: ~30 MB
+- Status: Downloaded
+
+### GSE289001
+- File: `dicer1_xenium_mus_musculus_all.rds`
+- Size: 2.2 GB
+- Status: Downloaded
+
+### Totals
+- Total used: ~2.5 GB
+- Available at start: ~26 GB
+- Remaining: ~23.5 GB
 
 ---
 
@@ -481,12 +776,25 @@ Clustering algorithms (Louvain/Leiden), UMAP layout, and PCA are seeded with `se
 
 ## Missing Items / Author Requests
 
-| Item | Required by | Blocker type | Suggestion |
-|---|---|---|---|
-| Human Xenium RDS | dicer1_xenium_proseg_homo_sapiens.R | Data absent from GEO | Request from authors |
-| `dicer1_swgs_50kb_noXY_copyNumbersSegmented_filtered_called.rds` | dicer1_swgs.R | Not deposited on GEO | Request from authors or run QDNAseq on PRJNA1221971 |
-| ≥32 GB RAM system | dicer1_xenium_proseg_mus_musculus.R | Hardware constraint | Use HPC or cloud instance |
-| `dicer1_scrna_filter_combined_infercnv_metadata.rds` | dicer1_scrna_add_infer_cnv_seurat.R | Produced by `infercnv::add_to_seurat()` step missing from author's run script | Covered by our intermediate script |
+### Human Xenium RDS
+- Required by: `dicer1_xenium_proseg_homo_sapiens.R`
+- Blocker type: Data absent from GEO
+- Suggestion: Request from authors
+
+### `dicer1_swgs_50kb_noXY_copyNumbersSegmented_filtered_called.rds`
+- Required by: `dicer1_swgs.R`
+- Blocker type: Not deposited on GEO
+- Suggestion: Request from authors or run QDNAseq on PRJNA1221971
+
+### >=32 GB RAM system
+- Required by: `dicer1_xenium_proseg_mus_musculus.R`
+- Blocker type: Hardware constraint
+- Suggestion: Use HPC or cloud instance
+
+### `dicer1_scrna_filter_combined_infercnv_metadata.rds`
+- Required by: `dicer1_scrna_add_infer_cnv_seurat.R`
+- Blocker type: Produced by `infercnv::add_to_seurat()` step missing from author's run script
+- Suggestion: Covered by our intermediate script
 
 ---
 
