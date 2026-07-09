@@ -127,23 +127,85 @@ Census created at `metadata_inventory/figure_table_analysis_census.tsv`.
 Repository: https://github.com/Huntsmanlab/dicer1-cell-of-origin  
 Clone: `workflow_draft/repos/dicer1-cell-of-origin/` (shallow, commit at clone time 2026-07-03)
 
-| Script | Purpose | Paper figures | Runtime | Status |
-|---|---|---|---|---|
-| `dicer1_rna.R` | Bulk RNA-seq: tximport → DESeq2 → PCA, volcano, GSEA | Fig 4 (bulk panels) | 653_renv | COMPLETE |
-| `dicer1_scrna_qc.R` | scRNA: Load 8 samples, DropletUtils QC, merge | Intermediate only (produces sce_qc.rds; Fig 2a is a BioRender schematic) | 653_renv | COMPLETE |
-| `dicer1_scrna_controls.R` | Control scRNA: Seurat clustering, cell type annotation | Fig 2b-d | 653_renv | COMPLETE |
-| `dicer1_scrna_tumors.R` | Tumor scRNA: Seurat clustering, cell type annotation | Fig 3b-d (Fig 3a is a BioRender schematic) | 653_renv | COMPLETE (patched split) |
-| `dicer1_scrna_trajectory.R` | Monocle3 pseudotime trajectory | Fig 4b-d | 653_renv2 | COMPLETE |
-| `dicer1_scrna_controls_and_tumors.R` | Integrated control+tumor UMAP, cell type annotation | Supp Fig 7 (a–f) | 653_renv | COMPLETE |
-| `dicer1_scrna_export_infer_cnv.R` | Export counts + annotations for inferCNV | (intermediate) | 653_renv | COMPLETE (filter-only) |
-| `dicer1_scrna_run_infer_cnv.R` | InferCNV: HMM-based CNV calling | Fig 4e (relates to Supp Fig 9c); Supp Fig 9d (control CNV) not produced — our run was tumor-only | 653_renv | COMPLETE (July 2026) |
-| `dicer1_scrna_add_infer_cnv_seurat.R` | Map CNV results back to Seurat | Fig 4e (unsplit UMAP); Supp Fig 9c (split-sample CN analysis) | 653_renv | COMPLETE (July 2026) |
-| `dicer1_scrna_run_pathway_analysis.R` | decoupleR PROGENy pathway scoring | Fig 4h (Fig 4g is an experimental CRISPR bar chart, not from this script) | 653_renv | COMPLETE |
-| `dicer1_xenium_proseg_mus_musculus.R` | Mouse Xenium: spatial clustering, annotation | Fig 2e-h + Fig 3e-h + Supp Fig 8 | 653_renv2 | BLOCKED (RAM) |
-| `dicer1_xenium_proseg_homo_sapiens.R` | Human Xenium: spatial clustering, annotation | Fig 5 | 653_renv2 | BLOCKED (data absent) |
-| `dicer1_swgs.R` | sWGS CN analysis, clinical metadata | Fig 1 | 653_renv | BLOCKED (CN data absent) |
+### `dicer1_rna.R`
+- Purpose: Bulk RNA-seq: tximport → DESeq2 → PCA, volcano, GSEA
+- Paper figures: Fig 4 (bulk panels)
+- Runtime: `653_renv`
+- Status: COMPLETE
 
-All 13 scripts are represented in `workflow_draft/figure_to_code_map.tsv` with runnable/blocked status.
+### `dicer1_scrna_qc.R`
+- Purpose: scRNA: load 8 samples, DropletUtils QC, merge
+- Paper figures: Intermediate only (produces `sce_qc.rds`; Fig 2a is a BioRender schematic)
+- Runtime: `653_renv`
+- Status: COMPLETE
+
+### `dicer1_scrna_controls.R`
+- Purpose: Control scRNA: Seurat clustering, cell type annotation
+- Paper figures: Fig 2b-d
+- Runtime: `653_renv`
+- Status: COMPLETE
+
+### `dicer1_scrna_tumors.R`
+- Purpose: Tumor scRNA: Seurat clustering, cell type annotation
+- Paper figures: Fig 3b-d (Fig 3a is a BioRender schematic)
+- Runtime: `653_renv`
+- Status: COMPLETE (patched split)
+
+### `dicer1_scrna_trajectory.R`
+- Purpose: Monocle3 pseudotime trajectory
+- Paper figures: Fig 4b-d
+- Runtime: `653_renv2`
+- Status: COMPLETE
+
+### `dicer1_scrna_controls_and_tumors.R`
+- Purpose: Integrated control+tumor UMAP, cell type annotation
+- Paper figures: Supp Fig 7 (a-f)
+- Runtime: `653_renv`
+- Status: COMPLETE
+
+### `dicer1_scrna_export_infer_cnv.R`
+- Purpose: Export counts and annotations for inferCNV
+- Paper figures: Intermediate only
+- Runtime: `653_renv`
+- Status: COMPLETE (filter-only)
+
+### `dicer1_scrna_run_infer_cnv.R`
+- Purpose: InferCNV: HMM-based CNV calling
+- Paper figures: Fig 4e (relates to Supp Fig 9c); Supp Fig 9d control CNV was not produced because this run was tumor-only
+- Runtime: `653_renv`
+- Status: COMPLETE (July 2026)
+
+### `dicer1_scrna_add_infer_cnv_seurat.R`
+- Purpose: Map CNV results back to Seurat
+- Paper figures: Fig 4e (unsplit UMAP); Supp Fig 9c (split-sample CN analysis)
+- Runtime: `653_renv`
+- Status: COMPLETE (July 2026)
+
+### `dicer1_scrna_run_pathway_analysis.R`
+- Purpose: decoupleR PROGENy pathway scoring
+- Paper figures: Fig 4h (Fig 4g is an experimental CRISPR bar chart, not from this script)
+- Runtime: `653_renv`
+- Status: COMPLETE
+
+### `dicer1_xenium_proseg_mus_musculus.R`
+- Purpose: Mouse Xenium: spatial clustering, annotation
+- Paper figures: Fig 2e-h + Fig 3e-h + Supp Fig 8
+- Runtime: `653_renv2`
+- Status: BLOCKED (RAM)
+
+### `dicer1_xenium_proseg_homo_sapiens.R`
+- Purpose: Human Xenium: spatial clustering, annotation
+- Paper figures: Fig 5
+- Runtime: `653_renv2`
+- Status: BLOCKED (data absent)
+
+### `dicer1_swgs.R`
+- Purpose: sWGS CN analysis, clinical metadata
+- Paper figures: Fig 1
+- Runtime: `653_renv`
+- Status: BLOCKED (CN data absent)
+
+All 13 scripts are represented in [`workflow_draft/figure_to_code_map.tsv`](workflow_draft/figure_to_code_map.tsv) with runnable/blocked status.
 
 ---
 
