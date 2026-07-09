@@ -504,189 +504,189 @@ All paths are relative to this report at `reports/01_replication_feasibility_ass
 
 **Note:** 87 PNG plots were generated in total (61 also as SVG). The table below covers all main-figure and key supplementary panels; secondary outputs (dot plots, sample/time/batch UMAPs, heatmap variants, unfiltered clustering intermediates, additional GSEA conditions) exist on disk at `workflow_draft/repos/dicer1-cell-of-origin/output/plots/` but are omitted here for brevity.
 
-### [dicer1_rna_mut_vs_control.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_mut_vs_control.png)
+### [dicer1_rna_mut_vs_control.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_mut_vs_control.png)
 - Paper figure: **Fig 4a**
 - Description: Dot/bubble plot of selected gene log2FC in Dicer1 MUT vs WT primary cells, colored by condition and faceted by lineage group.
 - Relationship to paper: Relates to Fig 4a marker-gene description, including increased universal fibroblast markers and reduced lineage markers.
 
-### [dicer1_bulk_rna_pca.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_bulk_rna_pca.png)
+### [dicer1_bulk_rna_pca.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_bulk_rna_pca.png)
 - Paper figure: **Supp Fig 9a**
 - Description: PCA of 12 bulk RNA-seq samples across DMEM and MesEnCult conditions.
 - Relationship to paper: Relates to Supp Fig 9a; PC1 separates by genotype.
 
-### [dicer1_rna_dmem_volcano.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_dmem_volcano.png)
+### [dicer1_rna_dmem_volcano.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_dmem_volcano.png)
 - Paper figure: Not in paper
 - Description: Volcano plot, DMEM condition MUT vs WT (DESeq2).
 - Relationship to paper: Exploratory output from author's script not identified in main or supplementary figures.
 
-### [dicer1_rna_mesencult_volcano.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_mesencult_volcano.png)
+### [dicer1_rna_mesencult_volcano.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_mesencult_volcano.png)
 - Paper figure: Not in paper
 - Description: Volcano plot, MesEnCult condition MUT vs WT (DESeq2).
 - Relationship to paper: Exploratory output from author's script not identified in main or supplementary figures.
 
-### [dicer1_rna_dmem_gsea_hallmarks.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_dmem_gsea_hallmarks.png)
+### [dicer1_rna_dmem_gsea_hallmarks.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_dmem_gsea_hallmarks.png)
 - Paper figure: Not in paper
 - Description: GSEA Hallmarks, DMEM condition (bulk RNA).
 - Relationship to paper: Exploratory output from author's script not identified in main or supplementary figures.
 
-### [dicer1_rna_mesencult_gsea_hallmarks.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_mesencult_gsea_hallmarks.png)
+### [dicer1_rna_mesencult_gsea_hallmarks.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_mesencult_gsea_hallmarks.png)
 - Paper figure: Not in paper
 - Description: GSEA Hallmarks, MesEnCult condition (bulk RNA).
 - Relationship to paper: Exploratory output from author's script not identified in main or supplementary figures.
 
-### [dicer1_rna_dmem_gsea_reactome.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_dmem_gsea_reactome.png)
+### [dicer1_rna_dmem_gsea_reactome.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_dmem_gsea_reactome.png)
 - Paper figure: Not in paper
 - Description: GSEA Reactome, DMEM condition (bulk RNA).
 - Relationship to paper: Exploratory output from author's script not identified in main or supplementary figures.
 
-### [dicer1_rna_dmem_gsea_ont.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_dmem_gsea_ont.png)
+### [dicer1_rna_dmem_gsea_ont.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_rna_dmem_gsea_ont.png)
 - Paper figure: Not in paper
 - Description: GSEA GO:BP, DMEM condition (bulk RNA).
 - Relationship to paper: Exploratory output from author's script not identified in main or supplementary figures.
 
-### [dicer1_scrna_unfilter_control_clusters.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_unfilter_control_clusters.png)
+### [dicer1_scrna_unfilter_control_clusters.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_unfilter_control_clusters.png)
 - Paper figure: **Supp Fig 3e**
 - Description: scRNA control cells: UMAP by Louvain cluster before cell type annotation.
 - Relationship to paper: Relates to Supp Fig 3e and Fig 2b; distinct from Supp Fig 3a, which shows all control kidney cells.
 
-### [dicer1_scrna_filter_control_cell_type.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_control_cell_type.png)
+### [dicer1_scrna_filter_control_cell_type.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_control_cell_type.png)
 - Paper figure: **Fig 2b**
 - Description: scRNA control cells: UMAP colored by annotated cell type.
 - Relationship to paper: Relates to Fig 2b tdtomato+ MSC UMAP with lineage annotations.
 
-### [dicer1_scrna_filter_control_features.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_control_features.png)
+### [dicer1_scrna_filter_control_features.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_control_features.png)
 - Paper figure: **Fig 2c**
 - Description: scRNA control cells: UMAP depicting expression of key fibroblast lineage markers.
 - Relationship to paper: Relates to Fig 2c FeaturePlots on tdTomato+ MSC UMAP.
 
-### [dicer1_scrna_filter_control_heatmap_clusters.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_control_heatmap_clusters.png)
+### [dicer1_scrna_filter_control_heatmap_clusters.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_unfilter_control_heatmap_clusters.png)
 - Paper figure: **Fig 2d**
 - Description: scRNA control cells: heatmap of top 30 defining transcripts by cell type annotation.
 - Relationship to paper: Relates to Fig 2d heatmap with key genes for each MSC cell type.
 
-### [dicer1_scrna_unfilter_tumor_clusters.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_unfilter_tumor_clusters.png)
+### [dicer1_scrna_unfilter_tumor_clusters.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_unfilter_tumor_clusters.png)
 - Paper figure: **Supp Fig 6a**
 - Description: scRNA tumor cells: UMAP by Louvain cluster before annotation.
 - Relationship to paper: Relates to Supp Fig 6a HDT tumor cell UMAP colored by cluster assignment.
 
-### [dicer1_scrna_filter_tumor_cell_type.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_cell_type.png)
+### [dicer1_scrna_filter_tumor_cell_type.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_cell_type.png)
 - Paper figure: **Fig 3b**
 - Description: scRNA tumor cells: UMAP colored by annotated cell type.
 - Relationship to paper: Relates to Fig 3b tdtomato+ tumor MSC UMAP colored by cell type.
 
-### [dicer1_scrna_filter_tumor_heatmap_clusters.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_heatmap_clusters.png)
+### [dicer1_scrna_filter_tumor_heatmap_clusters.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_heatmap_clusters.png)
 - Paper figure: **Fig 3c**
 - Description: scRNA tumor cells: heatmap of top 30 signature-defining transcripts by cell state annotation.
 - Relationship to paper: Relates to Fig 3c heatmap with key genes for each tumor cell state.
 
-### [dicer1_scrna_filter_tumor_features.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_features.png)
+### [dicer1_scrna_filter_tumor_features.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_features.png)
 - Paper figure: **Fig 3d**
 - Description: scRNA tumor cells: UMAP depicting expression of key markers.
 - Relationship to paper: Relates to Fig 3d FeaturePlots of key lineage markers on tdTomato+ tumor MSC UMAP.
 
-### [dicer1_scrna_filter_tumor_cell_type_time_split.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_cell_type_time_split.png)
+### [dicer1_scrna_filter_tumor_cell_type_time_split.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_cell_type_time_split.png)
 - Paper figure: Not in paper
 - Description: Tumor cell type UMAP split by timepoint/sample.
 - Relationship to paper: Exploratory output from author's script not identified in main or supplementary figures.
 
-### [dicer1_scrna_filter_tumor_trajectory_pseudotime.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_pseudotime.png)
+### [dicer1_scrna_filter_tumor_trajectory_pseudotime.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_pseudotime.png)
 - Paper figure: **Fig 4b-c**
 - Description: Monocle3 pseudotime UMAP colored by cell type and pseudotime.
 - Relationship to paper: Conceptually relates to Fig 4b-c; root placement may differ because the paper sets root interactively.
 
-### [dicer1_scrna_filter_tumor_trajectory_cell_type_graph.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_cell_type_graph.png)
+### [dicer1_scrna_filter_tumor_trajectory_cell_type_graph.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_cell_type_graph.png)
 - Paper figure: **Fig 4b-c**
 - Description: Trajectory principal graph overlaid on UMAP, colored by cell type.
 - Relationship to paper: Same relationship as the pseudotime trajectory plot.
 
-### [dicer1_scrna_filter_tumor_trajectory_ground_genes_cell_type.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_ground_genes_cell_type.png)
+### [dicer1_scrna_filter_tumor_trajectory_ground_genes_cell_type.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_ground_genes_cell_type.png)
 - Paper figure: **Fig 4d**
 - Description: Ground-cluster marker gene trends along sarcomagenic trajectory, colored by cell type.
 - Relationship to paper: Relates to Fig 4d gene expression trends of Ground-state defining genes.
 
-### [dicer1_scrna_filter_tumor_trajectory_ground_genes_time.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_ground_genes_time.png)
+### [dicer1_scrna_filter_tumor_trajectory_ground_genes_time.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_ground_genes_time.png)
 - Paper figure: **Fig 4d**
 - Description: Ground-cluster marker gene trends along trajectory, colored by pseudotime.
 - Relationship to paper: Relates to Fig 4d as a pseudotime-colored variant.
 
-### [dicer1_scrna_filter_tumor_trajectory_myo_diff_genes_cell_type.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_myo_diff_genes_cell_type.png)
+### [dicer1_scrna_filter_tumor_trajectory_myo_diff_genes_cell_type.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_myo_diff_genes_cell_type.png)
 - Paper figure: **Fig 4d**
 - Description: Diff Myo marker gene trends along sarcomagenic trajectory, colored by cell type.
 - Relationship to paper: Relates to Fig 4d myogenic differentiation gene trends along trajectory.
 
-### [dicer1_scrna_filter_tumor_trajectory_myo_diff_genes_time.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_myo_diff_genes_time.png)
+### [dicer1_scrna_filter_tumor_trajectory_myo_diff_genes_time.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_trajectory_myo_diff_genes_time.png)
 - Paper figure: **Fig 4d**
 - Description: Diff Myo marker gene trends along trajectory, colored by pseudotime.
 - Relationship to paper: Relates to Fig 4d as a pseudotime-colored variant.
 
-### [dicer1_scrna_filter_control_and_tumor_cell_type.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_control_and_tumor_cell_type.png)
+### [dicer1_scrna_filter_control_and_tumor_cell_type.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_control_and_tumor_cell_type.png)
 - Paper figure: **Supp Fig 7f**
 - Description: Integrated control+tumor UMAP colored by cell type.
 - Relationship to paper: Relates to Supp Fig 7f combined control and HDT tumor UMAP.
 
-### [dicer1_scrna_filter_tumor_pathway_heatmap.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_pathway_heatmap.png)
+### [dicer1_scrna_filter_tumor_pathway_heatmap.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_pathway_heatmap.png)
 - Paper figure: **Fig 4h**
 - Description: PROGENy MLM pathway activity heatmap by tumor cell type.
 - Relationship to paper: Partially relates to Fig 4h; our output uses PROGENy activity scores rather than GSEA of DEGs between cell states.
 
-### [dicer1_scrna_filter_tumor_pathway_tgfb.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_pathway_tgfb.png)
+### [dicer1_scrna_filter_tumor_pathway_tgfb.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_pathway_tgfb.png)
 - Paper figure: Not in paper
 - Description: TGF-beta pathway activity UMAP (PROGENy score per cell).
 - Relationship to paper: Exploratory output from author's script not identified in main or supplementary figures.
 
-### [dicer1_scrna_filter_tumor_pathway_tnfa.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_pathway_tnfa.png)
+### [dicer1_scrna_filter_tumor_pathway_tnfa.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_pathway_tnfa.png)
 - Paper figure: Not in paper
 - Description: TNF-alpha pathway activity UMAP (PROGENy score per cell).
 - Relationship to paper: Exploratory output from author's script not identified in main or supplementary figures.
 
-### [dicer1_scrna_filter_tumor_pathway_nfkb.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_pathway_nfkb.png)
+### [dicer1_scrna_filter_tumor_pathway_nfkb.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_scrna_filter_tumor_pathway_nfkb.png)
 - Paper figure: Not in paper
 - Description: NF-kB pathway activity UMAP (PROGENy score per cell).
 - Relationship to paper: Exploratory output from author's script not identified in main or supplementary figures.
 
-### [dicer1_scrna_filter_tumor_infercnv.png](../workflow_draft/repos/dicer1-cell-of-origin/output/infer_cnv/dicer1_scrna_filter_tumor_infercnv.png)
+### [dicer1_scrna_filter_tumor_infercnv.png](workflow_draft/repos/dicer1-cell-of-origin/output/infer_cnv/dicer1_scrna_filter_tumor_infercnv.png)
 - Paper figure: **Fig 4e**
 - Description: InferCNV CNV proportion feature plots overlaid on tumor UMAP.
 - Relationship to paper: Relates to Fig 4e and Supp Fig 9c; Supp Fig 9d was not produced because this inferCNV run used tumor cells only.
 
-### [dicer1_scrna_filter_tumor_infercnv_split_sample.png](../workflow_draft/repos/dicer1-cell-of-origin/output/infer_cnv/dicer1_scrna_filter_tumor_infercnv_split_sample.png)
+### [dicer1_scrna_filter_tumor_infercnv_split_sample.png](workflow_draft/repos/dicer1-cell-of-origin/output/infer_cnv/dicer1_scrna_filter_tumor_infercnv_split_sample.png)
 - Paper figure: **Supp Fig 9c**
 - Description: InferCNV CNV feature plots split by sample.
 - Relationship to paper: Relates to Supp Fig 9c CN analysis of tdTomato+ mesenchymal cells in tumorous HDT kidneys.
 
-### [dicer1_swgs_metadata_panel.png](../workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_swgs_metadata_panel.png)
+### [dicer1_swgs_metadata_panel.png](workflow_draft/repos/dicer1-cell-of-origin/output/plots/dicer1_swgs_metadata_panel.png)
 - Paper figure: Fig 1 (partial)
 - Description: sWGS clinical metadata panel across 35 samples.
 - Relationship to paper: Partial reproduction; metadata plots only, with CN copy number panels absent because processed sWGS RDS was not deposited.
 
 ### Tables
 
-### [dicer1_rna_dmem_de_mut_vs_wt.csv](../workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_rna_dmem_de_mut_vs_wt.csv)
+### [dicer1_rna_dmem_de_mut_vs_wt.csv](workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_rna_dmem_de_mut_vs_wt.csv)
 - Paper figure: Fig 4
 - Rows x cols: ~30K x 9
 - Description: DESeq2 DE table, DMEM MUT vs WT
 
-### [dicer1_rna_mesencult_de_mut_vs_wt.csv](../workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_rna_mesencult_de_mut_vs_wt.csv)
+### [dicer1_rna_mesencult_de_mut_vs_wt.csv](workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_rna_mesencult_de_mut_vs_wt.csv)
 - Paper figure: Fig 4
 - Rows x cols: ~30K x 9
 - Description: DESeq2 DE table, MesEnCult MUT vs WT
 
-### [dicer1_rna_norm_counts_no_log.csv](../workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_rna_norm_counts_no_log.csv)
+### [dicer1_rna_norm_counts_no_log.csv](workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_rna_norm_counts_no_log.csv)
 - Paper figure: Supp
 - Rows x cols: ~30K x 12
 - Description: DESeq2 normalized counts
 
-### [dicer1_scrna_filter_tumor_cluster_markers_table.csv](../workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_scrna_filter_tumor_cluster_markers_table.csv)
+### [dicer1_scrna_filter_tumor_cluster_markers_table.csv](workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_scrna_filter_tumor_cluster_markers_table.csv)
 - Paper figure: Fig 3a-d
 - Rows x cols: ~10K rows
 - Description: Tumor cluster marker genes (`FindAllMarkers`)
 
-### [dicer1_scrna_filter_tumor_pathway_activity.csv](../workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_scrna_filter_tumor_pathway_activity.csv)
+### [dicer1_scrna_filter_tumor_pathway_activity.csv](workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_scrna_filter_tumor_pathway_activity.csv)
 - Paper figure: Fig 4g-h
 - Rows x cols: Per-cell
 - Description: PROGENy pathway activity scores
 
-### [dicer1_swgs_sample_metadata.csv](../workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_swgs_sample_metadata.csv)
+### [dicer1_swgs_sample_metadata.csv](workflow_draft/repos/dicer1-cell-of-origin/output/tables/dicer1_swgs_sample_metadata.csv)
 - Paper figure: Fig 1
 - Rows x cols: 35 x 19
 - Description: sWGS sample metadata
