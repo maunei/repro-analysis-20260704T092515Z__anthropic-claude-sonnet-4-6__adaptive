@@ -4,7 +4,13 @@
 
 For the Snakemake file and full description of workflow and results see folder:
 
-**Complete_HPC_Snakemake_Reproducibility_Run**
+[**Complete_HPC_Snakemake_Reproducibility_Run/**](Complete_HPC_Snakemake_Reproducibility_Run/)
+
+```text
+Complete_HPC_Snakemake_Reproducibility_Run/
+├── 653_dicer1_snakemake_workflow_description.md
+└── Snakefile
+```
 
 
 # Public Reproducibility Analysis Skeleton
