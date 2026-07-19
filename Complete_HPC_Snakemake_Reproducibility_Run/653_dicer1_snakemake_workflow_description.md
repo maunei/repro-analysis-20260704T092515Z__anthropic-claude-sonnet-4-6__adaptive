@@ -242,19 +242,7 @@ All `.csv` files. Key outputs:
 | Multiple Xenium annotation CSVs | Per-sample (TMA1, TMA2, K1–K4) cell-type/cluster annotations |
 
 ### `output/plots/` — 174 files, 584 MB
-92 PNG + 82 SVG files covering all visualization outputs. Key paper figures:
-
-| File(s) | Contents |
-|---|---|
-| `dicer1_scrna_filter_tumor_pathway_heatmap.png` | PROGENy pathway activity heatmap |
-| `dicer1_scrna_filter_tumor_trajectory_pseudotime.png` | Monocle3 pseudotime UMAP |
-| `dicer1_swgs_metadata_panel.png` | sWGS sample metadata overview panel |
-| `dicer1_swgs_cn_frequency_sarc_approx.png/svg` | Chr gain/loss frequency — SARC-like |
-| `dicer1_swgs_cn_frequency_lgmt_approx.png/svg` | Chr gain/loss frequency — LGMT-like |
-| `dicer1_xenium_mut_top3_genes_cell_type.png/svg` | DoHeatmap: MUT by cell type |
-| `dicer1_xenium_mut_dotplot_cell_type.png/svg` | DotPlot: MUT marker expression by cell type |
-| `dicer1_xenium_mut_umap_*.svg` | UMAPs colored by cluster, histotype, sample ID, cell type |
-| `dicer1_scrna_filter_*_xenium_features.png/svg` | Xenium feature overlays on scRNA UMAPs |
+92 PNG + 82 SVG files covering all visualization outputs.
 
 ### `output/infer_cnv/` — 53 files, 5.0 GB
 Contains the complete inferCNV run outputs:
