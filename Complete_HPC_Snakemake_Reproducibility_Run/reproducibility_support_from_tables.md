@@ -395,14 +395,3 @@ This note links paper-level statements to small, filtered views of the CSV table
 | wt_K2 | Trans Epi | 2069 | 0.6911 |
 
 **Comparison with workflow output:** full per-cell annotation files are too large to display directly, but these counts show that the workflow produced cell-type assignments for hundreds of thousands of cells per Xenium sample. Tumor samples include substantial Progen/Ground/myogenic tumor-state fractions, whereas WT samples are dominated by normal kidney epithelial and stromal compartments.
-
-## Tables Less Suitable For Direct Claim Display
-
-- Full normalized-count matrices, such as `dicer1_rna_norm_counts_no_log.csv`, are important provenance but too large for reader-facing display. Use filtered marker/DE rows instead.
-- Full DE tables with all genes are valuable for auditability but should be filtered to paper-relevant marker genes or top terms.
-- Full per-cell Xenium annotation files are best summarized into counts or plotted spatially.
-- Header-only or empty Xenium cluster annotation exports should not be used as evidence displays.
-
-## Practical Recommendation
-
-For a reproducibility figure or report, the clearest table-backed evidence is: sWGS Fisher result, selected bulk RNA-seq marker DE rows, top GO enrichment terms, scRNA marker rows for tumor/control states, PROGENy pathway activity by tumor state, Xenium tumor marker rows, and Xenium annotation counts. Together these cover genomic progression, transcriptional reprogramming, tumor cell-state identity, signaling activity, and spatial validation.
