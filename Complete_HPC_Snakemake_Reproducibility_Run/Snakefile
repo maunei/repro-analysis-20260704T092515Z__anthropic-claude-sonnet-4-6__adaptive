@@ -1,0 +1,301 @@
+"""
+Snakemake workflow for reproducibility analysis of:
+  "Spatial single-cell transcriptomic analysis informs tumor developmental
+   hierarchy of DICER1 syndrome-related sarcoma" (Nature Communications 2026)
+
+Author code: github.com/Huntsmanlab/dicer1-cell-of-origin
+Data:        GEO GSE267523, GSE268427, GSE309820
+
+Usage:
+  snakemake --snakefile Snakefile --configfile config/config.yaml --cores 1 -n -p
+"""
+
+configfile: "config/config.yaml"
+
+RSCRIPT_A = config["rscript_a"]
+RSCRIPT_B = config["rscript_b"]
+PATCH_DIR = config["patch_dir"]
+REPO = config["repo_dir"]
+CODE = REPO + "/code"
+OUTPUT = REPO + "/output"
+DATA = REPO + "/data"
+META = REPO + "/metadata"
+REF = REPO + "/reference"
+
+rule all:
+    input:
+        # scRNA core
+        OUTPUT + "/scrna/dicer1_scrna_sce_qc.rds",
+        OUTPUT + "/scrna/dicer1_scrna_unfilter_control.rds",
+        OUTPUT + "/scrna/dicer1_scrna_filter_control.rds",
+        OUTPUT + "/scrna/dicer1_scrna_unfilter_tumor.rds",
+        OUTPUT + "/scrna/dicer1_scrna_filter_tumor.rds",
+        OUTPUT + "/scrna/dicer1_scrna_filter_control_and_tumor.rds",
+        OUTPUT + "/scrna/dicer1_scrna_trajectory_cds.rds",
+        # bulk + pathway
+        OUTPUT + "/tables/dicer1_rna_dmem_de_mut_vs_wt.csv",
+        OUTPUT + "/tables/dicer1_rna_mesencult_de_mut_vs_wt.csv",
+        OUTPUT + "/tables/dicer1_scrna_filter_tumor_pathway_activity.csv",
+        # inferCNV chain
+        OUTPUT + "/infer_cnv/dicer1_scrna_filter_combined_counts.matrix",
+        OUTPUT + "/infer_cnv/combined_filter/run_final_infercnv_obj.rds",
+        OUTPUT + "/infer_cnv/dicer1_scrna_filter_combined_infercnv_metadata.rds",
+        OUTPUT + "/infer_cnv/dicer1_scrna_filter_tumor_infercnv.svg",
+        # sWGS: metadata + CN approximation (merged rule)
+        OUTPUT + "/tables/dicer1_swgs_sample_metadata.csv",
+        OUTPUT + "/plots/dicer1_swgs_metadata_panel.png",
+        OUTPUT + "/tables/dicer1_swgs_chr1_fisher_test.csv",
+        OUTPUT + "/plots/dicer1_swgs_cn_frequency_sarc_approx.png",
+        OUTPUT + "/plots/dicer1_swgs_cn_frequency_lgmt_approx.png",
+        # Xenium mouse
+        OUTPUT + "/xenium/dicer1_xenium_wt.rds",
+        OUTPUT + "/xenium/dicer1_xenium_mut.rds",
+        # Xenium mouse recovery plots (cell_type DoHeatmap + DotPlot)
+        OUTPUT + "/plots/dicer1_xenium_mut_top3_genes_cell_type.png",
+        OUTPUT + "/plots/dicer1_xenium_mut_dotplot_cell_type.png"
+
+rule scrna_qc:
+    input:
+        barcodes = expand(DATA + "/{sample}/barcodes.tsv.gz", sample=config["px_samples"]),
+        features = expand(DATA + "/{sample}/features.tsv.gz", sample=config["px_samples"]),
+        matrices = expand(DATA + "/{sample}/matrix.mtx.gz", sample=config["px_samples"]),
+        metadata = META + "/dicer1_scrna_sample_metadata.csv"
+    output:
+        OUTPUT + "/scrna/dicer1_scrna_sce_qc.rds"
+    log:
+        "logs/dicer1_scrna_qc.log"
+    shell:
+        """
+        mkdir -p {OUTPUT}/scrna {OUTPUT}/plots {OUTPUT}/tables
+        cd {CODE} && {RSCRIPT_A} {CODE}/dicer1_scrna_qc.R > {workflow.basedir}/{log} 2>&1
+        """
+
+rule scrna_controls:
+    input:
+        sce_qc = OUTPUT + "/scrna/dicer1_scrna_sce_qc.rds",
+        kidney_markers = REF + "/cell_type_markers_mus_musculus_kidney.yaml",
+        mes_markers = REF + "/cell_type_markers_mus_musculus_mesenchymal.yaml"
+    output:
+        unfilter = OUTPUT + "/scrna/dicer1_scrna_unfilter_control.rds",
+        filtered = OUTPUT + "/scrna/dicer1_scrna_filter_control.rds"
+    log:
+        "logs/dicer1_scrna_controls_patched.log"
+    shell:
+        """
+        cd {CODE} && {RSCRIPT_A} {PATCH_DIR}/dicer1_scrna_controls_patched.R > {workflow.basedir}/{log} 2>&1
+        """
+
+rule scrna_tumors_unfiltered:
+    input:
+        sce_qc = OUTPUT + "/scrna/dicer1_scrna_sce_qc.rds"
+    output:
+        OUTPUT + "/scrna/dicer1_scrna_unfilter_tumor.rds"
+    log:
+        "logs/dicer1_scrna_tumors_patched.log"
+    shell:
+        """
+        cd {CODE} && {RSCRIPT_A} {PATCH_DIR}/dicer1_scrna_tumors_patched.R > {workflow.basedir}/{log} 2>&1
+        """
+
+rule scrna_tumors_filtered:
+    input:
+        unfilter = OUTPUT + "/scrna/dicer1_scrna_unfilter_tumor.rds",
+        kidney_markers = REF + "/cell_type_markers_mus_musculus_kidney.yaml",
+        mes_markers = REF + "/cell_type_markers_mus_musculus_mesenchymal.yaml"
+    output:
+        OUTPUT + "/scrna/dicer1_scrna_filter_tumor.rds"
+    log:
+        "logs/dicer1_scrna_tumors_filter_only_patched.log"
+    shell:
+        """
+        cd {CODE} && {RSCRIPT_A} {PATCH_DIR}/dicer1_scrna_tumors_filter_only_patched.R > {workflow.basedir}/{log} 2>&1
+        """
+
+rule bulk_rna:
+    input:
+        tx2gene = DATA + "/star_salmon/tx2gene.tsv",
+        quant_files = expand(DATA + "/star_salmon/{sample}/quant.sf", sample=config["bulk_samples"]),
+        metadata = META + "/dicer1_rna_metadata.csv"
+    output:
+        OUTPUT + "/tables/dicer1_rna_dmem_de_mut_vs_wt.csv",
+        OUTPUT + "/tables/dicer1_rna_mesencult_de_mut_vs_wt.csv",
+        OUTPUT + "/tables/dicer1_rna_norm_counts_no_log.csv"
+    log:
+        "logs/dicer1_rna_patched.log"
+    shell:
+        """
+        mkdir -p {OUTPUT}/tables {OUTPUT}/plots
+        cd {CODE} && {RSCRIPT_A} {PATCH_DIR}/dicer1_rna_patched.R > {workflow.basedir}/{log} 2>&1
+        """
+
+rule scrna_controls_and_tumors:
+    input:
+        control = OUTPUT + "/scrna/dicer1_scrna_filter_control.rds",
+        tumor = OUTPUT + "/scrna/dicer1_scrna_filter_tumor.rds"
+    output:
+        OUTPUT + "/scrna/dicer1_scrna_filter_control_and_tumor.rds"
+    log:
+        "logs/dicer1_scrna_controls_and_tumors_patched.log"
+    shell:
+        """
+        cd {CODE} && {RSCRIPT_A} {PATCH_DIR}/dicer1_scrna_controls_and_tumors_patched.R > {workflow.basedir}/{log} 2>&1
+        """
+
+rule scrna_trajectory:
+    input:
+        OUTPUT + "/scrna/dicer1_scrna_filter_tumor.rds"
+    output:
+        OUTPUT + "/scrna/dicer1_scrna_trajectory_cds.rds",
+        OUTPUT + "/plots/dicer1_scrna_filter_tumor_trajectory_pseudotime.png"
+    log:
+        "logs/dicer1_scrna_trajectory_patched.log"
+    shell:
+        """
+        cd {CODE} && {RSCRIPT_B} {PATCH_DIR}/dicer1_scrna_trajectory_patched.R > {workflow.basedir}/{log} 2>&1
+        """
+
+rule scrna_pathway_analysis:
+    input:
+        OUTPUT + "/scrna/dicer1_scrna_filter_tumor.rds"
+    output:
+        OUTPUT + "/tables/dicer1_scrna_filter_tumor_pathway_activity.csv",
+        OUTPUT + "/plots/dicer1_scrna_filter_tumor_pathway_heatmap.png"
+    log:
+        "logs/dicer1_scrna_run_pathway_analysis_patched.log"
+    shell:
+        """
+        cd {CODE} && {RSCRIPT_A} {PATCH_DIR}/dicer1_scrna_run_pathway_analysis_patched.R > {workflow.basedir}/{log} 2>&1
+        """
+
+rule scrna_export_infercnv:
+    input:
+        control = OUTPUT + "/scrna/dicer1_scrna_unfilter_control.rds",
+        tumor = OUTPUT + "/scrna/dicer1_scrna_filter_tumor.rds",
+        features = DATA + "/PX3085_TTAATACGCG-ACCCGAGGTG/PX3085_TTAATACGCG-ACCCGAGGTG_features.tsv.gz"
+    output:
+        matrix = OUTPUT + "/infer_cnv/dicer1_scrna_filter_combined_counts.matrix",
+        annots = OUTPUT + "/infer_cnv/dicer1_scrna_filter_combined_infer_cnv_cells.tsv"
+    log:
+        "logs/dicer1_scrna_export_infer_cnv_filter_only.log"
+    shell:
+        """
+        mkdir -p {OUTPUT}/infer_cnv
+        cd {CODE} && {RSCRIPT_A} {PATCH_DIR}/dicer1_scrna_export_infer_cnv_filter_only.R > {workflow.basedir}/{log} 2>&1
+        """
+
+rule scrna_run_infercnv:
+    input:
+        matrix = OUTPUT + "/infer_cnv/dicer1_scrna_filter_combined_counts.matrix",
+        annots = OUTPUT + "/infer_cnv/dicer1_scrna_filter_combined_infer_cnv_cells.tsv",
+        gene_order = REF + "/gene_order.tsv"
+    output:
+        final_obj = OUTPUT + "/infer_cnv/combined_filter/run_final_infercnv_obj.rds"
+    log:
+        "logs/dicer1_scrna_run_infer_cnv_v2_patched.log"
+    shell:
+        """
+        mkdir -p {OUTPUT}/infer_cnv/combined_filter
+        cd {CODE} && {RSCRIPT_A} {PATCH_DIR}/dicer1_scrna_run_infer_cnv_v2_patched.R > {workflow.basedir}/{log} 2>&1
+        """
+
+rule scrna_add_to_seurat_intermediate:
+    input:
+        final_obj = OUTPUT + "/infer_cnv/combined_filter/run_final_infercnv_obj.rds",
+        control = OUTPUT + "/scrna/dicer1_scrna_unfilter_control.rds",
+        tumor = OUTPUT + "/scrna/dicer1_scrna_filter_tumor.rds"
+    output:
+        OUTPUT + "/infer_cnv/dicer1_scrna_filter_combined_infercnv_metadata.rds"
+    log:
+        "logs/dicer1_scrna_add_to_seurat_intermediate.log"
+    shell:
+        """
+        cd {CODE} && {RSCRIPT_A} {PATCH_DIR}/dicer1_scrna_add_to_seurat_intermediate.R > {workflow.basedir}/{log} 2>&1
+        """
+
+rule scrna_add_infercnv_seurat:
+    input:
+        infercnv_rds = OUTPUT + "/infer_cnv/dicer1_scrna_filter_combined_infercnv_metadata.rds",
+        filter_tumor = OUTPUT + "/scrna/dicer1_scrna_filter_tumor.rds",
+        normal = OUTPUT + "/scrna/dicer1_scrna_unfilter_control.rds"
+    output:
+        OUTPUT + "/infer_cnv/dicer1_scrna_filter_tumor_infercnv.svg"
+    log:
+        "logs/dicer1_scrna_add_infer_cnv_seurat.log"
+    shell:
+        """
+        cd {CODE} && {RSCRIPT_A} {workflow.basedir}/scripts/patched/dicer1_scrna_add_infer_cnv_seurat_patched.R > {workflow.basedir}/{log} 2>&1
+        """
+
+rule swgs:
+    """
+    sWGS sample metadata panel and CN approximation.
+    Inputs: sample metadata CSV + publisher supplementary Excel files (deposited with paper).
+    CN frequency plots use segment-level data from source_data.xlsx (sheet Fig. S1k,l).
+    Fisher exact test for Chr1 gain uses per-sample calls from Supplementary Data 3.
+    Note: full QDNAseq RDS was not deposited in GEO; results approximated from Excel data.
+    """
+    input:
+        metadata = META + "/dicer1_swgs_sample_metadata.csv",
+        source_data = REPO + "/supplementary_data/source_data.xlsx",
+        data03 = REPO + "/supplementary_data/data03_41467_2026_70971_MOESM5_ESM.xlsx"
+    output:
+        metadata_csv  = OUTPUT + "/tables/dicer1_swgs_sample_metadata.csv",
+        metadata_png  = OUTPUT + "/plots/dicer1_swgs_metadata_panel.png",
+        fisher_csv    = OUTPUT + "/tables/dicer1_swgs_chr1_fisher_test.csv",
+        cn_sarc_png   = OUTPUT + "/plots/dicer1_swgs_cn_frequency_sarc_approx.png",
+        cn_lgmt_png   = OUTPUT + "/plots/dicer1_swgs_cn_frequency_lgmt_approx.png"
+    log:
+        "logs/dicer1_swgs_patched.log"
+    shell:
+        """
+        mkdir -p {OUTPUT}/tables {OUTPUT}/plots
+        cd {CODE} && {RSCRIPT_A} {PATCH_DIR}/dicer1_swgs_patched.R > {workflow.basedir}/{log} 2>&1
+        """
+
+rule xenium_mouse:
+    """
+    Xenium mouse spatial transcriptomics (ProSeg segmentation -> Seurat v5).
+    Input: combined WT+MUT Xenium RDS (GEO GSE268427).
+    Outputs: processed WT and MUT Seurat objects + cell-type marker table.
+    Requires R 4.5.3 (dicer1_r453 env) for Seurat v5 / BPCells compatibility.
+    """
+    input:
+        all_rds = OUTPUT + "/xenium/dicer1_xenium_mus_musculus_all.rds"
+    output:
+        wt_rds      = OUTPUT + "/xenium/dicer1_xenium_wt.rds",
+        mut_rds     = OUTPUT + "/xenium/dicer1_xenium_mut.rds",
+        mut_markers = OUTPUT + "/tables/dicer1_xenium_mut_markers_cell_types.csv"
+    log:
+        "logs/dicer1_xenium_proseg_mus_musculus_patched.log"
+    shell:
+        """
+        mkdir -p {OUTPUT}/xenium {OUTPUT}/plots {OUTPUT}/tables
+        cd {CODE} && {RSCRIPT_B} {PATCH_DIR}/dicer1_xenium_proseg_mus_musculus_patched.R > {workflow.basedir}/{log} 2>&1
+        """
+
+rule xenium_mouse_recover:
+    """
+    Generates MUT cell-type DoHeatmap and DotPlot figures.
+    Runs after xenium_mouse; uses dicer1_xenium_mut.rds and the marker CSV as inputs.
+    """
+    input:
+        mut_rds  = OUTPUT + "/xenium/dicer1_xenium_mut.rds",
+        markers  = OUTPUT + "/tables/dicer1_xenium_mut_markers_cell_types.csv",
+        yaml_ref = REF + "/cell_type_markers_mus_musculus_kidney.yaml"
+    output:
+        heatmap_png = OUTPUT + "/plots/dicer1_xenium_mut_top3_genes_cell_type.png",
+        heatmap_svg = OUTPUT + "/plots/dicer1_xenium_mut_top3_genes_cell_type.svg",
+        dotplot_png = OUTPUT + "/plots/dicer1_xenium_mut_dotplot_cell_type.png",
+        dotplot_svg = OUTPUT + "/plots/dicer1_xenium_mut_dotplot_cell_type.svg"
+    log:
+        "logs/dicer1_xenium_recover_celltype_plots.log"
+    shell:
+        """
+        cd {CODE} && {RSCRIPT_B} {PATCH_DIR}/dicer1_xenium_recover_celltype_plots.R > {workflow.basedir}/{log} 2>&1
+        """
+
+# Analyses not included in rule all:
+# - xenium_human: processed Seurat RDS not deposited in GEO.
+# - swgs_cnv_from_raw: QDNAseq RDS not deposited in GEO; raw SRA data (~600 GB,
+#   PRJNA1221971) not downloaded. Rule swgs approximates CN analysis from
+#   publisher supplementary Excel data (see rule docstring).

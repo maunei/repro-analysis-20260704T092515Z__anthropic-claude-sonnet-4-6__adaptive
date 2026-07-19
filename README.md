@@ -1,5 +1,12 @@
 ![Papers RAG - NotebookLM infographic overview](infographic_app2.png)
 
+# Latest update: Complete Snakemake Workflow Run of all analyses in the HPC cluster
+
+For the Snakemake file and full description of workflow and results see folder:
+
+**Complete_HPC_Snakemake_Reproducibility_Run**
+
+
 # Public Reproducibility Analysis Skeleton
 
 This repository is a lightweight public version of a reproducibility-analysis run.
