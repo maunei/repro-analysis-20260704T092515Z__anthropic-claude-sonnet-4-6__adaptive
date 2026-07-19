@@ -9,6 +9,7 @@ For the Snakemake file and full description of workflow and results see folder:
 ```text
 Complete_HPC_Snakemake_Reproducibility_Run/
 ├── 653_dicer1_snakemake_workflow_description.md
+├── reproducibility_support_from_tables.md
 └── Snakefile
 ```
 
