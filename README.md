@@ -2,14 +2,13 @@
 
 # Latest update: Complete Snakemake Workflow Run of all analyses in the HPC cluster
 
-For the Snakemake file, full description of workflow and chosen outputs confirming statements from the paper, see:
+For the Snakemake file and full description of workflow, see:
 
 [**Complete_HPC_Snakemake_Reproducibility_Run/**](Complete_HPC_Snakemake_Reproducibility_Run/)
 
 ```text
 Complete_HPC_Snakemake_Reproducibility_Run/
 ├── 653_dicer1_snakemake_workflow_description.md
-├── reproducibility_support_from_tables.md
 └── Snakefile
 ```
 
