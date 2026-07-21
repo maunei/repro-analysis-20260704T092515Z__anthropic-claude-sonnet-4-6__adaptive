@@ -31,7 +31,7 @@ The author's R scripts are used directly from a clone of the `dicer1-cell-of-ori
 repository. Where a script required modification, a patched copy is stored in
 `scripts/patched/` and the original in `code/` is left untouched.
 
-### Data inputs (GEO: GSE267523 and GSE268427)
+### Data inputs (GEO: GSE288990 and GSE309820)
 Raw processed data downloaded from GEO and symlinked into `workdir/data/`:
 
 | Type | Samples | Details |
