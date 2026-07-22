@@ -1,0 +1,45 @@
+================================================================
+ Nextflow/nf-core RNASeq pipeline -- PCA reproducibility
+ Sample replicated: hdt1056_cell_p15_dmem
+================================================================
+
+--- Transcript universe ---
+  Author (GEO)      : 142699 transcripts
+  Replication       : 109617 transcripts
+  Name intersection : 107862 transcripts
+  After TPM filter  : 52844 transcripts
+  (filter: TPM > 0.1 in >= 2 of 13 samples)
+
+--- PCA variance explained ---
+  PC1: 27.38%
+  PC2: 16.83%
+  PC3:  8.65%
+  PC4:  7.21%
+  PC5:  6.32%
+  PC6:  6.09%
+
+--- Euclidean distance: Replication vs Author samples (all PCs) ---
+  Author sample                        Distance
+  -----------------------------------  --------
+  hdt1056_cell_p15_dmem                  67.23  <-- matched pair
+  hdt1056_cell_p15_mesencult            108.14
+  hdt1056_cell_p18_dmem                 113.98
+  hdt1056_cell_p18_mesencult            118.45
+  hdt1056_cell_p20_dmem                 120.36
+  hdt1056_cell_p22_mesencult            122.22
+  hdt1119_cell_p27_mesencult            124.13
+  hdt1119_cell_p23_mesencult            126.29
+  hdt1119_cell_p27_dmem                 127.07
+  hdt1119_cell_p23_dmem                 127.95
+  hdt1119_cell_p22_dmem                 128.72
+  hdt1119_cell_p22_mesencult            131.17
+
+  Replication is 1.6x closer to its Author counterpart
+  than to the next nearest sample.
+
+--- Methods ---
+  Author data : GEO GSE309820 (quant.sf, dicer1-cell-of-origin repo)
+  Replication : nf-core/rnaseq 3.21.0, STAR-Salmon, GRCm38, TrimGalore
+                --extra_salmon_quant_args '--seqBias --gcBias'
+  PCA input   : log1p(TPM), Name-matched, filtered as above
+  Distances   : Euclidean in full PC space (12 PCs)

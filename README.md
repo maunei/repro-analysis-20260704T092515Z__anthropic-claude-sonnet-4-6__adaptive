@@ -1,6 +1,7 @@
 ![Papers RAG - NotebookLM infographic overview](infographic_app2.png)
 
-# Latest update: Complete Snakemake Workflow Run of all analyses in the HPC cluster
+# Latest update: 
+## Complete Snakemake Workflow Run of all analyses in the HPC cluster
 
 For the Snakemake file and full description of workflow, see:
 
@@ -10,6 +11,19 @@ For the Snakemake file and full description of workflow, see:
 Complete_HPC_Snakemake_Reproducibility_Run/
 ├── 653_dicer1_snakemake_workflow_description.md
 └── Snakefile
+```
+
+## RNASeq/Nextflow
+
+One sample chosen to run the nf-core RNASeq pipeline at the HPC cluster and show reproducibility from FASTQ files, see:
+
+[**Nextflow_nf-core_RNASeq_Workflow_Reproducibility_HPC_Run/**](Nextflow_nf-core_RNASeq_Workflow_Reproducibility_HPC_Run/)
+
+```text
+Nextflow_nf-core_RNASeq_Workflow_Reproducibility_HPC_Run/
+├── pca_tpm_reproducibility.pdf
+├── pca_tpm_reproducibility.png
+└── pca_tpm_stats.txt
 ```
 
 
