@@ -18,16 +18,18 @@ Complete_HPC_Snakemake_Reproducibility_Run/
 
 ## 2) RNASeq/Nextflow (nf-core)
 
-Complete tree of the output obtained by running the scRNA-seq nf-core workflow on the HPC cluster, and PCA plot of all samples (Salmon quant.sf files) provided by the authors, including one reproduced sample showing that it maps closest to the corresponding author's sample.
+Complete tree of the output obtained by running the RNA-seq nf-core workflow on the HPC cluster, and PCA plot of all samples (Salmon quant.sf files) provided by the authors together with the independently computed samples, including one reproduced sample showing that it maps closest to the corresponding author's sample.
 
 [**Nextflow_nf-core_RNASeq_Workflow_Reproducibility_HPC_Run/**](Nextflow_nf-core_RNASeq_Workflow_Reproducibility_HPC_Run/)
 
 ```text
 Nextflow_nf-core_RNASeq_Workflow_Reproducibility_HPC_Run
+├── pca_all_samples.png
 ├── pca_tpm_reproducibility.pdf
 ├── pca_tpm_reproducibility.png
 ├── pca_tpm_stats.txt
 └── RNASeq_all_samples_nfcore_results_tree.txt
+
 ```
 
 ## 3) scRNA/Nextflow (nf-core)
