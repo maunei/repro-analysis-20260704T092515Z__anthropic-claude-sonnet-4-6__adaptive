@@ -1,0 +1,169 @@
+nfcore_results
+├── cellranger
+│   ├── count
+│   │   └── PX3085_GTGGATCAAA-CAGGGTTGGC
+│   │       └── outs
+│   │           ├── analysis
+│   │           │   ├── clustering
+│   │           │   │   ├── gene_expression_graphclust
+│   │           │   │   │   └── clusters.csv
+│   │           │   │   ├── gene_expression_kmeans_10_clusters
+│   │           │   │   │   └── clusters.csv
+│   │           │   │   ├── gene_expression_kmeans_2_clusters
+│   │           │   │   │   └── clusters.csv
+│   │           │   │   ├── gene_expression_kmeans_3_clusters
+│   │           │   │   │   └── clusters.csv
+│   │           │   │   ├── gene_expression_kmeans_4_clusters
+│   │           │   │   │   └── clusters.csv
+│   │           │   │   ├── gene_expression_kmeans_5_clusters
+│   │           │   │   │   └── clusters.csv
+│   │           │   │   ├── gene_expression_kmeans_6_clusters
+│   │           │   │   │   └── clusters.csv
+│   │           │   │   ├── gene_expression_kmeans_7_clusters
+│   │           │   │   │   └── clusters.csv
+│   │           │   │   ├── gene_expression_kmeans_8_clusters
+│   │           │   │   │   └── clusters.csv
+│   │           │   │   └── gene_expression_kmeans_9_clusters
+│   │           │   │       └── clusters.csv
+│   │           │   ├── diffexp
+│   │           │   │   ├── gene_expression_graphclust
+│   │           │   │   │   └── differential_expression.csv
+│   │           │   │   ├── gene_expression_kmeans_10_clusters
+│   │           │   │   │   └── differential_expression.csv
+│   │           │   │   ├── gene_expression_kmeans_2_clusters
+│   │           │   │   │   └── differential_expression.csv
+│   │           │   │   ├── gene_expression_kmeans_3_clusters
+│   │           │   │   │   └── differential_expression.csv
+│   │           │   │   ├── gene_expression_kmeans_4_clusters
+│   │           │   │   │   └── differential_expression.csv
+│   │           │   │   ├── gene_expression_kmeans_5_clusters
+│   │           │   │   │   └── differential_expression.csv
+│   │           │   │   ├── gene_expression_kmeans_6_clusters
+│   │           │   │   │   └── differential_expression.csv
+│   │           │   │   ├── gene_expression_kmeans_7_clusters
+│   │           │   │   │   └── differential_expression.csv
+│   │           │   │   ├── gene_expression_kmeans_8_clusters
+│   │           │   │   │   └── differential_expression.csv
+│   │           │   │   └── gene_expression_kmeans_9_clusters
+│   │           │   │       └── differential_expression.csv
+│   │           │   ├── pca
+│   │           │   │   └── gene_expression_10_components
+│   │           │   │       ├── components.csv
+│   │           │   │       ├── dispersion.csv
+│   │           │   │       ├── features_selected.csv
+│   │           │   │       ├── projection.csv
+│   │           │   │       └── variance.csv
+│   │           │   ├── tsne
+│   │           │   │   └── gene_expression_2_components
+│   │           │   │       └── projection.csv
+│   │           │   └── umap
+│   │           │       └── gene_expression_2_components
+│   │           │           └── projection.csv
+│   │           ├── cloupe.cloupe
+│   │           ├── filtered_feature_bc_matrix
+│   │           │   ├── barcodes.tsv.gz
+│   │           │   ├── features.tsv.gz
+│   │           │   └── matrix.mtx.gz
+│   │           ├── filtered_feature_bc_matrix.h5
+│   │           ├── metrics_summary.csv
+│   │           ├── molecule_info.h5
+│   │           ├── possorted_genome_bam.bam
+│   │           ├── possorted_genome_bam.bam.bai
+│   │           ├── raw_feature_bc_matrix
+│   │           │   ├── barcodes.tsv.gz
+│   │           │   ├── features.tsv.gz
+│   │           │   └── matrix.mtx.gz
+│   │           ├── raw_feature_bc_matrix.h5
+│   │           └── web_summary.html
+│   ├── mtx_conversions
+│   │   ├── combined_cellbender_filter_matrix.h5ad
+│   │   ├── combined_cellbender_filter_matrix.sce.rds
+│   │   ├── combined_cellbender_filter_matrix.seurat.rds
+│   │   ├── combined_filtered_matrix.h5ad
+│   │   ├── combined_filtered_matrix.sce.rds
+│   │   ├── combined_filtered_matrix.seurat.rds
+│   │   ├── combined_raw_matrix.h5ad
+│   │   ├── combined_raw_matrix.sce.rds
+│   │   ├── combined_raw_matrix.seurat.rds
+│   │   └── PX3085_GTGGATCAAA-CAGGGTTGGC
+│   │       ├── PX3085_GTGGATCAAA-CAGGGTTGGC_cellbender_filter_matrix.h5ad
+│   │       ├── PX3085_GTGGATCAAA-CAGGGTTGGC_cellbender_filter_matrix.sce.rds
+│   │       ├── PX3085_GTGGATCAAA-CAGGGTTGGC_cellbender_filter_matrix.seurat.rds
+│   │       ├── PX3085_GTGGATCAAA-CAGGGTTGGC_filtered_matrix.h5ad
+│   │       ├── PX3085_GTGGATCAAA-CAGGGTTGGC_filtered_matrix.sce.rds
+│   │       ├── PX3085_GTGGATCAAA-CAGGGTTGGC_filtered_matrix.seurat.rds
+│   │       ├── PX3085_GTGGATCAAA-CAGGGTTGGC_raw_matrix.h5ad
+│   │       ├── PX3085_GTGGATCAAA-CAGGGTTGGC_raw_matrix.sce.rds
+│   │       └── PX3085_GTGGATCAAA-CAGGGTTGGC_raw_matrix.seurat.rds
+│   └── PX3085_GTGGATCAAA-CAGGGTTGGC
+│       └── cellbender_removebackground
+│           ├── ckpt.tar.gz
+│           ├── PX3085_GTGGATCAAA-CAGGGTTGGC_cell_barcodes.csv
+│           ├── PX3085_GTGGATCAAA-CAGGGTTGGC_filtered.h5
+│           ├── PX3085_GTGGATCAAA-CAGGGTTGGC.h5
+│           ├── PX3085_GTGGATCAAA-CAGGGTTGGC.log
+│           ├── PX3085_GTGGATCAAA-CAGGGTTGGC_metrics.csv
+│           ├── PX3085_GTGGATCAAA-CAGGGTTGGC.pdf
+│           ├── PX3085_GTGGATCAAA-CAGGGTTGGC_posterior.h5
+│           └── PX3085_GTGGATCAAA-CAGGGTTGGC_report.html
+├── fastqc
+│   ├── PX3085_GTGGATCAAA-CAGGGTTGGC_1_fastqc.html
+│   ├── PX3085_GTGGATCAAA-CAGGGTTGGC_1_fastqc.zip
+│   ├── PX3085_GTGGATCAAA-CAGGGTTGGC_2_fastqc.html
+│   ├── PX3085_GTGGATCAAA-CAGGGTTGGC_2_fastqc.zip
+│   ├── PX3085_GTGGATCAAA-CAGGGTTGGC_3_fastqc.html
+│   ├── PX3085_GTGGATCAAA-CAGGGTTGGC_3_fastqc.zip
+│   ├── PX3085_GTGGATCAAA-CAGGGTTGGC_4_fastqc.html
+│   ├── PX3085_GTGGATCAAA-CAGGGTTGGC_4_fastqc.zip
+│   ├── PX3085_GTGGATCAAA-CAGGGTTGGC_5_fastqc.html
+│   ├── PX3085_GTGGATCAAA-CAGGGTTGGC_5_fastqc.zip
+│   ├── PX3085_GTGGATCAAA-CAGGGTTGGC_6_fastqc.html
+│   ├── PX3085_GTGGATCAAA-CAGGGTTGGC_6_fastqc.zip
+│   ├── PX3085_GTGGATCAAA-CAGGGTTGGC_7_fastqc.html
+│   ├── PX3085_GTGGATCAAA-CAGGGTTGGC_7_fastqc.zip
+│   ├── PX3085_GTGGATCAAA-CAGGGTTGGC_8_fastqc.html
+│   └── PX3085_GTGGATCAAA-CAGGGTTGGC_8_fastqc.zip
+├── multiqc
+│   ├── multiqc_data
+│   │   ├── cellranger-count-stats-table.txt
+│   │   ├── fastqc_adapter_content_plot.txt
+│   │   ├── fastqc_per_base_n_content_plot.txt
+│   │   ├── fastqc_per_base_sequence_quality_plot.txt
+│   │   ├── fastqc_per_sequence_gc_content_plot_Counts.txt
+│   │   ├── fastqc_per_sequence_gc_content_plot_Percentages.txt
+│   │   ├── fastqc_per_sequence_quality_scores_plot.txt
+│   │   ├── fastqc_sequence_counts_plot.txt
+│   │   ├── fastqc_sequence_duplication_levels_plot.txt
+│   │   ├── fastqc-status-check-heatmap.txt
+│   │   ├── fastqc_top_overrepresented_sequences_table.txt
+│   │   ├── llms-full.txt
+│   │   ├── mqc_cellranger_count_bc_knee.txt
+│   │   ├── mqc_cellranger_count_genesXcell.txt
+│   │   ├── mqc_cellranger_count_saturation.txt
+│   │   ├── multiqc_cellranger_count.txt
+│   │   ├── multiqc_citations.txt
+│   │   ├── multiqc_data.json
+│   │   ├── multiqc_fastqc.txt
+│   │   ├── multiqc_general_stats.txt
+│   │   ├── multiqc.log
+│   │   ├── multiqc.parquet
+│   │   ├── multiqc_software_versions.txt
+│   │   └── multiqc_sources.txt
+│   ├── multiqc_plots
+│   │   ├── pdf
+│   │   ├── png
+│   │   └── svg
+│   └── multiqc_report.html
+└── pipeline_info
+    ├── execution_report_2026-07-23_04-07-29.html
+    ├── execution_timeline_2026-07-23_04-07-29.html
+    ├── execution_trace_2026-07-23_04-00-34.txt
+    ├── execution_trace_2026-07-23_04-03-22.txt
+    ├── execution_trace_2026-07-23_04-07-29.txt
+    ├── nf_core_scrnaseq_software_mqc_versions.yml
+    ├── params_2026-07-23_04-00-41.json
+    ├── params_2026-07-23_04-03-27.json
+    ├── params_2026-07-23_04-07-33.json
+    └── pipeline_dag_2026-07-23_04-07-29.html
+
+48 directories, 119 files

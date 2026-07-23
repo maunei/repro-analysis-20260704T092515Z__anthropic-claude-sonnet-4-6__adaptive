@@ -1,0 +1,1679 @@
+nfcore_results
+├── fastqc
+│   ├── raw
+│   │   ├── hdt1056_cell_p15_dmem_raw_1_fastqc.html
+│   │   ├── hdt1056_cell_p15_dmem_raw_1_fastqc.zip
+│   │   ├── hdt1056_cell_p15_dmem_raw_2_fastqc.html
+│   │   ├── hdt1056_cell_p15_dmem_raw_2_fastqc.zip
+│   │   ├── hdt1056_cell_p15_mesencult_raw_1_fastqc.html
+│   │   ├── hdt1056_cell_p15_mesencult_raw_1_fastqc.zip
+│   │   ├── hdt1056_cell_p15_mesencult_raw_2_fastqc.html
+│   │   ├── hdt1056_cell_p15_mesencult_raw_2_fastqc.zip
+│   │   ├── hdt1056_cell_p18_dmem_raw_1_fastqc.html
+│   │   ├── hdt1056_cell_p18_dmem_raw_1_fastqc.zip
+│   │   ├── hdt1056_cell_p18_dmem_raw_2_fastqc.html
+│   │   ├── hdt1056_cell_p18_dmem_raw_2_fastqc.zip
+│   │   ├── hdt1056_cell_p18_mesencult_raw_1_fastqc.html
+│   │   ├── hdt1056_cell_p18_mesencult_raw_1_fastqc.zip
+│   │   ├── hdt1056_cell_p18_mesencult_raw_2_fastqc.html
+│   │   ├── hdt1056_cell_p18_mesencult_raw_2_fastqc.zip
+│   │   ├── hdt1056_cell_p20_dmem_raw_1_fastqc.html
+│   │   ├── hdt1056_cell_p20_dmem_raw_1_fastqc.zip
+│   │   ├── hdt1056_cell_p20_dmem_raw_2_fastqc.html
+│   │   ├── hdt1056_cell_p20_dmem_raw_2_fastqc.zip
+│   │   ├── hdt1056_cell_p22_mesencult_raw_1_fastqc.html
+│   │   ├── hdt1056_cell_p22_mesencult_raw_1_fastqc.zip
+│   │   ├── hdt1056_cell_p22_mesencult_raw_2_fastqc.html
+│   │   ├── hdt1056_cell_p22_mesencult_raw_2_fastqc.zip
+│   │   ├── hdt1119_cell_p22_dmem_raw_1_fastqc.html
+│   │   ├── hdt1119_cell_p22_dmem_raw_1_fastqc.zip
+│   │   ├── hdt1119_cell_p22_dmem_raw_2_fastqc.html
+│   │   ├── hdt1119_cell_p22_dmem_raw_2_fastqc.zip
+│   │   ├── hdt1119_cell_p22_mesencult_raw_1_fastqc.html
+│   │   ├── hdt1119_cell_p22_mesencult_raw_1_fastqc.zip
+│   │   ├── hdt1119_cell_p22_mesencult_raw_2_fastqc.html
+│   │   ├── hdt1119_cell_p22_mesencult_raw_2_fastqc.zip
+│   │   ├── hdt1119_cell_p23_dmem_raw_1_fastqc.html
+│   │   ├── hdt1119_cell_p23_dmem_raw_1_fastqc.zip
+│   │   ├── hdt1119_cell_p23_dmem_raw_2_fastqc.html
+│   │   ├── hdt1119_cell_p23_dmem_raw_2_fastqc.zip
+│   │   ├── hdt1119_cell_p23_mesencult_raw_1_fastqc.html
+│   │   ├── hdt1119_cell_p23_mesencult_raw_1_fastqc.zip
+│   │   ├── hdt1119_cell_p23_mesencult_raw_2_fastqc.html
+│   │   ├── hdt1119_cell_p23_mesencult_raw_2_fastqc.zip
+│   │   ├── hdt1119_cell_p27_dmem_raw_1_fastqc.html
+│   │   ├── hdt1119_cell_p27_dmem_raw_1_fastqc.zip
+│   │   ├── hdt1119_cell_p27_dmem_raw_2_fastqc.html
+│   │   ├── hdt1119_cell_p27_dmem_raw_2_fastqc.zip
+│   │   ├── hdt1119_cell_p27_mesencult_raw_1_fastqc.html
+│   │   ├── hdt1119_cell_p27_mesencult_raw_1_fastqc.zip
+│   │   ├── hdt1119_cell_p27_mesencult_raw_2_fastqc.html
+│   │   └── hdt1119_cell_p27_mesencult_raw_2_fastqc.zip
+│   └── trim
+│       ├── hdt1056_cell_p15_dmem_trimmed_1_val_1_fastqc.html
+│       ├── hdt1056_cell_p15_dmem_trimmed_1_val_1_fastqc.zip
+│       ├── hdt1056_cell_p15_dmem_trimmed_2_val_2_fastqc.html
+│       ├── hdt1056_cell_p15_dmem_trimmed_2_val_2_fastqc.zip
+│       ├── hdt1056_cell_p15_mesencult_trimmed_1_val_1_fastqc.html
+│       ├── hdt1056_cell_p15_mesencult_trimmed_1_val_1_fastqc.zip
+│       ├── hdt1056_cell_p15_mesencult_trimmed_2_val_2_fastqc.html
+│       ├── hdt1056_cell_p15_mesencult_trimmed_2_val_2_fastqc.zip
+│       ├── hdt1056_cell_p18_dmem_trimmed_1_val_1_fastqc.html
+│       ├── hdt1056_cell_p18_dmem_trimmed_1_val_1_fastqc.zip
+│       ├── hdt1056_cell_p18_dmem_trimmed_2_val_2_fastqc.html
+│       ├── hdt1056_cell_p18_dmem_trimmed_2_val_2_fastqc.zip
+│       ├── hdt1056_cell_p18_mesencult_trimmed_1_val_1_fastqc.html
+│       ├── hdt1056_cell_p18_mesencult_trimmed_1_val_1_fastqc.zip
+│       ├── hdt1056_cell_p18_mesencult_trimmed_2_val_2_fastqc.html
+│       ├── hdt1056_cell_p18_mesencult_trimmed_2_val_2_fastqc.zip
+│       ├── hdt1056_cell_p20_dmem_trimmed_1_val_1_fastqc.html
+│       ├── hdt1056_cell_p20_dmem_trimmed_1_val_1_fastqc.zip
+│       ├── hdt1056_cell_p20_dmem_trimmed_2_val_2_fastqc.html
+│       ├── hdt1056_cell_p20_dmem_trimmed_2_val_2_fastqc.zip
+│       ├── hdt1056_cell_p22_mesencult_trimmed_1_val_1_fastqc.html
+│       ├── hdt1056_cell_p22_mesencult_trimmed_1_val_1_fastqc.zip
+│       ├── hdt1056_cell_p22_mesencult_trimmed_2_val_2_fastqc.html
+│       ├── hdt1056_cell_p22_mesencult_trimmed_2_val_2_fastqc.zip
+│       ├── hdt1119_cell_p22_dmem_trimmed_1_val_1_fastqc.html
+│       ├── hdt1119_cell_p22_dmem_trimmed_1_val_1_fastqc.zip
+│       ├── hdt1119_cell_p22_dmem_trimmed_2_val_2_fastqc.html
+│       ├── hdt1119_cell_p22_dmem_trimmed_2_val_2_fastqc.zip
+│       ├── hdt1119_cell_p22_mesencult_trimmed_1_val_1_fastqc.html
+│       ├── hdt1119_cell_p22_mesencult_trimmed_1_val_1_fastqc.zip
+│       ├── hdt1119_cell_p22_mesencult_trimmed_2_val_2_fastqc.html
+│       ├── hdt1119_cell_p22_mesencult_trimmed_2_val_2_fastqc.zip
+│       ├── hdt1119_cell_p23_dmem_trimmed_1_val_1_fastqc.html
+│       ├── hdt1119_cell_p23_dmem_trimmed_1_val_1_fastqc.zip
+│       ├── hdt1119_cell_p23_dmem_trimmed_2_val_2_fastqc.html
+│       ├── hdt1119_cell_p23_dmem_trimmed_2_val_2_fastqc.zip
+│       ├── hdt1119_cell_p23_mesencult_trimmed_1_val_1_fastqc.html
+│       ├── hdt1119_cell_p23_mesencult_trimmed_1_val_1_fastqc.zip
+│       ├── hdt1119_cell_p23_mesencult_trimmed_2_val_2_fastqc.html
+│       ├── hdt1119_cell_p23_mesencult_trimmed_2_val_2_fastqc.zip
+│       ├── hdt1119_cell_p27_dmem_trimmed_1_val_1_fastqc.html
+│       ├── hdt1119_cell_p27_dmem_trimmed_1_val_1_fastqc.zip
+│       ├── hdt1119_cell_p27_dmem_trimmed_2_val_2_fastqc.html
+│       ├── hdt1119_cell_p27_dmem_trimmed_2_val_2_fastqc.zip
+│       ├── hdt1119_cell_p27_mesencult_trimmed_1_val_1_fastqc.html
+│       ├── hdt1119_cell_p27_mesencult_trimmed_1_val_1_fastqc.zip
+│       ├── hdt1119_cell_p27_mesencult_trimmed_2_val_2_fastqc.html
+│       └── hdt1119_cell_p27_mesencult_trimmed_2_val_2_fastqc.zip
+├── fq_lint
+│   ├── raw
+│   │   ├── hdt1056_cell_p15_dmem.fq_lint.txt
+│   │   ├── hdt1056_cell_p15_mesencult.fq_lint.txt
+│   │   ├── hdt1056_cell_p18_dmem.fq_lint.txt
+│   │   ├── hdt1056_cell_p18_mesencult.fq_lint.txt
+│   │   ├── hdt1056_cell_p20_dmem.fq_lint.txt
+│   │   ├── hdt1056_cell_p22_mesencult.fq_lint.txt
+│   │   ├── hdt1119_cell_p22_dmem.fq_lint.txt
+│   │   ├── hdt1119_cell_p22_mesencult.fq_lint.txt
+│   │   ├── hdt1119_cell_p23_dmem.fq_lint.txt
+│   │   ├── hdt1119_cell_p23_mesencult.fq_lint.txt
+│   │   ├── hdt1119_cell_p27_dmem.fq_lint.txt
+│   │   └── hdt1119_cell_p27_mesencult.fq_lint.txt
+│   └── trimmed
+│       ├── hdt1056_cell_p15_dmem.fq_lint.txt
+│       ├── hdt1056_cell_p15_mesencult.fq_lint.txt
+│       ├── hdt1056_cell_p18_dmem.fq_lint.txt
+│       ├── hdt1056_cell_p18_mesencult.fq_lint.txt
+│       ├── hdt1056_cell_p20_dmem.fq_lint.txt
+│       ├── hdt1056_cell_p22_mesencult.fq_lint.txt
+│       ├── hdt1119_cell_p22_dmem.fq_lint.txt
+│       ├── hdt1119_cell_p22_mesencult.fq_lint.txt
+│       ├── hdt1119_cell_p23_dmem.fq_lint.txt
+│       ├── hdt1119_cell_p23_mesencult.fq_lint.txt
+│       ├── hdt1119_cell_p27_dmem.fq_lint.txt
+│       └── hdt1119_cell_p27_mesencult.fq_lint.txt
+├── multiqc
+│   └── star_salmon
+│       ├── multiqc_report_data
+│       │   ├── cutadapt_filtered_reads_plot.txt
+│       │   ├── cutadapt_trimmed_sequences_plot_3_Counts.txt
+│       │   ├── cutadapt_trimmed_sequences_plot_3_Obs_Exp.txt
+│       │   ├── fastqc_raw_adapter_content_plot.txt
+│       │   ├── fastqc_raw_per_base_n_content_plot.txt
+│       │   ├── fastqc_raw_per_base_sequence_quality_plot.txt
+│       │   ├── fastqc_raw_per_sequence_gc_content_plot_Counts.txt
+│       │   ├── fastqc_raw_per_sequence_gc_content_plot_Percentages.txt
+│       │   ├── fastqc_raw_per_sequence_quality_scores_plot.txt
+│       │   ├── fastqc_raw_sequence_counts_plot.txt
+│       │   ├── fastqc_raw_sequence_duplication_levels_plot.txt
+│       │   ├── fastqc_raw-status-check-heatmap.txt
+│       │   ├── fastqc_sequence_length_distribution_plot.txt
+│       │   ├── fastqc_trimmed_adapter_content_plot.txt
+│       │   ├── fastqc_trimmed_per_base_n_content_plot.txt
+│       │   ├── fastqc_trimmed_per_base_sequence_quality_plot.txt
+│       │   ├── fastqc_trimmed_per_sequence_gc_content_plot_Counts.txt
+│       │   ├── fastqc_trimmed_per_sequence_gc_content_plot_Percentages.txt
+│       │   ├── fastqc_trimmed_per_sequence_quality_scores_plot.txt
+│       │   ├── fastqc_trimmed_sequence_counts_plot.txt
+│       │   ├── fastqc_trimmed_sequence_duplication_levels_plot.txt
+│       │   ├── fastqc_trimmed-status-check-heatmap.txt
+│       │   ├── junction_saturation_known.txt
+│       │   ├── junction_saturation_novel.txt
+│       │   ├── llms-full.txt
+│       │   ├── multiqc_citations.txt
+│       │   ├── multiqc_cutadapt.txt
+│       │   ├── multiqc_data.json
+│       │   ├── multiqc_dupradar.txt
+│       │   ├── multiqc_fail_strand_check_table.txt
+│       │   ├── multiqc_fastqc_fastqc_raw.txt
+│       │   ├── multiqc_fastqc_fastqc_trimmed.txt
+│       │   ├── multiqc_featurecounts_biotype_plot.txt
+│       │   ├── multiqc_general_stats.txt
+│       │   ├── multiqc.log
+│       │   ├── multiqc.parquet
+│       │   ├── multiqc_picard_dups.txt
+│       │   ├── multiqc_rseqc_bam_stat.txt
+│       │   ├── multiqc_rseqc_infer_experiment.txt
+│       │   ├── multiqc_rseqc_junction_annotation.txt
+│       │   ├── multiqc_rseqc_read_distribution.txt
+│       │   ├── multiqc_samtools_flagstat.txt
+│       │   ├── multiqc_samtools_idxstats.txt
+│       │   ├── multiqc_samtools_stats.txt
+│       │   ├── multiqc_software_versions.txt
+│       │   ├── multiqc_sources.txt
+│       │   ├── multiqc_star_salmon_deseq2_clustering.txt
+│       │   ├── multiqc_star_salmon_deseq2_pca.txt
+│       │   ├── multiqc_star.txt
+│       │   ├── picard_deduplication.txt
+│       │   ├── picard_MarkIlluminaAdapters_histogram.txt
+│       │   ├── picard_MeanQualityByCycle_histogram_1.txt
+│       │   ├── picard_MeanQualityByCycle_histogram.txt
+│       │   ├── picard_QualityScoreDistribution_histogram.txt
+│       │   ├── qualimap_gene_coverage_profile_Counts.txt
+│       │   ├── qualimap_gene_coverage_profile_Normalised.txt
+│       │   ├── qualimap_genomic_origin.txt
+│       │   ├── qualimap_rnaseq_cov_hist.txt
+│       │   ├── qualimap_rnaseq_genome_results.txt
+│       │   ├── rseqc_bam_stat.txt
+│       │   ├── rseqc_infer_experiment_plot.txt
+│       │   ├── rseqc_inner_distance_plot_Counts.txt
+│       │   ├── rseqc_inner_distance_plot_Percentages.txt
+│       │   ├── rseqc_inner_distance.txt
+│       │   ├── rseqc_junction_annotation_junctions_plot_Events.txt
+│       │   ├── rseqc_junction_annotation_junctions_plot_Junctions.txt
+│       │   ├── rseqc_junction_saturation_all.txt
+│       │   ├── rseqc_junction_saturation_plot_All_Junctions.txt
+│       │   ├── rseqc_junction_saturation_plot_Known_Junctions.txt
+│       │   ├── rseqc_junction_saturation_plot_Novel_Junctions.txt
+│       │   ├── rseqc_read_distribution_plot.txt
+│       │   ├── rseqc_read_dups_plot.txt
+│       │   ├── rseqc_read_dups.txt
+│       │   ├── samtools_alignment_plot.txt
+│       │   ├── samtools-flagstat-pct-table.txt
+│       │   ├── samtools-flagstat-table.txt
+│       │   ├── samtools-idxstats-mapped-reads-plot_Normalised_Counts.txt
+│       │   ├── samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts.txt
+│       │   ├── samtools-idxstats-mapped-reads-plot_Raw_Counts.txt
+│       │   ├── samtools-idxstats-xy-plot.txt
+│       │   ├── samtools-stats-dp.txt
+│       │   ├── star_alignment_plot.txt
+│       │   └── star_summary_table.txt
+│       ├── multiqc_report.html
+│       └── multiqc_report_plots
+│           ├── pdf
+│           ├── png
+│           └── svg
+├── pipeline_info
+│   ├── execution_report_2026-07-22_04-29-46.html
+│   ├── execution_report_2026-07-22_17-31-33.html
+│   ├── execution_timeline_2026-07-22_04-29-46.html
+│   ├── execution_timeline_2026-07-22_17-31-33.html
+│   ├── execution_trace_2026-07-22_04-29-46.txt
+│   ├── execution_trace_2026-07-22_17-31-33.txt
+│   ├── nf_core_rnaseq_software_mqc_versions.yml
+│   ├── params_2026-07-22_04-30-09.json
+│   ├── params_2026-07-22_17-32-23.json
+│   ├── pipeline_dag_2026-07-22_04-29-46.html
+│   └── pipeline_dag_2026-07-22_17-31-33.html
+├── star_salmon
+│   ├── bigwig
+│   │   ├── hdt1056_cell_p15_dmem.forward.bigWig
+│   │   ├── hdt1056_cell_p15_dmem.reverse.bigWig
+│   │   ├── hdt1056_cell_p15_mesencult.forward.bigWig
+│   │   ├── hdt1056_cell_p15_mesencult.reverse.bigWig
+│   │   ├── hdt1056_cell_p18_dmem.forward.bigWig
+│   │   ├── hdt1056_cell_p18_dmem.reverse.bigWig
+│   │   ├── hdt1056_cell_p18_mesencult.forward.bigWig
+│   │   ├── hdt1056_cell_p18_mesencult.reverse.bigWig
+│   │   ├── hdt1056_cell_p20_dmem.forward.bigWig
+│   │   ├── hdt1056_cell_p20_dmem.reverse.bigWig
+│   │   ├── hdt1056_cell_p22_mesencult.forward.bigWig
+│   │   ├── hdt1056_cell_p22_mesencult.reverse.bigWig
+│   │   ├── hdt1119_cell_p22_dmem.forward.bigWig
+│   │   ├── hdt1119_cell_p22_dmem.reverse.bigWig
+│   │   ├── hdt1119_cell_p22_mesencult.forward.bigWig
+│   │   ├── hdt1119_cell_p22_mesencult.reverse.bigWig
+│   │   ├── hdt1119_cell_p23_dmem.forward.bigWig
+│   │   ├── hdt1119_cell_p23_dmem.reverse.bigWig
+│   │   ├── hdt1119_cell_p23_mesencult.forward.bigWig
+│   │   ├── hdt1119_cell_p23_mesencult.reverse.bigWig
+│   │   ├── hdt1119_cell_p27_dmem.forward.bigWig
+│   │   ├── hdt1119_cell_p27_dmem.reverse.bigWig
+│   │   ├── hdt1119_cell_p27_mesencult.forward.bigWig
+│   │   └── hdt1119_cell_p27_mesencult.reverse.bigWig
+│   ├── deseq2_qc
+│   │   ├── deseq2.dds.RData
+│   │   ├── deseq2.pca.vals.txt
+│   │   ├── deseq2.plots.pdf
+│   │   ├── deseq2.sample.dists.txt
+│   │   ├── R_sessionInfo.log
+│   │   └── size_factors
+│   │       ├── deseq2.size_factors.RData
+│   │       ├── hdt1056_cell_p15_dmem.txt
+│   │       ├── hdt1056_cell_p15_mesencult.txt
+│   │       ├── hdt1056_cell_p18_dmem.txt
+│   │       ├── hdt1056_cell_p18_mesencult.txt
+│   │       ├── hdt1056_cell_p20_dmem.txt
+│   │       ├── hdt1056_cell_p22_mesencult.txt
+│   │       ├── hdt1119_cell_p22_dmem.txt
+│   │       ├── hdt1119_cell_p22_mesencult.txt
+│   │       ├── hdt1119_cell_p23_dmem.txt
+│   │       ├── hdt1119_cell_p23_mesencult.txt
+│   │       ├── hdt1119_cell_p27_dmem.txt
+│   │       └── hdt1119_cell_p27_mesencult.txt
+│   ├── dupradar
+│   │   ├── box_plot
+│   │   │   ├── hdt1056_cell_p15_dmem_duprateExpBoxplot.pdf
+│   │   │   ├── hdt1056_cell_p15_mesencult_duprateExpBoxplot.pdf
+│   │   │   ├── hdt1056_cell_p18_dmem_duprateExpBoxplot.pdf
+│   │   │   ├── hdt1056_cell_p18_mesencult_duprateExpBoxplot.pdf
+│   │   │   ├── hdt1056_cell_p20_dmem_duprateExpBoxplot.pdf
+│   │   │   ├── hdt1056_cell_p22_mesencult_duprateExpBoxplot.pdf
+│   │   │   ├── hdt1119_cell_p22_dmem_duprateExpBoxplot.pdf
+│   │   │   ├── hdt1119_cell_p22_mesencult_duprateExpBoxplot.pdf
+│   │   │   ├── hdt1119_cell_p23_dmem_duprateExpBoxplot.pdf
+│   │   │   ├── hdt1119_cell_p23_mesencult_duprateExpBoxplot.pdf
+│   │   │   ├── hdt1119_cell_p27_dmem_duprateExpBoxplot.pdf
+│   │   │   └── hdt1119_cell_p27_mesencult_duprateExpBoxplot.pdf
+│   │   ├── gene_data
+│   │   │   ├── hdt1056_cell_p15_dmem_dupMatrix.txt
+│   │   │   ├── hdt1056_cell_p15_mesencult_dupMatrix.txt
+│   │   │   ├── hdt1056_cell_p18_dmem_dupMatrix.txt
+│   │   │   ├── hdt1056_cell_p18_mesencult_dupMatrix.txt
+│   │   │   ├── hdt1056_cell_p20_dmem_dupMatrix.txt
+│   │   │   ├── hdt1056_cell_p22_mesencult_dupMatrix.txt
+│   │   │   ├── hdt1119_cell_p22_dmem_dupMatrix.txt
+│   │   │   ├── hdt1119_cell_p22_mesencult_dupMatrix.txt
+│   │   │   ├── hdt1119_cell_p23_dmem_dupMatrix.txt
+│   │   │   ├── hdt1119_cell_p23_mesencult_dupMatrix.txt
+│   │   │   ├── hdt1119_cell_p27_dmem_dupMatrix.txt
+│   │   │   └── hdt1119_cell_p27_mesencult_dupMatrix.txt
+│   │   ├── histogram
+│   │   │   ├── hdt1056_cell_p15_dmem_expressionHist.pdf
+│   │   │   ├── hdt1056_cell_p15_mesencult_expressionHist.pdf
+│   │   │   ├── hdt1056_cell_p18_dmem_expressionHist.pdf
+│   │   │   ├── hdt1056_cell_p18_mesencult_expressionHist.pdf
+│   │   │   ├── hdt1056_cell_p20_dmem_expressionHist.pdf
+│   │   │   ├── hdt1056_cell_p22_mesencult_expressionHist.pdf
+│   │   │   ├── hdt1119_cell_p22_dmem_expressionHist.pdf
+│   │   │   ├── hdt1119_cell_p22_mesencult_expressionHist.pdf
+│   │   │   ├── hdt1119_cell_p23_dmem_expressionHist.pdf
+│   │   │   ├── hdt1119_cell_p23_mesencult_expressionHist.pdf
+│   │   │   ├── hdt1119_cell_p27_dmem_expressionHist.pdf
+│   │   │   └── hdt1119_cell_p27_mesencult_expressionHist.pdf
+│   │   ├── intercepts_slope
+│   │   │   ├── hdt1056_cell_p15_dmem_intercept_slope.txt
+│   │   │   ├── hdt1056_cell_p15_mesencult_intercept_slope.txt
+│   │   │   ├── hdt1056_cell_p18_dmem_intercept_slope.txt
+│   │   │   ├── hdt1056_cell_p18_mesencult_intercept_slope.txt
+│   │   │   ├── hdt1056_cell_p20_dmem_intercept_slope.txt
+│   │   │   ├── hdt1056_cell_p22_mesencult_intercept_slope.txt
+│   │   │   ├── hdt1119_cell_p22_dmem_intercept_slope.txt
+│   │   │   ├── hdt1119_cell_p22_mesencult_intercept_slope.txt
+│   │   │   ├── hdt1119_cell_p23_dmem_intercept_slope.txt
+│   │   │   ├── hdt1119_cell_p23_mesencult_intercept_slope.txt
+│   │   │   ├── hdt1119_cell_p27_dmem_intercept_slope.txt
+│   │   │   └── hdt1119_cell_p27_mesencult_intercept_slope.txt
+│   │   └── scatter_plot
+│   │       ├── hdt1056_cell_p15_dmem_duprateExpDens.pdf
+│   │       ├── hdt1056_cell_p15_mesencult_duprateExpDens.pdf
+│   │       ├── hdt1056_cell_p18_dmem_duprateExpDens.pdf
+│   │       ├── hdt1056_cell_p18_mesencult_duprateExpDens.pdf
+│   │       ├── hdt1056_cell_p20_dmem_duprateExpDens.pdf
+│   │       ├── hdt1056_cell_p22_mesencult_duprateExpDens.pdf
+│   │       ├── hdt1119_cell_p22_dmem_duprateExpDens.pdf
+│   │       ├── hdt1119_cell_p22_mesencult_duprateExpDens.pdf
+│   │       ├── hdt1119_cell_p23_dmem_duprateExpDens.pdf
+│   │       ├── hdt1119_cell_p23_mesencult_duprateExpDens.pdf
+│   │       ├── hdt1119_cell_p27_dmem_duprateExpDens.pdf
+│   │       └── hdt1119_cell_p27_mesencult_duprateExpDens.pdf
+│   ├── featurecounts
+│   │   ├── hdt1056_cell_p15_dmem.biotype_counts_mqc.tsv
+│   │   ├── hdt1056_cell_p15_dmem.biotype_counts_rrna_mqc.tsv
+│   │   ├── hdt1056_cell_p15_dmem.featureCounts.tsv
+│   │   ├── hdt1056_cell_p15_dmem.featureCounts.tsv.summary
+│   │   ├── hdt1056_cell_p15_mesencult.biotype_counts_mqc.tsv
+│   │   ├── hdt1056_cell_p15_mesencult.biotype_counts_rrna_mqc.tsv
+│   │   ├── hdt1056_cell_p15_mesencult.featureCounts.tsv
+│   │   ├── hdt1056_cell_p15_mesencult.featureCounts.tsv.summary
+│   │   ├── hdt1056_cell_p18_dmem.biotype_counts_mqc.tsv
+│   │   ├── hdt1056_cell_p18_dmem.biotype_counts_rrna_mqc.tsv
+│   │   ├── hdt1056_cell_p18_dmem.featureCounts.tsv
+│   │   ├── hdt1056_cell_p18_dmem.featureCounts.tsv.summary
+│   │   ├── hdt1056_cell_p18_mesencult.biotype_counts_mqc.tsv
+│   │   ├── hdt1056_cell_p18_mesencult.biotype_counts_rrna_mqc.tsv
+│   │   ├── hdt1056_cell_p18_mesencult.featureCounts.tsv
+│   │   ├── hdt1056_cell_p18_mesencult.featureCounts.tsv.summary
+│   │   ├── hdt1056_cell_p20_dmem.biotype_counts_mqc.tsv
+│   │   ├── hdt1056_cell_p20_dmem.biotype_counts_rrna_mqc.tsv
+│   │   ├── hdt1056_cell_p20_dmem.featureCounts.tsv
+│   │   ├── hdt1056_cell_p20_dmem.featureCounts.tsv.summary
+│   │   ├── hdt1056_cell_p22_mesencult.biotype_counts_mqc.tsv
+│   │   ├── hdt1056_cell_p22_mesencult.biotype_counts_rrna_mqc.tsv
+│   │   ├── hdt1056_cell_p22_mesencult.featureCounts.tsv
+│   │   ├── hdt1056_cell_p22_mesencult.featureCounts.tsv.summary
+│   │   ├── hdt1119_cell_p22_dmem.biotype_counts_mqc.tsv
+│   │   ├── hdt1119_cell_p22_dmem.biotype_counts_rrna_mqc.tsv
+│   │   ├── hdt1119_cell_p22_dmem.featureCounts.tsv
+│   │   ├── hdt1119_cell_p22_dmem.featureCounts.tsv.summary
+│   │   ├── hdt1119_cell_p22_mesencult.biotype_counts_mqc.tsv
+│   │   ├── hdt1119_cell_p22_mesencult.biotype_counts_rrna_mqc.tsv
+│   │   ├── hdt1119_cell_p22_mesencult.featureCounts.tsv
+│   │   ├── hdt1119_cell_p22_mesencult.featureCounts.tsv.summary
+│   │   ├── hdt1119_cell_p23_dmem.biotype_counts_mqc.tsv
+│   │   ├── hdt1119_cell_p23_dmem.biotype_counts_rrna_mqc.tsv
+│   │   ├── hdt1119_cell_p23_dmem.featureCounts.tsv
+│   │   ├── hdt1119_cell_p23_dmem.featureCounts.tsv.summary
+│   │   ├── hdt1119_cell_p23_mesencult.biotype_counts_mqc.tsv
+│   │   ├── hdt1119_cell_p23_mesencult.biotype_counts_rrna_mqc.tsv
+│   │   ├── hdt1119_cell_p23_mesencult.featureCounts.tsv
+│   │   ├── hdt1119_cell_p23_mesencult.featureCounts.tsv.summary
+│   │   ├── hdt1119_cell_p27_dmem.biotype_counts_mqc.tsv
+│   │   ├── hdt1119_cell_p27_dmem.biotype_counts_rrna_mqc.tsv
+│   │   ├── hdt1119_cell_p27_dmem.featureCounts.tsv
+│   │   ├── hdt1119_cell_p27_dmem.featureCounts.tsv.summary
+│   │   ├── hdt1119_cell_p27_mesencult.biotype_counts_mqc.tsv
+│   │   ├── hdt1119_cell_p27_mesencult.biotype_counts_rrna_mqc.tsv
+│   │   ├── hdt1119_cell_p27_mesencult.featureCounts.tsv
+│   │   └── hdt1119_cell_p27_mesencult.featureCounts.tsv.summary
+│   ├── hdt1056_cell_p15_dmem
+│   │   ├── aux_info
+│   │   │   ├── ambig_info.tsv
+│   │   │   ├── exp3_seq.gz
+│   │   │   ├── exp5_seq.gz
+│   │   │   ├── expected_bias.gz
+│   │   │   ├── exp_gc.gz
+│   │   │   ├── fld.gz
+│   │   │   ├── meta_info.json
+│   │   │   ├── obs3_seq.gz
+│   │   │   ├── obs5_seq.gz
+│   │   │   ├── observed_bias_3p.gz
+│   │   │   ├── observed_bias.gz
+│   │   │   └── obs_gc.gz
+│   │   ├── cmd_info.json
+│   │   ├── libParams
+│   │   │   └── flenDist.txt
+│   │   ├── logs
+│   │   │   └── salmon_quant.log
+│   │   ├── quant.genes.sf
+│   │   └── quant.sf
+│   ├── hdt1056_cell_p15_dmem.markdup.sorted.bam
+│   ├── hdt1056_cell_p15_dmem.markdup.sorted.bam.bai
+│   ├── hdt1056_cell_p15_mesencult
+│   │   ├── aux_info
+│   │   │   ├── ambig_info.tsv
+│   │   │   ├── exp3_seq.gz
+│   │   │   ├── exp5_seq.gz
+│   │   │   ├── expected_bias.gz
+│   │   │   ├── exp_gc.gz
+│   │   │   ├── fld.gz
+│   │   │   ├── meta_info.json
+│   │   │   ├── obs3_seq.gz
+│   │   │   ├── obs5_seq.gz
+│   │   │   ├── observed_bias_3p.gz
+│   │   │   ├── observed_bias.gz
+│   │   │   └── obs_gc.gz
+│   │   ├── cmd_info.json
+│   │   ├── libParams
+│   │   │   └── flenDist.txt
+│   │   ├── logs
+│   │   │   └── salmon_quant.log
+│   │   ├── quant.genes.sf
+│   │   └── quant.sf
+│   ├── hdt1056_cell_p15_mesencult.markdup.sorted.bam
+│   ├── hdt1056_cell_p15_mesencult.markdup.sorted.bam.bai
+│   ├── hdt1056_cell_p18_dmem
+│   │   ├── aux_info
+│   │   │   ├── ambig_info.tsv
+│   │   │   ├── exp3_seq.gz
+│   │   │   ├── exp5_seq.gz
+│   │   │   ├── expected_bias.gz
+│   │   │   ├── exp_gc.gz
+│   │   │   ├── fld.gz
+│   │   │   ├── meta_info.json
+│   │   │   ├── obs3_seq.gz
+│   │   │   ├── obs5_seq.gz
+│   │   │   ├── observed_bias_3p.gz
+│   │   │   ├── observed_bias.gz
+│   │   │   └── obs_gc.gz
+│   │   ├── cmd_info.json
+│   │   ├── libParams
+│   │   │   └── flenDist.txt
+│   │   ├── logs
+│   │   │   └── salmon_quant.log
+│   │   ├── quant.genes.sf
+│   │   └── quant.sf
+│   ├── hdt1056_cell_p18_dmem.markdup.sorted.bam
+│   ├── hdt1056_cell_p18_dmem.markdup.sorted.bam.bai
+│   ├── hdt1056_cell_p18_mesencult
+│   │   ├── aux_info
+│   │   │   ├── ambig_info.tsv
+│   │   │   ├── exp3_seq.gz
+│   │   │   ├── exp5_seq.gz
+│   │   │   ├── expected_bias.gz
+│   │   │   ├── exp_gc.gz
+│   │   │   ├── fld.gz
+│   │   │   ├── meta_info.json
+│   │   │   ├── obs3_seq.gz
+│   │   │   ├── obs5_seq.gz
+│   │   │   ├── observed_bias_3p.gz
+│   │   │   ├── observed_bias.gz
+│   │   │   └── obs_gc.gz
+│   │   ├── cmd_info.json
+│   │   ├── libParams
+│   │   │   └── flenDist.txt
+│   │   ├── logs
+│   │   │   └── salmon_quant.log
+│   │   ├── quant.genes.sf
+│   │   └── quant.sf
+│   ├── hdt1056_cell_p18_mesencult.markdup.sorted.bam
+│   ├── hdt1056_cell_p18_mesencult.markdup.sorted.bam.bai
+│   ├── hdt1056_cell_p20_dmem
+│   │   ├── aux_info
+│   │   │   ├── ambig_info.tsv
+│   │   │   ├── exp3_seq.gz
+│   │   │   ├── exp5_seq.gz
+│   │   │   ├── expected_bias.gz
+│   │   │   ├── exp_gc.gz
+│   │   │   ├── fld.gz
+│   │   │   ├── meta_info.json
+│   │   │   ├── obs3_seq.gz
+│   │   │   ├── obs5_seq.gz
+│   │   │   ├── observed_bias_3p.gz
+│   │   │   ├── observed_bias.gz
+│   │   │   └── obs_gc.gz
+│   │   ├── cmd_info.json
+│   │   ├── libParams
+│   │   │   └── flenDist.txt
+│   │   ├── logs
+│   │   │   └── salmon_quant.log
+│   │   ├── quant.genes.sf
+│   │   └── quant.sf
+│   ├── hdt1056_cell_p20_dmem.markdup.sorted.bam
+│   ├── hdt1056_cell_p20_dmem.markdup.sorted.bam.bai
+│   ├── hdt1056_cell_p22_mesencult
+│   │   ├── aux_info
+│   │   │   ├── ambig_info.tsv
+│   │   │   ├── exp3_seq.gz
+│   │   │   ├── exp5_seq.gz
+│   │   │   ├── expected_bias.gz
+│   │   │   ├── exp_gc.gz
+│   │   │   ├── fld.gz
+│   │   │   ├── meta_info.json
+│   │   │   ├── obs3_seq.gz
+│   │   │   ├── obs5_seq.gz
+│   │   │   ├── observed_bias_3p.gz
+│   │   │   ├── observed_bias.gz
+│   │   │   └── obs_gc.gz
+│   │   ├── cmd_info.json
+│   │   ├── libParams
+│   │   │   └── flenDist.txt
+│   │   ├── logs
+│   │   │   └── salmon_quant.log
+│   │   ├── quant.genes.sf
+│   │   └── quant.sf
+│   ├── hdt1056_cell_p22_mesencult.markdup.sorted.bam
+│   ├── hdt1056_cell_p22_mesencult.markdup.sorted.bam.bai
+│   ├── hdt1119_cell_p22_dmem
+│   │   ├── aux_info
+│   │   │   ├── ambig_info.tsv
+│   │   │   ├── exp3_seq.gz
+│   │   │   ├── exp5_seq.gz
+│   │   │   ├── expected_bias.gz
+│   │   │   ├── exp_gc.gz
+│   │   │   ├── fld.gz
+│   │   │   ├── meta_info.json
+│   │   │   ├── obs3_seq.gz
+│   │   │   ├── obs5_seq.gz
+│   │   │   ├── observed_bias_3p.gz
+│   │   │   ├── observed_bias.gz
+│   │   │   └── obs_gc.gz
+│   │   ├── cmd_info.json
+│   │   ├── libParams
+│   │   │   └── flenDist.txt
+│   │   ├── logs
+│   │   │   └── salmon_quant.log
+│   │   ├── quant.genes.sf
+│   │   └── quant.sf
+│   ├── hdt1119_cell_p22_dmem.markdup.sorted.bam
+│   ├── hdt1119_cell_p22_dmem.markdup.sorted.bam.bai
+│   ├── hdt1119_cell_p22_mesencult
+│   │   ├── aux_info
+│   │   │   ├── ambig_info.tsv
+│   │   │   ├── exp3_seq.gz
+│   │   │   ├── exp5_seq.gz
+│   │   │   ├── expected_bias.gz
+│   │   │   ├── exp_gc.gz
+│   │   │   ├── fld.gz
+│   │   │   ├── meta_info.json
+│   │   │   ├── obs3_seq.gz
+│   │   │   ├── obs5_seq.gz
+│   │   │   ├── observed_bias_3p.gz
+│   │   │   ├── observed_bias.gz
+│   │   │   └── obs_gc.gz
+│   │   ├── cmd_info.json
+│   │   ├── libParams
+│   │   │   └── flenDist.txt
+│   │   ├── logs
+│   │   │   └── salmon_quant.log
+│   │   ├── quant.genes.sf
+│   │   └── quant.sf
+│   ├── hdt1119_cell_p22_mesencult.markdup.sorted.bam
+│   ├── hdt1119_cell_p22_mesencult.markdup.sorted.bam.bai
+│   ├── hdt1119_cell_p23_dmem
+│   │   ├── aux_info
+│   │   │   ├── ambig_info.tsv
+│   │   │   ├── exp3_seq.gz
+│   │   │   ├── exp5_seq.gz
+│   │   │   ├── expected_bias.gz
+│   │   │   ├── exp_gc.gz
+│   │   │   ├── fld.gz
+│   │   │   ├── meta_info.json
+│   │   │   ├── obs3_seq.gz
+│   │   │   ├── obs5_seq.gz
+│   │   │   ├── observed_bias_3p.gz
+│   │   │   ├── observed_bias.gz
+│   │   │   └── obs_gc.gz
+│   │   ├── cmd_info.json
+│   │   ├── libParams
+│   │   │   └── flenDist.txt
+│   │   ├── logs
+│   │   │   └── salmon_quant.log
+│   │   ├── quant.genes.sf
+│   │   └── quant.sf
+│   ├── hdt1119_cell_p23_dmem.markdup.sorted.bam
+│   ├── hdt1119_cell_p23_dmem.markdup.sorted.bam.bai
+│   ├── hdt1119_cell_p23_mesencult
+│   │   ├── aux_info
+│   │   │   ├── ambig_info.tsv
+│   │   │   ├── exp3_seq.gz
+│   │   │   ├── exp5_seq.gz
+│   │   │   ├── expected_bias.gz
+│   │   │   ├── exp_gc.gz
+│   │   │   ├── fld.gz
+│   │   │   ├── meta_info.json
+│   │   │   ├── obs3_seq.gz
+│   │   │   ├── obs5_seq.gz
+│   │   │   ├── observed_bias_3p.gz
+│   │   │   ├── observed_bias.gz
+│   │   │   └── obs_gc.gz
+│   │   ├── cmd_info.json
+│   │   ├── libParams
+│   │   │   └── flenDist.txt
+│   │   ├── logs
+│   │   │   └── salmon_quant.log
+│   │   ├── quant.genes.sf
+│   │   └── quant.sf
+│   ├── hdt1119_cell_p23_mesencult.markdup.sorted.bam
+│   ├── hdt1119_cell_p23_mesencult.markdup.sorted.bam.bai
+│   ├── hdt1119_cell_p27_dmem
+│   │   ├── aux_info
+│   │   │   ├── ambig_info.tsv
+│   │   │   ├── exp3_seq.gz
+│   │   │   ├── exp5_seq.gz
+│   │   │   ├── expected_bias.gz
+│   │   │   ├── exp_gc.gz
+│   │   │   ├── fld.gz
+│   │   │   ├── meta_info.json
+│   │   │   ├── obs3_seq.gz
+│   │   │   ├── obs5_seq.gz
+│   │   │   ├── observed_bias_3p.gz
+│   │   │   ├── observed_bias.gz
+│   │   │   └── obs_gc.gz
+│   │   ├── cmd_info.json
+│   │   ├── libParams
+│   │   │   └── flenDist.txt
+│   │   ├── logs
+│   │   │   └── salmon_quant.log
+│   │   ├── quant.genes.sf
+│   │   └── quant.sf
+│   ├── hdt1119_cell_p27_dmem.markdup.sorted.bam
+│   ├── hdt1119_cell_p27_dmem.markdup.sorted.bam.bai
+│   ├── hdt1119_cell_p27_mesencult
+│   │   ├── aux_info
+│   │   │   ├── ambig_info.tsv
+│   │   │   ├── exp3_seq.gz
+│   │   │   ├── exp5_seq.gz
+│   │   │   ├── expected_bias.gz
+│   │   │   ├── exp_gc.gz
+│   │   │   ├── fld.gz
+│   │   │   ├── meta_info.json
+│   │   │   ├── obs3_seq.gz
+│   │   │   ├── obs5_seq.gz
+│   │   │   ├── observed_bias_3p.gz
+│   │   │   ├── observed_bias.gz
+│   │   │   └── obs_gc.gz
+│   │   ├── cmd_info.json
+│   │   ├── libParams
+│   │   │   └── flenDist.txt
+│   │   ├── logs
+│   │   │   └── salmon_quant.log
+│   │   ├── quant.genes.sf
+│   │   └── quant.sf
+│   ├── hdt1119_cell_p27_mesencult.markdup.sorted.bam
+│   ├── hdt1119_cell_p27_mesencult.markdup.sorted.bam.bai
+│   ├── log
+│   │   ├── hdt1056_cell_p15_dmem.Log.final.out
+│   │   ├── hdt1056_cell_p15_dmem.Log.out
+│   │   ├── hdt1056_cell_p15_dmem.Log.progress.out
+│   │   ├── hdt1056_cell_p15_dmem.SJ.out.tab
+│   │   ├── hdt1056_cell_p15_mesencult.Log.final.out
+│   │   ├── hdt1056_cell_p15_mesencult.Log.out
+│   │   ├── hdt1056_cell_p15_mesencult.Log.progress.out
+│   │   ├── hdt1056_cell_p15_mesencult.SJ.out.tab
+│   │   ├── hdt1056_cell_p18_dmem.Log.final.out
+│   │   ├── hdt1056_cell_p18_dmem.Log.out
+│   │   ├── hdt1056_cell_p18_dmem.Log.progress.out
+│   │   ├── hdt1056_cell_p18_dmem.SJ.out.tab
+│   │   ├── hdt1056_cell_p18_mesencult.Log.final.out
+│   │   ├── hdt1056_cell_p18_mesencult.Log.out
+│   │   ├── hdt1056_cell_p18_mesencult.Log.progress.out
+│   │   ├── hdt1056_cell_p18_mesencult.SJ.out.tab
+│   │   ├── hdt1056_cell_p20_dmem.Log.final.out
+│   │   ├── hdt1056_cell_p20_dmem.Log.out
+│   │   ├── hdt1056_cell_p20_dmem.Log.progress.out
+│   │   ├── hdt1056_cell_p20_dmem.SJ.out.tab
+│   │   ├── hdt1056_cell_p22_mesencult.Log.final.out
+│   │   ├── hdt1056_cell_p22_mesencult.Log.out
+│   │   ├── hdt1056_cell_p22_mesencult.Log.progress.out
+│   │   ├── hdt1056_cell_p22_mesencult.SJ.out.tab
+│   │   ├── hdt1119_cell_p22_dmem.Log.final.out
+│   │   ├── hdt1119_cell_p22_dmem.Log.out
+│   │   ├── hdt1119_cell_p22_dmem.Log.progress.out
+│   │   ├── hdt1119_cell_p22_dmem.SJ.out.tab
+│   │   ├── hdt1119_cell_p22_mesencult.Log.final.out
+│   │   ├── hdt1119_cell_p22_mesencult.Log.out
+│   │   ├── hdt1119_cell_p22_mesencult.Log.progress.out
+│   │   ├── hdt1119_cell_p22_mesencult.SJ.out.tab
+│   │   ├── hdt1119_cell_p23_dmem.Log.final.out
+│   │   ├── hdt1119_cell_p23_dmem.Log.out
+│   │   ├── hdt1119_cell_p23_dmem.Log.progress.out
+│   │   ├── hdt1119_cell_p23_dmem.SJ.out.tab
+│   │   ├── hdt1119_cell_p23_mesencult.Log.final.out
+│   │   ├── hdt1119_cell_p23_mesencult.Log.out
+│   │   ├── hdt1119_cell_p23_mesencult.Log.progress.out
+│   │   ├── hdt1119_cell_p23_mesencult.SJ.out.tab
+│   │   ├── hdt1119_cell_p27_dmem.Log.final.out
+│   │   ├── hdt1119_cell_p27_dmem.Log.out
+│   │   ├── hdt1119_cell_p27_dmem.Log.progress.out
+│   │   ├── hdt1119_cell_p27_dmem.SJ.out.tab
+│   │   ├── hdt1119_cell_p27_mesencult.Log.final.out
+│   │   ├── hdt1119_cell_p27_mesencult.Log.out
+│   │   ├── hdt1119_cell_p27_mesencult.Log.progress.out
+│   │   └── hdt1119_cell_p27_mesencult.SJ.out.tab
+│   ├── null.merged.gene.SummarizedExperiment.rds
+│   ├── null.merged.transcript.SummarizedExperiment.rds
+│   ├── picard_metrics
+│   │   ├── hdt1056_cell_p15_dmem.markdup.sorted.MarkDuplicates.metrics.txt
+│   │   ├── hdt1056_cell_p15_mesencult.markdup.sorted.MarkDuplicates.metrics.txt
+│   │   ├── hdt1056_cell_p18_dmem.markdup.sorted.MarkDuplicates.metrics.txt
+│   │   ├── hdt1056_cell_p18_mesencult.markdup.sorted.MarkDuplicates.metrics.txt
+│   │   ├── hdt1056_cell_p20_dmem.markdup.sorted.MarkDuplicates.metrics.txt
+│   │   ├── hdt1056_cell_p22_mesencult.markdup.sorted.MarkDuplicates.metrics.txt
+│   │   ├── hdt1119_cell_p22_dmem.markdup.sorted.MarkDuplicates.metrics.txt
+│   │   ├── hdt1119_cell_p22_mesencult.markdup.sorted.MarkDuplicates.metrics.txt
+│   │   ├── hdt1119_cell_p23_dmem.markdup.sorted.MarkDuplicates.metrics.txt
+│   │   ├── hdt1119_cell_p23_mesencult.markdup.sorted.MarkDuplicates.metrics.txt
+│   │   ├── hdt1119_cell_p27_dmem.markdup.sorted.MarkDuplicates.metrics.txt
+│   │   └── hdt1119_cell_p27_mesencult.markdup.sorted.MarkDuplicates.metrics.txt
+│   ├── qualimap
+│   │   ├── hdt1056_cell_p15_dmem
+│   │   │   ├── css
+│   │   │   │   ├── agogo.css
+│   │   │   │   ├── ajax-loader.gif
+│   │   │   │   ├── basic.css
+│   │   │   │   ├── bgfooter.png
+│   │   │   │   ├── bgtop.png
+│   │   │   │   ├── comment-bright.png
+│   │   │   │   ├── comment-close.png
+│   │   │   │   ├── comment.png
+│   │   │   │   ├── doctools.js
+│   │   │   │   ├── down.png
+│   │   │   │   ├── down-pressed.png
+│   │   │   │   ├── file.png
+│   │   │   │   ├── jquery.js
+│   │   │   │   ├── minus.png
+│   │   │   │   ├── plus.png
+│   │   │   │   ├── pygments.css
+│   │   │   │   ├── qualimap_logo_small.png
+│   │   │   │   ├── report.css
+│   │   │   │   ├── searchtools.js
+│   │   │   │   ├── underscore.js
+│   │   │   │   ├── up.png
+│   │   │   │   ├── up-pressed.png
+│   │   │   │   └── websupport.js
+│   │   │   ├── images_qualimapReport
+│   │   │   │   ├── Coverage Profile Along Genes (High).png
+│   │   │   │   ├── Coverage Profile Along Genes (Low).png
+│   │   │   │   ├── Coverage Profile Along Genes (Total).png
+│   │   │   │   ├── Junction Analysis.png
+│   │   │   │   ├── Reads Genomic Origin.png
+│   │   │   │   └── Transcript coverage histogram.png
+│   │   │   ├── qualimapReport.html
+│   │   │   ├── raw_data_qualimapReport
+│   │   │   │   ├── coverage_profile_along_genes_(high).txt
+│   │   │   │   ├── coverage_profile_along_genes_(low).txt
+│   │   │   │   └── coverage_profile_along_genes_(total).txt
+│   │   │   └── rnaseq_qc_results.txt
+│   │   ├── hdt1056_cell_p15_mesencult
+│   │   │   ├── css
+│   │   │   │   ├── agogo.css
+│   │   │   │   ├── ajax-loader.gif
+│   │   │   │   ├── basic.css
+│   │   │   │   ├── bgfooter.png
+│   │   │   │   ├── bgtop.png
+│   │   │   │   ├── comment-bright.png
+│   │   │   │   ├── comment-close.png
+│   │   │   │   ├── comment.png
+│   │   │   │   ├── doctools.js
+│   │   │   │   ├── down.png
+│   │   │   │   ├── down-pressed.png
+│   │   │   │   ├── file.png
+│   │   │   │   ├── jquery.js
+│   │   │   │   ├── minus.png
+│   │   │   │   ├── plus.png
+│   │   │   │   ├── pygments.css
+│   │   │   │   ├── qualimap_logo_small.png
+│   │   │   │   ├── report.css
+│   │   │   │   ├── searchtools.js
+│   │   │   │   ├── underscore.js
+│   │   │   │   ├── up.png
+│   │   │   │   ├── up-pressed.png
+│   │   │   │   └── websupport.js
+│   │   │   ├── images_qualimapReport
+│   │   │   │   ├── Coverage Profile Along Genes (High).png
+│   │   │   │   ├── Coverage Profile Along Genes (Low).png
+│   │   │   │   ├── Coverage Profile Along Genes (Total).png
+│   │   │   │   ├── Junction Analysis.png
+│   │   │   │   ├── Reads Genomic Origin.png
+│   │   │   │   └── Transcript coverage histogram.png
+│   │   │   ├── qualimapReport.html
+│   │   │   ├── raw_data_qualimapReport
+│   │   │   │   ├── coverage_profile_along_genes_(high).txt
+│   │   │   │   ├── coverage_profile_along_genes_(low).txt
+│   │   │   │   └── coverage_profile_along_genes_(total).txt
+│   │   │   └── rnaseq_qc_results.txt
+│   │   ├── hdt1056_cell_p18_dmem
+│   │   │   ├── css
+│   │   │   │   ├── agogo.css
+│   │   │   │   ├── ajax-loader.gif
+│   │   │   │   ├── basic.css
+│   │   │   │   ├── bgfooter.png
+│   │   │   │   ├── bgtop.png
+│   │   │   │   ├── comment-bright.png
+│   │   │   │   ├── comment-close.png
+│   │   │   │   ├── comment.png
+│   │   │   │   ├── doctools.js
+│   │   │   │   ├── down.png
+│   │   │   │   ├── down-pressed.png
+│   │   │   │   ├── file.png
+│   │   │   │   ├── jquery.js
+│   │   │   │   ├── minus.png
+│   │   │   │   ├── plus.png
+│   │   │   │   ├── pygments.css
+│   │   │   │   ├── qualimap_logo_small.png
+│   │   │   │   ├── report.css
+│   │   │   │   ├── searchtools.js
+│   │   │   │   ├── underscore.js
+│   │   │   │   ├── up.png
+│   │   │   │   ├── up-pressed.png
+│   │   │   │   └── websupport.js
+│   │   │   ├── images_qualimapReport
+│   │   │   │   ├── Coverage Profile Along Genes (High).png
+│   │   │   │   ├── Coverage Profile Along Genes (Low).png
+│   │   │   │   ├── Coverage Profile Along Genes (Total).png
+│   │   │   │   ├── Junction Analysis.png
+│   │   │   │   ├── Reads Genomic Origin.png
+│   │   │   │   └── Transcript coverage histogram.png
+│   │   │   ├── qualimapReport.html
+│   │   │   ├── raw_data_qualimapReport
+│   │   │   │   ├── coverage_profile_along_genes_(high).txt
+│   │   │   │   ├── coverage_profile_along_genes_(low).txt
+│   │   │   │   └── coverage_profile_along_genes_(total).txt
+│   │   │   └── rnaseq_qc_results.txt
+│   │   ├── hdt1056_cell_p18_mesencult
+│   │   │   ├── css
+│   │   │   │   ├── agogo.css
+│   │   │   │   ├── ajax-loader.gif
+│   │   │   │   ├── basic.css
+│   │   │   │   ├── bgfooter.png
+│   │   │   │   ├── bgtop.png
+│   │   │   │   ├── comment-bright.png
+│   │   │   │   ├── comment-close.png
+│   │   │   │   ├── comment.png
+│   │   │   │   ├── doctools.js
+│   │   │   │   ├── down.png
+│   │   │   │   ├── down-pressed.png
+│   │   │   │   ├── file.png
+│   │   │   │   ├── jquery.js
+│   │   │   │   ├── minus.png
+│   │   │   │   ├── plus.png
+│   │   │   │   ├── pygments.css
+│   │   │   │   ├── qualimap_logo_small.png
+│   │   │   │   ├── report.css
+│   │   │   │   ├── searchtools.js
+│   │   │   │   ├── underscore.js
+│   │   │   │   ├── up.png
+│   │   │   │   ├── up-pressed.png
+│   │   │   │   └── websupport.js
+│   │   │   ├── images_qualimapReport
+│   │   │   │   ├── Coverage Profile Along Genes (High).png
+│   │   │   │   ├── Coverage Profile Along Genes (Low).png
+│   │   │   │   ├── Coverage Profile Along Genes (Total).png
+│   │   │   │   ├── Junction Analysis.png
+│   │   │   │   ├── Reads Genomic Origin.png
+│   │   │   │   └── Transcript coverage histogram.png
+│   │   │   ├── qualimapReport.html
+│   │   │   ├── raw_data_qualimapReport
+│   │   │   │   ├── coverage_profile_along_genes_(high).txt
+│   │   │   │   ├── coverage_profile_along_genes_(low).txt
+│   │   │   │   └── coverage_profile_along_genes_(total).txt
+│   │   │   └── rnaseq_qc_results.txt
+│   │   ├── hdt1056_cell_p20_dmem
+│   │   │   ├── css
+│   │   │   │   ├── agogo.css
+│   │   │   │   ├── ajax-loader.gif
+│   │   │   │   ├── basic.css
+│   │   │   │   ├── bgfooter.png
+│   │   │   │   ├── bgtop.png
+│   │   │   │   ├── comment-bright.png
+│   │   │   │   ├── comment-close.png
+│   │   │   │   ├── comment.png
+│   │   │   │   ├── doctools.js
+│   │   │   │   ├── down.png
+│   │   │   │   ├── down-pressed.png
+│   │   │   │   ├── file.png
+│   │   │   │   ├── jquery.js
+│   │   │   │   ├── minus.png
+│   │   │   │   ├── plus.png
+│   │   │   │   ├── pygments.css
+│   │   │   │   ├── qualimap_logo_small.png
+│   │   │   │   ├── report.css
+│   │   │   │   ├── searchtools.js
+│   │   │   │   ├── underscore.js
+│   │   │   │   ├── up.png
+│   │   │   │   ├── up-pressed.png
+│   │   │   │   └── websupport.js
+│   │   │   ├── images_qualimapReport
+│   │   │   │   ├── Coverage Profile Along Genes (High).png
+│   │   │   │   ├── Coverage Profile Along Genes (Low).png
+│   │   │   │   ├── Coverage Profile Along Genes (Total).png
+│   │   │   │   ├── Junction Analysis.png
+│   │   │   │   ├── Reads Genomic Origin.png
+│   │   │   │   └── Transcript coverage histogram.png
+│   │   │   ├── qualimapReport.html
+│   │   │   ├── raw_data_qualimapReport
+│   │   │   │   ├── coverage_profile_along_genes_(high).txt
+│   │   │   │   ├── coverage_profile_along_genes_(low).txt
+│   │   │   │   └── coverage_profile_along_genes_(total).txt
+│   │   │   └── rnaseq_qc_results.txt
+│   │   ├── hdt1056_cell_p22_mesencult
+│   │   │   ├── css
+│   │   │   │   ├── agogo.css
+│   │   │   │   ├── ajax-loader.gif
+│   │   │   │   ├── basic.css
+│   │   │   │   ├── bgfooter.png
+│   │   │   │   ├── bgtop.png
+│   │   │   │   ├── comment-bright.png
+│   │   │   │   ├── comment-close.png
+│   │   │   │   ├── comment.png
+│   │   │   │   ├── doctools.js
+│   │   │   │   ├── down.png
+│   │   │   │   ├── down-pressed.png
+│   │   │   │   ├── file.png
+│   │   │   │   ├── jquery.js
+│   │   │   │   ├── minus.png
+│   │   │   │   ├── plus.png
+│   │   │   │   ├── pygments.css
+│   │   │   │   ├── qualimap_logo_small.png
+│   │   │   │   ├── report.css
+│   │   │   │   ├── searchtools.js
+│   │   │   │   ├── underscore.js
+│   │   │   │   ├── up.png
+│   │   │   │   ├── up-pressed.png
+│   │   │   │   └── websupport.js
+│   │   │   ├── images_qualimapReport
+│   │   │   │   ├── Coverage Profile Along Genes (High).png
+│   │   │   │   ├── Coverage Profile Along Genes (Low).png
+│   │   │   │   ├── Coverage Profile Along Genes (Total).png
+│   │   │   │   ├── Junction Analysis.png
+│   │   │   │   ├── Reads Genomic Origin.png
+│   │   │   │   └── Transcript coverage histogram.png
+│   │   │   ├── qualimapReport.html
+│   │   │   ├── raw_data_qualimapReport
+│   │   │   │   ├── coverage_profile_along_genes_(high).txt
+│   │   │   │   ├── coverage_profile_along_genes_(low).txt
+│   │   │   │   └── coverage_profile_along_genes_(total).txt
+│   │   │   └── rnaseq_qc_results.txt
+│   │   ├── hdt1119_cell_p22_dmem
+│   │   │   ├── css
+│   │   │   │   ├── agogo.css
+│   │   │   │   ├── ajax-loader.gif
+│   │   │   │   ├── basic.css
+│   │   │   │   ├── bgfooter.png
+│   │   │   │   ├── bgtop.png
+│   │   │   │   ├── comment-bright.png
+│   │   │   │   ├── comment-close.png
+│   │   │   │   ├── comment.png
+│   │   │   │   ├── doctools.js
+│   │   │   │   ├── down.png
+│   │   │   │   ├── down-pressed.png
+│   │   │   │   ├── file.png
+│   │   │   │   ├── jquery.js
+│   │   │   │   ├── minus.png
+│   │   │   │   ├── plus.png
+│   │   │   │   ├── pygments.css
+│   │   │   │   ├── qualimap_logo_small.png
+│   │   │   │   ├── report.css
+│   │   │   │   ├── searchtools.js
+│   │   │   │   ├── underscore.js
+│   │   │   │   ├── up.png
+│   │   │   │   ├── up-pressed.png
+│   │   │   │   └── websupport.js
+│   │   │   ├── images_qualimapReport
+│   │   │   │   ├── Coverage Profile Along Genes (High).png
+│   │   │   │   ├── Coverage Profile Along Genes (Low).png
+│   │   │   │   ├── Coverage Profile Along Genes (Total).png
+│   │   │   │   ├── Junction Analysis.png
+│   │   │   │   ├── Reads Genomic Origin.png
+│   │   │   │   └── Transcript coverage histogram.png
+│   │   │   ├── qualimapReport.html
+│   │   │   ├── raw_data_qualimapReport
+│   │   │   │   ├── coverage_profile_along_genes_(high).txt
+│   │   │   │   ├── coverage_profile_along_genes_(low).txt
+│   │   │   │   └── coverage_profile_along_genes_(total).txt
+│   │   │   └── rnaseq_qc_results.txt
+│   │   ├── hdt1119_cell_p22_mesencult
+│   │   │   ├── css
+│   │   │   │   ├── agogo.css
+│   │   │   │   ├── ajax-loader.gif
+│   │   │   │   ├── basic.css
+│   │   │   │   ├── bgfooter.png
+│   │   │   │   ├── bgtop.png
+│   │   │   │   ├── comment-bright.png
+│   │   │   │   ├── comment-close.png
+│   │   │   │   ├── comment.png
+│   │   │   │   ├── doctools.js
+│   │   │   │   ├── down.png
+│   │   │   │   ├── down-pressed.png
+│   │   │   │   ├── file.png
+│   │   │   │   ├── jquery.js
+│   │   │   │   ├── minus.png
+│   │   │   │   ├── plus.png
+│   │   │   │   ├── pygments.css
+│   │   │   │   ├── qualimap_logo_small.png
+│   │   │   │   ├── report.css
+│   │   │   │   ├── searchtools.js
+│   │   │   │   ├── underscore.js
+│   │   │   │   ├── up.png
+│   │   │   │   ├── up-pressed.png
+│   │   │   │   └── websupport.js
+│   │   │   ├── images_qualimapReport
+│   │   │   │   ├── Coverage Profile Along Genes (High).png
+│   │   │   │   ├── Coverage Profile Along Genes (Low).png
+│   │   │   │   ├── Coverage Profile Along Genes (Total).png
+│   │   │   │   ├── Junction Analysis.png
+│   │   │   │   ├── Reads Genomic Origin.png
+│   │   │   │   └── Transcript coverage histogram.png
+│   │   │   ├── qualimapReport.html
+│   │   │   ├── raw_data_qualimapReport
+│   │   │   │   ├── coverage_profile_along_genes_(high).txt
+│   │   │   │   ├── coverage_profile_along_genes_(low).txt
+│   │   │   │   └── coverage_profile_along_genes_(total).txt
+│   │   │   └── rnaseq_qc_results.txt
+│   │   ├── hdt1119_cell_p23_dmem
+│   │   │   ├── css
+│   │   │   │   ├── agogo.css
+│   │   │   │   ├── ajax-loader.gif
+│   │   │   │   ├── basic.css
+│   │   │   │   ├── bgfooter.png
+│   │   │   │   ├── bgtop.png
+│   │   │   │   ├── comment-bright.png
+│   │   │   │   ├── comment-close.png
+│   │   │   │   ├── comment.png
+│   │   │   │   ├── doctools.js
+│   │   │   │   ├── down.png
+│   │   │   │   ├── down-pressed.png
+│   │   │   │   ├── file.png
+│   │   │   │   ├── jquery.js
+│   │   │   │   ├── minus.png
+│   │   │   │   ├── plus.png
+│   │   │   │   ├── pygments.css
+│   │   │   │   ├── qualimap_logo_small.png
+│   │   │   │   ├── report.css
+│   │   │   │   ├── searchtools.js
+│   │   │   │   ├── underscore.js
+│   │   │   │   ├── up.png
+│   │   │   │   ├── up-pressed.png
+│   │   │   │   └── websupport.js
+│   │   │   ├── images_qualimapReport
+│   │   │   │   ├── Coverage Profile Along Genes (High).png
+│   │   │   │   ├── Coverage Profile Along Genes (Low).png
+│   │   │   │   ├── Coverage Profile Along Genes (Total).png
+│   │   │   │   ├── Junction Analysis.png
+│   │   │   │   ├── Reads Genomic Origin.png
+│   │   │   │   └── Transcript coverage histogram.png
+│   │   │   ├── qualimapReport.html
+│   │   │   ├── raw_data_qualimapReport
+│   │   │   │   ├── coverage_profile_along_genes_(high).txt
+│   │   │   │   ├── coverage_profile_along_genes_(low).txt
+│   │   │   │   └── coverage_profile_along_genes_(total).txt
+│   │   │   └── rnaseq_qc_results.txt
+│   │   ├── hdt1119_cell_p23_mesencult
+│   │   │   ├── css
+│   │   │   │   ├── agogo.css
+│   │   │   │   ├── ajax-loader.gif
+│   │   │   │   ├── basic.css
+│   │   │   │   ├── bgfooter.png
+│   │   │   │   ├── bgtop.png
+│   │   │   │   ├── comment-bright.png
+│   │   │   │   ├── comment-close.png
+│   │   │   │   ├── comment.png
+│   │   │   │   ├── doctools.js
+│   │   │   │   ├── down.png
+│   │   │   │   ├── down-pressed.png
+│   │   │   │   ├── file.png
+│   │   │   │   ├── jquery.js
+│   │   │   │   ├── minus.png
+│   │   │   │   ├── plus.png
+│   │   │   │   ├── pygments.css
+│   │   │   │   ├── qualimap_logo_small.png
+│   │   │   │   ├── report.css
+│   │   │   │   ├── searchtools.js
+│   │   │   │   ├── underscore.js
+│   │   │   │   ├── up.png
+│   │   │   │   ├── up-pressed.png
+│   │   │   │   └── websupport.js
+│   │   │   ├── images_qualimapReport
+│   │   │   │   ├── Coverage Profile Along Genes (High).png
+│   │   │   │   ├── Coverage Profile Along Genes (Low).png
+│   │   │   │   ├── Coverage Profile Along Genes (Total).png
+│   │   │   │   ├── Junction Analysis.png
+│   │   │   │   ├── Reads Genomic Origin.png
+│   │   │   │   └── Transcript coverage histogram.png
+│   │   │   ├── qualimapReport.html
+│   │   │   ├── raw_data_qualimapReport
+│   │   │   │   ├── coverage_profile_along_genes_(high).txt
+│   │   │   │   ├── coverage_profile_along_genes_(low).txt
+│   │   │   │   └── coverage_profile_along_genes_(total).txt
+│   │   │   └── rnaseq_qc_results.txt
+│   │   ├── hdt1119_cell_p27_dmem
+│   │   │   ├── css
+│   │   │   │   ├── agogo.css
+│   │   │   │   ├── ajax-loader.gif
+│   │   │   │   ├── basic.css
+│   │   │   │   ├── bgfooter.png
+│   │   │   │   ├── bgtop.png
+│   │   │   │   ├── comment-bright.png
+│   │   │   │   ├── comment-close.png
+│   │   │   │   ├── comment.png
+│   │   │   │   ├── doctools.js
+│   │   │   │   ├── down.png
+│   │   │   │   ├── down-pressed.png
+│   │   │   │   ├── file.png
+│   │   │   │   ├── jquery.js
+│   │   │   │   ├── minus.png
+│   │   │   │   ├── plus.png
+│   │   │   │   ├── pygments.css
+│   │   │   │   ├── qualimap_logo_small.png
+│   │   │   │   ├── report.css
+│   │   │   │   ├── searchtools.js
+│   │   │   │   ├── underscore.js
+│   │   │   │   ├── up.png
+│   │   │   │   ├── up-pressed.png
+│   │   │   │   └── websupport.js
+│   │   │   ├── images_qualimapReport
+│   │   │   │   ├── Coverage Profile Along Genes (High).png
+│   │   │   │   ├── Coverage Profile Along Genes (Low).png
+│   │   │   │   ├── Coverage Profile Along Genes (Total).png
+│   │   │   │   ├── Junction Analysis.png
+│   │   │   │   ├── Reads Genomic Origin.png
+│   │   │   │   └── Transcript coverage histogram.png
+│   │   │   ├── qualimapReport.html
+│   │   │   ├── raw_data_qualimapReport
+│   │   │   │   ├── coverage_profile_along_genes_(high).txt
+│   │   │   │   ├── coverage_profile_along_genes_(low).txt
+│   │   │   │   └── coverage_profile_along_genes_(total).txt
+│   │   │   └── rnaseq_qc_results.txt
+│   │   └── hdt1119_cell_p27_mesencult
+│   │       ├── css
+│   │       │   ├── agogo.css
+│   │       │   ├── ajax-loader.gif
+│   │       │   ├── basic.css
+│   │       │   ├── bgfooter.png
+│   │       │   ├── bgtop.png
+│   │       │   ├── comment-bright.png
+│   │       │   ├── comment-close.png
+│   │       │   ├── comment.png
+│   │       │   ├── doctools.js
+│   │       │   ├── down.png
+│   │       │   ├── down-pressed.png
+│   │       │   ├── file.png
+│   │       │   ├── jquery.js
+│   │       │   ├── minus.png
+│   │       │   ├── plus.png
+│   │       │   ├── pygments.css
+│   │       │   ├── qualimap_logo_small.png
+│   │       │   ├── report.css
+│   │       │   ├── searchtools.js
+│   │       │   ├── underscore.js
+│   │       │   ├── up.png
+│   │       │   ├── up-pressed.png
+│   │       │   └── websupport.js
+│   │       ├── images_qualimapReport
+│   │       │   ├── Coverage Profile Along Genes (High).png
+│   │       │   ├── Coverage Profile Along Genes (Low).png
+│   │       │   ├── Coverage Profile Along Genes (Total).png
+│   │       │   ├── Junction Analysis.png
+│   │       │   ├── Reads Genomic Origin.png
+│   │       │   └── Transcript coverage histogram.png
+│   │       ├── qualimapReport.html
+│   │       ├── raw_data_qualimapReport
+│   │       │   ├── coverage_profile_along_genes_(high).txt
+│   │       │   ├── coverage_profile_along_genes_(low).txt
+│   │       │   └── coverage_profile_along_genes_(total).txt
+│   │       └── rnaseq_qc_results.txt
+│   ├── rseqc
+│   │   ├── bam_stat
+│   │   │   ├── hdt1056_cell_p15_dmem.bam_stat.txt
+│   │   │   ├── hdt1056_cell_p15_mesencult.bam_stat.txt
+│   │   │   ├── hdt1056_cell_p18_dmem.bam_stat.txt
+│   │   │   ├── hdt1056_cell_p18_mesencult.bam_stat.txt
+│   │   │   ├── hdt1056_cell_p20_dmem.bam_stat.txt
+│   │   │   ├── hdt1056_cell_p22_mesencult.bam_stat.txt
+│   │   │   ├── hdt1119_cell_p22_dmem.bam_stat.txt
+│   │   │   ├── hdt1119_cell_p22_mesencult.bam_stat.txt
+│   │   │   ├── hdt1119_cell_p23_dmem.bam_stat.txt
+│   │   │   ├── hdt1119_cell_p23_mesencult.bam_stat.txt
+│   │   │   ├── hdt1119_cell_p27_dmem.bam_stat.txt
+│   │   │   └── hdt1119_cell_p27_mesencult.bam_stat.txt
+│   │   ├── infer_experiment
+│   │   │   ├── hdt1056_cell_p15_dmem.infer_experiment.txt
+│   │   │   ├── hdt1056_cell_p15_mesencult.infer_experiment.txt
+│   │   │   ├── hdt1056_cell_p18_dmem.infer_experiment.txt
+│   │   │   ├── hdt1056_cell_p18_mesencult.infer_experiment.txt
+│   │   │   ├── hdt1056_cell_p20_dmem.infer_experiment.txt
+│   │   │   ├── hdt1056_cell_p22_mesencult.infer_experiment.txt
+│   │   │   ├── hdt1119_cell_p22_dmem.infer_experiment.txt
+│   │   │   ├── hdt1119_cell_p22_mesencult.infer_experiment.txt
+│   │   │   ├── hdt1119_cell_p23_dmem.infer_experiment.txt
+│   │   │   ├── hdt1119_cell_p23_mesencult.infer_experiment.txt
+│   │   │   ├── hdt1119_cell_p27_dmem.infer_experiment.txt
+│   │   │   └── hdt1119_cell_p27_mesencult.infer_experiment.txt
+│   │   ├── inner_distance
+│   │   │   ├── pdf
+│   │   │   │   ├── hdt1056_cell_p15_dmem.inner_distance_plot.pdf
+│   │   │   │   ├── hdt1056_cell_p15_mesencult.inner_distance_plot.pdf
+│   │   │   │   ├── hdt1056_cell_p18_dmem.inner_distance_plot.pdf
+│   │   │   │   ├── hdt1056_cell_p18_mesencult.inner_distance_plot.pdf
+│   │   │   │   ├── hdt1056_cell_p20_dmem.inner_distance_plot.pdf
+│   │   │   │   ├── hdt1056_cell_p22_mesencult.inner_distance_plot.pdf
+│   │   │   │   ├── hdt1119_cell_p22_dmem.inner_distance_plot.pdf
+│   │   │   │   ├── hdt1119_cell_p22_mesencult.inner_distance_plot.pdf
+│   │   │   │   ├── hdt1119_cell_p23_dmem.inner_distance_plot.pdf
+│   │   │   │   ├── hdt1119_cell_p23_mesencult.inner_distance_plot.pdf
+│   │   │   │   ├── hdt1119_cell_p27_dmem.inner_distance_plot.pdf
+│   │   │   │   └── hdt1119_cell_p27_mesencult.inner_distance_plot.pdf
+│   │   │   ├── rscript
+│   │   │   │   ├── hdt1056_cell_p15_dmem.inner_distance_plot.r
+│   │   │   │   ├── hdt1056_cell_p15_mesencult.inner_distance_plot.r
+│   │   │   │   ├── hdt1056_cell_p18_dmem.inner_distance_plot.r
+│   │   │   │   ├── hdt1056_cell_p18_mesencult.inner_distance_plot.r
+│   │   │   │   ├── hdt1056_cell_p20_dmem.inner_distance_plot.r
+│   │   │   │   ├── hdt1056_cell_p22_mesencult.inner_distance_plot.r
+│   │   │   │   ├── hdt1119_cell_p22_dmem.inner_distance_plot.r
+│   │   │   │   ├── hdt1119_cell_p22_mesencult.inner_distance_plot.r
+│   │   │   │   ├── hdt1119_cell_p23_dmem.inner_distance_plot.r
+│   │   │   │   ├── hdt1119_cell_p23_mesencult.inner_distance_plot.r
+│   │   │   │   ├── hdt1119_cell_p27_dmem.inner_distance_plot.r
+│   │   │   │   └── hdt1119_cell_p27_mesencult.inner_distance_plot.r
+│   │   │   └── txt
+│   │   │       ├── hdt1056_cell_p15_dmem.inner_distance_freq.txt
+│   │   │       ├── hdt1056_cell_p15_dmem.inner_distance_mean.txt
+│   │   │       ├── hdt1056_cell_p15_dmem.inner_distance.txt
+│   │   │       ├── hdt1056_cell_p15_mesencult.inner_distance_freq.txt
+│   │   │       ├── hdt1056_cell_p15_mesencult.inner_distance_mean.txt
+│   │   │       ├── hdt1056_cell_p15_mesencult.inner_distance.txt
+│   │   │       ├── hdt1056_cell_p18_dmem.inner_distance_freq.txt
+│   │   │       ├── hdt1056_cell_p18_dmem.inner_distance_mean.txt
+│   │   │       ├── hdt1056_cell_p18_dmem.inner_distance.txt
+│   │   │       ├── hdt1056_cell_p18_mesencult.inner_distance_freq.txt
+│   │   │       ├── hdt1056_cell_p18_mesencult.inner_distance_mean.txt
+│   │   │       ├── hdt1056_cell_p18_mesencult.inner_distance.txt
+│   │   │       ├── hdt1056_cell_p20_dmem.inner_distance_freq.txt
+│   │   │       ├── hdt1056_cell_p20_dmem.inner_distance_mean.txt
+│   │   │       ├── hdt1056_cell_p20_dmem.inner_distance.txt
+│   │   │       ├── hdt1056_cell_p22_mesencult.inner_distance_freq.txt
+│   │   │       ├── hdt1056_cell_p22_mesencult.inner_distance_mean.txt
+│   │   │       ├── hdt1056_cell_p22_mesencult.inner_distance.txt
+│   │   │       ├── hdt1119_cell_p22_dmem.inner_distance_freq.txt
+│   │   │       ├── hdt1119_cell_p22_dmem.inner_distance_mean.txt
+│   │   │       ├── hdt1119_cell_p22_dmem.inner_distance.txt
+│   │   │       ├── hdt1119_cell_p22_mesencult.inner_distance_freq.txt
+│   │   │       ├── hdt1119_cell_p22_mesencult.inner_distance_mean.txt
+│   │   │       ├── hdt1119_cell_p22_mesencult.inner_distance.txt
+│   │   │       ├── hdt1119_cell_p23_dmem.inner_distance_freq.txt
+│   │   │       ├── hdt1119_cell_p23_dmem.inner_distance_mean.txt
+│   │   │       ├── hdt1119_cell_p23_dmem.inner_distance.txt
+│   │   │       ├── hdt1119_cell_p23_mesencult.inner_distance_freq.txt
+│   │   │       ├── hdt1119_cell_p23_mesencult.inner_distance_mean.txt
+│   │   │       ├── hdt1119_cell_p23_mesencult.inner_distance.txt
+│   │   │       ├── hdt1119_cell_p27_dmem.inner_distance_freq.txt
+│   │   │       ├── hdt1119_cell_p27_dmem.inner_distance_mean.txt
+│   │   │       ├── hdt1119_cell_p27_dmem.inner_distance.txt
+│   │   │       ├── hdt1119_cell_p27_mesencult.inner_distance_freq.txt
+│   │   │       ├── hdt1119_cell_p27_mesencult.inner_distance_mean.txt
+│   │   │       └── hdt1119_cell_p27_mesencult.inner_distance.txt
+│   │   ├── junction_annotation
+│   │   │   ├── bed
+│   │   │   │   ├── hdt1056_cell_p15_dmem.junction.bed
+│   │   │   │   ├── hdt1056_cell_p15_dmem.junction.Interact.bed
+│   │   │   │   ├── hdt1056_cell_p15_mesencult.junction.bed
+│   │   │   │   ├── hdt1056_cell_p15_mesencult.junction.Interact.bed
+│   │   │   │   ├── hdt1056_cell_p18_dmem.junction.bed
+│   │   │   │   ├── hdt1056_cell_p18_dmem.junction.Interact.bed
+│   │   │   │   ├── hdt1056_cell_p18_mesencult.junction.bed
+│   │   │   │   ├── hdt1056_cell_p18_mesencult.junction.Interact.bed
+│   │   │   │   ├── hdt1056_cell_p20_dmem.junction.bed
+│   │   │   │   ├── hdt1056_cell_p20_dmem.junction.Interact.bed
+│   │   │   │   ├── hdt1056_cell_p22_mesencult.junction.bed
+│   │   │   │   ├── hdt1056_cell_p22_mesencult.junction.Interact.bed
+│   │   │   │   ├── hdt1119_cell_p22_dmem.junction.bed
+│   │   │   │   ├── hdt1119_cell_p22_dmem.junction.Interact.bed
+│   │   │   │   ├── hdt1119_cell_p22_mesencult.junction.bed
+│   │   │   │   ├── hdt1119_cell_p22_mesencult.junction.Interact.bed
+│   │   │   │   ├── hdt1119_cell_p23_dmem.junction.bed
+│   │   │   │   ├── hdt1119_cell_p23_dmem.junction.Interact.bed
+│   │   │   │   ├── hdt1119_cell_p23_mesencult.junction.bed
+│   │   │   │   ├── hdt1119_cell_p23_mesencult.junction.Interact.bed
+│   │   │   │   ├── hdt1119_cell_p27_dmem.junction.bed
+│   │   │   │   ├── hdt1119_cell_p27_dmem.junction.Interact.bed
+│   │   │   │   ├── hdt1119_cell_p27_mesencult.junction.bed
+│   │   │   │   └── hdt1119_cell_p27_mesencult.junction.Interact.bed
+│   │   │   ├── log
+│   │   │   │   ├── hdt1056_cell_p15_dmem.junction_annotation.log
+│   │   │   │   ├── hdt1056_cell_p15_mesencult.junction_annotation.log
+│   │   │   │   ├── hdt1056_cell_p18_dmem.junction_annotation.log
+│   │   │   │   ├── hdt1056_cell_p18_mesencult.junction_annotation.log
+│   │   │   │   ├── hdt1056_cell_p20_dmem.junction_annotation.log
+│   │   │   │   ├── hdt1056_cell_p22_mesencult.junction_annotation.log
+│   │   │   │   ├── hdt1119_cell_p22_dmem.junction_annotation.log
+│   │   │   │   ├── hdt1119_cell_p22_mesencult.junction_annotation.log
+│   │   │   │   ├── hdt1119_cell_p23_dmem.junction_annotation.log
+│   │   │   │   ├── hdt1119_cell_p23_mesencult.junction_annotation.log
+│   │   │   │   ├── hdt1119_cell_p27_dmem.junction_annotation.log
+│   │   │   │   └── hdt1119_cell_p27_mesencult.junction_annotation.log
+│   │   │   ├── pdf
+│   │   │   │   ├── hdt1056_cell_p15_dmem.splice_events.pdf
+│   │   │   │   ├── hdt1056_cell_p15_dmem.splice_junction.pdf
+│   │   │   │   ├── hdt1056_cell_p15_mesencult.splice_events.pdf
+│   │   │   │   ├── hdt1056_cell_p15_mesencult.splice_junction.pdf
+│   │   │   │   ├── hdt1056_cell_p18_dmem.splice_events.pdf
+│   │   │   │   ├── hdt1056_cell_p18_dmem.splice_junction.pdf
+│   │   │   │   ├── hdt1056_cell_p18_mesencult.splice_events.pdf
+│   │   │   │   ├── hdt1056_cell_p18_mesencult.splice_junction.pdf
+│   │   │   │   ├── hdt1056_cell_p20_dmem.splice_events.pdf
+│   │   │   │   ├── hdt1056_cell_p20_dmem.splice_junction.pdf
+│   │   │   │   ├── hdt1056_cell_p22_mesencult.splice_events.pdf
+│   │   │   │   ├── hdt1056_cell_p22_mesencult.splice_junction.pdf
+│   │   │   │   ├── hdt1119_cell_p22_dmem.splice_events.pdf
+│   │   │   │   ├── hdt1119_cell_p22_dmem.splice_junction.pdf
+│   │   │   │   ├── hdt1119_cell_p22_mesencult.splice_events.pdf
+│   │   │   │   ├── hdt1119_cell_p22_mesencult.splice_junction.pdf
+│   │   │   │   ├── hdt1119_cell_p23_dmem.splice_events.pdf
+│   │   │   │   ├── hdt1119_cell_p23_dmem.splice_junction.pdf
+│   │   │   │   ├── hdt1119_cell_p23_mesencult.splice_events.pdf
+│   │   │   │   ├── hdt1119_cell_p23_mesencult.splice_junction.pdf
+│   │   │   │   ├── hdt1119_cell_p27_dmem.splice_events.pdf
+│   │   │   │   ├── hdt1119_cell_p27_dmem.splice_junction.pdf
+│   │   │   │   ├── hdt1119_cell_p27_mesencult.splice_events.pdf
+│   │   │   │   └── hdt1119_cell_p27_mesencult.splice_junction.pdf
+│   │   │   ├── rscript
+│   │   │   │   ├── hdt1056_cell_p15_dmem.junction_plot.r
+│   │   │   │   ├── hdt1056_cell_p15_mesencult.junction_plot.r
+│   │   │   │   ├── hdt1056_cell_p18_dmem.junction_plot.r
+│   │   │   │   ├── hdt1056_cell_p18_mesencult.junction_plot.r
+│   │   │   │   ├── hdt1056_cell_p20_dmem.junction_plot.r
+│   │   │   │   ├── hdt1056_cell_p22_mesencult.junction_plot.r
+│   │   │   │   ├── hdt1119_cell_p22_dmem.junction_plot.r
+│   │   │   │   ├── hdt1119_cell_p22_mesencult.junction_plot.r
+│   │   │   │   ├── hdt1119_cell_p23_dmem.junction_plot.r
+│   │   │   │   ├── hdt1119_cell_p23_mesencult.junction_plot.r
+│   │   │   │   ├── hdt1119_cell_p27_dmem.junction_plot.r
+│   │   │   │   └── hdt1119_cell_p27_mesencult.junction_plot.r
+│   │   │   └── xls
+│   │   │       ├── hdt1056_cell_p15_dmem.junction.xls
+│   │   │       ├── hdt1056_cell_p15_mesencult.junction.xls
+│   │   │       ├── hdt1056_cell_p18_dmem.junction.xls
+│   │   │       ├── hdt1056_cell_p18_mesencult.junction.xls
+│   │   │       ├── hdt1056_cell_p20_dmem.junction.xls
+│   │   │       ├── hdt1056_cell_p22_mesencult.junction.xls
+│   │   │       ├── hdt1119_cell_p22_dmem.junction.xls
+│   │   │       ├── hdt1119_cell_p22_mesencult.junction.xls
+│   │   │       ├── hdt1119_cell_p23_dmem.junction.xls
+│   │   │       ├── hdt1119_cell_p23_mesencult.junction.xls
+│   │   │       ├── hdt1119_cell_p27_dmem.junction.xls
+│   │   │       └── hdt1119_cell_p27_mesencult.junction.xls
+│   │   ├── junction_saturation
+│   │   │   ├── pdf
+│   │   │   │   ├── hdt1056_cell_p15_dmem.junctionSaturation_plot.pdf
+│   │   │   │   ├── hdt1056_cell_p15_mesencult.junctionSaturation_plot.pdf
+│   │   │   │   ├── hdt1056_cell_p18_dmem.junctionSaturation_plot.pdf
+│   │   │   │   ├── hdt1056_cell_p18_mesencult.junctionSaturation_plot.pdf
+│   │   │   │   ├── hdt1056_cell_p20_dmem.junctionSaturation_plot.pdf
+│   │   │   │   ├── hdt1056_cell_p22_mesencult.junctionSaturation_plot.pdf
+│   │   │   │   ├── hdt1119_cell_p22_dmem.junctionSaturation_plot.pdf
+│   │   │   │   ├── hdt1119_cell_p22_mesencult.junctionSaturation_plot.pdf
+│   │   │   │   ├── hdt1119_cell_p23_dmem.junctionSaturation_plot.pdf
+│   │   │   │   ├── hdt1119_cell_p23_mesencult.junctionSaturation_plot.pdf
+│   │   │   │   ├── hdt1119_cell_p27_dmem.junctionSaturation_plot.pdf
+│   │   │   │   └── hdt1119_cell_p27_mesencult.junctionSaturation_plot.pdf
+│   │   │   └── rscript
+│   │   │       ├── hdt1056_cell_p15_dmem.junctionSaturation_plot.r
+│   │   │       ├── hdt1056_cell_p15_mesencult.junctionSaturation_plot.r
+│   │   │       ├── hdt1056_cell_p18_dmem.junctionSaturation_plot.r
+│   │   │       ├── hdt1056_cell_p18_mesencult.junctionSaturation_plot.r
+│   │   │       ├── hdt1056_cell_p20_dmem.junctionSaturation_plot.r
+│   │   │       ├── hdt1056_cell_p22_mesencult.junctionSaturation_plot.r
+│   │   │       ├── hdt1119_cell_p22_dmem.junctionSaturation_plot.r
+│   │   │       ├── hdt1119_cell_p22_mesencult.junctionSaturation_plot.r
+│   │   │       ├── hdt1119_cell_p23_dmem.junctionSaturation_plot.r
+│   │   │       ├── hdt1119_cell_p23_mesencult.junctionSaturation_plot.r
+│   │   │       ├── hdt1119_cell_p27_dmem.junctionSaturation_plot.r
+│   │   │       └── hdt1119_cell_p27_mesencult.junctionSaturation_plot.r
+│   │   ├── read_distribution
+│   │   │   ├── hdt1056_cell_p15_dmem.read_distribution.txt
+│   │   │   ├── hdt1056_cell_p15_mesencult.read_distribution.txt
+│   │   │   ├── hdt1056_cell_p18_dmem.read_distribution.txt
+│   │   │   ├── hdt1056_cell_p18_mesencult.read_distribution.txt
+│   │   │   ├── hdt1056_cell_p20_dmem.read_distribution.txt
+│   │   │   ├── hdt1056_cell_p22_mesencult.read_distribution.txt
+│   │   │   ├── hdt1119_cell_p22_dmem.read_distribution.txt
+│   │   │   ├── hdt1119_cell_p22_mesencult.read_distribution.txt
+│   │   │   ├── hdt1119_cell_p23_dmem.read_distribution.txt
+│   │   │   ├── hdt1119_cell_p23_mesencult.read_distribution.txt
+│   │   │   ├── hdt1119_cell_p27_dmem.read_distribution.txt
+│   │   │   └── hdt1119_cell_p27_mesencult.read_distribution.txt
+│   │   └── read_duplication
+│   │       ├── pdf
+│   │       │   ├── hdt1056_cell_p15_dmem.DupRate_plot.pdf
+│   │       │   ├── hdt1056_cell_p15_mesencult.DupRate_plot.pdf
+│   │       │   ├── hdt1056_cell_p18_dmem.DupRate_plot.pdf
+│   │       │   ├── hdt1056_cell_p18_mesencult.DupRate_plot.pdf
+│   │       │   ├── hdt1056_cell_p20_dmem.DupRate_plot.pdf
+│   │       │   ├── hdt1056_cell_p22_mesencult.DupRate_plot.pdf
+│   │       │   ├── hdt1119_cell_p22_dmem.DupRate_plot.pdf
+│   │       │   ├── hdt1119_cell_p22_mesencult.DupRate_plot.pdf
+│   │       │   ├── hdt1119_cell_p23_dmem.DupRate_plot.pdf
+│   │       │   ├── hdt1119_cell_p23_mesencult.DupRate_plot.pdf
+│   │       │   ├── hdt1119_cell_p27_dmem.DupRate_plot.pdf
+│   │       │   └── hdt1119_cell_p27_mesencult.DupRate_plot.pdf
+│   │       ├── rscript
+│   │       │   ├── hdt1056_cell_p15_dmem.DupRate_plot.r
+│   │       │   ├── hdt1056_cell_p15_mesencult.DupRate_plot.r
+│   │       │   ├── hdt1056_cell_p18_dmem.DupRate_plot.r
+│   │       │   ├── hdt1056_cell_p18_mesencult.DupRate_plot.r
+│   │       │   ├── hdt1056_cell_p20_dmem.DupRate_plot.r
+│   │       │   ├── hdt1056_cell_p22_mesencult.DupRate_plot.r
+│   │       │   ├── hdt1119_cell_p22_dmem.DupRate_plot.r
+│   │       │   ├── hdt1119_cell_p22_mesencult.DupRate_plot.r
+│   │       │   ├── hdt1119_cell_p23_dmem.DupRate_plot.r
+│   │       │   ├── hdt1119_cell_p23_mesencult.DupRate_plot.r
+│   │       │   ├── hdt1119_cell_p27_dmem.DupRate_plot.r
+│   │       │   └── hdt1119_cell_p27_mesencult.DupRate_plot.r
+│   │       └── xls
+│   │           ├── hdt1056_cell_p15_dmem.pos.DupRate.xls
+│   │           ├── hdt1056_cell_p15_dmem.seq.DupRate.xls
+│   │           ├── hdt1056_cell_p15_mesencult.pos.DupRate.xls
+│   │           ├── hdt1056_cell_p15_mesencult.seq.DupRate.xls
+│   │           ├── hdt1056_cell_p18_dmem.pos.DupRate.xls
+│   │           ├── hdt1056_cell_p18_dmem.seq.DupRate.xls
+│   │           ├── hdt1056_cell_p18_mesencult.pos.DupRate.xls
+│   │           ├── hdt1056_cell_p18_mesencult.seq.DupRate.xls
+│   │           ├── hdt1056_cell_p20_dmem.pos.DupRate.xls
+│   │           ├── hdt1056_cell_p20_dmem.seq.DupRate.xls
+│   │           ├── hdt1056_cell_p22_mesencult.pos.DupRate.xls
+│   │           ├── hdt1056_cell_p22_mesencult.seq.DupRate.xls
+│   │           ├── hdt1119_cell_p22_dmem.pos.DupRate.xls
+│   │           ├── hdt1119_cell_p22_dmem.seq.DupRate.xls
+│   │           ├── hdt1119_cell_p22_mesencult.pos.DupRate.xls
+│   │           ├── hdt1119_cell_p22_mesencult.seq.DupRate.xls
+│   │           ├── hdt1119_cell_p23_dmem.pos.DupRate.xls
+│   │           ├── hdt1119_cell_p23_dmem.seq.DupRate.xls
+│   │           ├── hdt1119_cell_p23_mesencult.pos.DupRate.xls
+│   │           ├── hdt1119_cell_p23_mesencult.seq.DupRate.xls
+│   │           ├── hdt1119_cell_p27_dmem.pos.DupRate.xls
+│   │           ├── hdt1119_cell_p27_dmem.seq.DupRate.xls
+│   │           ├── hdt1119_cell_p27_mesencult.pos.DupRate.xls
+│   │           └── hdt1119_cell_p27_mesencult.seq.DupRate.xls
+│   ├── salmon.merged.gene_counts_length_scaled.tsv
+│   ├── salmon.merged.gene_counts_scaled.tsv
+│   ├── salmon.merged.gene_counts.tsv
+│   ├── salmon.merged.gene_lengths.tsv
+│   ├── salmon.merged.gene_tpm.tsv
+│   ├── salmon.merged.transcript_counts.tsv
+│   ├── salmon.merged.transcript_lengths.tsv
+│   ├── salmon.merged.transcript_tpm.tsv
+│   ├── samtools_stats
+│   │   ├── hdt1056_cell_p15_dmem.markdup.sorted.bam.flagstat
+│   │   ├── hdt1056_cell_p15_dmem.markdup.sorted.bam.idxstats
+│   │   ├── hdt1056_cell_p15_dmem.markdup.sorted.bam.stats
+│   │   ├── hdt1056_cell_p15_dmem.sorted.bam.flagstat
+│   │   ├── hdt1056_cell_p15_dmem.sorted.bam.idxstats
+│   │   ├── hdt1056_cell_p15_dmem.sorted.bam.stats
+│   │   ├── hdt1056_cell_p15_mesencult.markdup.sorted.bam.flagstat
+│   │   ├── hdt1056_cell_p15_mesencult.markdup.sorted.bam.idxstats
+│   │   ├── hdt1056_cell_p15_mesencult.markdup.sorted.bam.stats
+│   │   ├── hdt1056_cell_p15_mesencult.sorted.bam.flagstat
+│   │   ├── hdt1056_cell_p15_mesencult.sorted.bam.idxstats
+│   │   ├── hdt1056_cell_p15_mesencult.sorted.bam.stats
+│   │   ├── hdt1056_cell_p18_dmem.markdup.sorted.bam.flagstat
+│   │   ├── hdt1056_cell_p18_dmem.markdup.sorted.bam.idxstats
+│   │   ├── hdt1056_cell_p18_dmem.markdup.sorted.bam.stats
+│   │   ├── hdt1056_cell_p18_dmem.sorted.bam.flagstat
+│   │   ├── hdt1056_cell_p18_dmem.sorted.bam.idxstats
+│   │   ├── hdt1056_cell_p18_dmem.sorted.bam.stats
+│   │   ├── hdt1056_cell_p18_mesencult.markdup.sorted.bam.flagstat
+│   │   ├── hdt1056_cell_p18_mesencult.markdup.sorted.bam.idxstats
+│   │   ├── hdt1056_cell_p18_mesencult.markdup.sorted.bam.stats
+│   │   ├── hdt1056_cell_p18_mesencult.sorted.bam.flagstat
+│   │   ├── hdt1056_cell_p18_mesencult.sorted.bam.idxstats
+│   │   ├── hdt1056_cell_p18_mesencult.sorted.bam.stats
+│   │   ├── hdt1056_cell_p20_dmem.markdup.sorted.bam.flagstat
+│   │   ├── hdt1056_cell_p20_dmem.markdup.sorted.bam.idxstats
+│   │   ├── hdt1056_cell_p20_dmem.markdup.sorted.bam.stats
+│   │   ├── hdt1056_cell_p20_dmem.sorted.bam.flagstat
+│   │   ├── hdt1056_cell_p20_dmem.sorted.bam.idxstats
+│   │   ├── hdt1056_cell_p20_dmem.sorted.bam.stats
+│   │   ├── hdt1056_cell_p22_mesencult.markdup.sorted.bam.flagstat
+│   │   ├── hdt1056_cell_p22_mesencult.markdup.sorted.bam.idxstats
+│   │   ├── hdt1056_cell_p22_mesencult.markdup.sorted.bam.stats
+│   │   ├── hdt1056_cell_p22_mesencult.sorted.bam.flagstat
+│   │   ├── hdt1056_cell_p22_mesencult.sorted.bam.idxstats
+│   │   ├── hdt1056_cell_p22_mesencult.sorted.bam.stats
+│   │   ├── hdt1119_cell_p22_dmem.markdup.sorted.bam.flagstat
+│   │   ├── hdt1119_cell_p22_dmem.markdup.sorted.bam.idxstats
+│   │   ├── hdt1119_cell_p22_dmem.markdup.sorted.bam.stats
+│   │   ├── hdt1119_cell_p22_dmem.sorted.bam.flagstat
+│   │   ├── hdt1119_cell_p22_dmem.sorted.bam.idxstats
+│   │   ├── hdt1119_cell_p22_dmem.sorted.bam.stats
+│   │   ├── hdt1119_cell_p22_mesencult.markdup.sorted.bam.flagstat
+│   │   ├── hdt1119_cell_p22_mesencult.markdup.sorted.bam.idxstats
+│   │   ├── hdt1119_cell_p22_mesencult.markdup.sorted.bam.stats
+│   │   ├── hdt1119_cell_p22_mesencult.sorted.bam.flagstat
+│   │   ├── hdt1119_cell_p22_mesencult.sorted.bam.idxstats
+│   │   ├── hdt1119_cell_p22_mesencult.sorted.bam.stats
+│   │   ├── hdt1119_cell_p23_dmem.markdup.sorted.bam.flagstat
+│   │   ├── hdt1119_cell_p23_dmem.markdup.sorted.bam.idxstats
+│   │   ├── hdt1119_cell_p23_dmem.markdup.sorted.bam.stats
+│   │   ├── hdt1119_cell_p23_dmem.sorted.bam.flagstat
+│   │   ├── hdt1119_cell_p23_dmem.sorted.bam.idxstats
+│   │   ├── hdt1119_cell_p23_dmem.sorted.bam.stats
+│   │   ├── hdt1119_cell_p23_mesencult.markdup.sorted.bam.flagstat
+│   │   ├── hdt1119_cell_p23_mesencult.markdup.sorted.bam.idxstats
+│   │   ├── hdt1119_cell_p23_mesencult.markdup.sorted.bam.stats
+│   │   ├── hdt1119_cell_p23_mesencult.sorted.bam.flagstat
+│   │   ├── hdt1119_cell_p23_mesencult.sorted.bam.idxstats
+│   │   ├── hdt1119_cell_p23_mesencult.sorted.bam.stats
+│   │   ├── hdt1119_cell_p27_dmem.markdup.sorted.bam.flagstat
+│   │   ├── hdt1119_cell_p27_dmem.markdup.sorted.bam.idxstats
+│   │   ├── hdt1119_cell_p27_dmem.markdup.sorted.bam.stats
+│   │   ├── hdt1119_cell_p27_dmem.sorted.bam.flagstat
+│   │   ├── hdt1119_cell_p27_dmem.sorted.bam.idxstats
+│   │   ├── hdt1119_cell_p27_dmem.sorted.bam.stats
+│   │   ├── hdt1119_cell_p27_mesencult.markdup.sorted.bam.flagstat
+│   │   ├── hdt1119_cell_p27_mesencult.markdup.sorted.bam.idxstats
+│   │   ├── hdt1119_cell_p27_mesencult.markdup.sorted.bam.stats
+│   │   ├── hdt1119_cell_p27_mesencult.sorted.bam.flagstat
+│   │   ├── hdt1119_cell_p27_mesencult.sorted.bam.idxstats
+│   │   └── hdt1119_cell_p27_mesencult.sorted.bam.stats
+│   ├── stringtie
+│   │   ├── hdt1056_cell_p15_dmem.ballgown
+│   │   │   ├── e2t.ctab
+│   │   │   ├── e_data.ctab
+│   │   │   ├── i2t.ctab
+│   │   │   ├── i_data.ctab
+│   │   │   └── t_data.ctab
+│   │   ├── hdt1056_cell_p15_dmem.coverage.gtf
+│   │   ├── hdt1056_cell_p15_dmem.gene.abundance.txt
+│   │   ├── hdt1056_cell_p15_dmem.transcripts.gtf
+│   │   ├── hdt1056_cell_p15_mesencult.ballgown
+│   │   │   ├── e2t.ctab
+│   │   │   ├── e_data.ctab
+│   │   │   ├── i2t.ctab
+│   │   │   ├── i_data.ctab
+│   │   │   └── t_data.ctab
+│   │   ├── hdt1056_cell_p15_mesencult.coverage.gtf
+│   │   ├── hdt1056_cell_p15_mesencult.gene.abundance.txt
+│   │   ├── hdt1056_cell_p15_mesencult.transcripts.gtf
+│   │   ├── hdt1056_cell_p18_dmem.ballgown
+│   │   │   ├── e2t.ctab
+│   │   │   ├── e_data.ctab
+│   │   │   ├── i2t.ctab
+│   │   │   ├── i_data.ctab
+│   │   │   └── t_data.ctab
+│   │   ├── hdt1056_cell_p18_dmem.coverage.gtf
+│   │   ├── hdt1056_cell_p18_dmem.gene.abundance.txt
+│   │   ├── hdt1056_cell_p18_dmem.transcripts.gtf
+│   │   ├── hdt1056_cell_p18_mesencult.ballgown
+│   │   │   ├── e2t.ctab
+│   │   │   ├── e_data.ctab
+│   │   │   ├── i2t.ctab
+│   │   │   ├── i_data.ctab
+│   │   │   └── t_data.ctab
+│   │   ├── hdt1056_cell_p18_mesencult.coverage.gtf
+│   │   ├── hdt1056_cell_p18_mesencult.gene.abundance.txt
+│   │   ├── hdt1056_cell_p18_mesencult.transcripts.gtf
+│   │   ├── hdt1056_cell_p20_dmem.ballgown
+│   │   │   ├── e2t.ctab
+│   │   │   ├── e_data.ctab
+│   │   │   ├── i2t.ctab
+│   │   │   ├── i_data.ctab
+│   │   │   └── t_data.ctab
+│   │   ├── hdt1056_cell_p20_dmem.coverage.gtf
+│   │   ├── hdt1056_cell_p20_dmem.gene.abundance.txt
+│   │   ├── hdt1056_cell_p20_dmem.transcripts.gtf
+│   │   ├── hdt1056_cell_p22_mesencult.ballgown
+│   │   │   ├── e2t.ctab
+│   │   │   ├── e_data.ctab
+│   │   │   ├── i2t.ctab
+│   │   │   ├── i_data.ctab
+│   │   │   └── t_data.ctab
+│   │   ├── hdt1056_cell_p22_mesencult.coverage.gtf
+│   │   ├── hdt1056_cell_p22_mesencult.gene.abundance.txt
+│   │   ├── hdt1056_cell_p22_mesencult.transcripts.gtf
+│   │   ├── hdt1119_cell_p22_dmem.ballgown
+│   │   │   ├── e2t.ctab
+│   │   │   ├── e_data.ctab
+│   │   │   ├── i2t.ctab
+│   │   │   ├── i_data.ctab
+│   │   │   └── t_data.ctab
+│   │   ├── hdt1119_cell_p22_dmem.coverage.gtf
+│   │   ├── hdt1119_cell_p22_dmem.gene.abundance.txt
+│   │   ├── hdt1119_cell_p22_dmem.transcripts.gtf
+│   │   ├── hdt1119_cell_p22_mesencult.ballgown
+│   │   │   ├── e2t.ctab
+│   │   │   ├── e_data.ctab
+│   │   │   ├── i2t.ctab
+│   │   │   ├── i_data.ctab
+│   │   │   └── t_data.ctab
+│   │   ├── hdt1119_cell_p22_mesencult.coverage.gtf
+│   │   ├── hdt1119_cell_p22_mesencult.gene.abundance.txt
+│   │   ├── hdt1119_cell_p22_mesencult.transcripts.gtf
+│   │   ├── hdt1119_cell_p23_dmem.ballgown
+│   │   │   ├── e2t.ctab
+│   │   │   ├── e_data.ctab
+│   │   │   ├── i2t.ctab
+│   │   │   ├── i_data.ctab
+│   │   │   └── t_data.ctab
+│   │   ├── hdt1119_cell_p23_dmem.coverage.gtf
+│   │   ├── hdt1119_cell_p23_dmem.gene.abundance.txt
+│   │   ├── hdt1119_cell_p23_dmem.transcripts.gtf
+│   │   ├── hdt1119_cell_p23_mesencult.ballgown
+│   │   │   ├── e2t.ctab
+│   │   │   ├── e_data.ctab
+│   │   │   ├── i2t.ctab
+│   │   │   ├── i_data.ctab
+│   │   │   └── t_data.ctab
+│   │   ├── hdt1119_cell_p23_mesencult.coverage.gtf
+│   │   ├── hdt1119_cell_p23_mesencult.gene.abundance.txt
+│   │   ├── hdt1119_cell_p23_mesencult.transcripts.gtf
+│   │   ├── hdt1119_cell_p27_dmem.ballgown
+│   │   │   ├── e2t.ctab
+│   │   │   ├── e_data.ctab
+│   │   │   ├── i2t.ctab
+│   │   │   ├── i_data.ctab
+│   │   │   └── t_data.ctab
+│   │   ├── hdt1119_cell_p27_dmem.coverage.gtf
+│   │   ├── hdt1119_cell_p27_dmem.gene.abundance.txt
+│   │   ├── hdt1119_cell_p27_dmem.transcripts.gtf
+│   │   ├── hdt1119_cell_p27_mesencult.ballgown
+│   │   │   ├── e2t.ctab
+│   │   │   ├── e_data.ctab
+│   │   │   ├── i2t.ctab
+│   │   │   ├── i_data.ctab
+│   │   │   └── t_data.ctab
+│   │   ├── hdt1119_cell_p27_mesencult.coverage.gtf
+│   │   ├── hdt1119_cell_p27_mesencult.gene.abundance.txt
+│   │   └── hdt1119_cell_p27_mesencult.transcripts.gtf
+│   └── tx2gene.tsv
+└── trimgalore
+    ├── hdt1056_cell_p15_dmem_trimmed_1.fastq.gz_trimming_report.txt
+    ├── hdt1056_cell_p15_dmem_trimmed_2.fastq.gz_trimming_report.txt
+    ├── hdt1056_cell_p15_mesencult_trimmed_1.fastq.gz_trimming_report.txt
+    ├── hdt1056_cell_p15_mesencult_trimmed_2.fastq.gz_trimming_report.txt
+    ├── hdt1056_cell_p18_dmem_trimmed_1.fastq.gz_trimming_report.txt
+    ├── hdt1056_cell_p18_dmem_trimmed_2.fastq.gz_trimming_report.txt
+    ├── hdt1056_cell_p18_mesencult_trimmed_1.fastq.gz_trimming_report.txt
+    ├── hdt1056_cell_p18_mesencult_trimmed_2.fastq.gz_trimming_report.txt
+    ├── hdt1056_cell_p20_dmem_trimmed_1.fastq.gz_trimming_report.txt
+    ├── hdt1056_cell_p20_dmem_trimmed_2.fastq.gz_trimming_report.txt
+    ├── hdt1056_cell_p22_mesencult_trimmed_1.fastq.gz_trimming_report.txt
+    ├── hdt1056_cell_p22_mesencult_trimmed_2.fastq.gz_trimming_report.txt
+    ├── hdt1119_cell_p22_dmem_trimmed_1.fastq.gz_trimming_report.txt
+    ├── hdt1119_cell_p22_dmem_trimmed_2.fastq.gz_trimming_report.txt
+    ├── hdt1119_cell_p22_mesencult_trimmed_1.fastq.gz_trimming_report.txt
+    ├── hdt1119_cell_p22_mesencult_trimmed_2.fastq.gz_trimming_report.txt
+    ├── hdt1119_cell_p23_dmem_trimmed_1.fastq.gz_trimming_report.txt
+    ├── hdt1119_cell_p23_dmem_trimmed_2.fastq.gz_trimming_report.txt
+    ├── hdt1119_cell_p23_mesencult_trimmed_1.fastq.gz_trimming_report.txt
+    ├── hdt1119_cell_p23_mesencult_trimmed_2.fastq.gz_trimming_report.txt
+    ├── hdt1119_cell_p27_dmem_trimmed_1.fastq.gz_trimming_report.txt
+    ├── hdt1119_cell_p27_dmem_trimmed_2.fastq.gz_trimming_report.txt
+    ├── hdt1119_cell_p27_mesencult_trimmed_1.fastq.gz_trimming_report.txt
+    └── hdt1119_cell_p27_mesencult_trimmed_2.fastq.gz_trimming_report.txt
+
+161 directories, 1516 files

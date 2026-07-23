@@ -1,9 +1,12 @@
 ![Papers RAG - NotebookLM infographic overview](infographic_app2.png)
 
-# Latest update: 
-## Complete Snakemake Workflow Run of all analyses in the HPC cluster
+# Latest updates: 
 
-For the Snakemake file and full description of workflow, see:
+Additional 'upstream' analyses (not using author's provided code) run on the HPC cluster:
+
+## 1) Complete Snakemake Workflow Run of all analyses in the HPC cluster
+
+This workflow was created based on the different scripts provided by the author (with patches added for adaptability). For the Snakemake file and a full description of the workflow, see:
 
 [**Complete_HPC_Snakemake_Reproducibility_Run/**](Complete_HPC_Snakemake_Reproducibility_Run/)
 
@@ -13,17 +16,29 @@ Complete_HPC_Snakemake_Reproducibility_Run/
 └── Snakefile
 ```
 
-## RNASeq/Nextflow
+## 2) RNASeq/Nextflow (nf-core)
 
-One sample chosen to run the nf-core RNASeq pipeline at the HPC cluster and show reproducibility from FASTQ files, see:
+Complete tree of the output obtained by running the scRNA-seq nf-core workflow on the HPC cluster, and PCA plot of all samples (Salmon quant.sf files) provided by the authors, including one reproduced sample showing that it maps closest to the corresponding author's sample.
 
 [**Nextflow_nf-core_RNASeq_Workflow_Reproducibility_HPC_Run/**](Nextflow_nf-core_RNASeq_Workflow_Reproducibility_HPC_Run/)
 
 ```text
-Nextflow_nf-core_RNASeq_Workflow_Reproducibility_HPC_Run/
+Nextflow_nf-core_RNASeq_Workflow_Reproducibility_HPC_Run
 ├── pca_tpm_reproducibility.pdf
 ├── pca_tpm_reproducibility.png
-└── pca_tpm_stats.txt
+├── pca_tpm_stats.txt
+└── RNASeq_all_samples_nfcore_results_tree.txt
+```
+
+## 3) scRNA/Nextflow (nf-core)
+
+Complete tree of the output obtained by running the scRNA nf-core workflow on the HPC cluster, see:
+
+[**Nextflow_nf-core_scRNA_Workflow_Reproducibility_HPC_Run/**](Nextflow_nf-core_scRNA_Workflow_Reproducibility_HPC_Run/)
+
+```text
+Nextflow_nf-core_scRNA_Workflow_Reproducibility_HPC_Run
+└── scRNA_all_samples_nfcore_results_tree.txt
 ```
 
 
