@@ -1,14 +1,34 @@
 ![Papers RAG - NotebookLM infographic overview](infographic_app2.png)
 
-# Latest updates: 
+# Reproducibility Assessment
+
+This repository documents the development of a human-in-the-loop, AI-assisted system designed to facilitate the reproduction of computational analyses presented in a genomics paper.
+
+Beyond evaluating reproducibility, this effort generates reusable intermediate files, workflows, and documentation that can support new independent analyses.
+
+For this case study, the challenges, methods, results, and limitations encountered during the reproducibility effort are described in 
+
+[00_DICER1_REPRODUCIBILITY_ASSESSMENT.md](REPRODUCIBILITY_ASSESSMENT/00_DICER1_REPRODUCIBILITY_ASSESSMENT.md). 
+
+The assessment focuses on rerunning a substantial portion of the paper’s analyses on a high-performance computing (HPC) cluster. The workflow starts from publicly deposited raw data whenever possible and explicitly documents cases in which processed objects or other author-derived information were required. A substantial portion of the analysis is organized as a Snakemake workflow.
+
+[**REPRODUCIBILITY_ASSESSMENT/**](REPRODUCIBILITY_ASSESSMENT/)
+
+```text
+REPRODUCIBILITY_ASSESSMENT/
+├── 00_DICER1_REPRODUCIBILITY_ASSESSMENT.md
+└── Snakefile
+```
+
+## Previous updates 
 
 Additional 'upstream' analyses (not using author's provided code) run on the HPC cluster:
 
-## 1) Complete Snakemake Workflow Run of all analyses in the HPC cluster
+## 1) Complete Snakemake Workflow (phase 1) Run of all analyses in the HPC cluster
 
 This workflow was created based on the different scripts provided by the author (with patches added for adaptability). For the Snakemake file and a full description of the workflow, see:
 
-[**Complete_HPC_Snakemake_Reproducibility_Run/**](Complete_HPC_Snakemake_Reproducibility_Run/)
+[**Complete_HPC_Snakemake_Phase_1_Reproducibility_Run/**](Complete_HPC_Snakemake_Phase_1_Reproducibility_Run/)
 
 ```text
 Complete_HPC_Snakemake_Reproducibility_Run/
