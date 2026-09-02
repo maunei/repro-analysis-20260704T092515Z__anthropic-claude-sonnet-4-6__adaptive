@@ -2,11 +2,17 @@
 
 # Reproducibility Assessment
 
-This repository documents the development of a human-in-the-loop, AI-assisted system designed to facilitate the reproduction of computational analyses presented in a genomics paper.
+This repository documents the application of a human-in-the-loop, AI-assisted system designed to facilitate the reproduction of computational analyses presented in a genomics paper.
+
+The reproducibility assessment begins on a local workstation with limited computational resources. The system first ingests the paper using the workflow described in the following repository and summarized in the infographic above:
+
+https://github.com/maunei/papers-rag_and_reproducibility
+
+After conducting preliminary analyses and documenting the workstation's limitations, the workflow moves to a high-performance computing (HPC) cluster, where the goal is to reproduce the paper's computational analyses independently and as completely as possible.
 
 Beyond evaluating reproducibility, this effort generates reusable intermediate files, workflows, and documentation that can support new independent analyses.
 
-For this case study, the challenges, methods, results, and limitations encountered during the reproducibility effort are described in 
+For this case study, the challenges, methods, results, and limitations encountered during the reproducibility effort are described in:
 
 [00_DICER1_REPRODUCIBILITY_ASSESSMENT.md](REPRODUCIBILITY_ASSESSMENT/00_DICER1_REPRODUCIBILITY_ASSESSMENT.md). 
 
