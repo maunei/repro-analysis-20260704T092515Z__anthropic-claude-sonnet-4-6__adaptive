@@ -2,8 +2,7 @@
 my_notes_post_analysis/
 
 # Temporary files
-_README.md
-
+_*
 # Generated public copy, in case nested accidentally
 .github_public_skeleton/
 
