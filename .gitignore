@@ -1,6 +1,9 @@
 # Private notes
 my_notes_post_analysis/
 
+# Temporary files
+_README.md
+
 # Generated public copy, in case nested accidentally
 .github_public_skeleton/
 

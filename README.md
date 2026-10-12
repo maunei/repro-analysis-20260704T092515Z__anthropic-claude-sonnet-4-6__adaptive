@@ -26,7 +26,8 @@ REPRODUCIBILITY_ASSESSMENT/
 └── Snakefile
 ```
 
-## Previous updates 
+<details>
+<summary><h2 style="display: inline;">Previous Updates</h2></summary>
 
 Additional 'upstream' analyses (not using author's provided code) run on the HPC cluster:
 
@@ -876,3 +877,5 @@ Clustering algorithms (Louvain/Leiden), UMAP layout, and PCA are seeded with `se
 2. **Human Xenium**: Request the human Xenium RDS from authors; may be under embargo.
 3. **Xenium on HPC**: Run `dicer1_xenium_proseg_mus_musculus_patched.R` on a system with ≥32 GB RAM using the downloaded 2.2 GB RDS (at path `output/xenium/dicer1_xenium_mus_musculus_all.rds`). Script v3 is ready; no code or data gap.
 4. **Trajectory branch plots**: If interactive analysis is desired, open `dicer1_scrna_trajectory_cds.rds` in an R session and use `choose_graph_segments()` / `choose_cells()` to set the root and branch endpoints interactively as in the paper.
+
+</details>
