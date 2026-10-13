@@ -14,7 +14,7 @@ Beyond evaluating reproducibility, this effort generates reusable intermediate f
 
 The assessment focuses on rerunning a substantial portion of the paper’s analyses on a high-performance computing (HPC) cluster. The workflow starts from publicly deposited raw data whenever possible and explicitly documents cases in which processed objects or other author-derived information were required. A substantial portion of the analysis is organized as a Snakemake workflow.
 
-Claude-science is used on the HPC cluster to direct computations and a more polished report to present the paper and analysis is obtained by AI/human interaction.
+Claude Science is used on the HPC cluster to direct computations, while a more polished report presenting the paper and its analysis is produced through AI–human interaction.
 
 ```text
 REPRODUCIBILITY_ASSESSMENT/
